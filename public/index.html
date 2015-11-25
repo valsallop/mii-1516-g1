@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html ng-app="ProductViewApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Set the viewport so this responsive site displays correctly on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous"> -->
+
+    
+
+    <link href="css\custom.css" rel="stylesheet" type="text/css">
+
+    <title>ACME SuperMarket</title>
+</head>
+
+<body>
+    <!--  Navigation Bar -->
+    <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">Products</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Shopping cart</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="login.html">Log in</a>
+                    </li>
+                    <li>
+                        <a href="#">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--  Navigation Bar END -->
+    <!--  Content -->
+    <div class="section">
+        <div class="container" ng-controller="ProductViewCtrl">
+            <div class="row container">
+                <!--  Product -->
+                <div class="col-md-6 " >
+                    <!-- product-desc-container -->
+                    <fieldset class="product-recomendation table-responsive">
+                        <ul>
+                            <li class="" ng-repeat="product in products | startFrom:productCurrentPage*productPageSize | limitTo:productPageSize">
+                                <div class="">
+                                    <table class="table table-striped product-desc-border">
+                                        <tbody>
+                                            <tr>
+                                                <td class="col-md-3">Name:</td>
+                                                <td class="col-md-9">{{product.name}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-md-3">Price:</td>
+                                                <td class="col-md-9">{{product.cost}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-md-3">Description:</td>
+                                                <td class="col-md-9">{{product.description}}</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <!-- product-desc-container -->
+                </div>
+                <!--  Product END -->
+                <!--  Recomendation -->
+                <div class="col-md-6 product-list-container-3">
+                    <fieldset class="product-recomendation table-responsive">
+                    <legend class="scheduler-border">Recomendation</legend>
+                        <ul>
+                            <li class="" ng-repeat="recomendation in recomendations | startFrom:recomendationCurrentPage*recomendationPageSize | limitTo:recomendationPageSize">
+                                <div class="">
+                                    <table class="table table-striped product-desc-border">
+                                        <tbody>
+                                            <tr>
+                                                <td class="col-md-3">Name:</td>
+                                                <td class="col-md-9">{{recomendation.name}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-md-3">Price:</td>
+                                                <td class="col-md-9">{{recomendation.price}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-md-3">Description:</td>
+                                                <td class="col-md-9">{{recomendation.description}}</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
+            </div>
+            <!--  Recomendation END -->
+            <!-- Pagination button -->
+
+            <div class = "container">
+                <ul class = "pager">
+                    <li>
+                        <button class = "btn" ng-disabled="productCurrentPage <= 0" ng-click="productCurrentPage=0">
+                            First
+                        </button>
+                    </li>
+                    <li>
+                        <button class = "btn" ng-disabled="productCurrentPage <= 0" ng-click="productCurrentPage=productCurrentPage-1">
+                            Previous
+                        </button>
+                    </li>
+                    {{productCurrentPage+1}}/{{numberOfProductPages()}}
+                    <li >
+                        <button class = "btn" ng-disabled="productCurrentPage >= products.length/productPageSize - 1" ng-click="productCurrentPage=productCurrentPage+1">
+                            Next
+                        </button>
+                    </li>
+                    <li>
+                        <button class = "btn" ng-disabled="productCurrentPage >= products.length/productPageSize - 1" ng-click="productCurrentPage=numberOfProductPages() - 1">
+                            Last
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <!-- Pagination button END -->
+        </div>
+    </div>
+    <!--  Content END -->
+    <!--  Footer -->
+    <footer class="section section-primary panel panel-default panel-footer">
+        <div class="container">
+            <div class="row row-centered">
+                <div class="col-sm-4 col-centered text-center">
+                    <a>FAQ</a>
+                </div>
+                <div class="col-sm-4 col-centered text-center">
+                    <a>About us</a>
+                </div>
+                <div class="col-sm-4 col-centered text-center">
+                    <a>Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--  Footer END -->
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+    <!-- Angular -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/controllerIndex.js"></script>
+</body>
+
+</html>
