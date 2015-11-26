@@ -1,15 +1,14 @@
-var Persona = require('./model/product');
+var Product = require('./model/product');
 var User = require('./model/user');
 // Get all of products in DB
 exports.getProductsIndex = function (req, res){
-	/*Product.find(
-		function(err, product) {
-			if (err)
-				res.send(err)
-					res.json(product); // return Products into JSON	
-				}
-			);*/
-	// Testing purpose only
+
+	Product.find(function(err, products) {
+    	if(err) res.send(500, err.message);
+        res.status(200).jsonp(products);
+    });
+
+    /*
 	var products = [];
 	for (var i=0; i<14; i++) {
         products.push({
@@ -21,21 +20,16 @@ exports.getProductsIndex = function (req, res){
             }
         );
 	}
-    res.json(products);
+    res.json(products);*/
 };
 
 // Get all of products in DB
 exports.getRecommendedIndex = function (req, res){
+	Product.find(function(err, products) {
+    	if(err) res.send(500, err.message);
+        res.status(200).jsonp(products);
+    });
 	/*
-	Product.find(
-		function(err, product) {
-			if (err)
-				res.send(err)
-					res.json(product); // return recommendations into JSON	
-				}
-			);
-	*/
-	// Testing purpose only
 	var products = [];
 	for (var i=0; i<10; i++) {
         products.push({
@@ -47,7 +41,7 @@ exports.getRecommendedIndex = function (req, res){
             }
         );
 	}
-	res.json(products);
+	res.json(products);*/
 };
 
 // Post create user
