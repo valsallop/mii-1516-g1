@@ -52,27 +52,65 @@ exports.getRecommendedIndex = function (req, res){
 
 // Post create user
 exports.postCreateUser = function (req, res){
-	var nick = new User({ 
-		name: 'test',
-		surname:'test',
-		email: 'test@test.test',
-		address: 'test',
-		gps_coord: 'test',
-		credit_card:'test',
-		password: 'test',
-		admin: true 
-	});
-	nick.save(function(err) {
-		if (err) throw err;
-
-		console.log('User saved successfully');
-		res.json({ success: true });
+	console.log('User received to register:\t' + req.body.email);
+	// Validate fields
+	if(
+		req.body.name.length <= 0 ||
+		req.body.surname.length <= 0 ||
+		req.body.email.length <= 0 ||
+		req.body.address.length <= 0 ||
+		req.body.credit_card.length <= 0 ||
+		!req.body.admin
+		){
+		console.log('User received to register not valid:\t' + req.body);
+		res.status(500);
+		res.send('User not valid');
+		return
+	}
+	// Validate duplicates
+	/*
+	if (User.find(
+		{name: req.body.name, surname: req.body.surname, email: req.body.email}).count() > 0){
+			console.log('User received to register duplicated:\t' + req.body.email);
+			res.status(500);
+			res.send('User duplicated');
+			return;
+	}
+	*/
+	User.create({
+		name : req.body.name,
+		surname: req.body.surname,
+		email: req.body.email,
+		address: req.body.address,
+		gps_coord: req.body.gps_coord,
+		credit_card: req.body.credit_card,
+		password: req.body.password,
+		admin: req.body.admin
+	}, function(err, user) {
+		if (err){
+			res.send(err);
+		}else{
+			//	If success then it returns user inserted
+			User.find(
+				{name: req.body.name, surname: req.body.surname, email: req.body.email},
+				function(err, user) { 
+					if (err) {
+						console.log('User NOT saved:\t' + req.body.email);
+			 			res.send(err)
+					}else{
+						console.log('User saved successfully:\t' + req.body.email);
+			 			res.json(user);
+			 		}
+			 	}
+			);
+		}
 	});
 };
 
 // Authenticate
 exports.postAuthenticate = function (req, res){
 	// find the user
+	console.log("TEST");
 	User.findOne({
 		email: req.body.email
 	}, function(err, user) {
@@ -111,32 +149,13 @@ exports.postAuthenticate = function (req, res){
 
 exports.authenticate = function(req, res, next) {
 
-	// check header or url parameters or post parameters for token
-	var token = req.body.token || req.param('token') || req.headers['x-access-token'] || cookies.get("session");
+	var token = req.cookies.session;
+	console.log("token"+token);
 
-	// decode token
 	if (token) {
-
-		// verifies secret and checks exp
-		jwt.verify(token, app.get('superSecret'), function(err, decoded) {			
-			if (err) {
-				return res.json({ success: false, message: 'Failed to authenticate token.' });		
-			} else {
-				// if everything is good, save to request for use in other routes
-				req.decoded = decoded;	
-				next();
-			}
-		});
-
-	} else {
-
-		// if there is no token
-		// return an error
-		return res.status(403).send({ 
-			success: false, 
-			message: 'No token provided.'
-		});
-		
+		res.redirect('/homeauth.html');
+	}else{
+		res.redirect('/index.html');
 	}
 	
 };

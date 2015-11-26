@@ -2,8 +2,8 @@ var request = require('supertest');
 var should = require('should');
 var assert = require('assert');
 
-describe('Get to find 14 recommendations', function(){
-	it('should get 14 recommendations', function(){
+describe('Get to find 10 recommendations', function(){
+	it('should get 10 recommendations', function(){
 		request('http://localhost:8080')
 		.get('/api/recommended')
 		.send()

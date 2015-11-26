@@ -10,7 +10,6 @@ describe('Get to find 14 products', function(){
 		.end(function(err,res){
 			res.status.should.be.equal(200);
 			assert(res.body.length == 14);
-			//console.log(res.body.length);
 		});
 	});
 });

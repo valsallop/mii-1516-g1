@@ -8,14 +8,18 @@ module.exports = function(app) {
 	app.get('/api/products', Controller.getProductsIndex);
 	// Get recommended products to show on index
 	app.get('/api/recommended', Controller.getRecommendedIndex);
+	// User registration
+	app.post('/api/registration', Controller.postCreateUser);
+
+	app.get('/api/authenticate',Controller.authenticate);
 	// Crear una nueva Persona
-	app.post('/sapi/persona', Controller.postCreateUser);
+	//app.post('/sapi/persona', Controller.postCreateUser);
 
 	//Autenciacion
-	app.post('/sapi/authenticate', Controller.postAuthenticate);
+	//app.post('/sapi/authenticate', Controller.postAuthenticate);
 
 	//
-	app.use('/sapi',Controller.authenticate);
+	//app.use('/sapi',Controller.authenticate);
 	/*// Modificar los datos de una Persona
 	app.put('/api/persona/:persona_id', Controller.updatePersona);
 	// Borrar una Persona
@@ -25,6 +29,24 @@ module.exports = function(app) {
 	*/
 	// application 
 	app.get('*', function(req, res) {
+	var token = req.cookies.session;
+	console.log("token"+token);
+
+	if (token) {
+		res.sendFile('../public/homeauth.html');
+	}else{
 		res.sendFile('../public/index.html'); // Carga única de la vista
+	}
 	});
+	app.get('/index', function(req, res) {
+	var token = req.cookies.session;
+	console.log("token"+token);
+
+	if (token) {
+		res.sendFile('../public/homeauth.html');
+	}else{
+		res.sendFile('../public/index.html'); // Carga única de la vista
+	}
+	});
+	
 };
