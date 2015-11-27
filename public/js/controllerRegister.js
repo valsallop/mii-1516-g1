@@ -7,7 +7,7 @@ app.controller('RegisterCtrl',['$scope','$http','$window',function($scope,$http,
 
         if($scope.user.password === $scope.user.pass2 && $scope.user.email === $scope.user.email2){
             $scope.user.gps_coord = "37.546,-5.55";
-            $http.post('/api/registration',user);
+            $http.post('/api/registration',$scope.user);
             $window.location.href = 'http://localhost:8080';
         }else{
             console.log("No es igual el email o el pass");
