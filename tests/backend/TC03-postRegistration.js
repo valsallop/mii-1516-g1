@@ -18,8 +18,7 @@ describe('Insert a User', function () {
 		address: "testAddress" + randSuf,
 		gps_coord: "testC00rD5" + randSuf,
 		credit_card: "testCcnumber" + randSuf,
-		password: "testPassword",
-		admin: true
+		password: "testPassword"
 	} )
       .end(function(err,res){
 			res.status.should.be.equal(200);
@@ -27,7 +26,27 @@ describe('Insert a User', function () {
 	});
 });
 
-describe('Try insert a duplicated User', function () {
+describe('Insert User without gps_coord', function () {
+	var randSuf = Math.random();
+	it('should get a 200', function (){
+		request ('http://localhost:8080')
+      .post( "/api/registration" )
+      .send( {
+		name : "testName" + randSuf,
+		surname: "testSname" + randSuf,
+		email: "mail@test.com" + randSuf,
+		address: "testAddress" + randSuf,
+		credit_card: "testCcnumber" + randSuf,
+		password: "testPassword"
+	} )
+      .end(function(err,res){
+			res.status.should.be.equal(200);
+		});
+	});
+});
+
+
+describe('Try insert a invalid User', function () {
 	it('should get a 500', function (){
 		request ('http://localhost:8080')
       .post( "/api/registration" )
@@ -38,14 +57,13 @@ describe('Try insert a duplicated User', function () {
 		address: "",
 		gps_coord: "testC00rD5",
 		credit_card: "testCcnumber",
-		password: "testPassword",
-		admin: true
+		password: "testPassword"
 	} )
       .end(function(err,res){
 			res.status.should.be.equal(500);
 		});
 	});
-}); 
+});
 /*describe('Try insert a duplicated User', function () {
 	it('should get a 500', function (){
 		request ('http://localhost:8080')

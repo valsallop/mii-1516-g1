@@ -54,13 +54,15 @@ exports.getRecommendedIndex = function (req, res){
 exports.postCreateUser = function (req, res){
 	console.log('User received to register:\t' + req.body.email);
 	// Validate fields
+	// compruebe campos obligatorios
+	// 	existencia menos admin y coord
+	//	longitud
 	if(
 		req.body.name.length <= 0 ||
 		req.body.surname.length <= 0 ||
 		req.body.email.length <= 0 ||
 		req.body.address.length <= 0 ||
-		req.body.credit_card.length <= 0 ||
-		!req.body.admin
+		req.body.credit_card.length <= 0
 		){
 		console.log('User received to register not valid:\t' + req.body);
 		res.status(500);
@@ -77,28 +79,37 @@ exports.postCreateUser = function (req, res){
 			return;
 	}
 	*/
-	User.create({
+
+	// Make a new user
+	var recGps_coord = "";
+	if ( "gps_coord" in req.body ){
+		if ( req.body.gps_coord.length > 0 ){
+			recGps_coord = req.body.gps_coord;
+		}
+	}
+	var recUser = {
 		name : req.body.name,
 		surname: req.body.surname,
 		email: req.body.email,
 		address: req.body.address,
-		gps_coord: req.body.gps_coord,
+		gps_coord: recGps_coord,
 		credit_card: req.body.credit_card,
-		password: req.body.password,
-		admin: req.body.admin
-	}, function(err, user) {
+		password: req.body.password
+	};
+	// Insert & response
+	User.create( recUser , function(err, user) {
 		if (err){
 			res.send(err);
 		}else{
 			//	If success then it returns user inserted
 			User.find(
-				{name: req.body.name, surname: req.body.surname, email: req.body.email},
+				{name: recUser["name"], surname: recUser["surname"], email: recUser["email"]},
 				function(err, user) { 
 					if (err) {
-						console.log('User NOT saved:\t' + req.body.email);
+						console.log('User NOT saved:\t' + recUser["email"]);
 			 			res.send(err)
 					}else{
-						console.log('User saved successfully:\t' + req.body.email);
+						console.log('User saved successfully:\t' + recUser["email"]);
 			 			res.json(user);
 			 		}
 			 	}
