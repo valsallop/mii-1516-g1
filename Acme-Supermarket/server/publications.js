@@ -10,9 +10,6 @@ Meteor.publish('ratings', function() {
   return Ratings.find();
 });
 
-Meteor.publish('recommendations', function() {
-  return Recommendations.find({}, {limit: 3});
-});
 
 // Only publish data for the matches we care about. Be careful not to over-publish
 Meteor.publish('AvgRatings', function(proId, proObj) {
@@ -35,7 +32,6 @@ Meteor.publish('AvgRatings', function(proId, proObj) {
               $set: {rating: parseFloat(Ratings.aggregate(pipeline)[0].avg)}
             });
 });
-console.log("Publicando recommendations");
 
 Meteor.publish("userData", function () {
   if (this.userId) {
@@ -79,13 +75,3 @@ if(Meteor.isServer){
 }
 
 
-Pages = new Meteor.Pagination(Products, {
-    itemTemplate: "product",
-    perPage: 5
-});
-
-RecommendationPages = new Meteor.Pagination(Recommendations, {
-    itemTemplate: "product",
-    perPage: 5
-});
-console.log("Paginación habilitada");

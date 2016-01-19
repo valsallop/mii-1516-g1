@@ -1,8 +1,9 @@
-
-console.log("controlador recommendations");
-
-RecommendationPages = new Meteor.Pagination(Recommendations, {
+this.RecommendationPages = new Meteor.Pagination(Products, {
     itemTemplate: "product",
     templateName: "recommendations",
-    perPage: 5
+    perPage: 5,
+    sort:{
+    	rating: -1
+    }
+
 });
