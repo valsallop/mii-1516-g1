@@ -27,6 +27,13 @@ FlowRouter.route('/register',{
 	}
 });
 
+FlowRouter.route('/login',{
+	name: 'login',
+	action(){
+		BlazeLayout.render('login');
+	}
+});
+
 FlowRouter.route('/insert',{
 	name: 'addProduct',
 	action(){

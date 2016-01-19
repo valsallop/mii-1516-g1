@@ -10,9 +10,15 @@
 				<a href="#">{{_ "products"}}</a>
 				<a href="#">{{_ "shoppingCart"}}</a>
 			</nav>
+			{{#unless currentUser}}
+				<ul class="dropdown"> <a href="/register">{{_ "register"}}</a></ul>
+				<ul class="dropdown"> <a href="/login" class="login">{{_ "login"}}</a></ul>
+			{{/unless}}
+			{{#if currentUser}}
+				<ul class="dropdown"> <a href="/updateProfile">{{currentUser.name}} {{currentUser.surname}}</a></ul>
+				<ul class="dropdown"> <a href="#" class="logout">{{_ "logout"}}</a></ul>
+			{{/if}}
 			
-			<ul class="dropdown"> <a href="/register">{{_ "register"}}</a></ul>
-			<ul class="dropdown"> <a href="/updateProfile">{{currentUser.name}} {{currentUser.surname}}</a></ul>
 			<ul class="dropdown">
 				<a class="dropdown-toggle fNiv" data-toggle="dropdown"> {{> i18n_dropdown}}</a>
 			</ul>

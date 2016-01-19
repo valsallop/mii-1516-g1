@@ -10,6 +10,8 @@
 	"home": "Home",
 	
 	"languages": "Languages",
+	"login":"login",
+	"logout": "Logout",
 
 	"name": "Name",
 
