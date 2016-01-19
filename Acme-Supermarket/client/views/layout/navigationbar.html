@@ -15,7 +15,7 @@
 				<ul class="dropdown"> <a href="/login" class="login">{{_ "login"}}</a></ul>
 			{{/unless}}
 			{{#if currentUser}}
-				<ul class="dropdown"> <a href="/updateProfile">{{currentUser.name}} {{currentUser.surname}}</a></ul>
+				<ul class="dropdown"> <a href="/updateProfile">{{#each currentUser.emails}}{{this.address}}{{/each}}</a></ul>
 				<ul class="dropdown"> <a href="#" class="logout">{{_ "logout"}}</a></ul>
 			{{/if}}
 			
