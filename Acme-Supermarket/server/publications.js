@@ -37,6 +37,10 @@ Meteor.publish('AvgRatings', function(proId, proObj) {
 });
 console.log("Publicando recommendations");
 
+Meteor.publish('shoppingCarts', function() {
+  return ShoppingCarts.find();
+});
+
 Meteor.publish("userData", function () {
   if (this.userId) {
     return Meteor.users.find({_id: this.userId},
