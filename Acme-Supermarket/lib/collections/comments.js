@@ -9,6 +9,9 @@ SchemaComments = new SimpleSchema({
   userId: {
     type: String,
   },
+  userEmail: {
+    type: String,
+  },
   title: {
     type: String
   },

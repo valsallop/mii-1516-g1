@@ -6,6 +6,10 @@ Meteor.publish('comments', function() {
   return Comments.find();
 });
 
+Meteor.publish('ratings', function() {
+  return Ratings.find();
+});
+
 Meteor.publish('recommendations', function() {
   return Recommendations.find({}, {limit: 3});
 });

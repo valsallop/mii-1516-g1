@@ -8,6 +8,7 @@ if(Meteor.isClient){
 	});
 	Meteor.subscribe('products');
 	Meteor.subscribe('comments');
+	Meteor.subscribe('ratings');
 	Meteor.subscribe('userData');
 }
 

@@ -27,10 +27,6 @@ Template.productFormDetail.helpers({
 Template.comment.helpers({
   createdAtFormatted: function () {
     return moment(this.createdAt).format('DD/MM/YYYY, HH:MM');
-  },
-  userEmail: function () {
-    var useremail = Meteor.users.find({_id:this.userId});
-    return this.userId;
   }
 });
 
@@ -40,6 +36,7 @@ var commentsHooks = {
       if(Meteor.userId()){
         doc.userId = Meteor.userId();
         doc.codePro = parseInt(FlowRouter.getParam("code"));
+		doc.userEmail = Meteor.users.find({_id:Meteor.userId()}).fetch()[0].emails[0].address;
         return doc;
       }
     }
@@ -54,18 +51,30 @@ Template.productFormDetail.events({
 
     'click .idAddCart': function(){
         if(Meteor.userId()){
-          toastr.success("Objeto añadido", "Objeto añadido");
+          var t=TAPi18n.__("toastr_addCart", lang_tag=null);
+          toastr.success(t);
         }else{
-          toastr.error("Debes registrarte para comprar el objeto", "Objeto no añadido");
+          var t=TAPi18n.__("toastr_anon", lang_tag=null);
+          toastr.error(t);
         }
     },
     'click .idRatingProduct': function(event, template){
         if(Meteor.userId()){
-          var rating = template.$('#inputRating').rateit('value');
-          Ratings.insert({userId:Meteor.userId(),proId:this._id._str,rating:parseFloat(rating)});
-          var t=TAPi18n.__("register", lang_tag=null);
-          toastr.success("votacion realizada", t);
+          var numVoted = Ratings.find({userId:Meteor.userId(),proId:this._id._str}).count();
+          if(numVoted==0){
+            var rating = template.$('#inputRating').rateit('value');
+            Ratings.insert({userId:Meteor.userId(),proId:this._id._str,rating:parseFloat(rating)});
+
+            var t=TAPi18n.__("toastr_voted", lang_tag=null);
+            toastr.success(t);
+            
+          }else{
+            var t=TAPi18n.__("toastr_votedBan", lang_tag=null);
+            toastr.error(t);
+          }
+          
         }else{
+          var t=TAPi18n.__("toastr_votedReg", lang_tag=null);
           toastr.error("Debes registrarte para votar el objeto", "Objeto no añadido");
         }
     }

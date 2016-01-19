@@ -1,6 +1,6 @@
 var SchemaRatings;
 
-Ratings = new Meteor.Collection('ratings');
+this.Ratings = new Meteor.Collection('ratings');
 
 SchemaRatings = new SimpleSchema({
   userId: {
@@ -14,4 +14,6 @@ SchemaRatings = new SimpleSchema({
     decimal: true
   }
 });
-Ratings.attachSchema(SchemaRatings);
+Meteor.startup(function() {
+  Ratings.attachSchema(SchemaRatings);
+});
