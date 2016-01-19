@@ -1,0 +1,27 @@
+<template name="comment">
+	    
+    <div class="container" style="margin-top:20px">
+        <div class="row container">
+            <div class="col-lg-2 col-md-2 col-sm-2">
+              <picture>
+                <!--Imagen de la base de datos-->
+                <source
+                  media="(min-width: 75px)"
+                  srcset="../images/user-image.png">
+                  <!--Imagen por defecto-->
+                <img
+                  src="../images/no-img.png"
+                  alt="image not found">
+              </picture>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8">
+              <span style="color:blue">{{userEmail}}&nbsp;&nbsp;</span><span class="">{{createdAtFormatted }}</span>
+            	<h3 class="container">{{title}}</h3>
+              <p class="container">{{description}}</p> 
+
+            </div>
+            
+        </div>
+    </div>
+</template>
+

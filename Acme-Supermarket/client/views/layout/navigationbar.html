@@ -1,0 +1,25 @@
+<template name="navBar">
+	<!--  Navigation Bar -->
+	<header class="header-login-signup">
+
+		<div class="header-limiter">
+			<h1><a href="#">Acme<span>SuperMarket</span></a></h1>
+
+			<nav>
+				<a href="#">{{_ "home"}}</a>
+				<a href="#">{{_ "products"}}</a>
+				<a href="#">{{_ "shoppingCart"}}</a>
+			</nav>
+			
+			<ul class="dropdown"> <a href="/register">{{_ "register"}}</a></ul>
+			<ul class="dropdown"> {{> loginButtons}} </ul>
+			<ul class="dropdown">
+				<a class="dropdown-toggle fNiv" data-toggle="dropdown"> {{> i18n_dropdown}}</a>
+			</ul>
+			
+
+		</div>
+
+	</header>
+	
+</template>

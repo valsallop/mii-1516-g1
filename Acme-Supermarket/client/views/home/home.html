@@ -1,0 +1,35 @@
+<template name="home">
+	
+	{{> header}}
+	<body>
+		{{> navBar}}
+	<!--  Content -->
+	<div class="section">
+		<div class="container">
+			<div class="row container">
+				<!--  Product -->
+				<div class="col-md-6 " >
+					<!-- product-desc-container -->
+					<fieldset class="table-responsive" style = "margin-top: 65px;">
+						
+						{{> products}}
+					</fieldset>
+					<!-- product-desc-container -->
+				</div>
+				<!--  Product END -->
+				<!--  Recomendation -->
+				<div class="col-md-6 product-list-container-3">
+					<fieldset class="table-responsive">
+						<legend class="scheduler-border">Recomendation</legend>
+						
+						{{> recommendations}}
+					</fieldset>
+				</div>
+			</div>
+			<!--  Recomendation END -->
+		</div>
+	</div>
+	{{> footer}}
+	</body>
+	<!--  Content END -->
+</template>

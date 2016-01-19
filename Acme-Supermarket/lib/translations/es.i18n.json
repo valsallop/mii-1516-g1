@@ -1,0 +1,33 @@
+{ 	
+	"aboutCompany": "Sobre la compañía",
+	"aboutCompanyContent":"Nuestra compañía es una compañía joven surgida en 2016 con el objetivo de rivalizar entre los mejores MarketPlace",
+	"addCart":"Añadir al carrito",
+
+	"comments":"Comentarios",
+
+	"description":"Descripción",
+
+	"home": "Inicio",
+	
+	"languages": "Idiomas",
+
+	"name":"Nombre",
+
+	"price":"Precio",
+	"products": "Productos",
+
+	"register": "Registrar",
+	
+	"schemas": {
+	    "comments": {
+	      "title": {
+	        "label": "Titulo"
+	      },
+	      "description": {
+	        "label": "Descripcion"
+	      }
+		}
+	},
+	"send":"Enviar",
+	"shoppingCart": "Cesta de la compra" 
+}

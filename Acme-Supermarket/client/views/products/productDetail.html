@@ -1,0 +1,38 @@
+<template name="productDetail">
+	{{> header}}
+
+	{{> navBar}}
+
+	
+	<div class="container" style = "margin-top: 65px;">
+		<!-- product-desc-container -->
+		{{#each productDetail}}
+			{{> productFormDetail}}
+		{{/each}}
+		<!-- product-desc-container -->
+	</div>
+	<!--  Product END -->
+	<!--  Recomendation -->
+	<fieldset class="container" style = "margin-top: 65px;">
+	  <legend>{{_ "comments"}}</legend>
+	  
+	  	{{#autoForm collection="Comments" id="insertComments" type="insert"}}
+	    	<fieldset>
+		      {{> afQuickField name='title'}}
+		      {{> afQuickField name='description' rows=6}}
+	   		</fieldset>
+	    	<button type="submit" class="btn btn-primary">{{_ "send"}}</button>
+  		{{/autoForm}}
+	 
+
+  	<div class="container">
+	    {{#each comments}}
+	      {{> comment}}
+	    {{/each}}
+	</div>
+
+	</fieldset>
+
+	{{> footer}}
+	
+</template>

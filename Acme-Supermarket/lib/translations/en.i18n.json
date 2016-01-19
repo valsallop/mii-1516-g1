@@ -1,0 +1,33 @@
+{ 	
+	"aboutCompany": "About the company",
+	"aboutCompanyContent":"Our company is a young company emerged in 2016 with the aim to compete among the best MarketPlace",
+	"addCart":"Add cart",
+
+	"comments":"Comments",
+
+	"description":"Description",
+
+	"home": "Home",
+	
+	"languages": "Languages",
+
+	"name": "Name",
+
+	"price": "Price",
+	"products": "Products",
+
+	"register": "Register",
+
+	"schemas": {
+	    "comments": {
+	      "title": {
+	        "label": "Title"
+	      },
+	      "description": {
+	        "label": "Description"
+	      }
+	    }
+	},
+	"send":"Send",
+	"shoppingCart": "Shopping Cart"  
+}

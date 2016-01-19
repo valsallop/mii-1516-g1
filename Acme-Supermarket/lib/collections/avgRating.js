@@ -1,0 +1,1 @@
+AvgRatings = new Mongo.Collection('AvgRatings');
