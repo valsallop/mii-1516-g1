@@ -36,7 +36,7 @@ console.log("Publicando recommendations");
 Meteor.publish("userData", function () {
   if (this.userId) {
     return Meteor.users.find({_id: this.userId},
-                             {fields: {'name': 1, 'surname': 1,'address': 1}});
+                             {fields: {'name': 1, 'surname': 1,'address': 1,'creditCard':1}});
   } else {
     this.ready();
   }

@@ -2,7 +2,8 @@ Schema = {};
 
 Schema.address = new SimpleSchema({
     name: {
-        type: String
+        type: String,
+        optional:true 
     },
     number: {
         type: String,
@@ -11,28 +12,33 @@ Schema.address = new SimpleSchema({
     },
     postalCode: {
         type: String,
-        regEx: /^[0-9]{5}$/
+        regEx: /^[0-9]{5}$/,
+        optional:true 
     }
 });
 
 Schema.creditCard = new SimpleSchema({
     number: {
-        type: String
+        type: String,
+        optional:true 
     },
     CVV: {
         type: Number,
         min: 100,
-        max:999
+        max:999,
+        optional:true 
     },
     expMonth: {
         type: Number,
         min:1,
-        max:12
+        max:12,
+        optional:true 
     },
     expYear: {
         type: Number,
         min:2016,
-        max:2030
+        max:2030,
+        optional:true 
     }
 });
 
@@ -45,9 +51,11 @@ Schema.profileData = new SimpleSchema({
     },
     address: {
         type: Schema.address,
+        optional:true 
     },
     creditCard: {
         type: Schema.creditCard,
+        optional:true 
     }
 });
 

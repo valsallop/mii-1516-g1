@@ -1,9 +1,18 @@
 <template name="updateProfile">
 	{{> header}}
 	<body>
-		{{currentUser.email}}
 		{{> navBar}}
-		{{> quickForm schema="Schema.profileData" id="updateProfileData" type="method" meteormethod="updateProfile"}}
+		<!-- {{> quickForm schema="Schema.profileData" doc=profile id="updateProfileData" type="method" meteormethod="updateProfile"}} -->
+		{{#autoForm schema="Schema.profileData" doc=currentUser id="updateProfileData" type="method" meteormethod="updateProfile"}}
+		<fieldset>
+			<legend>Add a Book</legend>
+			{{> afQuickField name='name'}}
+			{{> afQuickField name='surname'}}
+			{{> afQuickField name='address'}}
+			{{> afQuickField name='creditCard'}}
+		</fieldset>
+		<button type="submit" class="btn btn-primary">Insert</button>
+		{{/autoForm}}
 		{{> footer}}
 	</body>
 </template>
