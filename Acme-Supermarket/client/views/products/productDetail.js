@@ -63,8 +63,8 @@ Template.productFormDetail.events({
         if(Meteor.userId()){
           var rating = template.$('#inputRating').rateit('value');
           Ratings.insert({userId:Meteor.userId(),proId:this._id._str,rating:parseFloat(rating)});
-          
-          toastr.success("votacion realizada", "");
+          var t=TAPi18n.__("register", lang_tag=null);
+          toastr.success("votacion realizada", t);
         }else{
           toastr.error("Debes registrarte para votar el objeto", "Objeto no añadido");
         }
