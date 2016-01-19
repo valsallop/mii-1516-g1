@@ -33,12 +33,12 @@ Meteor.publish('AvgRatings', function(proId, proObj) {
 });
 console.log("Publicando recommendations");
 
-Products.allow({
-  update: function() {
-    return true;
-  },
-  insert: function() {
-    return true;
+Meteor.publish("userData", function () {
+  if (this.userId) {
+    return Meteor.users.find({_id: this.userId},
+                             {fields: {'name': 1, 'surname': 1,'address': 1}});
+  } else {
+    this.ready();
   }
 });
 
@@ -57,6 +57,7 @@ Comments.allow({
 Meteor.users.permit('update').ifHasRole('admin').exceptProps(['roles', 'services']).apply();
 Meteor.users.permit('update').ifHasUserId(this.userId).exceptProps(['roles', 'services']).apply();
 Meteor.users.permit(['insert']).apply();
+Products.permit(['insert','update']).ifHasRole('admin').apply();
 
 if(Meteor.isServer){
 	Meteor.users.before.insert(function(userId, doc){

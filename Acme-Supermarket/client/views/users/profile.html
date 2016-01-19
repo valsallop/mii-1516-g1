@@ -1,6 +1,7 @@
 <template name="updateProfile">
 	{{> header}}
 	<body>
+		{{currentUser.email}}
 		{{> navBar}}
 		{{> quickForm schema="Schema.profileData" id="updateProfileData" type="method" meteormethod="updateProfile"}}
 		{{> footer}}
