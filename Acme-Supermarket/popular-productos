@@ -1,1 +1,0 @@
-mongoimport -c products --type csv --file products-v5.csv -d meteor --headerline -h localhost:3001
