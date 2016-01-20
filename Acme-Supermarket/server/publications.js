@@ -34,7 +34,7 @@ Meteor.publish('AvgRatings', function(proId, proObj) {
 });
 
 Meteor.publish('shoppingCarts', function() {
-  return ShoppingCarts.find();
+  return ShoppingCarts.find({ active:true , userId: "'"+this.userId+"'" }).fetch();
 });
 
 Meteor.publish("userData", function () {
@@ -62,6 +62,7 @@ Meteor.users.permit('update').ifHasRole('admin').exceptProps(['roles', 'services
 Meteor.users.permit('update').ifHasUserId(this.userId).exceptProps(['roles', 'services']).apply();
 Meteor.users.permit(['insert']).apply();
 Products.permit(['insert','update']).ifHasRole('admin').apply();
+ShoppingCarts.permit(['insert','update']).apply();
 
 if(Meteor.isServer){
 	Meteor.users.before.insert(function(userId, doc){
@@ -75,6 +76,18 @@ if(Meteor.isServer){
   });
   Meteor.users.after.insert(function(userId, doc){
     Roles.addUsersToRoles(doc._id, ['customer']);
+    ShoppingCarts.insert({
+      "userId" : doc._id,
+      "items" : [
+      {
+        "productCode" : "123456",
+        "amount" : 123
+      }
+      ],
+      "active" : true,
+      "orderDate" : null,
+      "paymentDate" : null
+    })
   });
 }
 

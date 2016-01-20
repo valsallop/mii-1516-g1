@@ -2,7 +2,9 @@
 	{{> header}}
 	<body>
 		{{> navBar}}
+		{{#each shoppingCart}}
 		{{> quickForm collection="ShoppingCarts" id="shoppingCartForm" type="insert"}}
+		{{/each}}
 		{{> footer}}
 	</body>
 </template>

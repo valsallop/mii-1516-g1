@@ -10,6 +10,7 @@ if(Meteor.isClient){
 	Meteor.subscribe('comments');
 	Meteor.subscribe('ratings');
 	Meteor.subscribe('userData');
+
 }
 
 if(Meteor.isServer){
@@ -35,12 +36,27 @@ FlowRouter.route('/login',{
 	}
 });
 
-FlowRouter.route('/shoppingCart',{
+FlowRouter.route('/shoppingCart', {
 	name: 'shoppingCart',
-	action(){
-		BlazeLayout.render('shoppingCart');
-	}
+  subscriptions: function(params) {
+    this.register('shoppingCart', Meteor.subscribe('shoppingCarts'));
+  },
+
+  action: function() {
+    // We render the template with Flow Layout
+    FlowLayout.render('shoppingCart');
+  }
 });
+
+// FlowRouter.route('/shoppingCart',{
+// 	name: 'shoppingCart',
+// 	action(){
+// 		var item = ShoppingCarts.find({ active:true , userId: "'"+Meteor.userId()+"'" }).fetch();
+// 		console.log(Meteor.userId());
+// 		console.log(item);
+// 		BlazeLayout.render('shoppingCart');
+// 	}
+// });
 
 FlowRouter.route('/insert',{
 	name: 'addProduct',
