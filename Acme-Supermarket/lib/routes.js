@@ -35,6 +35,13 @@ FlowRouter.route('/login',{
 	}
 });
 
+FlowRouter.route('/shoppingCart',{
+	name: 'shoppingCart',
+	action(){
+		BlazeLayout.render('shoppingCart');
+	}
+});
+
 FlowRouter.route('/insert',{
 	name: 'addProduct',
 	action(){
