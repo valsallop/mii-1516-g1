@@ -3,16 +3,27 @@
 	<body>
 		{{> navBar}}
 		<!-- {{> quickForm schema="Schema.profileData" doc=profile id="updateProfileData" type="method" meteormethod="updateProfile"}} -->
-		{{#autoForm schema="Schema.profileData" doc=currentUser id="updateProfileData" type="method" meteormethod="updateProfile"}}
-		<fieldset>
-			<legend>Add a Book</legend>
-			{{> afQuickField name='name'}}
-			{{> afQuickField name='surname'}}
-			{{> afQuickField name='address'}}
-			{{> afQuickField name='creditCard'}}
-		</fieldset>
-		<button type="submit" class="btn btn-primary">Insert</button>
-		{{/autoForm}}
+		<div class="container">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				{{#autoForm schema="Schema.profileData" doc=currentUser id="updateProfileData" type="method" meteormethod="updateProfile"}}
+					<fieldset>
+						<legend>Add a Book</legend>
+						{{> afQuickField name='name'}}
+						{{> afQuickField name='surname'}}
+						<div class="row container" style="padding-left: 0px;">
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								{{> afQuickField name='address'}}
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6" style="margin-left: -15px;">
+								{{> afQuickField name='creditCard'}}
+							</div>
+						</div>
+					</fieldset>
+					<button type="submit" class="btn btn-primary">Insert</button>
+				{{/autoForm}}
+			</div>
+		</div>
+		
 		{{> footer}}
 	</body>
 </template>

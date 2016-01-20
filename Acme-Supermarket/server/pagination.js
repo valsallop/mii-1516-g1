@@ -4,7 +4,8 @@
 Pages = new Meteor.Pagination(Products, {
     itemTemplate: "product",
     templateName: "products",
-    perPage: 5
+    perPage: 5,
+    filters : {availability: {$eq: 1}}
 });
 
 /* Recommendations in Home view*/
@@ -21,5 +22,6 @@ this.RecommendationPages = new Meteor.Pagination(Products, {
 ProductsPages = new Meteor.Pagination(Products, {
     itemTemplate: "allProductsDetails",
     templateName: "allProducts",
-    perPage: 5
+    perPage: 5,
+    filters : {availability: {$eq: 1}}
 });
