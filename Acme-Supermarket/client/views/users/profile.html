@@ -7,7 +7,7 @@
 			<div class="col-lg-12 col-md-12 col-sm-12">
 				{{#autoForm schema="Schema.profileData" doc=currentUser id="updateProfileData" type="method" meteormethod="updateProfile"}}
 					<fieldset>
-						<legend>Add a Book</legend>
+						<legend>{{_ "profile_name"}}</legend>
 						{{> afQuickField name='name'}}
 						{{> afQuickField name='surname'}}
 						<div class="row container" style="padding-left: 0px;">
@@ -19,7 +19,7 @@
 							</div>
 						</div>
 					</fieldset>
-					<button type="submit" class="btn btn-primary">Insert</button>
+					<button type="submit" class="btn btn-primary btn-lg glyphicon glyphicon-edit">  {{_ "profile_update"}}</button>
 				{{/autoForm}}
 			</div>
 		</div>

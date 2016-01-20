@@ -14,22 +14,71 @@
 	"login": "Iniciar sesión",
 	"logout": "Cerrar sesión",
 
+	"login_button":"Iniciar sesión",
+	"login_email":"Email",
+	"login_name":"Login",
+	"login_password":"Contraseña",
+
 	"name":"Nombre",
 
 	"price":"Precio",
+
+	"profile_name":"Perfil de usuario",
+
+	"profile_update":"Editar",
+
 	"products": "Productos",
 
 	"register": "Registrar",
+	"register_name":"Crear cuenta",
+	"register_email":"Email",
+	"register_password":"Contraseña",
+	"register_button":"Crear cuenta",
 	
 	"schemas": {
 	    "comments": {
 	      "title": {
-	        "label": "Titulo"
+	        "label": "Title"
 	      },
 	      "description": {
-	        "label": "Descripcion"
+	        "label": "Description"
 	      }
-		}
+	    },
+	    "profileData": {
+	      "name": {
+	        "label": "Nombre"
+	      },
+	       "surname": {
+	        "label": "Apellidos"
+	      },
+	       "address": {
+	        "label": "Dirección",
+	        "name": {
+		        "label": "Dirección"
+		    },
+		    "number": {
+		    	"label": "Número"
+		    },
+		   	"postalCode": {
+		        "label": "Codigo Postal"
+		    }
+	      },
+	      "creditCard": {
+	        "label": "Tarjeta de crédito",
+	        "number": {
+		    	"label": "Número"
+		    },
+		    "CVV": {
+		       	"label": "CVV"
+	      	},
+		    "expMonth": {
+		        "label": "Mes de expiración"
+		    },
+		    "expYear": {
+		        "label": "Año de expiración"
+		    }
+	      }
+	    }
 	},
 	"send":"Enviar",
 	"shoppingCart": "Cesta de la compra",

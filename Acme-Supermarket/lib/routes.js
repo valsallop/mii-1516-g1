@@ -69,3 +69,5 @@ FlowRouter.route('/products',{
 		BlazeLayout.render('allProducts');
 	}
 });
+
+
