@@ -1,0 +1,52 @@
+<template name="allProducts">
+	{{> header}}
+
+	{{> navBar}}
+
+
+
+	<div class="container" style = "margin-top: 65px;">
+		<h1>{{_ "listProduct"}}</h1>
+		{{> pages}}
+	</div>
+	{{> pagesNav}}
+
+	{{> footer}}
+</template>
+
+<template name="allProductsDetails">
+	
+	<div class="row container">
+		<h2 style="margin-top:50px; margin-bottom:20px; color: blue"><a href="/product/{{code}}">{{name}}</a></h2>
+		<div class="col-lg-3 col-md-3 col-sm-3">
+			<a href="/product/{{code}}">
+		        <picture>
+		          <!--Imagen de la base de datos-->
+		          <source
+		            media="(min-width: 150px)"
+		            srcset={{image}}>
+		            <!--Imagen por defecto-->
+		          <img
+		            src="images/no-img.png"
+		            alt="image not found">
+		        </picture>
+	      	</a>
+		</div>
+		<div class="col-lg-9 col-md-9 col-sm-9">
+			<div class="row container">
+				<h2 class="col-lg-2 col-md-2 col-sm-2">{{_ "price"}}:</h2>
+        		<h3 class="col-lg-2 col-md-2 col-sm-2">{{cost}} €</h3>
+        		<div class="col-lg-8 col-md-8 col-sm-8" style="vertical-align:middle;">
+        			<div class="rateit" data-rateit-value="{{rating}}" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+        		</div>
+        		
+			</div>
+			<div class="row container">
+				<h2 class="col-lg-2 col-md-2 col-sm-2">{{_ "description"}}:</h2>
+        		<h3 class="col-lg-10 col-md-10 col-sm-10">{{description}}</h3>
+			</div>
+
+
+		</div>
+	</div>
+</template>

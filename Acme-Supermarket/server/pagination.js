@@ -3,6 +3,7 @@
 /* Products in Home view*/
 Pages = new Meteor.Pagination(Products, {
     itemTemplate: "product",
+    templateName: "products",
     perPage: 5
 });
 
@@ -15,4 +16,10 @@ this.RecommendationPages = new Meteor.Pagination(Products, {
     	rating: -1
     }
 
+});
+
+ProductsPages = new Meteor.Pagination(Products, {
+    itemTemplate: "allProductsDetails",
+    templateName: "allProducts",
+    perPage: 5
 });

@@ -62,3 +62,10 @@ FlowRouter.route('/product/:code',{
 		BlazeLayout.render('productDetail');
 	}
 });
+
+FlowRouter.route('/products',{
+	name: 'products',
+	action(){
+		BlazeLayout.render('allProducts');
+	}
+});

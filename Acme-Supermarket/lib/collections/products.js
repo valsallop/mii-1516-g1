@@ -30,6 +30,10 @@ productSchema=new SimpleSchema({
     type: Number,
     label: "rating",
     decimal: true
+  },
+  availability: {
+    type: Number,
+    label: "availability"
   }
 });
 Products.attachSchema(productSchema);
