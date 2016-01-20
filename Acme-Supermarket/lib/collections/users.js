@@ -81,3 +81,9 @@ if(Meteor.isClient){
     }
     });
 }
+
+Meteor.startup(function() {
+  Schema.profileData.i18n("schemas.profileData");
+});
+
+

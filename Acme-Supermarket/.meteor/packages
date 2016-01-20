@@ -42,3 +42,5 @@ gwendall:autoform-i18n
 monbro:mongodb-mapreduce-aggregation
 ongoworks:security
 email
+simple:rest
+houston:admin

@@ -10,15 +10,32 @@
 	"home": "Home",
 	
 	"languages": "Languages",
+	
+	"listProduct":"List products",
 	"login":"Login",
 	"logout": "Logout",
+
+	"login_button":"Sing in",
+	"login_email":"Email",
+	"login_name":"Login",
+	"login_password":"Password",
 
 	"name": "Name",
 
 	"price": "Price",
+
+	"profile_name":"User profile",
+
+	"profile_update":"Edit",
+
 	"products": "Products",
 
 	"register": "Register",
+
+	"register_name":"Create account",
+	"register_email":"Email",
+	"register_password":"Password",
+	"register_button":"Create account",
 
 	"schemas": {
 	    "comments": {
@@ -27,6 +44,42 @@
 	      },
 	      "description": {
 	        "label": "Description"
+	      }
+	    },
+
+	    "profileData": {
+	      "name": {
+	        "label": "Name"
+	      },
+	       "surname": {
+	        "label": "Surname"
+	      },
+	       "address": {
+	        "label": "Address",
+	        "name": {
+		        "label": "Address"
+		    },
+		    "number": {
+		        "label": "Number"
+		    },
+		    "postalCode": {
+		        "label": "Postal Code"
+		    }
+	      },
+	      "creditCard": {
+	        "label": "CreditCard",
+	        "number": {
+		        "label": "Number"
+		    },
+		    "CVV": {
+		        "label": "CVV"
+		    },
+		    "expMonth": {
+		        "label": "Expiration month"
+		    },
+		    "expYear": {
+		        "label": "Expiration year"
+		    }
 	      }
 	    }
 	},
