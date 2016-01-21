@@ -2,9 +2,12 @@
 	{{> header}}
 	<body>
 		{{> navBar}}
-		{{#each shoppingCart}}
-		{{> quickForm collection="ShoppingCarts" id="shoppingCartForm" type="insert"}}
-		{{/each}}
+		{{#autoForm collection="ShoppingCarts" id="shoppingCartForm" doc=shoppingCart type="update" autosave=true}}
+	    	<fieldset>
+	    		{{> afQuickField name='userId'}}
+		      	{{> afQuickField name='items'}}
+	   		</fieldset>
+  		{{/autoForm}}
 		{{> footer}}
 	</body>
 </template>

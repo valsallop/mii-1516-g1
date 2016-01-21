@@ -17,14 +17,41 @@ Meteor.methods({
     });
   },
   updateProfile: function (doc) {
-    console.log("falete2.0");
-    console.log(doc);
     Meteor.users.update(Meteor.userId(), {
       $set: { name: doc.name,
-              surname: doc.surname,
-              address:{name: doc.address.name,number:doc.address.number,postalCode:doc.address.postalCode},
-              creditCard:{number:doc.creditCard.number,CVV:doc.creditCard.CVV,expMonth:doc.creditCard.expMonth,expYear:doc.creditCard.expYear}
+        surname: doc.surname,
+        address:{name: doc.address.name,number:doc.address.number,postalCode:doc.address.postalCode},
+        creditCard:{number:doc.creditCard.number,CVV:doc.creditCard.CVV,expMonth:doc.creditCard.expMonth,expYear:doc.creditCard.expYear}
       }   
+    });
+  },
+  addToCart: function (code) {
+    var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
+    for (var i = 0; i < cart.items.length; i++) {
+      console.log("----------------------");
+      console.log(cart.items[i].productCode);
+      console.log(code);
+      console.log("----------------------");
+      var exist=false;
+      if(cart.items[i].productCode===code){
+        exist=true;
+        console.log("si");
+        cart.items[i].amount=cart.items[i].amount+1;
+        console.log(cart.items[i]);
+        console.log("----------------------");
+      }
+    }
+    if(!exist){
+      var item={
+         "productCode" : code,
+         "amount" : 1
+      }
+      cart.items.push(item);
+    }
+    
+    console.log(cart.items);
+    ShoppingCarts.update(cart._id, {
+        $set: { items: cart.items }   
     });
   }
 });

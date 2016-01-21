@@ -1,15 +1,16 @@
 if(Meteor.isClient){
 	Accounts.onLogin(function(){
-		FlowRouter.go('addProduct');
+		Router.go('updateProfile');
 	});
 
 	Accounts.onLogout(function(){
-		FlowRouter.go('home');
+		Router.go('home');
 	});
 	Meteor.subscribe('products');
 	Meteor.subscribe('comments');
 	Meteor.subscribe('ratings');
 	Meteor.subscribe('userData');
+	Meteor.subscribe('shoppingCarts');
 
 }
 
@@ -74,14 +75,9 @@ Router.route('/products',{
 
 Router.route('/shoppingCart', {
 	name: 'shoppingCart',
-  subscriptions: function(params) {
-    this.register('shoppingCart', Meteor.subscribe('shoppingCarts'));
-  },
-
-  action: function() {
-    // We render the template with Flow Layout
-    BlazeLayout.render('shoppingCart');
-  }
+	action(){
+		BlazeLayout.render('shoppingCart');
+	}
 });
 
 // Router.route('/shoppingCart',{

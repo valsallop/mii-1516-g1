@@ -72,12 +72,12 @@ if(Meteor.isClient){
         }, function(error){
             console.log(error);
         });
-        Meteor.call('sendEmail',
-            email,
-            "noReply@AcmeSuperMarket.com",
-            'Hello from Meteor!',
-            'This is a test of Email.send.');
-        FlowRouter.go('home');
+        // Meteor.call('sendEmail',
+        //     email,
+        //     "noReply@AcmeSuperMarket.com",
+        //     'Hello from Meteor!',
+        //     'This is a test of Email.send.');
+        Router.go('home');
     }
     });
 }

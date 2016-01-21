@@ -36,7 +36,7 @@ var commentsHooks = {
       if(Meteor.userId()){
         doc.userId = Meteor.userId();
         doc.codePro = parseInt(Router.current().params.code);
-		doc.userEmail = Meteor.users.find({_id:Meteor.userId()}).fetch()[0].emails[0].address;
+		    doc.userEmail = Meteor.users.find({_id:Meteor.userId()}).fetch()[0].emails[0].address;
         return doc;
       }
     }
@@ -50,6 +50,7 @@ Template.productFormDetail.events({
     'click .idAddCart': function(){
         if(Meteor.userId()){
           var t=TAPi18n.__("toastr_addCart", lang_tag=null);
+          Meteor.call('addToCart',Router.current().params.code);
           toastr.success(t);
         }else{
           var t=TAPi18n.__("toastr_anon", lang_tag=null);

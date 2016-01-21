@@ -34,7 +34,7 @@ Meteor.publish('AvgRatings', function(proId, proObj) {
 });
 
 Meteor.publish('shoppingCarts', function() {
-  return ShoppingCarts.find({ active:true , userId: "'"+this.userId+"'" }).fetch();
+  return ShoppingCarts.find();
 });
 
 Meteor.publish("userData", function () {
@@ -78,12 +78,7 @@ if(Meteor.isServer){
     Roles.addUsersToRoles(doc._id, ['customer']);
     ShoppingCarts.insert({
       "userId" : doc._id,
-      "items" : [
-      {
-        "productCode" : "123456",
-        "amount" : 123
-      }
-      ],
+      "items" : [],
       "active" : true,
       "orderDate" : null,
       "paymentDate" : null
