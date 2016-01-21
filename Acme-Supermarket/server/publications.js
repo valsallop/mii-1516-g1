@@ -86,7 +86,5 @@ if(Meteor.isServer){
   });
 }
 
-//Houston.add_collection(Meteor.users);
-//Houston.hide_collection(Ratings);
-
-
+Houston.add_collection(Meteor.users);
+Houston.hide_collection(Ratings);

@@ -80,6 +80,11 @@ Router.route('/shoppingCart', {
 	}
 });
 
+Houston.menu({
+    'type': 'template',
+    'use': 'productsAnalitycs',
+    'title': 'Anlytics'
+  });
 // Router.route('/shoppingCart',{
 // 	name: 'shoppingCart',
 // 	action(){
