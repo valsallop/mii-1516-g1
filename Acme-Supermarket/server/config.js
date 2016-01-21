@@ -48,10 +48,27 @@ Meteor.methods({
       }
       cart.items.push(item);
     }
-    
     console.log(cart.items);
     ShoppingCarts.update(cart._id, {
         $set: { items: cart.items }   
     });
+  },
+  confirmCart: function () {
+    var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
+    if(cart.items.length>0){
+      ShoppingCarts.update(cart._id, {
+        $set: { active:false, orderDate: new Date(), paymentDate: new Date() }   
+      });
+      ShoppingCarts.insert({
+        "userId" : Meteor.userId(),
+        "items" : [],
+        "active" : true,
+        "orderDate" : null,
+        "paymentDate" : null
+      })
+    }
+    else {
+      toastr.success("noItems");
+    }
   }
 });
