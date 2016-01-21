@@ -22,21 +22,57 @@ if(Meteor.isServer){
 	});
 }
 
-FlowRouter.route('/register',{
+Router.route('/register',{
 	name: 'register',
 	action(){
 		BlazeLayout.render('register');
 	}
 });
 
-FlowRouter.route('/login',{
+Router.route('/login',{
 	name: 'login',
 	action(){
 		BlazeLayout.render('login');
 	}
 });
 
-FlowRouter.route('/shoppingCart', {
+Router.route('/insert',{
+	name: 'addProduct',
+	action(){
+		BlazeLayout.render('insertProduct');
+	}
+});
+
+Router.route('/',{
+	name: 'home',
+	action(){
+		BlazeLayout.render('home');
+	}
+});
+
+Router.route('/updateProfile',{
+	name: 'profile',
+	action(){
+		BlazeLayout.render('updateProfile');
+	}
+});
+
+Router.route('/product/:code',{
+	name: 'productDetail',
+	action: function(params, queryParams){
+		BlazeLayout.render('productDetail');
+	}
+});
+
+Router.route('/products',{
+	name: 'products',
+	action(){
+		BlazeLayout.render('allProducts');
+	}
+});
+
+
+Router.route('/shoppingCart', {
 	name: 'shoppingCart',
   subscriptions: function(params) {
     this.register('shoppingCart', Meteor.subscribe('shoppingCarts'));
@@ -44,11 +80,11 @@ FlowRouter.route('/shoppingCart', {
 
   action: function() {
     // We render the template with Flow Layout
-    FlowLayout.render('shoppingCart');
+    BlazeLayout.render('shoppingCart');
   }
 });
 
-// FlowRouter.route('/shoppingCart',{
+// Router.route('/shoppingCart',{
 // 	name: 'shoppingCart',
 // 	action(){
 // 		var item = ShoppingCarts.find({ active:true , userId: "'"+Meteor.userId()+"'" }).fetch();
@@ -58,39 +94,6 @@ FlowRouter.route('/shoppingCart', {
 // 	}
 // });
 
-FlowRouter.route('/insert',{
-	name: 'addProduct',
-	action(){
-		BlazeLayout.render('insertProduct');
-	}
-});
 
-FlowRouter.route('/',{
-	name: 'home',
-	action(){
-		BlazeLayout.render('home');
-	}
-});
-
-FlowRouter.route('/updateProfile',{
-	name: 'profile',
-	action(){
-		BlazeLayout.render('updateProfile');
-	}
-});
-
-FlowRouter.route('/product/:code',{
-	name: 'productDetail',
-	action: function(params, queryParams){
-		BlazeLayout.render('productDetail');
-	}
-});
-
-FlowRouter.route('/products',{
-	name: 'products',
-	action(){
-		BlazeLayout.render('allProducts');
-	}
-});
 
 

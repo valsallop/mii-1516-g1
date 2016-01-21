@@ -1,10 +1,10 @@
 Template.productDetail.helpers({
   productDetail: function() {
-  	var code = FlowRouter.getParam("code");
+  	var code = Router.current().params.code;
     return Products.find({code:parseInt(code)});
   },
   comments: function() {
-    var code = FlowRouter.getParam("code");
+    var code = Router.current().params.code;
     return Comments.find({codePro:parseInt(code)});
   }
 });
@@ -35,7 +35,7 @@ var commentsHooks = {
     insert: function(doc) {
       if(Meteor.userId()){
         doc.userId = Meteor.userId();
-        doc.codePro = parseInt(FlowRouter.getParam("code"));
+        doc.codePro = parseInt(Router.current().params.code);
 		doc.userEmail = Meteor.users.find({_id:Meteor.userId()}).fetch()[0].emails[0].address;
         return doc;
       }
@@ -44,8 +44,6 @@ var commentsHooks = {
 }
 
 AutoForm.addHooks('insertComments', commentsHooks);
-
-
 
 Template.productFormDetail.events({
 

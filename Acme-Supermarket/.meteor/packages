@@ -23,7 +23,6 @@ coffeescript
 aldeed:collection2
 tap:i18n
 tap:i18n-ui
-kadira:flow-router
 kadira:blaze-layout
 aldeed:autoform
 twbs:bootstrap
@@ -42,5 +41,5 @@ gwendall:autoform-i18n
 monbro:mongodb-mapreduce-aggregation
 ongoworks:security
 email
-simple:rest
 houston:admin
+iron:router
