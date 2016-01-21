@@ -1,6 +1,12 @@
 /* meteor-pages controllers (server side)*/
 
 /* Products in Home view*/
+AdminProductsPages = new Meteor.Pagination(Products, {
+    itemTemplate: "productAdmin",
+    templateName: "productsAnalitycs",
+    perPage: 10
+});
+
 Pages = new Meteor.Pagination(Products, {
     itemTemplate: "product",
     templateName: "products",
@@ -25,3 +31,4 @@ ProductsPages = new Meteor.Pagination(Products, {
     perPage: 5,
     filters : {availability: {$eq: 1}}
 });
+

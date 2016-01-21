@@ -2,7 +2,9 @@ this.Products = new Meteor.Collection('products');
 productSchema=new SimpleSchema({
   code: {
     type: Number,
-    label: "code"
+    label: "code",
+    index: true,
+    unique: true
   },
   name: {
     type: String,
