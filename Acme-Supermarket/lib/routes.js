@@ -16,7 +16,6 @@ if(Meteor.isClient){
 
 if(Meteor.isServer){
 	Accounts.onLogin(function(){
-		console.log("test");
 		Meteor.users.update(Meteor.userId(), {
         	$set: {lastLogin: new Date()}
       	});		

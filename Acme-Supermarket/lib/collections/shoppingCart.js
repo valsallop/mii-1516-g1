@@ -3,7 +3,7 @@ Schema = {};
 
 Schema.item = new SimpleSchema({
     productCode: {
-        type: String,
+        type: Number,
         optional:true 
     },
     amount: {
@@ -25,7 +25,7 @@ Schema.shoppingCart = new SimpleSchema({
         type: Boolean,
         optional:true 
     },
-    orderDate:{
+    deliveryDate:{
     	type:Date,
     	optional:true
     },

@@ -28,12 +28,8 @@ Meteor.methods({
   addToCart: function (code) {
     var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
     for (var i = 0; i < cart.items.length; i++) {
-      console.log("----------------------");
-      console.log(cart.items[i].productCode);
-      console.log(code);
-      console.log("----------------------");
       var exist=false;
-      if(cart.items[i].productCode===code){
+      if(cart.items[i].productCode==code){
         exist=true;
         console.log("si");
         cart.items[i].amount=cart.items[i].amount+1;
@@ -48,7 +44,18 @@ Meteor.methods({
       }
       cart.items.push(item);
     }
-    console.log(cart.items);
+    ShoppingCarts.update(cart._id, {
+        $set: { items: cart.items }   
+    });
+  },
+  deleteFromCart: function (code) {
+    var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
+    for (var i = 0; i < cart.items.length; i++) {
+      if(cart.items[i].productCode==code){
+        cart.items.splice(i,1);
+        break;
+      }
+    }
     ShoppingCarts.update(cart._id, {
         $set: { items: cart.items }   
     });
@@ -57,18 +64,15 @@ Meteor.methods({
     var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
     if(cart.items.length>0){
       ShoppingCarts.update(cart._id, {
-        $set: { active:false, orderDate: new Date(), paymentDate: new Date() }   
+        $set: { active:false, deliveryDate: new Date(), paymentDate: new Date() }   
       });
       ShoppingCarts.insert({
         "userId" : Meteor.userId(),
         "items" : [],
         "active" : true,
-        "orderDate" : null,
+        "deliveryDate" : null,
         "paymentDate" : null
       })
-    }
-    else {
-      toastr.success("noItems");
     }
   }
 });
