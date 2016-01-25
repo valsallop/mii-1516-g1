@@ -7,7 +7,8 @@ Template.shoppingCart.helpers({
     	items[i].name=dbItem.name;
     	items[i].cost=dbItem.cost;
     	items[i].image=dbItem.image;
-	}
+      items[i].total=parseFloat(items[i].amount*items[i].cost).toPrecision(4);
+	   }
 	return items;
   },
   shoppingCart: function() {
@@ -30,8 +31,10 @@ Template.shoppingCartItem.events({
   'click .idDeleteItem': function(){
         Meteor.call('deleteFromCart',this.productCode);
    },
-   'onfocus,onchange .itemAmount': function(){
-        console.log(this.amount);
-        console.log("TEST");
+   'click .minusAmount': function(){
+        Meteor.call('minusAmount',this.productCode);
+   },
+   'click .addAmount': function(){
+        Meteor.call('addAmount',this.productCode);
    }
 });

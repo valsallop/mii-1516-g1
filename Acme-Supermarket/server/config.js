@@ -60,6 +60,33 @@ Meteor.methods({
         $set: { items: cart.items }   
     });
   },
+  minusAmount: function (code) {
+    var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
+    for (var i = 0; i < cart.items.length; i++) {
+      if(cart.items[i].productCode==code){
+        cart.items[i].amount=cart.items[i].amount-1;
+        if(cart.items.amount==0){
+          deleteFromCart(code);
+        }
+        break;
+      }
+    }
+    ShoppingCarts.update(cart._id, {
+        $set: { items: cart.items }   
+    });
+  },
+  addAmount: function (code) {
+    var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
+    for (var i = 0; i < cart.items.length; i++) {
+      if(cart.items[i].productCode==code){
+        cart.items[i].amount=cart.items[i].amount+1;
+        break;
+      }
+    }
+    ShoppingCarts.update(cart._id, {
+        $set: { items: cart.items }   
+    });
+  },
   confirmCart: function () {
     var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
     if(cart.items.length>0){
@@ -73,6 +100,7 @@ Meteor.methods({
         "deliveryDate" : null,
         "paymentDate" : null
       })
+      Router.go('home');
     }
   }
 });

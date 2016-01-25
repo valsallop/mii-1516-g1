@@ -5,12 +5,12 @@
         <picture>
           <!--Imagen de la base de datos-->
           <source
-            media="(min-width: 150px)"
-            srcset={{image}}>
-            <!--Imagen por defecto-->
+          media="(min-width: 150px)"
+          srcset={{image}}>
+          <!--Imagen por defecto-->
           <img
-            src="images/no-img.png"
-            alt="image not found">
+          src="images/no-img.png"
+          alt="image not found">
         </picture>
       </a>
     </td>
@@ -23,13 +23,21 @@
         <td class="col-lg-3 col-md-3 col-sm-3">{{_ "price"}}:</td>
         <td class="col-lg-9 col-md-9 col-sm-9">{{cost}}</td>
       </tr>
-      <tr>
-        <td class="col-lg-3 col-md-3 col-sm-3">{{_ "amount"}}:</td>
-        <td class="itemAmount col-lg-9 col-md-9 col-sm-9"><input type="text" name="amount" value="{{amount}}"></td>
-      </tr>
     </td>
     <td>
-      <button type="button" class="btn btn-danger idDeleteItem btn-md" style="margin-top:32px">{{_ "delete"}}</button>
+      <td class="col-lg-3 col-md-3 col-sm-3"><button type="button" class="btn btn-default minusAmount">
+        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+      </button></td>
+      <td class="col-lg-2 col-md-2 col-sm-2">{{amount}}</td>
+      <td class="col-lg-3 col-md-3 col-sm-3"><button type="button" class="btn btn-default addAmount">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+      </button></td>
+      <td class="col-lg-3 col-md-3 col-sm-3">{{total}}</td>
+    </td>
+    <td>
+    <td class="col-lg-12 col-md-12 col-sm-12">
+      <button type="button" class="btn btn-danger idDeleteItem btn-md">{{_ "delete"}}</button>
+    </td>
     </td>
   </tbody>
 </template>
