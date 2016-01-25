@@ -1,0 +1,902 @@
+2016-01-25T12:54:26.666Z - info: Server started.
+2016-01-25T12:55:10.668Z - silly: Popularity collection cleared
+2016-01-25T12:55:10.760Z - silly: Getting available products (count): 322
+2016-01-25T12:55:10.827Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T12:55:10.871Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T12:55:10.872Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T12:56:10.653Z - silly: Popularity collection cleared
+2016-01-25T12:56:10.730Z - silly: Getting available products (count): 322
+2016-01-25T12:56:10.735Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T12:56:10.739Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T12:56:10.739Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T12:57:10.645Z - silly: Popularity collection cleared
+2016-01-25T12:57:10.694Z - silly: Getting available products (count): 322
+2016-01-25T12:57:10.699Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T12:57:10.704Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T12:57:10.705Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T12:58:10.651Z - silly: Popularity collection cleared
+2016-01-25T12:58:10.692Z - silly: Getting available products (count): 322
+2016-01-25T12:58:10.697Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T12:58:10.701Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T12:58:10.701Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T12:59:10.646Z - silly: Popularity collection cleared
+2016-01-25T12:59:10.689Z - silly: Getting available products (count): 322
+2016-01-25T12:59:10.697Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T12:59:10.701Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T12:59:10.701Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T13:00:10.643Z - silly: Popularity collection cleared
+2016-01-25T13:00:10.656Z - silly: Getting available products (count): 322
+2016-01-25T13:00:10.658Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T13:00:10.659Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T13:00:10.659Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T13:01:10.645Z - silly: Popularity collection cleared
+2016-01-25T13:01:10.690Z - silly: Getting available products (count): 322
+2016-01-25T13:01:10.698Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T13:01:10.709Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T13:01:10.710Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T13:02:10.649Z - silly: Popularity collection cleared
+2016-01-25T13:02:10.699Z - silly: Getting available products (count): 322
+2016-01-25T13:02:10.703Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T13:02:10.706Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T13:02:10.706Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T13:03:10.646Z - silly: Popularity collection cleared
+2016-01-25T13:03:10.699Z - silly: Getting available products (count): 322
+2016-01-25T13:03:10.709Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T13:03:10.712Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T13:03:10.712Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T13:04:03.022Z - debug: handleGetOneProduct code_product: 0
+2016-01-25T13:04:03.027Z - debug: handleGetRecommendationByPopularity
+2016-01-25T13:04:03.034Z - debug: handleGetRecommendationByPopularity
+2016-01-25T13:04:03.038Z - silly: Send recommendation list: { __v: 0,
+  popularity: 5,
+  code_product: 77,
+  _id: 56a61d0e4080ea4c23ed5d79 },{ __v: 0,
+  popularity: 2.5,
+  code_product: 88,
+  _id: 56a61d0e4080ea4c23ed5d7a }
+2016-01-25T13:04:03.040Z - silly: Send recommendation list: { __v: 0,
+  popularity: 5,
+  code_product: 77,
+  _id: 56a61d0e4080ea4c23ed5d79 },{ __v: 0,
+  popularity: 2.5,
+  code_product: 88,
+  _id: 56a61d0e4080ea4c23ed5d7a }
+2016-01-25T13:04:10.644Z - silly: Popularity collection cleared
+2016-01-25T13:04:10.693Z - silly: Getting available products (count): 322
+2016-01-25T13:04:10.695Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T13:04:10.699Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T13:04:10.701Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T13:05:10.652Z - silly: Popularity collection cleared
+2016-01-25T13:05:10.699Z - silly: Getting available products (count): 322
+2016-01-25T13:05:10.702Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T13:05:10.709Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T13:05:10.710Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T13:06:10.645Z - silly: Popularity collection cleared
+2016-01-25T13:06:10.703Z - silly: Getting available products (count): 322
+2016-01-25T13:06:10.715Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T13:06:10.720Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T13:06:10.721Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T13:07:10.653Z - silly: Popularity collection cleared
+2016-01-25T13:07:10.693Z - silly: Getting available products (count): 322
+2016-01-25T13:07:10.696Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T13:07:10.698Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T13:07:10.698Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T13:08:10.650Z - silly: Popularity collection cleared
+2016-01-25T13:08:10.695Z - silly: Getting available products (count): 322
+2016-01-25T13:08:10.703Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T13:08:10.707Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T13:08:10.708Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T13:09:10.643Z - silly: Popularity collection cleared
+2016-01-25T13:09:10.677Z - silly: Getting available products (count): 322
+2016-01-25T13:09:10.679Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T13:09:10.685Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T13:09:10.686Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T13:10:10.644Z - silly: Popularity collection cleared
+2016-01-25T13:10:10.666Z - silly: Getting available products (count): 322
+2016-01-25T13:10:10.672Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T13:10:10.678Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T13:10:10.679Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T14:58:58.214Z - info: Server started.
+2016-01-25T14:59:10.188Z - silly: Popularity collection cleared
+2016-01-25T14:59:10.214Z - silly: Getting available products (count): 322
+2016-01-25T14:59:10.273Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T14:59:10.294Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T14:59:10.296Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:00:10.181Z - silly: Popularity collection cleared
+2016-01-25T15:00:10.201Z - silly: Getting available products (count): 322
+2016-01-25T15:00:10.203Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:00:10.205Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:00:10.205Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:00:23.559Z - debug: handleGetAllProduct
+2016-01-25T15:01:10.183Z - silly: Popularity collection cleared
+2016-01-25T15:01:10.225Z - silly: Getting available products (count): 322
+2016-01-25T15:01:10.237Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:01:10.239Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:01:10.240Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:02:10.184Z - silly: Popularity collection cleared
+2016-01-25T15:02:10.201Z - silly: Getting available products (count): 322
+2016-01-25T15:02:10.204Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:02:10.206Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:02:10.206Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:02:12.752Z - debug: handleGetOneProduct code_product: undefined
+2016-01-25T15:03:10.185Z - silly: Popularity collection cleared
+2016-01-25T15:03:10.229Z - silly: Getting available products (count): 322
+2016-01-25T15:03:10.235Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:03:10.239Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:03:10.239Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:04:10.189Z - silly: Popularity collection cleared
+2016-01-25T15:04:10.224Z - silly: Getting available products (count): 322
+2016-01-25T15:04:10.227Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:04:10.231Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:04:10.232Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:05:10.183Z - silly: Popularity collection cleared
+2016-01-25T15:05:10.217Z - silly: Getting available products (count): 322
+2016-01-25T15:05:10.221Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:05:10.223Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:05:10.223Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:06:10.182Z - silly: Popularity collection cleared
+2016-01-25T15:06:10.221Z - silly: Getting available products (count): 322
+2016-01-25T15:06:10.223Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:06:10.225Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:06:10.226Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:07:10.179Z - silly: Popularity collection cleared
+2016-01-25T15:07:10.190Z - silly: Getting available products (count): 322
+2016-01-25T15:07:10.194Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:07:10.195Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:07:10.196Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:08:10.178Z - silly: Popularity collection cleared
+2016-01-25T15:08:10.191Z - silly: Getting available products (count): 322
+2016-01-25T15:08:10.195Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:08:10.197Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:08:10.197Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:09:10.183Z - silly: Popularity collection cleared
+2016-01-25T15:09:10.201Z - silly: Getting available products (count): 322
+2016-01-25T15:09:10.204Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:09:10.207Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:09:10.208Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:10:10.189Z - silly: Popularity collection cleared
+2016-01-25T15:10:10.221Z - silly: Getting available products (count): 322
+2016-01-25T15:10:10.225Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:10:10.228Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:10:10.228Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:11:10.183Z - silly: Popularity collection cleared
+2016-01-25T15:11:10.206Z - silly: Getting available products (count): 322
+2016-01-25T15:11:10.210Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:11:10.212Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:11:10.212Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:12:10.189Z - silly: Popularity collection cleared
+2016-01-25T15:12:10.231Z - silly: Getting available products (count): 322
+2016-01-25T15:12:10.234Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:12:10.236Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:12:10.236Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:13:10.188Z - silly: Popularity collection cleared
+2016-01-25T15:13:10.227Z - silly: Getting available products (count): 322
+2016-01-25T15:13:10.232Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:13:10.233Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:13:10.233Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:14:10.192Z - silly: Popularity collection cleared
+2016-01-25T15:14:10.232Z - silly: Getting available products (count): 322
+2016-01-25T15:14:10.236Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:14:10.239Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:14:10.239Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:15:10.182Z - silly: Popularity collection cleared
+2016-01-25T15:15:10.211Z - silly: Getting available products (count): 322
+2016-01-25T15:15:10.217Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:15:10.219Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:15:10.219Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:15:18.872Z - info: Server started.
+2016-01-25T15:15:46.735Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:15:56.669Z - debug: handleGetOneProduct code_product: 1
+2016-01-25T15:16:10.857Z - silly: Popularity collection cleared
+2016-01-25T15:16:10.889Z - silly: Getting available products (count): 322
+2016-01-25T15:16:10.891Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:16:10.903Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:16:10.904Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:17:10.855Z - silly: Popularity collection cleared
+2016-01-25T15:17:10.884Z - silly: Getting available products (count): 322
+2016-01-25T15:17:10.887Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:17:10.888Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:17:10.888Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:18:10.855Z - silly: Popularity collection cleared
+2016-01-25T15:18:10.899Z - silly: Getting available products (count): 322
+2016-01-25T15:18:10.906Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:18:10.912Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:18:10.912Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:19:10.862Z - silly: Popularity collection cleared
+2016-01-25T15:19:10.901Z - silly: Getting available products (count): 322
+2016-01-25T15:19:10.907Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:19:10.910Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:19:10.910Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:20:10.854Z - silly: Popularity collection cleared
+2016-01-25T15:20:10.901Z - silly: Getting available products (count): 322
+2016-01-25T15:20:10.919Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:20:10.927Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:20:10.928Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:21:10.859Z - silly: Popularity collection cleared
+2016-01-25T15:21:10.904Z - silly: Getting available products (count): 322
+2016-01-25T15:21:10.906Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:21:10.909Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:21:10.909Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:22:10.854Z - silly: Popularity collection cleared
+2016-01-25T15:22:10.887Z - silly: Getting available products (count): 322
+2016-01-25T15:22:10.894Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:22:10.897Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:22:10.897Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:23:10.858Z - silly: Popularity collection cleared
+2016-01-25T15:23:10.902Z - silly: Getting available products (count): 322
+2016-01-25T15:23:10.904Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:23:10.905Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:23:10.905Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:24:10.858Z - silly: Popularity collection cleared
+2016-01-25T15:24:10.906Z - silly: Getting available products (count): 322
+2016-01-25T15:24:10.912Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:24:10.915Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:24:10.915Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:24:33.918Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:25:10.854Z - silly: Popularity collection cleared
+2016-01-25T15:25:10.898Z - silly: Getting available products (count): 322
+2016-01-25T15:25:10.900Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:25:10.902Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:25:10.902Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:25:30.038Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:26:10.855Z - silly: Popularity collection cleared
+2016-01-25T15:26:10.898Z - silly: Getting available products (count): 322
+2016-01-25T15:26:10.905Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:26:10.908Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:26:10.909Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:26:55.076Z - debug: handleGetOneProduct code_product: 6
+2016-01-25T15:27:10.852Z - silly: Popularity collection cleared
+2016-01-25T15:27:10.891Z - silly: Getting available products (count): 322
+2016-01-25T15:27:10.897Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:27:10.900Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:27:10.901Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:28:10.852Z - silly: Popularity collection cleared
+2016-01-25T15:28:10.865Z - silly: Getting available products (count): 322
+2016-01-25T15:28:10.866Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:28:10.867Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:28:10.867Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:28:12.007Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:28:28.937Z - debug: handleGetOneProduct code_product: 7
+2016-01-25T15:29:10.866Z - silly: Popularity collection cleared
+2016-01-25T15:29:10.903Z - silly: Getting available products (count): 322
+2016-01-25T15:29:10.905Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:29:10.906Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:29:10.907Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:30:10.855Z - silly: Popularity collection cleared
+2016-01-25T15:30:10.883Z - silly: Getting available products (count): 322
+2016-01-25T15:30:10.886Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:30:10.888Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:30:10.889Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:31:10.855Z - silly: Popularity collection cleared
+2016-01-25T15:31:10.892Z - silly: Getting available products (count): 322
+2016-01-25T15:31:10.895Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:31:10.898Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:31:10.898Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:32:10.853Z - silly: Popularity collection cleared
+2016-01-25T15:32:10.893Z - silly: Getting available products (count): 322
+2016-01-25T15:32:10.898Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:32:10.900Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:32:10.901Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:33:10.858Z - silly: Popularity collection cleared
+2016-01-25T15:33:10.893Z - silly: Getting available products (count): 322
+2016-01-25T15:33:10.895Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:33:10.897Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:33:10.897Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:34:10.861Z - silly: Popularity collection cleared
+2016-01-25T15:34:10.896Z - silly: Getting available products (count): 322
+2016-01-25T15:34:10.901Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:34:10.903Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:34:10.904Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:35:10.859Z - silly: Popularity collection cleared
+2016-01-25T15:35:10.897Z - silly: Getting available products (count): 322
+2016-01-25T15:35:10.899Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:35:10.902Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:35:10.902Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:36:10.816Z - debug: handleGetOneProduct code_product: 1
+2016-01-25T15:36:10.852Z - silly: Popularity collection cleared
+2016-01-25T15:36:10.866Z - silly: Getting available products (count): 322
+2016-01-25T15:36:10.868Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:36:10.870Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:36:10.870Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:36:12.473Z - debug: handleGetOneProduct code_product: 7
+2016-01-25T15:36:13.160Z - debug: handleGetOneProduct code_product: 9
+2016-01-25T15:36:14.000Z - debug: handleGetOneProduct code_product: 9
+2016-01-25T15:37:10.857Z - silly: Popularity collection cleared
+2016-01-25T15:37:10.902Z - silly: Getting available products (count): 322
+2016-01-25T15:37:10.907Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:37:10.911Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:37:10.911Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:38:10.854Z - silly: Popularity collection cleared
+2016-01-25T15:38:10.888Z - silly: Getting available products (count): 322
+2016-01-25T15:38:10.890Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:38:10.893Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:38:10.893Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:39:10.852Z - silly: Popularity collection cleared
+2016-01-25T15:39:10.863Z - silly: Getting available products (count): 322
+2016-01-25T15:39:10.864Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:39:10.867Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:39:10.868Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:39:23.325Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:40:10.852Z - silly: Popularity collection cleared
+2016-01-25T15:40:10.869Z - silly: Getting available products (count): 322
+2016-01-25T15:40:10.871Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:40:10.874Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:40:10.874Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:40:57.221Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:41:10.852Z - silly: Popularity collection cleared
+2016-01-25T15:41:10.865Z - silly: Getting available products (count): 322
+2016-01-25T15:41:10.867Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:41:10.868Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:41:10.868Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:41:47.703Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:42:10.853Z - silly: Popularity collection cleared
+2016-01-25T15:42:10.869Z - silly: Getting available products (count): 322
+2016-01-25T15:42:10.871Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:42:10.873Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:42:10.873Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:42:21.419Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:42:45.664Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:42:46.191Z - debug: handleGetOneProduct code_product: 3
+2016-01-25T15:43:10.855Z - silly: Popularity collection cleared
+2016-01-25T15:43:10.891Z - silly: Getting available products (count): 322
+2016-01-25T15:43:10.893Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:43:10.895Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:43:10.895Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:44:10.854Z - silly: Popularity collection cleared
+2016-01-25T15:44:10.881Z - silly: Getting available products (count): 322
+2016-01-25T15:44:10.883Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:44:10.887Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:44:10.887Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:44:42.595Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:44:43.535Z - debug: handleGetOneProduct code_product: 1
+2016-01-25T15:45:10.852Z - silly: Popularity collection cleared
+2016-01-25T15:45:10.882Z - silly: Getting available products (count): 322
+2016-01-25T15:45:10.883Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:45:10.886Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:45:10.886Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:45:34.790Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:46:10.851Z - silly: Popularity collection cleared
+2016-01-25T15:46:10.862Z - silly: Getting available products (count): 322
+2016-01-25T15:46:10.864Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:46:10.865Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:46:10.865Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:46:53.629Z - debug: handleGetOneProduct code_product: 3
+2016-01-25T15:46:54.285Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:46:56.999Z - debug: handleGetOneProduct code_product: 7
+2016-01-25T15:47:10.853Z - silly: Popularity collection cleared
+2016-01-25T15:47:10.866Z - silly: Getting available products (count): 322
+2016-01-25T15:47:10.868Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:47:10.870Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:47:10.870Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:48:10.855Z - silly: Popularity collection cleared
+2016-01-25T15:48:10.875Z - silly: Getting available products (count): 322
+2016-01-25T15:48:10.878Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:48:10.881Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:48:10.881Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:49:10.852Z - silly: Popularity collection cleared
+2016-01-25T15:49:10.877Z - silly: Getting available products (count): 322
+2016-01-25T15:49:10.879Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:49:10.881Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:49:10.881Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:49:45.868Z - debug: handleGetOneProduct code_product: 1
+2016-01-25T15:49:46.472Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:50:10.855Z - silly: Popularity collection cleared
+2016-01-25T15:50:10.880Z - silly: Getting available products (count): 322
+2016-01-25T15:50:10.881Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:50:10.883Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:50:10.883Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:51:10.851Z - silly: Popularity collection cleared
+2016-01-25T15:51:10.863Z - silly: Getting available products (count): 322
+2016-01-25T15:51:10.864Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:51:10.866Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:51:10.867Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:51:23.230Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:52:10.854Z - silly: Popularity collection cleared
+2016-01-25T15:52:10.887Z - silly: Getting available products (count): 322
+2016-01-25T15:52:10.890Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:52:10.892Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:52:10.892Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:53:10.855Z - silly: Popularity collection cleared
+2016-01-25T15:53:10.885Z - silly: Getting available products (count): 322
+2016-01-25T15:53:10.887Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:53:10.888Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:53:10.888Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:53:47.504Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:54:10.857Z - silly: Popularity collection cleared
+2016-01-25T15:54:10.877Z - silly: Getting available products (count): 322
+2016-01-25T15:54:10.878Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:54:10.879Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:54:10.879Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:54:27.379Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:54:51.851Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:54:56.153Z - debug: handleGetOneProduct code_product: 1
+2016-01-25T15:55:10.855Z - silly: Popularity collection cleared
+2016-01-25T15:55:10.881Z - silly: Getting available products (count): 322
+2016-01-25T15:55:10.883Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:55:10.885Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:55:10.886Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:55:11.029Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:55:41.681Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:56:04.879Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:56:10.855Z - silly: Popularity collection cleared
+2016-01-25T15:56:10.888Z - silly: Getting available products (count): 322
+2016-01-25T15:56:10.890Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:56:10.893Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:56:10.893Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:56:26.459Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:56:51.935Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:57:10.851Z - silly: Popularity collection cleared
+2016-01-25T15:57:10.888Z - silly: Getting available products (count): 322
+2016-01-25T15:57:10.890Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:57:10.892Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:57:10.892Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:57:20.313Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:57:55.302Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:58:10.857Z - silly: Popularity collection cleared
+2016-01-25T15:58:10.890Z - silly: Getting available products (count): 322
+2016-01-25T15:58:10.893Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:58:10.895Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:58:10.896Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:58:15.754Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:58:43.226Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:58:51.408Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:59:01.847Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T15:59:10.855Z - silly: Popularity collection cleared
+2016-01-25T15:59:10.894Z - silly: Getting available products (count): 322
+2016-01-25T15:59:10.897Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T15:59:10.901Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T15:59:10.901Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T15:59:13.262Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T16:00:10.854Z - silly: Popularity collection cleared
+2016-01-25T16:00:10.881Z - silly: Getting available products (count): 322
+2016-01-25T16:00:10.884Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:00:10.885Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:00:10.885Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:00:16.216Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T16:01:10.855Z - silly: Popularity collection cleared
+2016-01-25T16:01:10.889Z - silly: Getting available products (count): 322
+2016-01-25T16:01:10.892Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:01:10.895Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:01:10.896Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:02:10.852Z - silly: Popularity collection cleared
+2016-01-25T16:02:10.890Z - silly: Getting available products (count): 322
+2016-01-25T16:02:10.892Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:02:10.896Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:02:10.896Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:03:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:03:10.884Z - silly: Getting available products (count): 322
+2016-01-25T16:03:10.886Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:03:10.888Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:03:10.888Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:04:10.854Z - silly: Popularity collection cleared
+2016-01-25T16:04:10.896Z - silly: Getting available products (count): 322
+2016-01-25T16:04:10.899Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:04:10.901Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:04:10.902Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:04:51.867Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T16:05:10.856Z - silly: Popularity collection cleared
+2016-01-25T16:05:10.888Z - silly: Getting available products (count): 322
+2016-01-25T16:05:10.890Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:05:10.892Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:05:10.892Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:06:10.854Z - silly: Popularity collection cleared
+2016-01-25T16:06:10.881Z - silly: Getting available products (count): 322
+2016-01-25T16:06:10.883Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:06:10.886Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:06:10.886Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:07:10.851Z - silly: Popularity collection cleared
+2016-01-25T16:07:10.861Z - silly: Getting available products (count): 322
+2016-01-25T16:07:10.862Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:07:10.864Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:07:10.864Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:08:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:08:10.883Z - silly: Getting available products (count): 322
+2016-01-25T16:08:10.884Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:08:10.886Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:08:10.886Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:09:10.851Z - silly: Popularity collection cleared
+2016-01-25T16:09:10.865Z - silly: Getting available products (count): 322
+2016-01-25T16:09:10.867Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:09:10.869Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:09:10.870Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:09:29.416Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T16:10:10.854Z - silly: Popularity collection cleared
+2016-01-25T16:10:10.884Z - silly: Getting available products (count): 322
+2016-01-25T16:10:10.886Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:10:10.887Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:10:10.888Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:11:10.855Z - silly: Popularity collection cleared
+2016-01-25T16:11:10.891Z - silly: Getting available products (count): 322
+2016-01-25T16:11:10.893Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:11:10.894Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:11:10.895Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:12:10.854Z - silly: Popularity collection cleared
+2016-01-25T16:12:10.889Z - silly: Getting available products (count): 322
+2016-01-25T16:12:10.892Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:12:10.894Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:12:10.894Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:12:57.975Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T16:13:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:13:10.889Z - silly: Getting available products (count): 322
+2016-01-25T16:13:10.894Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:13:10.897Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:13:10.897Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:14:10.854Z - silly: Popularity collection cleared
+2016-01-25T16:14:10.888Z - silly: Getting available products (count): 322
+2016-01-25T16:14:10.891Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:14:10.893Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:14:10.893Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:15:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:15:10.896Z - silly: Getting available products (count): 322
+2016-01-25T16:15:10.898Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:15:10.900Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:15:10.900Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:16:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:16:10.874Z - silly: Getting available products (count): 322
+2016-01-25T16:16:10.876Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:16:10.878Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:16:10.878Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:17:10.850Z - silly: Popularity collection cleared
+2016-01-25T16:17:10.866Z - silly: Getting available products (count): 322
+2016-01-25T16:17:10.867Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:17:10.869Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:17:10.869Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:17:19.077Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T16:18:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:18:10.895Z - silly: Getting available products (count): 322
+2016-01-25T16:18:10.897Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:18:10.898Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:18:10.899Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:18:52.658Z - debug: handleGetOneProduct code_product: 1
+2016-01-25T16:18:53.402Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T16:18:54.291Z - debug: handleGetOneProduct code_product: 5
+2016-01-25T16:19:10.852Z - silly: Popularity collection cleared
+2016-01-25T16:19:10.866Z - silly: Getting available products (count): 322
+2016-01-25T16:19:10.868Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:19:10.869Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:19:10.869Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:20:10.851Z - silly: Popularity collection cleared
+2016-01-25T16:20:10.887Z - silly: Getting available products (count): 322
+2016-01-25T16:20:10.888Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:20:10.890Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:20:10.890Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:21:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:21:10.874Z - silly: Getting available products (count): 322
+2016-01-25T16:21:10.875Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:21:10.882Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:21:10.883Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:22:10.855Z - silly: Popularity collection cleared
+2016-01-25T16:22:10.893Z - silly: Getting available products (count): 322
+2016-01-25T16:22:10.895Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:22:10.897Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:22:10.897Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:23:10.850Z - silly: Popularity collection cleared
+2016-01-25T16:23:10.864Z - silly: Getting available products (count): 322
+2016-01-25T16:23:10.866Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:23:10.869Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:23:10.869Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:23:55.117Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T16:24:10.854Z - silly: Popularity collection cleared
+2016-01-25T16:24:10.886Z - silly: Getting available products (count): 322
+2016-01-25T16:24:10.888Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:24:10.889Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:24:10.889Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:24:45.810Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T16:24:59.511Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T16:25:10.852Z - silly: Popularity collection cleared
+2016-01-25T16:25:10.886Z - silly: Getting available products (count): 322
+2016-01-25T16:25:10.887Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:25:10.889Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:25:10.889Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:26:10.851Z - silly: Popularity collection cleared
+2016-01-25T16:26:10.885Z - silly: Getting available products (count): 322
+2016-01-25T16:26:10.887Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:26:10.890Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:26:10.890Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:27:10.851Z - silly: Popularity collection cleared
+2016-01-25T16:27:10.880Z - silly: Getting available products (count): 322
+2016-01-25T16:27:10.882Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:27:10.884Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:27:10.885Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:28:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:28:10.864Z - silly: Getting available products (count): 322
+2016-01-25T16:28:10.865Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:28:10.866Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:28:10.867Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:29:10.855Z - silly: Popularity collection cleared
+2016-01-25T16:29:10.889Z - silly: Getting available products (count): 322
+2016-01-25T16:29:10.892Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:29:10.894Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:29:10.894Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:30:10.851Z - silly: Popularity collection cleared
+2016-01-25T16:30:10.861Z - silly: Getting available products (count): 322
+2016-01-25T16:30:10.862Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:30:10.864Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:30:10.864Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:31:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:31:10.887Z - silly: Getting available products (count): 322
+2016-01-25T16:31:10.889Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:31:10.891Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:31:10.891Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:32:10.852Z - silly: Popularity collection cleared
+2016-01-25T16:32:10.888Z - silly: Getting available products (count): 322
+2016-01-25T16:32:10.889Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:32:10.891Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:32:10.891Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:33:10.852Z - silly: Popularity collection cleared
+2016-01-25T16:33:10.885Z - silly: Getting available products (count): 322
+2016-01-25T16:33:10.887Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:33:10.888Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:33:10.888Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:34:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:34:10.876Z - silly: Getting available products (count): 322
+2016-01-25T16:34:10.878Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:34:10.880Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:34:10.880Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:35:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:35:10.894Z - silly: Getting available products (count): 322
+2016-01-25T16:35:10.896Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:35:10.898Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:35:10.898Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:36:10.852Z - silly: Popularity collection cleared
+2016-01-25T16:36:10.886Z - silly: Getting available products (count): 322
+2016-01-25T16:36:10.888Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:36:10.889Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:36:10.889Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:37:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:37:10.893Z - silly: Getting available products (count): 322
+2016-01-25T16:37:10.894Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:37:10.897Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:37:10.898Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:38:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:38:10.881Z - silly: Getting available products (count): 322
+2016-01-25T16:38:10.883Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:38:10.885Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:38:10.886Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:39:10.852Z - silly: Popularity collection cleared
+2016-01-25T16:39:10.890Z - silly: Getting available products (count): 322
+2016-01-25T16:39:10.892Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:39:10.894Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:39:10.894Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:40:10.858Z - silly: Popularity collection cleared
+2016-01-25T16:40:10.879Z - silly: Getting available products (count): 322
+2016-01-25T16:40:10.880Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:40:10.881Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:40:10.882Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:41:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:41:10.884Z - silly: Getting available products (count): 322
+2016-01-25T16:41:10.886Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:41:10.888Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:41:10.888Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:42:10.854Z - silly: Popularity collection cleared
+2016-01-25T16:42:10.886Z - silly: Getting available products (count): 322
+2016-01-25T16:42:10.888Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:42:10.889Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:42:10.889Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:43:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:43:10.884Z - silly: Getting available products (count): 322
+2016-01-25T16:43:10.885Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:43:10.887Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:43:10.887Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:44:10.854Z - silly: Popularity collection cleared
+2016-01-25T16:44:10.894Z - silly: Getting available products (count): 322
+2016-01-25T16:44:10.896Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:44:10.898Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:44:10.898Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:45:10.854Z - silly: Popularity collection cleared
+2016-01-25T16:45:10.884Z - silly: Getting available products (count): 322
+2016-01-25T16:45:10.885Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:45:10.886Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:45:10.886Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:46:10.854Z - silly: Popularity collection cleared
+2016-01-25T16:46:10.891Z - silly: Getting available products (count): 322
+2016-01-25T16:46:10.893Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:46:10.895Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:46:10.895Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:47:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:47:10.884Z - silly: Getting available products (count): 322
+2016-01-25T16:47:10.886Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:47:10.888Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:47:10.888Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:48:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:48:10.877Z - silly: Getting available products (count): 322
+2016-01-25T16:48:10.880Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:48:10.881Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:48:10.882Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:49:10.854Z - silly: Popularity collection cleared
+2016-01-25T16:49:10.903Z - silly: Getting available products (count): 322
+2016-01-25T16:49:10.906Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:49:10.909Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:49:10.909Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:49:32.086Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T16:50:10.852Z - silly: Popularity collection cleared
+2016-01-25T16:50:10.889Z - silly: Getting available products (count): 322
+2016-01-25T16:50:10.892Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:50:10.896Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:50:10.896Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:51:10.859Z - silly: Popularity collection cleared
+2016-01-25T16:51:10.902Z - silly: Getting available products (count): 322
+2016-01-25T16:51:10.904Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:51:10.906Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:51:10.906Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:52:10.854Z - silly: Popularity collection cleared
+2016-01-25T16:52:10.902Z - silly: Getting available products (count): 322
+2016-01-25T16:52:10.905Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:52:10.908Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:52:10.908Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:53:10.853Z - silly: Popularity collection cleared
+2016-01-25T16:53:10.871Z - silly: Getting available products (count): 322
+2016-01-25T16:53:10.873Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:53:10.875Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:53:10.876Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:54:10.852Z - silly: Popularity collection cleared
+2016-01-25T16:54:10.865Z - silly: Getting available products (count): 322
+2016-01-25T16:54:10.867Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:54:10.870Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:54:10.870Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:55:10.856Z - silly: Popularity collection cleared
+2016-01-25T16:55:10.894Z - silly: Getting available products (count): 322
+2016-01-25T16:55:10.896Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:55:10.897Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:55:10.898Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:56:10.855Z - silly: Popularity collection cleared
+2016-01-25T16:56:10.883Z - silly: Getting available products (count): 322
+2016-01-25T16:56:10.884Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:56:10.885Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:56:10.886Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:57:10.852Z - silly: Popularity collection cleared
+2016-01-25T16:57:10.884Z - silly: Getting available products (count): 322
+2016-01-25T16:57:10.886Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:57:10.887Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:57:10.887Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:57:20.832Z - debug: handleGetOneProduct code_product: 1
+2016-01-25T16:58:10.855Z - silly: Popularity collection cleared
+2016-01-25T16:58:10.887Z - silly: Getting available products (count): 322
+2016-01-25T16:58:10.889Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:58:10.892Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:58:10.892Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T16:59:10.854Z - silly: Popularity collection cleared
+2016-01-25T16:59:10.892Z - silly: Getting available products (count): 322
+2016-01-25T16:59:10.894Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T16:59:10.896Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T16:59:10.896Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:00:10.853Z - silly: Popularity collection cleared
+2016-01-25T17:00:10.867Z - silly: Getting available products (count): 322
+2016-01-25T17:00:10.868Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:00:10.869Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:00:10.870Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:01:10.852Z - silly: Popularity collection cleared
+2016-01-25T17:01:10.872Z - silly: Getting available products (count): 322
+2016-01-25T17:01:10.873Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:01:10.875Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:01:10.875Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:02:10.856Z - silly: Popularity collection cleared
+2016-01-25T17:02:10.905Z - silly: Getting available products (count): 322
+2016-01-25T17:02:10.908Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:02:10.910Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:02:10.910Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:03:10.854Z - silly: Popularity collection cleared
+2016-01-25T17:03:10.891Z - silly: Getting available products (count): 322
+2016-01-25T17:03:10.892Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:03:10.893Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:03:10.893Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:04:02.778Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T17:04:09.448Z - debug: handleGetOneProduct code_product: 5
+2016-01-25T17:04:10.852Z - silly: Popularity collection cleared
+2016-01-25T17:04:10.898Z - silly: Getting available products (count): 322
+2016-01-25T17:04:10.900Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:04:10.901Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:04:10.902Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:04:19.074Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T17:05:10.856Z - silly: Popularity collection cleared
+2016-01-25T17:05:10.891Z - silly: Getting available products (count): 322
+2016-01-25T17:05:10.892Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:05:10.894Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:05:10.894Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:06:10.853Z - silly: Popularity collection cleared
+2016-01-25T17:06:10.899Z - silly: Getting available products (count): 322
+2016-01-25T17:06:10.902Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:06:10.904Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:06:10.904Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:07:10.851Z - silly: Popularity collection cleared
+2016-01-25T17:07:10.866Z - silly: Getting available products (count): 322
+2016-01-25T17:07:10.866Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:07:10.867Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:07:10.868Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:07:20.225Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T17:08:10.851Z - silly: Popularity collection cleared
+2016-01-25T17:08:10.869Z - silly: Getting available products (count): 322
+2016-01-25T17:08:10.871Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:08:10.873Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:08:10.873Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:09:10.855Z - silly: Popularity collection cleared
+2016-01-25T17:09:10.891Z - silly: Getting available products (count): 322
+2016-01-25T17:09:10.895Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:09:10.897Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:09:10.897Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:10:10.851Z - silly: Popularity collection cleared
+2016-01-25T17:10:10.869Z - silly: Getting available products (count): 322
+2016-01-25T17:10:10.872Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:10:10.874Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:10:10.874Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:11:10.853Z - silly: Popularity collection cleared
+2016-01-25T17:11:10.884Z - silly: Getting available products (count): 322
+2016-01-25T17:11:10.886Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:11:10.889Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:11:10.889Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:12:10.854Z - silly: Popularity collection cleared
+2016-01-25T17:12:10.881Z - silly: Getting available products (count): 322
+2016-01-25T17:12:10.882Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:12:10.884Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:12:10.884Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:13:10.852Z - silly: Popularity collection cleared
+2016-01-25T17:13:10.885Z - silly: Getting available products (count): 322
+2016-01-25T17:13:10.889Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:13:10.893Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:13:10.893Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:14:10.854Z - silly: Popularity collection cleared
+2016-01-25T17:14:10.897Z - silly: Getting available products (count): 322
+2016-01-25T17:14:10.900Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:14:10.902Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:14:10.903Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:15:10.854Z - silly: Popularity collection cleared
+2016-01-25T17:15:10.887Z - silly: Getting available products (count): 322
+2016-01-25T17:15:10.890Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:15:10.893Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:15:10.893Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:15:44.888Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T17:16:03.854Z - debug: handleGetOneProduct code_product: 1
+2016-01-25T17:16:10.854Z - silly: Popularity collection cleared
+2016-01-25T17:16:10.894Z - silly: Getting available products (count): 322
+2016-01-25T17:16:10.896Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:16:10.898Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:16:10.899Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:16:57.968Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T17:17:10.851Z - silly: Popularity collection cleared
+2016-01-25T17:17:10.863Z - silly: Getting available products (count): 322
+2016-01-25T17:17:10.865Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:17:10.866Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:17:10.866Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:18:10.855Z - silly: Popularity collection cleared
+2016-01-25T17:18:10.902Z - silly: Getting available products (count): 322
+2016-01-25T17:18:10.905Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:18:10.907Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:18:10.907Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:19:10.852Z - silly: Popularity collection cleared
+2016-01-25T17:19:10.874Z - silly: Getting available products (count): 322
+2016-01-25T17:19:10.875Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:19:10.877Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:19:10.877Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:20:10.853Z - silly: Popularity collection cleared
+2016-01-25T17:20:10.882Z - silly: Getting available products (count): 322
+2016-01-25T17:20:10.884Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:20:10.886Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:20:10.886Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:21:10.852Z - silly: Popularity collection cleared
+2016-01-25T17:21:10.864Z - silly: Getting available products (count): 322
+2016-01-25T17:21:10.866Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:21:10.867Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:21:10.868Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:22:08.694Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T17:22:10.852Z - silly: Popularity collection cleared
+2016-01-25T17:22:10.898Z - silly: Getting available products (count): 322
+2016-01-25T17:22:10.901Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:22:10.903Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:22:10.904Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:22:51.408Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T17:23:10.854Z - silly: Popularity collection cleared
+2016-01-25T17:23:10.900Z - silly: Getting available products (count): 322
+2016-01-25T17:23:10.903Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:23:10.904Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:23:10.905Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:23:57.929Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T17:24:01.855Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T17:24:03.088Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T17:24:03.406Z - debug: handleGetOneProduct code_product: 2
+2016-01-25T17:24:04.226Z - debug: handleGetOneProduct code_product: 3
+2016-01-25T17:24:10.860Z - silly: Popularity collection cleared
+2016-01-25T17:24:10.896Z - silly: Getting available products (count): 322
+2016-01-25T17:24:10.898Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-25T17:24:10.900Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-25T17:24:10.900Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-25T17:24:11.246Z - debug: handleGetOneProduct code_product: 1

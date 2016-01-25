@@ -81,8 +81,8 @@ Router.route('/shoppingCart', {
 
 Houston.menu({
     'type': 'template',
-    'use': 'productsAnalitycs',
-    'title': 'Anlytics'
+    'use': 'proSocialNet',
+    'title': 'Social Networks'
   });
 // Router.route('/shoppingCart',{
 // 	name: 'shoppingCart',

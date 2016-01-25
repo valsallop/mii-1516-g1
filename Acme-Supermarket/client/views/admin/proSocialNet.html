@@ -1,0 +1,72 @@
+<template name="proSocialNet">
+	<head>
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<script src="https://code.highcharts.com/modules/exporting.js"></script>
+	</head>
+	
+	<div class="container" style="margin-top:10px">
+		<div class='col-lg-3 col-md-3 col-sm-3'>
+	        <div class="form-group">
+	            <label>Elige una fecha de inicio y una de fin</label>
+	        </div>
+	    </div>
+	    <div class='col-lg-3 col-md-3 col-sm-3'>
+	        <div class="form-group">
+	            <div class='input-group date' id='datetimepickerStart'>
+	                <input type='text' class="form-control" placeholder="mm/dd/yyyy" id='start' />
+	                <span class="input-group-addon">
+	                    <span class="glyphicon glyphicon-calendar"></span>
+	                </span>
+	            </div>
+	        </div>
+	    </div>
+	    <div class='col-lg-3 col-md-3 col-sm-3'>
+	        <div class="form-group">
+	            <div class='input-group date' id='datetimepickerEnd'>
+	                <input type='text' class="form-control" placeholder="mm/dd/yyyy" id='end'/>
+	                <span class="input-group-addon">
+	                    <span class="glyphicon glyphicon-calendar"></span>
+	                </span>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div class="container">
+		<div class="col-lg-6 col-md-6 col-sm-6">
+			<h2>{{_ "admin_products"}}</h2>
+  			
+  			{{>pages}}
+			
+			{{> pagesNav}}
+
+			{{>productsSelect}}
+			<button class="btn showPopu btn-sm" style="background-color:#149c82; margin-top:10px">{{_ "admin_button"}}</button>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-6">
+			<h2>{{_ "admin_statistics"}}</h2>
+			<div id="populChart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+			<div id="salesChart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+			
+		</div>
+		
+	</div>
+
+</template>
+
+<template name="productAdmin">
+  	<div class="showProduct">
+  		<div class="col-lg-9 col-md-9 col-sm-9">{{name}} {{control}}</div> 
+  		<div class="col-lg-3 col-md-3 col-sm-3">
+  			<button class="btn downloadPDF btn-sm" style="background-color:#149c82;">{{_ "admin_button"}}</button>
+  		</div>
+  	</div>
+</template>
+
+<template name="productsSelect">
+	<h1>Productos seleccionados</h1>
+  	{{#each listProducts}}
+  	<li>
+      <button class="btn listExRemove btn-danger" title="Remove this name">x</button> {{name}}
+    </li>
+    {{/each}}
+</template>

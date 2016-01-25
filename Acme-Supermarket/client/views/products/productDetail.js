@@ -60,13 +60,19 @@ Template.productFormDetail.events({
     'click .idRatingProduct': function(event, template){
         if(Meteor.userId()){
           var numVoted = Ratings.find({userId:Meteor.userId(),proId:this._id._str}).count();
+          
           if(numVoted==0){
-            var rating = template.$('#inputRating').rateit('value');
-            Ratings.insert({userId:Meteor.userId(),proId:this._id._str,rating:parseFloat(rating)});
+            var obj = ShoppingCarts.find({userId:Meteor.userId(), active:false, items:{$elemMatch: {productCode: this.code}}}).fetch();
+            if(obj.length > 0){
+              var rating = template.$('#inputRating').rateit('value');
+              Ratings.insert({userId:Meteor.userId(),proId:this._id._str,rating:parseFloat(rating)});
 
-            var t=TAPi18n.__("toastr_voted", lang_tag=null);
-            toastr.success(t);
-            
+              var t=TAPi18n.__("toastr_voted", lang_tag=null);
+              toastr.success(t);
+            }else{
+            var t=TAPi18n.__("toastr_votedBan", lang_tag=null);
+            toastr.error(t);
+            }
           }else{
             var t=TAPi18n.__("toastr_votedBan", lang_tag=null);
             toastr.error(t);

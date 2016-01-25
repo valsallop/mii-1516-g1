@@ -37,6 +37,7 @@ Meteor.publish('shoppingCarts', function() {
   return ShoppingCarts.find();
 });
 
+
 Meteor.publish("userData", function () {
   if (this.userId) {
     return Meteor.users.find({_id: this.userId},
@@ -84,7 +85,11 @@ if(Meteor.isServer){
       "paymentDate" : null
     })
   });
+
+  
 }
 
 Houston.add_collection(Meteor.users);
+Houston.add_collection(ShoppingCarts);
 Houston.hide_collection(Ratings);
+

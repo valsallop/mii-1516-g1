@@ -1,4 +1,4 @@
-this.Products = new Meteor.Collection('products');
+Products = new Meteor.Collection('products');
 productSchema=new SimpleSchema({
   code: {
     type: Number,

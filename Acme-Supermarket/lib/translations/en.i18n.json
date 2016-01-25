@@ -95,6 +95,7 @@
 
 	"toastr_addCart":"Item add cart",
 	"toastr_anon":"You must register to add the item to cart",
+	"toastr_needDate":"You must choose two dates",
 	"toastr_voted":"Voting held successfully",
 	"toastr_votedBan":"You have already rated this item",
 	"toastr_votedReg":"You must register to vote a item"	

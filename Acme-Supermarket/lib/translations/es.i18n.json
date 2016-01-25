@@ -91,6 +91,7 @@
 	
 	"toastr_addCart":"Objeto añadido al carrito",
   	"toastr_anon":"Debes registrarte para añadir el producto al carrito",
+  	"toastr_needDate":"Debes elegir dos fechas",
 	"toastr_voted":"Votación realizada con exito",
 	"toastr_votedBan":"Ya has votado este producto",
 	"toastr_votedReg":"Debes registrarte para votar un producto"
