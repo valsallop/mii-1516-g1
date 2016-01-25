@@ -1,0 +1,45 @@
+{
+    "code_product" : 0,
+    "tweet" : "",
+    "ts_value" : ISODate("2016-01-21T12:00:00.000Z")
+}
+{
+    "code_product" : 0,
+    "tweet" : "",
+    "ts_value" : ISODate("2016-01-21T12:00:01.000Z")
+}
+{
+    "code_product" : 0,
+    "tweet" : "",
+    "ts_value" : ISODate("2016-01-21T12:00:02.000Z")
+}
+{
+    "code_product" : 88,
+    "tweet" : "",
+    "ts_value" : ISODate("2016-01-01T12:00:00.000Z")
+}
+{
+    "code_product" : 88,
+    "tweet" : "",
+    "ts_value" : ISODate("2016-01-11T12:00:01.000Z")
+}
+{
+    "code_product" : 77,
+    "tweet" : "",
+    "ts_value" : ISODate("2016-01-02T12:00:02.000Z")
+}
+{
+    "code_product" : 77,
+    "tweet" : "",
+    "ts_value" : ISODate("2016-01-03T12:00:00.000Z")
+}
+{
+    "code_product" : 77,
+    "tweet" : "",
+    "ts_value" : ISODate("2016-01-01T12:00:01.000Z")
+}
+{
+    "code_product" : 77,
+    "tweet" : "",
+    "ts_value" : ISODate("2016-01-01T12:00:02.000Z")
+}
