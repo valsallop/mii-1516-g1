@@ -1,3 +1,12 @@
+<template name="confirmButton">
+	<dialog id="window">
+		<h3>Hello World!</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, inventore!</p>
+		<button id="exit">Exit</button>
+	</dialog>
+	<button id="show">Show Dialog</button>
+</template>
+
 <template name="shoppingCart">
 	{{> header}}
 	<body>
@@ -9,7 +18,7 @@
 		{{/each}}
 		<!-- product-desc-container -->
 		</div>
-		{{totalCost}}
+		{{> confirmButton}}
   		<button type="button" class="btn btn-success idConfirmCart btn-lg" style="margin-top:32px">{{_ "purchase"}}</button>
   		
 		{{> footer}}
