@@ -20,13 +20,30 @@ Template.shoppingCart.events({
     if(Meteor.userId()){
           // var t=TAPi18n.__("toastr_addCart", lang_tag=null);
           // Meteor.call('confirmCart');
-          var r = confirm("El pedido se enviará a la direccion: "+Meteor.user().address.name+","+Meteor.user().address.number);
-          if (r == true) {
-            toastr.success("Ole tus huevos");
-            Meteor.call('confirmCart');
-          } else {
-            toastr.error("arbsbfdbh");
-          }
+          
+          Meteor.call('checkUser', Meteor.userId(), function(error, response) {
+            if(response){
+              var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
+              var items= cart.items;
+              if(items.length>0){
+                var totalCost=0.0;
+                for (i = 0; i < items.length; i++) {
+                  var dbItem=Products.findOne({code:parseInt(items[i].productCode)});
+                  totalCost=totalCost+(items[i].amount*dbItem.cost);
+                }
+                totalCost=parseFloat(totalCost).toPrecision(4);
+                bootbox.confirm("El pedido por valor de "+totalCost+"€ se enviará a la direccion: "+Meteor.user().address.name+","+Meteor.user().address.number, function(result) {
+                  console.log(result);
+                  if(result){
+                    Meteor.call('confirmCart');
+                  }
+                }); 
+              } 
+              else {
+                bootbox.alert("El carrito esta vacío");
+              }
+            }
+          });
         }else{
           var t=TAPi18n.__("toastr_anon", lang_tag=null);
           toastr.error(t);
