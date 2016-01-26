@@ -1,6 +1,6 @@
 if(Meteor.isClient){
 	Accounts.onLogin(function(){
-		Router.go('updateProfile');
+		Router.go('home');
 	});
 
 	Accounts.onLogout(function(){
