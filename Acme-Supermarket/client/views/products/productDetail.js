@@ -70,7 +70,7 @@ Template.productFormDetail.events({
               var t=TAPi18n.__("toastr_voted", lang_tag=null);
               toastr.success(t);
             }else{
-            var t=TAPi18n.__("toastr_votedBan", lang_tag=null);
+            var t=TAPi18n.__("toastr_votedBuy", lang_tag=null);
             toastr.error(t);
             }
           }else{

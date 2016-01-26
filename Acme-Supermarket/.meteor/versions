@@ -41,6 +41,8 @@ cfs:tempstore@0.1.5
 cfs:upload-http@0.0.20
 cfs:worker@0.1.4
 check@1.1.0
+chipcastledotcom:jspdf@0.0.2
+chipcastledotcom:meteor-jspdf@0.0.8
 chrismbeckett:toastr@2.1.2_1
 coffeescript@1.0.11
 cosmos:browserify@0.9.3
@@ -106,7 +108,6 @@ mrt:paypal@1.1.1
 npm-bcrypt@0.7.8_2
 npm-mongo@1.4.39_1
 observe-sequence@1.0.7
-ongoworks:pdf@1.1.1
 ongoworks:security@1.3.0
 ordered-dict@1.0.4
 promise@0.5.1
@@ -131,6 +132,7 @@ spacebars@1.0.7
 spacebars-compiler@1.0.7
 srp@1.0.4
 standard-minifiers@1.0.2
+superlumen:canvg@1.0.0
 tap:i18n@1.7.0
 tap:i18n-ui@0.7.0
 templating@1.1.5
