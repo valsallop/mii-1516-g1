@@ -94,5 +94,6 @@
   	"toastr_needDate":"Debes elegir dos fechas",
 	"toastr_voted":"Votación realizada con exito",
 	"toastr_votedBan":"Ya has votado este producto",
+	"toastr_votedBuy":"Debes comprar este producto para poder votarlo",
 	"toastr_votedReg":"Debes registrarte para votar un producto"
 }

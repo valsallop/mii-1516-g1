@@ -44,9 +44,10 @@ email
 houston:admin
 iron:router
 aldeed:schema-index
-ongoworks:pdf
 manuel:reactivearray
 tsega:bootstrap3-datetimepicker
 http
 xcv58:collection-api
 mizzao:bootboxjs
+chipcastledotcom:meteor-jspdf
+superlumen:canvg

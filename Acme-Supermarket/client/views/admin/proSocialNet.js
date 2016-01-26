@@ -1,15 +1,14 @@
 var arr = new ReactiveArray();
-var arrS = new ReactiveArray();
 var arrDateSales = new ReactiveArray();
 var arrDatePopu = new ReactiveArray();
 
 
-function eliminateDuplicates(arr) {
-    var flags = [], output = [], l = arr.length, i;
+function eliminateDuplicates(array) {
+    var flags = [], output = [], l = array.length, i;
     for( i=0; i<l; i++) {
-        if( flags[arr[i].name]) continue;
-        flags[arr[i].name] = true;
-        output.push(arr[i]);
+        if( flags[array[i].dataPopu.name]) continue;
+        flags[array[i].dataPopu.name] = true;
+        output.push(array[i]);
     }
     return output;
 }
@@ -29,22 +28,14 @@ function sumarDias(fecha,days){
 
 Template.productsSelect.helpers({
   listProducts: function(){
-    
     var arr2 = eliminateDuplicates(arr);
-    var arr3 = eliminateDuplicates(arrS);
+    var len = arr2.length;
     arr.clear();
-    arrS.clear();
-    for (var i=0;i<arr2.length;i++){
+
+    for (var i=0;i<len;i++){
         arr.push(arr2[i]);
-        arrS.push(arr3[i]);
     }
     return arr.list();
-  }
-});
-
-Template.productAdmin.helpers({
-  control: function(){
-    
   }
 });
 
@@ -58,17 +49,10 @@ Template.productAdmin.events({
 
     'click .showProduct': function(event, template){
         
-        
         var datestart = document.getElementById("start").value;
         var dateend = document.getElementById("end").value;
-        if(arr.length != 0){
-            document.getElementById("start").disabled = true;
-            document.getElementById("end").disabled = true;
-        };
-
         
         if(datestart =="" || dateend == ""){
-            console.log("entra");
             var t=TAPi18n.__("toastr_needDate", lang_tag=null);
             alert(t);
             //toastr.error(t);
@@ -96,8 +80,6 @@ Template.productAdmin.events({
                 
                 dataSales.push(ShoppingCarts.find({active:false,paymentDate: {$gte: s1,$lt: e1},items:{$elemMatch: {productCode: this.code}}}).count());
             };
-            var productSales = {name:nameProduct,data:dataSales};
-            arrS.push(productSales);
 
             HTTP.call( 'POST', 'http://localhost:4242/analytics/trending', {
               data: {
@@ -116,82 +98,112 @@ Template.productAdmin.events({
                     arrDatePopu.push(new Date(response.data.trending[i].ts).toString());
                 }
               }
-            });
-
-            var product = {name:nameProduct,data:dataProduct};
-            
+            });        
+            var dataRepo = {code:this.code,name:this.name,description:this.description};
+            var dataPopu = {name:nameProduct,data:dataProduct};
+            var dataSales = {name:nameProduct,data:dataSales};
+            var product = {dataRepo:dataRepo,dataPopu:dataPopu,dataSales:dataSales};
             arr.push(product);
-            return product;
+
+            if(arr.length != 0){
+                document.getElementById("start").disabled = true;
+                document.getElementById("end").disabled = true;
+            };
+            if(arr.length != 1){
+                document.getElementById("report").disabled = true;
+            };
+            if(arr.length == 0){
+                document.getElementById("charts").disabled = true;
+            };
         }
-        
     },
-    'click .downloadPDF': function(){
-    	console.log(this.name);
-    	console.log(this._id);
-    	console.log(this.code);
-    	console.log(this.description);
-    	console.log(this.image);
-    	console.log(this.rating);
-    	var myData = [this.name,this._id,this.code,this.description,this.image,this.rating];
-    	Blaze.saveAsPDF(Template.report, {
-		  filename: "report.pdf", // optional, default is "document.pdf"
-		  data: myData, // optional, render the template with this data context
-		  x: 0, // optional, left starting position on resulting PDF, default is 4 units
-		  y: 0, // optional, top starting position on resulting PDF, default is 4 units
-		  orientation: "landscape", // optional, "landscape" or "portrait" (default)
-		  unit: "in", // optional, unit for coordinates, one of "pt", "mm" (default), "cm", or "in"
-		  format: "a4" // optional, see Page Formats, default is "a4"
-		});
-    }
+
 });
 
 Template.proSocialNet.events({
-    'click .showPopu': function(){ 
-        drawChart(arr,arrS); 
+    'click .showPopu': function(){
+        var datestart = document.getElementById("start").value;
+        var dateend = document.getElementById("end").value;
+        if(datestart =="" || dateend == ""){
+            var t=TAPi18n.__("toastr_needDate", lang_tag=null);
+            alert(t);
+            //toastr.error(t);
+        }else{
+            var dataS = [];
+            var dataP = [];
+            for(var i = 0;i<arr.length;i++){
+                dataS[i] =arr[i].dataSales;
+                dataP[i] =arr[i].dataPopu;
+            }
+            drawChart(dataS,dataP); 
+        }
+    },
+    'click .downloadPDF': function(){
+        var datestart = document.getElementById("start").value;
+        var dateend = document.getElementById("end").value;
+        if(datestart =="" || dateend == ""){
+            var t=TAPi18n.__("toastr_needDate", lang_tag=null);
+            alert(t);
+            //toastr.error(t);
+        }else{
+            var datestart = document.getElementById("start").value;
+            var dateend = document.getElementById("end").value;
+            
+            var doc = new jsPDF();
+        
+            var chartHeight = 80;
+            doc.setFontSize(18);
+            
+            var lines = doc.splitTextToSize("Reports: "+arr[0].dataRepo.name, 130);
+
+            doc.text(35, 40, lines);
+
+            doc.setFontSize(12);
+            doc.text(35, 85, "Dates start: " + datestart);
+            doc.text(35, 95, "Dates end: " + dateend);
+
+            doc.text(35, 105, "Code: " + arr[0].dataRepo.code);
+
+            var lines2 = doc.splitTextToSize("Description: " + arr[0].dataRepo.description, 130);
+            doc.text(35, 115, lines2);
+
+
+            var canvas = document.createElement('canvas');
+            var svg = document.getElementById("highcharts-0").innerHTML;
+
+            canvg(canvas, svg);
+            var img = canvas.toDataURL("image/png");
+            doc.addImage(img, 'JPEG',  45, 170, 120, chartHeight);
+            
+            
+            
+            //save with name
+            doc.save('report.pdf');
+            
+        }
     }
 });
 
 Template.productsSelect.events({
     'click .listExRemove': function() {
+        
         arr.remove(this);
-        arrS.remove(this);
         if(arr.length == 0){
             document.getElementById("start").disabled = false;
             document.getElementById("end").disabled = false;
-        }
+        };
+        if(arr.length == 1){
+            document.getElementById("report").disabled = false;
+        };
+        if(arr.length > 0){
+            document.getElementById("charts").disabled = false;
+        };
+        
     }
 });
 
-function drawChart(arr,arrS) {
-    $('#populChart').highcharts({
-        title: {
-            text: 'Comparative',
-            x: -20 //center
-        },
-        xAxis: {
-            categories: arrDatePopu
-        },
-        yAxis: {
-            title: {
-                text: 'Popularity'
-            },
-            plotLines: [{
-                value: 0,
-                width: 1,
-                color: '#808080'
-            }]
-        },
-        tooltip: {
-            valueSuffix: ''
-        },
-        legend: {
-            layout: 'vertical',
-            align: 'right',
-            verticalAlign: 'middle',
-            borderWidth: 0
-        },
-        series: arr
-    });
+function drawChart(array1, array2) {
+    
     $('#salesChart').highcharts({
         title: {
             text: 'Comparative',
@@ -219,16 +231,47 @@ function drawChart(arr,arrS) {
             verticalAlign: 'middle',
             borderWidth: 0
         },
-        series: arrS
+        series: array1
     });
+
+    $('#populChart').highcharts({
+        title: {
+            text: 'Comparative',
+            x: -20 //center
+        },
+        xAxis: {
+            categories: arrDatePopu
+        },
+        yAxis: {
+            title: {
+                text: 'Popularity'
+            },
+            plotLines: [{
+                value: 0,
+                width: 1,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            valueSuffix: ''
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: array2
+    });
+
+    
 }
 
 Template.proSocialNet.rendered = function(){
- Deps.autorun(function () { drawChart(); });
+ Deps.autorun(function () { drawChart(); canvas();});
 }
 
 Template.proSocialNet.rendered = function() {
-    console.log("entra");
     $('#datetimepickerStart').datetimepicker();
     $('#datetimepickerEnd').datetimepicker({
             useCurrent: false //Important! See issue #1075

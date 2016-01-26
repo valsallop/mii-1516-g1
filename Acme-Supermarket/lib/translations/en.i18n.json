@@ -98,5 +98,6 @@
 	"toastr_needDate":"You must choose two dates",
 	"toastr_voted":"Voting held successfully",
 	"toastr_votedBan":"You have already rated this item",
+	"toastr_votedBuy":"You must buy this product to rate",
 	"toastr_votedReg":"You must register to vote a item"	
 }
