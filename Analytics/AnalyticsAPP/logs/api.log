@@ -900,3 +900,159 @@
 2016-01-25T17:24:10.900Z - silly: Popularity document saved code_product: 77, popularity = 5
 2016-01-25T17:24:10.900Z - silly: Popularity document saved code_product: 88, popularity = 2.5
 2016-01-25T17:24:11.246Z - debug: handleGetOneProduct code_product: 1
+2016-01-27T08:58:56.514Z - info: Server started.
+2016-01-27T09:00:44.363Z - info: Server started.
+2016-01-27T09:01:01.195Z - info: Server started.
+2016-01-27T09:05:18.551Z - info: Server started.
+2016-01-27T09:06:41.171Z - info: Server started.
+2016-01-27T09:07:24.504Z - info: Server started.
+2016-01-27T09:07:41.543Z - info: Server started.
+2016-01-27T09:08:01.911Z - info: Server started.
+2016-01-27T09:08:30.213Z - info: Server started.
+2016-01-27T09:09:58.094Z - info: Server started.
+2016-01-27T09:18:23.094Z - info: Server started.
+2016-01-27T09:19:31.798Z - info: Server started.
+2016-01-27T09:19:46.394Z - info: Server started.
+2016-01-27T09:20:02.583Z - info: Server started.
+2016-01-27T09:20:15.284Z - info: Server started.
+2016-01-27T09:24:16.304Z - info: Server started.
+2016-01-27T09:25:49.058Z - info: Server started.
+2016-01-27T09:28:17.727Z - info: Server started.
+2016-01-27T09:30:22.265Z - info: Server started.
+2016-01-27T09:31:29.518Z - info: Server started.
+2016-01-27T09:36:41.034Z - info: Server started.
+2016-01-27T09:36:47.034Z - info: Server started.
+2016-01-27T09:38:24.438Z - info: Server started.
+2016-01-27T09:39:44.726Z - info: Server started.
+2016-01-27T09:46:43.746Z - info: Server started.
+2016-01-27T09:47:10.799Z - silly: Popularity collection cleared
+2016-01-27T09:47:10.858Z - silly: Getting available products (count): 322
+2016-01-27T09:47:10.862Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T09:47:10.873Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T09:47:10.874Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-27T09:48:10.736Z - silly: Popularity collection cleared
+2016-01-27T09:48:10.784Z - silly: Getting available products (count): 322
+2016-01-27T09:48:10.788Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T09:48:10.790Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T09:48:10.790Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-27T09:49:25.959Z - info: Server started.
+2016-01-27T09:49:57.918Z - info: Server started.
+2016-01-27T10:16:18.330Z - info: Server started.
+2016-01-27T10:17:51.873Z - info: Server started.
+2016-01-27T10:24:15.047Z - info: Server started.
+2016-01-27T10:24:49.933Z - info: Server started.
+2016-01-27T10:25:10.939Z - silly: Popularity collection cleared
+2016-01-27T10:25:10.993Z - silly: Getting available products (count): 322
+2016-01-27T10:25:10.998Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T10:25:11.012Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T10:25:11.013Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-27T10:26:10.922Z - silly: Popularity collection cleared
+2016-01-27T10:26:10.975Z - silly: Getting available products (count): 322
+2016-01-27T10:26:10.976Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T10:26:10.979Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T10:26:10.979Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-27T10:26:58.143Z - info: Server started.
+2016-01-27T10:27:10.135Z - silly: Popularity collection cleared
+2016-01-27T10:27:10.169Z - silly: Getting available products (count): 322
+2016-01-27T10:27:10.174Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T10:27:10.187Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T10:27:10.188Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-27T10:28:10.132Z - silly: Popularity collection cleared
+2016-01-27T10:28:10.179Z - silly: Getting available products (count): 322
+2016-01-27T10:28:10.184Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T10:28:10.187Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T10:28:10.188Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-27T10:40:55.317Z - info: Server started.
+2016-01-27T10:41:10.303Z - silly: Popularity collection cleared
+2016-01-27T10:41:10.338Z - silly: Getting available products (count): 322
+2016-01-27T10:41:10.346Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T10:41:10.361Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T10:41:10.362Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-27T10:42:14.717Z - info: Server started.
+2016-01-27T10:43:29.920Z - info: Server started.
+2016-01-27T10:47:18.213Z - info: Server started.
+2016-01-27T10:49:58.304Z - info: Server started.
+2016-01-27T10:50:10.311Z - silly: Popularity collection cleared
+2016-01-27T10:50:10.378Z - silly: Getting available products (count): 322
+2016-01-27T10:50:10.384Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T10:50:10.399Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T10:50:10.399Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-27T11:03:36.070Z - info: Server started.
+2016-01-27T11:06:57.953Z - info: Server started.
+2016-01-27T11:07:10.952Z - silly: Popularity collection cleared
+2016-01-27T11:07:11.008Z - silly: Getting available products (count): 322
+2016-01-27T11:07:11.012Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T11:07:11.023Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T11:07:11.024Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-27T11:18:34.614Z - info: Server started.
+2016-01-27T11:19:57.571Z - info: Server started.
+2016-01-27T11:22:28.921Z - info: Server started.
+2016-01-27T16:08:19.174Z - info: Server started.
+2016-01-27T16:13:49.739Z - info: Server started.
+2016-01-27T16:14:10.737Z - silly: Popularity collection cleared
+2016-01-27T16:14:10.782Z - silly: Getting available products (count): 322
+2016-01-27T16:14:10.786Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T16:14:10.797Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T16:14:10.798Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-27T16:15:45.180Z - info: Server started.
+2016-01-27T16:16:26.000Z - info: Server started.
+2016-01-27T16:29:46.895Z - info: Server started.
+2016-01-27T16:30:10.893Z - silly: Popularity collection cleared
+2016-01-27T16:30:10.938Z - silly: Getting available products (count): 322
+2016-01-27T16:30:10.943Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T16:30:10.954Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T16:30:10.955Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-27T16:31:10.880Z - silly: Popularity collection cleared
+2016-01-27T16:31:10.931Z - silly: Getting available products (count): 322
+2016-01-27T16:31:10.933Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T16:31:10.935Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T16:31:10.935Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-27T16:41:42.704Z - info: Server started.
+2016-01-27T16:51:15.679Z - info: Server started.
+2016-01-27T16:55:32.153Z - info: Server started.
+2016-01-27T17:07:29.707Z - info: Server started.
+2016-01-27T17:08:34.202Z - info: Server started.
+2016-01-27T17:09:55.126Z - info: Server started.
+2016-01-27T17:10:34.668Z - info: Server started.
+2016-01-27T17:11:48.051Z - info: Server started.
+2016-01-27T17:12:49.784Z - info: Server started.
+2016-01-27T17:13:01.388Z - info: Server started.
+2016-01-27T17:13:44.903Z - info: Server started.
+2016-01-27T17:18:13.894Z - info: Server started.
+2016-01-27T17:34:35.816Z - info: Server started.
+2016-01-27T17:35:51.768Z - info: Server started.
+2016-01-27T18:00:06.166Z - info: Server started.
+2016-01-27T18:00:36.872Z - info: Server started.
+2016-01-27T18:01:15.018Z - info: Server started.
+2016-01-27T18:12:59.816Z - info: Server started.
+2016-01-27T18:14:08.784Z - info: Server started.
+2016-01-27T18:23:09.853Z - info: Server started.
+2016-01-27T18:27:30.463Z - info: Server started.
+2016-01-27T18:28:10.469Z - silly: Popularity collection cleared
+2016-01-27T18:28:10.510Z - silly: Getting available products (count): 322
+2016-01-27T18:28:10.514Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T18:28:10.526Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T18:28:10.526Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-27T18:29:10.450Z - silly: Popularity collection cleared
+2016-01-27T18:29:10.507Z - silly: Getting available products (count): 322
+2016-01-27T18:29:10.511Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T18:29:10.514Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T18:29:10.514Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-27T18:31:57.902Z - info: Server started.
+2016-01-27T18:32:10.908Z - silly: Popularity collection cleared
+2016-01-27T18:32:10.954Z - silly: Getting available products (count): 322
+2016-01-27T18:32:10.958Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T18:32:10.969Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T18:32:10.970Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-27T18:33:10.884Z - silly: Popularity collection cleared
+2016-01-27T18:33:10.901Z - silly: Getting available products (count): 322
+2016-01-27T18:33:10.904Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T18:33:10.906Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T18:33:10.906Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-27T18:37:45.792Z - info: Server started.
+2016-01-27T18:45:43.412Z - info: Server started.
+2016-01-27T18:46:10.418Z - silly: Popularity collection cleared
+2016-01-27T18:46:10.461Z - silly: Getting available products (count): 322
+2016-01-27T18:46:10.465Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object]
+2016-01-27T18:46:10.468Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-27T18:46:10.468Z - silly: Popularity document saved code_product: 88, popularity = 2.5

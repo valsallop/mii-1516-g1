@@ -29,4 +29,3 @@ server.start();
 winston.info("Server started.");
 console.log("Successfully started web server. Waiting for incoming connections...");
 
-
