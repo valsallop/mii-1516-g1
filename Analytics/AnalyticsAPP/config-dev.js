@@ -12,6 +12,7 @@ module.exports = {
 		"exception": "./logs/exceptions.log"
 	},
 	"scheduleProcessPopularity": {
-		"cronExp": "10 */1 * * * *"
+		"cronExp": "10 */1 * * * *",//"segundos, minutos, hora, dia, mes, dia de la semana"
+		"cronTwe": "10 */15 * * * *"
 	}
 };
