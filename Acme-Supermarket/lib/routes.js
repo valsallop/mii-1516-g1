@@ -53,7 +53,14 @@ Router.route('/',{
 Router.route('/updateProfile',{
 	name: 'profile',
 	action(){
-		BlazeLayout.render('updateProfile');
+		if (!Meteor.user()) {
+      		bootbox.alert(TAPi18n.__("error_logIn", lang_tag=null));
+      		Router.go('home');
+    	}
+    	else{
+    		BlazeLayout.render('updateProfile');
+    	}
+		
 	}
 });
 
@@ -75,7 +82,13 @@ Router.route('/products',{
 Router.route('/shoppingCart', {
 	name: 'shoppingCart',
 	action(){
-		BlazeLayout.render('shoppingCart');
+		if (!Meteor.user()) {
+      		bootbox.alert(TAPi18n.__("error_logIn", lang_tag=null));
+      		Router.go('home');
+    	}
+    	else{
+			BlazeLayout.render('shoppingCart');
+		}	
 	}
 });
 

@@ -3,7 +3,6 @@
 	"aboutCompanyContent":"Nuestra compañía es una compañía joven surgida en 2016 con el objetivo de rivalizar entre los mejores MarketPlace",
 	"addCart":"Añadir al carrito",
 
-
 	"admin_button_reports":"Generar informe",
 	"admin_button_charts":"Generar gráficas",
 	"admin_dates":"Introduce la fecha de inicio y la fecha de fin: ",
@@ -15,6 +14,8 @@
 
 	"description":"Descripción",
 	"delete":"Eliminar",
+
+	"error_logIn": "Acceso prohibido: Debe iniciar sesión para acceder",
 
 	"home": "Inicio",
 	

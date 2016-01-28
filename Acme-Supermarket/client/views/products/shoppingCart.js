@@ -7,7 +7,7 @@ Template.shoppingCart.helpers({
      items[i].name=dbItem.name;
      items[i].cost=dbItem.cost;
      items[i].image=dbItem.image;
-     items[i].total=parseFloat(items[i].amount*items[i].cost).toPrecision(4);
+     items[i].total=parseFloat(items[i].amount*items[i].cost).toFixed(2);;
    }
    return items;
  },
@@ -31,7 +31,7 @@ Template.shoppingCart.events({
                   var dbItem=Products.findOne({code:parseInt(items[i].productCode)});
                   totalCost=totalCost+(items[i].amount*dbItem.cost);
                 }
-                totalCost=parseFloat(totalCost).toPrecision(4);
+                totalCost=parseFloat(totalCost).toFixed(2);
                 bootbox.confirm("El pedido por valor de "+totalCost+"€ se enviará a la direccion: "+Meteor.user().address.name+","+Meteor.user().address.number, function(result) {
                   console.log(result);
                   if(result){
