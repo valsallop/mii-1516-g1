@@ -1,18 +1,17 @@
-describe("Header template - No Mocks", function() {
-    // it("should not show tutorial link to anonymous user", function () {
-    //     var div = document.createElement("DIV");
-    //     Blaze.render(Template.header, div);
-
-    //     expect($(div).find("#tutorialsLink")[0]).not.toBeDefined();
-    // });
-    
-    it("should be able to register as customer", function (done) {
-        Accounts.createUser({email: 'test@test.com',password: '123456'}, function (err){
-            expect(err).toBeUndefined();
-            done();
+describe("E2E AcmeSupermarket Testing", function() {
+    it("should setup MongoDB for testing", function () {
+        Meteor.call('clearDB', function(){
+            Meteor.call('loadFixtures');
         });
+        Accounts.createUser({email: 'test@test.com',password: '123456'});
     });
     
+    it("should be able to view products", function (done) {
+        Router.go('/product/1');
+        expect($("#cost")).toBeDefined();
+        done();
+    });
+
     it("should be able to login normal user", function (done) {
         Meteor.loginWithPassword('test@test.com', '123456', function (err) {
             expect(err).toBeUndefined();
@@ -20,24 +19,30 @@ describe("Header template - No Mocks", function() {
         });
     });
 
-    it("should show tutorial link to registered user", function () {
-        var div = document.createElement("DIV");
-        Blaze.render(Template.header, div);
-
-
-         expect($(div).find("#tutorialsLink")[0]).toBeDefined();
-     });
+    it("check loggedUser", function (done) {
+         var id= Meteor.userId();
+         if(id!=null){
+            if(Meteor.user().emails[0].address=='test@test.com'){
+                done();
+            }
+            else{
+                throw new Error('Another user is logged in');
+            }
+            
+         }
+         throw new Error('No user logged in');
+    });
 
     it("should be able to logout", function (done) {
         Meteor.logout(function (err) {
             expect(err).toBeUndefined();
-            done();
+            if(Meteor.userId()==null){
+                done();
+            }else{
+                throw new Error('User keeps logged in');
+            }
         });
-    });
-
-    it("should be able to view products", function (done) {
-        Router.go('/product/1');
-        expect($(h3).find("#cost")[0]).toBeDefined();
+        
     });
 
     // it("should be able to login normal user", function (done) {
