@@ -7,4 +7,5 @@ var CollectTweets = require('../etc/collectTweets');
 CollectTweets();
 
 cron.scheduleJob(config.scheduleProcessPopularity.cronExp, ProcessPopularity);
+cron.scheduleJob(config.scheduleProcessCollect.cronTwe, CollectTweets);
 logger.log('info', "Scheduler started.");
