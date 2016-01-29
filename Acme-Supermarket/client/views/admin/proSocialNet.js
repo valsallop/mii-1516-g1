@@ -61,7 +61,7 @@ Template.productAdmin.events({
         
         if(datestart =="" || dateend == ""){
             var t=TAPi18n.__("toastr_needDate", lang_tag=null);
-            alert(t);
+            bootbox.alert(t);
             //toastr.error(t);
         }else{
             var str = this.name;
@@ -133,7 +133,7 @@ Template.proSocialNet.events({
         var dateend = document.getElementById("end").value;
         if(datestart =="" || dateend == ""){
             var t=TAPi18n.__("toastr_needDate", lang_tag=null);
-            alert(t);
+            bootbox.alert(t);
             //toastr.error(t);
         }else{
             var dataS = [];
@@ -150,11 +150,11 @@ Template.proSocialNet.events({
         var dateend = document.getElementById("end").value;
         if(datestart =="" || dateend == ""){
             var t=TAPi18n.__("toastr_needDate", lang_tag=null);
-            alert(t);
+            bootbox.alert(t);
             //toastr.error(t);
         }if(document.getElementById("highcharts-0") == null){
             var t=TAPi18n.__("toastr_firstButton", lang_tag=null);
-            alert(t);
+            bootbox.alert(t);
         }else{
             var datestart = document.getElementById("start").value;
             var dateend = document.getElementById("end").value;
@@ -218,7 +218,7 @@ function drawChart(array1, array2) {
     
     $('#salesChart').highcharts({
         title: {
-            text: 'Comparative',
+            text: 'Comparative Sales',
             x: -20 //center
         },
         xAxis: {
@@ -248,7 +248,7 @@ function drawChart(array1, array2) {
 
     $('#populChart').highcharts({
         title: {
-            text: 'Comparative',
+            text: 'Comparative Popularity',
             x: -20 //center
         },
         xAxis: {

@@ -46,6 +46,7 @@ Meteor.methods({
     }
   },
   addToCart: function (code) {
+    console.log(Meteor.userId());
     var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
     for (var i = 0; i < cart.items.length; i++) {
       var exist=false;

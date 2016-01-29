@@ -15,6 +15,6 @@ module.exports = {
 		"cronExp": "10 */1 * * * *"//"segundos, minutos, hora, dia, mes, dia de la semana"
 	},
 	"scheduleProcessCollect":{
-		"cronTwe": "10 */20 * * * *"
+		"cronTwe": "10 */30 * * * *"
 	}
 };

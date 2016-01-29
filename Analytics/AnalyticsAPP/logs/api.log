@@ -20,3 +20,1877 @@
 2016-01-28T13:23:10.754Z - silly: Popularity document saved code_product: 2, popularity = 1.25
 2016-01-28T13:24:12.145Z - info: Server started.
 2016-01-28T13:24:54.855Z - info: Server started.
+2016-01-28T15:37:57.826Z - info: Server started.
+2016-01-28T15:39:32.825Z - info: Server started.
+2016-01-28T15:40:08.211Z - info: Server started.
+2016-01-28T15:41:57.536Z - info: Server started.
+2016-01-28T15:44:12.242Z - info: Server started.
+2016-01-28T15:48:38.990Z - info: Server started.
+2016-01-28T15:49:42.864Z - info: Server started.
+2016-01-28T15:58:29.298Z - info: Server started.
+2016-01-28T15:59:10.279Z - silly: Popularity collection cleared
+2016-01-28T15:59:10.296Z - silly: Getting available products (count): 322
+2016-01-28T15:59:10.300Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T15:59:10.316Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T15:59:10.317Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T15:59:10.317Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T16:00:10.282Z - silly: Popularity collection cleared
+2016-01-28T16:00:10.338Z - silly: Getting available products (count): 322
+2016-01-28T16:00:10.341Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T16:00:10.344Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T16:00:10.344Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T16:00:10.344Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T16:01:05.354Z - info: Server started.
+2016-01-28T16:03:22.825Z - info: Server started.
+2016-01-28T16:05:10.312Z - info: Server started.
+2016-01-28T16:05:10.351Z - silly: Popularity collection cleared
+2016-01-28T16:05:10.556Z - silly: Getting available products (count): 322
+2016-01-28T16:05:10.581Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T16:05:10.593Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T16:05:10.594Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T16:05:10.594Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T16:07:51.341Z - info: Server started.
+2016-01-28T16:09:12.497Z - info: Server started.
+2016-01-28T16:09:49.924Z - info: Server started.
+2016-01-28T16:11:44.393Z - info: Server started.
+2016-01-28T16:12:08.676Z - info: Server started.
+2016-01-28T16:12:10.664Z - silly: Popularity collection cleared
+2016-01-28T16:12:10.727Z - silly: Getting available products (count): 322
+2016-01-28T16:12:10.731Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T16:12:10.735Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T16:12:10.735Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T16:12:10.736Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T16:12:56.582Z - info: Server started.
+2016-01-28T16:13:10.564Z - silly: Popularity collection cleared
+2016-01-28T16:13:10.592Z - silly: Getting available products (count): 322
+2016-01-28T16:13:10.596Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T16:13:10.601Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T16:13:10.602Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T16:13:10.602Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T16:14:10.243Z - info: Server started.
+2016-01-28T16:14:10.280Z - silly: Popularity collection cleared
+2016-01-28T16:14:10.510Z - silly: Getting available products (count): 322
+2016-01-28T16:14:10.835Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T16:14:10.847Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T16:14:10.848Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T16:14:10.848Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T16:15:28.936Z - info: Server started.
+2016-01-28T16:16:10.922Z - silly: Popularity collection cleared
+2016-01-28T16:16:10.958Z - silly: Getting available products (count): 322
+2016-01-28T16:16:10.961Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T16:16:10.979Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T16:16:10.979Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T16:16:10.979Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T16:17:10.923Z - silly: Popularity collection cleared
+2016-01-28T16:17:10.971Z - silly: Getting available products (count): 322
+2016-01-28T16:17:10.975Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T16:17:10.982Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T16:17:10.982Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T16:17:10.982Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T16:18:10.928Z - silly: Popularity collection cleared
+2016-01-28T16:18:10.968Z - silly: Getting available products (count): 322
+2016-01-28T16:18:10.972Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T16:18:10.974Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T16:18:10.974Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T16:18:10.975Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T16:18:42.823Z - info: Server started.
+2016-01-28T16:18:56.801Z - info: Server started.
+2016-01-28T16:21:11.574Z - info: Server started.
+2016-01-28T16:22:53.086Z - info: Server started.
+2016-01-28T16:30:13.458Z - info: Server started.
+2016-01-28T16:34:25.925Z - info: Server started.
+2016-01-28T16:41:31.254Z - info: Server started.
+2016-01-28T16:47:34.778Z - info: Server started.
+2016-01-28T16:56:49.200Z - info: Server started.
+2016-01-28T16:57:10.190Z - silly: Popularity collection cleared
+2016-01-28T16:57:10.226Z - silly: Getting available products (count): 322
+2016-01-28T16:57:10.233Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T16:57:10.241Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T16:57:10.241Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T16:57:10.241Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T16:58:10.187Z - silly: Popularity collection cleared
+2016-01-28T16:58:10.225Z - silly: Getting available products (count): 322
+2016-01-28T16:58:10.229Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T16:58:10.232Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T16:58:10.232Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T16:58:10.232Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T16:59:10.182Z - silly: Popularity collection cleared
+2016-01-28T16:59:10.238Z - silly: Getting available products (count): 322
+2016-01-28T16:59:10.242Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T16:59:10.244Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T16:59:10.244Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T16:59:10.244Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T16:59:13.829Z - info: Server started.
+2016-01-28T17:12:25.738Z - info: Server started.
+2016-01-28T17:13:10.730Z - silly: Popularity collection cleared
+2016-01-28T17:13:10.774Z - silly: Getting available products (count): 322
+2016-01-28T17:13:10.779Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:13:10.783Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:13:10.783Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:13:10.783Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:14:10.724Z - silly: Popularity collection cleared
+2016-01-28T17:14:10.774Z - silly: Getting available products (count): 322
+2016-01-28T17:14:10.778Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:14:10.781Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:14:10.782Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:14:10.782Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:15:10.720Z - silly: Popularity collection cleared
+2016-01-28T17:15:10.780Z - silly: Getting available products (count): 322
+2016-01-28T17:15:10.784Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:15:10.787Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:15:10.788Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:15:10.788Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:16:10.721Z - silly: Popularity collection cleared
+2016-01-28T17:16:10.770Z - silly: Getting available products (count): 322
+2016-01-28T17:16:10.772Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:16:10.774Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:16:10.774Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:16:10.774Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:17:10.212Z - info: Server started.
+2016-01-28T17:17:10.250Z - silly: Popularity collection cleared
+2016-01-28T17:17:10.463Z - silly: Getting available products (count): 322
+2016-01-28T17:17:10.798Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:17:10.809Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:17:10.810Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:17:10.811Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:30:14.333Z - info: Server started.
+2016-01-28T17:31:10.317Z - silly: Popularity collection cleared
+2016-01-28T17:31:10.342Z - silly: Getting available products (count): 322
+2016-01-28T17:31:10.347Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:31:10.353Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:31:10.353Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:31:10.353Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:32:10.321Z - silly: Popularity collection cleared
+2016-01-28T17:32:10.371Z - silly: Getting available products (count): 322
+2016-01-28T17:32:10.376Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:32:10.380Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:32:10.380Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:32:10.380Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:33:10.313Z - silly: Popularity collection cleared
+2016-01-28T17:33:10.342Z - silly: Getting available products (count): 322
+2016-01-28T17:33:10.349Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:33:10.351Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:33:10.351Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:33:10.352Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:34:10.318Z - silly: Popularity collection cleared
+2016-01-28T17:34:10.350Z - silly: Getting available products (count): 322
+2016-01-28T17:34:10.354Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:34:10.358Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:34:10.358Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:34:10.380Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:35:10.317Z - silly: Popularity collection cleared
+2016-01-28T17:35:10.351Z - silly: Getting available products (count): 322
+2016-01-28T17:35:10.355Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:35:10.357Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:35:10.358Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:35:10.358Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:36:10.315Z - silly: Popularity collection cleared
+2016-01-28T17:36:10.354Z - silly: Getting available products (count): 322
+2016-01-28T17:36:10.358Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:36:10.361Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:36:10.362Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:36:10.362Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:37:10.316Z - silly: Popularity collection cleared
+2016-01-28T17:37:10.369Z - silly: Getting available products (count): 322
+2016-01-28T17:37:10.372Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:37:10.375Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:37:10.375Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:37:10.375Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:38:10.316Z - silly: Popularity collection cleared
+2016-01-28T17:38:10.359Z - silly: Getting available products (count): 322
+2016-01-28T17:38:10.363Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:38:10.367Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:38:10.367Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:38:10.371Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:39:10.313Z - silly: Popularity collection cleared
+2016-01-28T17:39:10.355Z - silly: Getting available products (count): 322
+2016-01-28T17:39:10.359Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:39:10.361Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:39:10.361Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:39:10.362Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:40:10.317Z - silly: Popularity collection cleared
+2016-01-28T17:40:10.349Z - silly: Getting available products (count): 322
+2016-01-28T17:40:10.502Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:40:10.706Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:40:10.706Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:40:10.706Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:41:10.319Z - silly: Popularity collection cleared
+2016-01-28T17:41:10.357Z - silly: Getting available products (count): 322
+2016-01-28T17:41:10.362Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:41:10.365Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:41:10.366Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:41:10.366Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:42:10.320Z - silly: Popularity collection cleared
+2016-01-28T17:42:10.366Z - silly: Getting available products (count): 322
+2016-01-28T17:42:10.370Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:42:10.384Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:42:10.384Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:42:10.384Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:43:10.314Z - silly: Popularity collection cleared
+2016-01-28T17:43:10.325Z - silly: Getting available products (count): 322
+2016-01-28T17:43:10.328Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:43:10.329Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:43:10.329Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:43:10.330Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:44:10.313Z - silly: Popularity collection cleared
+2016-01-28T17:44:10.353Z - silly: Getting available products (count): 322
+2016-01-28T17:44:10.357Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:44:10.359Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:44:10.360Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:44:10.360Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:45:10.316Z - silly: Popularity collection cleared
+2016-01-28T17:45:10.351Z - silly: Getting available products (count): 322
+2016-01-28T17:45:10.356Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:45:10.359Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:45:10.359Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:45:10.359Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:46:10.316Z - silly: Popularity collection cleared
+2016-01-28T17:46:10.359Z - silly: Getting available products (count): 322
+2016-01-28T17:46:10.362Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:46:10.365Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:46:10.365Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:46:10.365Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:47:10.314Z - silly: Popularity collection cleared
+2016-01-28T17:47:10.349Z - silly: Getting available products (count): 322
+2016-01-28T17:47:10.354Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:47:10.357Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:47:10.357Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:47:10.357Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:48:10.315Z - silly: Popularity collection cleared
+2016-01-28T17:48:10.359Z - silly: Getting available products (count): 322
+2016-01-28T17:48:10.362Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:48:10.365Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:48:10.365Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:48:10.365Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:49:10.320Z - silly: Popularity collection cleared
+2016-01-28T17:49:10.360Z - silly: Getting available products (count): 322
+2016-01-28T17:49:10.363Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:49:10.366Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:49:10.366Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:49:10.367Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:50:10.313Z - silly: Popularity collection cleared
+2016-01-28T17:50:10.359Z - silly: Getting available products (count): 322
+2016-01-28T17:50:10.363Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:50:10.365Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:50:10.366Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:50:10.366Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:51:10.315Z - silly: Popularity collection cleared
+2016-01-28T17:51:10.362Z - silly: Getting available products (count): 322
+2016-01-28T17:51:10.365Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:51:10.367Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:51:10.367Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:51:10.368Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:52:10.315Z - silly: Popularity collection cleared
+2016-01-28T17:52:10.357Z - silly: Getting available products (count): 322
+2016-01-28T17:52:10.361Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:52:10.364Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:52:10.366Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:52:10.366Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:53:10.312Z - silly: Popularity collection cleared
+2016-01-28T17:53:10.326Z - silly: Getting available products (count): 322
+2016-01-28T17:53:10.328Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:53:10.330Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:53:10.330Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:53:10.331Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:54:10.315Z - silly: Popularity collection cleared
+2016-01-28T17:54:10.348Z - silly: Getting available products (count): 322
+2016-01-28T17:54:10.354Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:54:10.356Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:54:10.357Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:54:10.357Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:55:13.650Z - info: Server started.
+2016-01-28T17:56:10.641Z - silly: Popularity collection cleared
+2016-01-28T17:56:10.680Z - silly: Getting available products (count): 322
+2016-01-28T17:56:10.685Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T17:56:10.699Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T17:56:10.699Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T17:56:10.699Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T17:56:41.268Z - info: Server started.
+2016-01-28T17:59:34.540Z - info: Server started.
+2016-01-28T18:00:30.773Z - info: Server started.
+2016-01-28T18:01:10.760Z - silly: Popularity collection cleared
+2016-01-28T18:01:10.793Z - silly: Getting available products (count): 322
+2016-01-28T18:01:10.798Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T18:01:10.813Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T18:01:10.813Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T18:01:10.814Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T18:01:42.446Z - info: Server started.
+2016-01-28T18:02:10.441Z - silly: Popularity collection cleared
+2016-01-28T18:02:10.490Z - silly: Getting available products (count): 322
+2016-01-28T18:02:10.496Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T18:02:10.508Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T18:02:10.508Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T18:02:10.509Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T18:03:10.434Z - silly: Popularity collection cleared
+2016-01-28T18:03:10.481Z - silly: Getting available products (count): 322
+2016-01-28T18:03:10.495Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T18:03:10.499Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T18:03:10.499Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T18:03:10.499Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T18:04:10.436Z - silly: Popularity collection cleared
+2016-01-28T18:04:10.485Z - silly: Getting available products (count): 322
+2016-01-28T18:04:10.489Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T18:04:10.492Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T18:04:10.493Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T18:04:10.493Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T18:05:10.429Z - silly: Popularity collection cleared
+2016-01-28T18:05:10.457Z - silly: Getting available products (count): 322
+2016-01-28T18:05:10.474Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T18:05:10.479Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T18:05:10.480Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T18:05:10.480Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T18:05:14.554Z - info: Server started.
+2016-01-28T18:06:06.953Z - info: Server started.
+2016-01-28T18:06:10.942Z - silly: Popularity collection cleared
+2016-01-28T18:06:10.995Z - silly: Getting available products (count): 322
+2016-01-28T18:06:11.002Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T18:06:11.015Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T18:06:11.018Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T18:06:11.018Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T18:07:39.780Z - info: Server started.
+2016-01-28T18:08:08.782Z - info: Server started.
+2016-01-28T18:08:10.764Z - silly: Popularity collection cleared
+2016-01-28T18:08:10.782Z - silly: Getting available products (count): 322
+2016-01-28T18:08:10.790Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T18:08:10.804Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T18:08:10.806Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T18:08:10.808Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T18:09:32.008Z - info: Server started.
+2016-01-28T18:10:28.005Z - info: Server started.
+2016-01-28T18:13:11.853Z - info: Server started.
+2016-01-28T18:15:38.657Z - info: Server started.
+2016-01-28T18:21:42.848Z - info: Server started.
+2016-01-28T18:22:46.580Z - info: Server started.
+2016-01-28T18:23:43.337Z - info: Server started.
+2016-01-28T18:24:32.202Z - info: Server started.
+2016-01-28T18:29:05.106Z - info: Server started.
+2016-01-28T18:29:10.118Z - silly: Popularity collection cleared
+2016-01-28T18:29:10.150Z - silly: Getting available products (count): 322
+2016-01-28T18:29:10.161Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T18:29:10.165Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T18:29:10.166Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T18:29:10.167Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T18:34:11.513Z - info: Server started.
+2016-01-28T18:35:08.685Z - info: Server started.
+2016-01-28T18:35:10.703Z - silly: Popularity collection cleared
+2016-01-28T18:35:10.720Z - silly: Getting available products (count): 322
+2016-01-28T18:35:10.724Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object]
+2016-01-28T18:35:10.736Z - silly: Popularity document saved code_product: 77, popularity = 5
+2016-01-28T18:35:10.737Z - silly: Popularity document saved code_product: 88, popularity = 2.5
+2016-01-28T18:35:10.737Z - silly: Popularity document saved code_product: 2, popularity = 1.25
+2016-01-28T18:36:20.253Z - info: Server started.
+2016-01-28T19:01:26.743Z - info: Server started.
+2016-01-28T19:02:15.396Z - info: Server started.
+2016-01-28T19:03:20.597Z - info: Server started.
+2016-01-28T19:08:47.009Z - info: Server started.
+2016-01-28T19:09:38.434Z - info: Server started.
+2016-01-28T19:15:35.306Z - info: Server started.
+2016-01-29T07:49:54.725Z - info: Server started.
+2016-01-29T07:50:10.744Z - silly: Popularity collection cleared
+2016-01-29T07:50:10.801Z - silly: Getting available products (count): 322
+2016-01-29T07:50:11.436Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2016-01-29T07:50:11.542Z - silly: Popularity document saved code_product: 191, popularity = 5
+2016-01-29T07:50:11.543Z - silly: Popularity document saved code_product: 257, popularity = 5
+2016-01-29T07:50:11.543Z - silly: Popularity document saved code_product: 249, popularity = 5
+2016-01-29T07:50:11.543Z - silly: Popularity document saved code_product: 29, popularity = 5
+2016-01-29T07:50:11.543Z - silly: Popularity document saved code_product: 100, popularity = 5
+2016-01-29T07:50:11.544Z - silly: Popularity document saved code_product: 252, popularity = 5
+2016-01-29T07:50:11.544Z - silly: Popularity document saved code_product: 209, popularity = 5
+2016-01-29T07:50:11.544Z - silly: Popularity document saved code_product: 118, popularity = 5
+2016-01-29T07:50:11.544Z - silly: Popularity document saved code_product: 23, popularity = 5
+2016-01-29T07:50:11.544Z - silly: Popularity document saved code_product: 250, popularity = 5
+2016-01-29T07:50:11.544Z - silly: Popularity document saved code_product: 259, popularity = 5
+2016-01-29T07:50:11.545Z - silly: Popularity document saved code_product: 264, popularity = 5
+2016-01-29T07:50:11.545Z - silly: Popularity document saved code_product: 202, popularity = 5
+2016-01-29T07:50:11.545Z - silly: Popularity document saved code_product: 198, popularity = 5
+2016-01-29T07:50:11.545Z - silly: Popularity document saved code_product: 73, popularity = 5
+2016-01-29T07:50:11.545Z - silly: Popularity document saved code_product: 67, popularity = 5
+2016-01-29T07:50:11.545Z - silly: Popularity document saved code_product: 65, popularity = 5
+2016-01-29T07:50:11.545Z - silly: Popularity document saved code_product: 43, popularity = 5
+2016-01-29T07:50:11.545Z - silly: Popularity document saved code_product: 37, popularity = 5
+2016-01-29T07:50:11.546Z - silly: Popularity document saved code_product: 128, popularity = 5
+2016-01-29T07:50:11.546Z - silly: Popularity document saved code_product: 234, popularity = 5
+2016-01-29T07:50:11.546Z - silly: Popularity document saved code_product: 137, popularity = 5
+2016-01-29T07:50:11.546Z - silly: Popularity document saved code_product: 311, popularity = 3.5
+2016-01-29T07:50:11.546Z - silly: Popularity document saved code_product: 103, popularity = 3.5
+2016-01-29T07:50:11.546Z - silly: Popularity document saved code_product: 185, popularity = 3
+2016-01-29T07:50:11.547Z - silly: Popularity document saved code_product: 77, popularity = 2
+2016-01-29T07:50:11.547Z - silly: Popularity document saved code_product: 130, popularity = 1.5
+2016-01-29T07:50:11.547Z - silly: Popularity document saved code_product: 282, popularity = 1.5
+2016-01-29T07:50:11.547Z - silly: Popularity document saved code_product: 295, popularity = 1.5
+2016-01-29T07:50:11.547Z - silly: Popularity document saved code_product: 135, popularity = 1
+2016-01-29T07:50:11.547Z - silly: Popularity document saved code_product: 260, popularity = 0.5
+2016-01-29T07:50:11.547Z - silly: Popularity document saved code_product: 1, popularity = 0.5
+2016-01-29T07:50:11.548Z - silly: Popularity document saved code_product: 248, popularity = 0.5
+2016-01-29T07:50:11.572Z - silly: Popularity document saved code_product: 206, popularity = 5
+2016-01-29T07:50:11.573Z - silly: Popularity document saved code_product: 175, popularity = 5
+2016-01-29T07:50:11.573Z - silly: Popularity document saved code_product: 48, popularity = 5
+2016-01-29T07:50:11.573Z - silly: Popularity document saved code_product: 12, popularity = 5
+2016-01-29T07:50:11.573Z - silly: Popularity document saved code_product: 141, popularity = 5
+2016-01-29T07:50:11.573Z - silly: Popularity document saved code_product: 129, popularity = 5
+2016-01-29T07:50:11.573Z - silly: Popularity document saved code_product: 160, popularity = 5
+2016-01-29T07:50:11.573Z - silly: Popularity document saved code_product: 243, popularity = 5
+2016-01-29T07:50:11.574Z - silly: Popularity document saved code_product: 54, popularity = 5
+2016-01-29T07:50:11.574Z - silly: Popularity document saved code_product: 81, popularity = 5
+2016-01-29T07:50:11.574Z - silly: Popularity document saved code_product: 82, popularity = 5
+2016-01-29T07:50:11.574Z - silly: Popularity document saved code_product: 52, popularity = 5
+2016-01-29T07:50:11.574Z - silly: Popularity document saved code_product: 76, popularity = 5
+2016-01-29T07:50:11.574Z - silly: Popularity document saved code_product: 3, popularity = 5
+2016-01-29T07:50:11.574Z - silly: Popularity document saved code_product: 25, popularity = 5
+2016-01-29T07:50:11.577Z - silly: Popularity document saved code_product: 85, popularity = 5
+2016-01-29T07:50:11.577Z - silly: Popularity document saved code_product: 19, popularity = 5
+2016-01-29T07:50:11.577Z - silly: Popularity document saved code_product: 96, popularity = 5
+2016-01-29T07:50:11.577Z - silly: Popularity document saved code_product: 310, popularity = 5
+2016-01-29T07:50:11.578Z - silly: Popularity document saved code_product: 28, popularity = 5
+2016-01-29T07:50:11.578Z - silly: Popularity document saved code_product: 120, popularity = 5
+2016-01-29T07:50:11.578Z - silly: Popularity document saved code_product: 270, popularity = 5
+2016-01-29T07:50:11.578Z - silly: Popularity document saved code_product: 18, popularity = 5
+2016-01-29T07:50:11.578Z - silly: Popularity document saved code_product: 207, popularity = 3.5
+2016-01-29T07:50:11.578Z - silly: Popularity document saved code_product: 163, popularity = 3
+2016-01-29T07:50:11.578Z - silly: Popularity document saved code_product: 50, popularity = 2.5
+2016-01-29T07:50:11.578Z - silly: Popularity document saved code_product: 132, popularity = 2
+2016-01-29T07:50:11.579Z - silly: Popularity document saved code_product: 275, popularity = 1.5
+2016-01-29T07:50:11.579Z - silly: Popularity document saved code_product: 279, popularity = 1.5
+2016-01-29T07:50:11.579Z - silly: Popularity document saved code_product: 307, popularity = 1.5
+2016-01-29T07:50:11.579Z - silly: Popularity document saved code_product: 178, popularity = 1
+2016-01-29T07:50:11.579Z - silly: Popularity document saved code_product: 246, popularity = 0.5
+2016-01-29T07:50:11.580Z - silly: Popularity document saved code_product: 84, popularity = 0.5
+2016-01-29T07:50:11.580Z - silly: Popularity document saved code_product: 210, popularity = 0.5
+2016-01-29T07:50:11.581Z - silly: Popularity document saved code_product: 14, popularity = 5
+2016-01-29T07:50:11.581Z - silly: Popularity document saved code_product: 303, popularity = 5
+2016-01-29T07:50:11.581Z - silly: Popularity document saved code_product: 304, popularity = 5
+2016-01-29T07:50:11.581Z - silly: Popularity document saved code_product: 301, popularity = 5
+2016-01-29T07:50:11.581Z - silly: Popularity document saved code_product: 258, popularity = 5
+2016-01-29T07:50:11.581Z - silly: Popularity document saved code_product: 289, popularity = 5
+2016-01-29T07:50:11.582Z - silly: Popularity document saved code_product: 148, popularity = 5
+2016-01-29T07:50:11.582Z - silly: Popularity document saved code_product: 189, popularity = 5
+2016-01-29T07:50:11.582Z - silly: Popularity document saved code_product: 233, popularity = 5
+2016-01-29T07:50:11.582Z - silly: Popularity document saved code_product: 149, popularity = 5
+2016-01-29T07:50:11.582Z - silly: Popularity document saved code_product: 5, popularity = 5
+2016-01-29T07:50:11.582Z - silly: Popularity document saved code_product: 158, popularity = 5
+2016-01-29T07:50:11.582Z - silly: Popularity document saved code_product: 93, popularity = 5
+2016-01-29T07:50:11.583Z - silly: Popularity document saved code_product: 305, popularity = 5
+2016-01-29T07:50:11.583Z - silly: Popularity document saved code_product: 255, popularity = 5
+2016-01-29T07:50:11.583Z - silly: Popularity document saved code_product: 309, popularity = 5
+2016-01-29T07:50:11.583Z - silly: Popularity document saved code_product: 140, popularity = 5
+2016-01-29T07:50:11.583Z - silly: Popularity document saved code_product: 299, popularity = 5
+2016-01-29T07:50:11.583Z - silly: Popularity document saved code_product: 193, popularity = 5
+2016-01-29T07:50:11.584Z - silly: Popularity document saved code_product: 21, popularity = 5
+2016-01-29T07:50:11.584Z - silly: Popularity document saved code_product: 4, popularity = 5
+2016-01-29T07:50:11.584Z - silly: Popularity document saved code_product: 287, popularity = 5
+2016-01-29T07:50:11.584Z - silly: Popularity document saved code_product: 296, popularity = 5
+2016-01-29T07:50:11.584Z - silly: Popularity document saved code_product: 297, popularity = 3.5
+2016-01-29T07:50:11.586Z - silly: Popularity document saved code_product: 145, popularity = 3
+2016-01-29T07:50:11.586Z - silly: Popularity document saved code_product: 26, popularity = 2.5
+2016-01-29T07:50:11.586Z - silly: Popularity document saved code_product: 253, popularity = 1.5
+2016-01-29T07:50:11.586Z - silly: Popularity document saved code_product: 7, popularity = 1.5
+2016-01-29T07:50:11.587Z - silly: Popularity document saved code_product: 162, popularity = 1.5
+2016-01-29T07:50:11.587Z - silly: Popularity document saved code_product: 251, popularity = 1.5
+2016-01-29T07:50:11.587Z - silly: Popularity document saved code_product: 88, popularity = 1
+2016-01-29T07:50:11.587Z - silly: Popularity document saved code_product: 314, popularity = 0.5
+2016-01-29T07:50:11.587Z - silly: Popularity document saved code_product: 239, popularity = 0.5
+2016-01-29T07:50:11.587Z - silly: Popularity document saved code_product: 2, popularity = 0.5
+2016-01-29T07:50:11.588Z - silly: Popularity document saved code_product: 24, popularity = 5
+2016-01-29T07:50:11.588Z - silly: Popularity document saved code_product: 22, popularity = 5
+2016-01-29T07:50:11.588Z - silly: Popularity document saved code_product: 197, popularity = 5
+2016-01-29T07:50:11.589Z - silly: Popularity document saved code_product: 42, popularity = 5
+2016-01-29T07:50:11.589Z - silly: Popularity document saved code_product: 293, popularity = 5
+2016-01-29T07:50:11.589Z - silly: Popularity document saved code_product: 267, popularity = 5
+2016-01-29T07:50:11.589Z - silly: Popularity document saved code_product: 317, popularity = 5
+2016-01-29T07:50:11.589Z - silly: Popularity document saved code_product: 98, popularity = 5
+2016-01-29T07:50:11.589Z - silly: Popularity document saved code_product: 245, popularity = 5
+2016-01-29T07:50:11.589Z - silly: Popularity document saved code_product: 39, popularity = 5
+2016-01-29T07:50:11.590Z - silly: Popularity document saved code_product: 99, popularity = 5
+2016-01-29T07:50:11.590Z - silly: Popularity document saved code_product: 292, popularity = 5
+2016-01-29T07:50:11.590Z - silly: Popularity document saved code_product: 213, popularity = 5
+2016-01-29T07:50:11.590Z - silly: Popularity document saved code_product: 194, popularity = 5
+2016-01-29T07:50:11.590Z - silly: Popularity document saved code_product: 91, popularity = 5
+2016-01-29T07:50:11.590Z - silly: Popularity document saved code_product: 92, popularity = 5
+2016-01-29T07:50:11.590Z - silly: Popularity document saved code_product: 34, popularity = 5
+2016-01-29T07:50:11.590Z - silly: Popularity document saved code_product: 237, popularity = 5
+2016-01-29T07:50:11.591Z - silly: Popularity document saved code_product: 166, popularity = 5
+2016-01-29T07:50:11.591Z - silly: Popularity document saved code_product: 300, popularity = 5
+2016-01-29T07:50:11.591Z - silly: Popularity document saved code_product: 262, popularity = 5
+2016-01-29T07:50:11.591Z - silly: Popularity document saved code_product: 31, popularity = 5
+2016-01-29T07:50:11.591Z - silly: Popularity document saved code_product: 278, popularity = 4.5
+2016-01-29T07:50:11.592Z - silly: Popularity document saved code_product: 242, popularity = 3.5
+2016-01-29T07:50:11.592Z - silly: Popularity document saved code_product: 244, popularity = 3
+2016-01-29T07:50:11.592Z - silly: Popularity document saved code_product: 61, popularity = 2.5
+2016-01-29T07:50:11.592Z - silly: Popularity document saved code_product: 9, popularity = 1.5
+2016-01-29T07:50:11.593Z - silly: Popularity document saved code_product: 70, popularity = 1.5
+2016-01-29T07:50:11.593Z - silly: Popularity document saved code_product: 46, popularity = 1.5
+2016-01-29T07:50:11.593Z - silly: Popularity document saved code_product: 136, popularity = 1
+2016-01-29T07:50:11.593Z - silly: Popularity document saved code_product: 157, popularity = 0.5
+2016-01-29T07:50:11.593Z - silly: Popularity document saved code_product: 225, popularity = 0.5
+2016-01-29T07:50:11.594Z - silly: Popularity document saved code_product: 151, popularity = 0.5
+2016-01-29T07:50:11.594Z - silly: Popularity document saved code_product: 78, popularity = 5
+2016-01-29T07:50:11.594Z - silly: Popularity document saved code_product: 184, popularity = 5
+2016-01-29T07:50:11.594Z - silly: Popularity document saved code_product: 316, popularity = 5
+2016-01-29T07:50:11.595Z - silly: Popularity document saved code_product: 15, popularity = 5
+2016-01-29T07:50:11.595Z - silly: Popularity document saved code_product: 142, popularity = 5
+2016-01-29T07:50:11.595Z - silly: Popularity document saved code_product: 138, popularity = 5
+2016-01-29T07:50:11.595Z - silly: Popularity document saved code_product: 192, popularity = 5
+2016-01-29T07:50:11.595Z - silly: Popularity document saved code_product: 49, popularity = 5
+2016-01-29T07:50:11.595Z - silly: Popularity document saved code_product: 228, popularity = 5
+2016-01-29T07:50:11.595Z - silly: Popularity document saved code_product: 146, popularity = 5
+2016-01-29T07:50:11.595Z - silly: Popularity document saved code_product: 186, popularity = 5
+2016-01-29T07:50:11.596Z - silly: Popularity document saved code_product: 16, popularity = 5
+2016-01-29T07:50:11.596Z - silly: Popularity document saved code_product: 247, popularity = 5
+2016-01-29T07:50:11.596Z - silly: Popularity document saved code_product: 10, popularity = 5
+2016-01-29T07:50:11.596Z - silly: Popularity document saved code_product: 122, popularity = 5
+2016-01-29T07:50:11.596Z - silly: Popularity document saved code_product: 36, popularity = 5
+2016-01-29T07:50:11.596Z - silly: Popularity document saved code_product: 126, popularity = 5
+2016-01-29T07:50:11.596Z - silly: Popularity document saved code_product: 315, popularity = 5
+2016-01-29T07:50:11.596Z - silly: Popularity document saved code_product: 8, popularity = 5
+2016-01-29T07:50:11.596Z - silly: Popularity document saved code_product: 30, popularity = 5
+2016-01-29T07:50:11.597Z - silly: Popularity document saved code_product: 17, popularity = 5
+2016-01-29T07:50:11.597Z - silly: Popularity document saved code_product: 13, popularity = 5
+2016-01-29T07:50:11.597Z - silly: Popularity document saved code_product: 322, popularity = 4.5
+2016-01-29T07:50:11.597Z - silly: Popularity document saved code_product: 283, popularity = 3.5
+2016-01-29T07:50:11.597Z - silly: Popularity document saved code_product: 266, popularity = 3
+2016-01-29T07:50:11.597Z - silly: Popularity document saved code_product: 131, popularity = 2
+2016-01-29T07:50:11.598Z - silly: Popularity document saved code_product: 69, popularity = 1.5
+2016-01-29T07:50:11.598Z - silly: Popularity document saved code_product: 33, popularity = 1.5
+2016-01-29T07:50:11.598Z - silly: Popularity document saved code_product: 6, popularity = 1.5
+2016-01-29T07:50:11.598Z - silly: Popularity document saved code_product: 254, popularity = 1
+2016-01-29T07:50:11.598Z - silly: Popularity document saved code_product: 111, popularity = 0.5
+2016-01-29T07:50:11.598Z - silly: Popularity document saved code_product: 204, popularity = 0.5
+2016-01-29T07:50:11.598Z - silly: Popularity document saved code_product: 107, popularity = 0.5
+2016-01-29T07:51:10.749Z - silly: Getting available products (count): 322
+2016-01-29T07:51:10.751Z - silly: Popularity collection cleared
+2016-01-29T07:51:10.761Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2016-01-29T07:51:10.847Z - silly: Popularity document saved code_product: 29, popularity = 5
+2016-01-29T07:51:10.847Z - silly: Popularity document saved code_product: 252, popularity = 5
+2016-01-29T07:51:10.847Z - silly: Popularity document saved code_product: 259, popularity = 5
+2016-01-29T07:51:10.847Z - silly: Popularity document saved code_product: 73, popularity = 5
+2016-01-29T07:51:10.848Z - silly: Popularity document saved code_product: 30, popularity = 5
+2016-01-29T07:51:10.848Z - silly: Popularity document saved code_product: 14, popularity = 4.5
+2016-01-29T07:51:10.848Z - silly: Popularity document saved code_product: 36, popularity = 4.5
+2016-01-29T07:51:10.848Z - silly: Popularity document saved code_product: 67, popularity = 4.25
+2016-01-29T07:51:10.848Z - silly: Popularity document saved code_product: 96, popularity = 3.75
+2016-01-29T07:51:10.848Z - silly: Popularity document saved code_product: 317, popularity = 3.5
+2016-01-29T07:51:10.848Z - silly: Popularity document saved code_product: 21, popularity = 3.25
+2016-01-29T07:51:10.848Z - silly: Popularity document saved code_product: 2, popularity = 2.75
+2016-01-29T07:51:10.848Z - silly: Popularity document saved code_product: 60, popularity = 2.5
+2016-01-29T07:51:10.849Z - silly: Popularity document saved code_product: 263, popularity = 2.5
+2016-01-29T07:51:10.849Z - silly: Popularity document saved code_product: 108, popularity = 2.5
+2016-01-29T07:51:10.849Z - silly: Popularity document saved code_product: 95, popularity = 2.5
+2016-01-29T07:51:10.849Z - silly: Popularity document saved code_product: 249, popularity = 2.5
+2016-01-29T07:51:10.849Z - silly: Popularity document saved code_product: 100, popularity = 2.5
+2016-01-29T07:51:10.849Z - silly: Popularity document saved code_product: 192, popularity = 2.5
+2016-01-29T07:51:10.849Z - silly: Popularity document saved code_product: 49, popularity = 2.5
+2016-01-29T07:51:10.849Z - silly: Popularity document saved code_product: 35, popularity = 2.5
+2016-01-29T07:51:10.850Z - silly: Popularity document saved code_product: 82, popularity = 2.5
+2016-01-29T07:51:10.850Z - silly: Popularity document saved code_product: 76, popularity = 2.5
+2016-01-29T07:51:10.850Z - silly: Popularity document saved code_product: 3, popularity = 2.5
+2016-01-29T07:51:10.850Z - silly: Popularity document saved code_product: 85, popularity = 2.5
+2016-01-29T07:51:10.850Z - silly: Popularity document saved code_product: 237, popularity = 2.5
+2016-01-29T07:51:10.850Z - silly: Popularity document saved code_product: 128, popularity = 2.5
+2016-01-29T07:51:10.850Z - silly: Popularity document saved code_product: 180, popularity = 2.5
+2016-01-29T07:51:10.850Z - silly: Popularity document saved code_product: 32, popularity = 2
+2016-01-29T07:51:10.851Z - silly: Popularity document saved code_product: 44, popularity = 2
+2016-01-29T07:51:10.851Z - silly: Popularity document saved code_product: 283, popularity = 1.75
+2016-01-29T07:51:10.851Z - silly: Popularity document saved code_product: 244, popularity = 1.5
+2016-01-29T07:51:10.851Z - silly: Popularity document saved code_product: 61, popularity = 1.25
+2016-01-29T07:51:10.851Z - silly: Popularity document saved code_product: 132, popularity = 1
+2016-01-29T07:51:10.851Z - silly: Popularity document saved code_product: 288, popularity = 0.75
+2016-01-29T07:51:10.851Z - silly: Popularity document saved code_product: 130, popularity = 0.75
+2016-01-29T07:51:10.851Z - silly: Popularity document saved code_product: 7, popularity = 0.75
+2016-01-29T07:51:10.851Z - silly: Popularity document saved code_product: 162, popularity = 0.75
+2016-01-29T07:51:10.852Z - silly: Popularity document saved code_product: 307, popularity = 0.75
+2016-01-29T07:51:10.852Z - silly: Popularity document saved code_product: 136, popularity = 0.5
+2016-01-29T07:51:10.852Z - silly: Popularity document saved code_product: 157, popularity = 0.25
+2016-01-29T07:51:10.852Z - silly: Popularity document saved code_product: 204, popularity = 0.25
+2016-01-29T07:51:10.852Z - silly: Popularity document saved code_product: 239, popularity = 0.25
+2016-01-29T07:51:10.852Z - silly: Popularity document saved code_product: 210, popularity = 0.25
+2016-01-29T07:51:10.853Z - silly: Popularity document saved code_product: 78, popularity = 5
+2016-01-29T07:51:10.853Z - silly: Popularity document saved code_product: 258, popularity = 5
+2016-01-29T07:51:10.853Z - silly: Popularity document saved code_product: 243, popularity = 5
+2016-01-29T07:51:10.853Z - silly: Popularity document saved code_product: 292, popularity = 5
+2016-01-29T07:51:10.853Z - silly: Popularity document saved code_product: 310, popularity = 5
+2016-01-29T07:51:10.853Z - silly: Popularity document saved code_product: 262, popularity = 5
+2016-01-29T07:51:10.853Z - silly: Popularity document saved code_product: 42, popularity = 4.5
+2016-01-29T07:51:10.854Z - silly: Popularity document saved code_product: 19, popularity = 4.5
+2016-01-29T07:51:10.854Z - silly: Popularity document saved code_product: 299, popularity = 4.25
+2016-01-29T07:51:10.854Z - silly: Popularity document saved code_product: 137, popularity = 3.75
+2016-01-29T07:51:10.854Z - silly: Popularity document saved code_product: 264, popularity = 3.5
+2016-01-29T07:51:10.854Z - silly: Popularity document saved code_product: 4, popularity = 3.25
+2016-01-29T07:51:10.854Z - silly: Popularity document saved code_product: 13, popularity = 2.75
+2016-01-29T07:51:10.854Z - silly: Popularity document saved code_product: 121, popularity = 2.5
+2016-01-29T07:51:10.854Z - silly: Popularity document saved code_product: 86, popularity = 2.5
+2016-01-29T07:51:10.855Z - silly: Popularity document saved code_product: 273, popularity = 2.5
+2016-01-29T07:51:10.855Z - silly: Popularity document saved code_product: 191, popularity = 2.5
+2016-01-29T07:51:10.855Z - silly: Popularity document saved code_product: 301, popularity = 2.5
+2016-01-29T07:51:10.855Z - silly: Popularity document saved code_product: 129, popularity = 2.5
+2016-01-29T07:51:10.855Z - silly: Popularity document saved code_product: 209, popularity = 2.5
+2016-01-29T07:51:10.855Z - silly: Popularity document saved code_product: 118, popularity = 2.5
+2016-01-29T07:51:10.855Z - silly: Popularity document saved code_product: 149, popularity = 2.5
+2016-01-29T07:51:10.855Z - silly: Popularity document saved code_product: 99, popularity = 2.5
+2016-01-29T07:51:10.855Z - silly: Popularity document saved code_product: 93, popularity = 2.5
+2016-01-29T07:51:10.856Z - silly: Popularity document saved code_product: 305, popularity = 2.5
+2016-01-29T07:51:10.856Z - silly: Popularity document saved code_product: 309, popularity = 2.5
+2016-01-29T07:51:10.856Z - silly: Popularity document saved code_product: 315, popularity = 2.5
+2016-01-29T07:51:10.856Z - silly: Popularity document saved code_product: 201, popularity = 2.5
+2016-01-29T07:51:10.856Z - silly: Popularity document saved code_product: 234, popularity = 2.5
+2016-01-29T07:51:10.856Z - silly: Popularity document saved code_product: 277, popularity = 2
+2016-01-29T07:51:10.856Z - silly: Popularity document saved code_product: 321, popularity = 2
+2016-01-29T07:51:10.856Z - silly: Popularity document saved code_product: 103, popularity = 1.75
+2016-01-29T07:51:10.857Z - silly: Popularity document saved code_product: 266, popularity = 1.5
+2016-01-29T07:51:10.857Z - silly: Popularity document saved code_product: 285, popularity = 1
+2016-01-29T07:51:10.857Z - silly: Popularity document saved code_product: 188, popularity = 1
+2016-01-29T07:51:10.857Z - silly: Popularity document saved code_product: 290, popularity = 0.75
+2016-01-29T07:51:10.857Z - silly: Popularity document saved code_product: 216, popularity = 0.75
+2016-01-29T07:51:10.857Z - silly: Popularity document saved code_product: 70, popularity = 0.75
+2016-01-29T07:51:10.857Z - silly: Popularity document saved code_product: 46, popularity = 0.75
+2016-01-29T07:51:10.857Z - silly: Popularity document saved code_product: 251, popularity = 0.75
+2016-01-29T07:51:10.857Z - silly: Popularity document saved code_product: 254, popularity = 0.5
+2016-01-29T07:51:10.858Z - silly: Popularity document saved code_product: 111, popularity = 0.25
+2016-01-29T07:51:10.858Z - silly: Popularity document saved code_product: 1, popularity = 0.25
+2016-01-29T07:51:10.858Z - silly: Popularity document saved code_product: 181, popularity = 0.25
+2016-01-29T07:51:10.859Z - silly: Popularity document saved code_product: 175, popularity = 5
+2016-01-29T07:51:10.859Z - silly: Popularity document saved code_product: 293, popularity = 5
+2016-01-29T07:51:10.859Z - silly: Popularity document saved code_product: 245, popularity = 5
+2016-01-29T07:51:10.860Z - silly: Popularity document saved code_product: 198, popularity = 5
+2016-01-29T07:51:10.860Z - silly: Popularity document saved code_product: 166, popularity = 5
+2016-01-29T07:51:10.860Z - silly: Popularity document saved code_product: 270, popularity = 5
+2016-01-29T07:51:10.860Z - silly: Popularity document saved code_product: 5, popularity = 4.5
+2016-01-29T07:51:10.860Z - silly: Popularity document saved code_product: 65, popularity = 4.5
+2016-01-29T07:51:10.860Z - silly: Popularity document saved code_product: 31, popularity = 4.25
+2016-01-29T07:51:10.861Z - silly: Popularity document saved code_product: 303, popularity = 3.5
+2016-01-29T07:51:10.861Z - silly: Popularity document saved code_product: 22, popularity = 3.25
+2016-01-29T07:51:10.861Z - silly: Popularity document saved code_product: 34, popularity = 3
+2016-01-29T07:51:10.861Z - silly: Popularity document saved code_product: 271, popularity = 2.5
+2016-01-29T07:51:10.861Z - silly: Popularity document saved code_product: 199, popularity = 2.5
+2016-01-29T07:51:10.861Z - silly: Popularity document saved code_product: 116, popularity = 2.5
+2016-01-29T07:51:10.861Z - silly: Popularity document saved code_product: 306, popularity = 2.5
+2016-01-29T07:51:10.861Z - silly: Popularity document saved code_product: 184, popularity = 2.5
+2016-01-29T07:51:10.861Z - silly: Popularity document saved code_product: 15, popularity = 2.5
+2016-01-29T07:51:10.862Z - silly: Popularity document saved code_product: 138, popularity = 2.5
+2016-01-29T07:51:10.862Z - silly: Popularity document saved code_product: 115, popularity = 2.5
+2016-01-29T07:51:10.862Z - silly: Popularity document saved code_product: 54, popularity = 2.5
+2016-01-29T07:51:10.862Z - silly: Popularity document saved code_product: 203, popularity = 2.5
+2016-01-29T07:51:10.862Z - silly: Popularity document saved code_product: 265, popularity = 2.5
+2016-01-29T07:51:10.862Z - silly: Popularity document saved code_product: 213, popularity = 2.5
+2016-01-29T07:51:10.862Z - silly: Popularity document saved code_product: 194, popularity = 2.5
+2016-01-29T07:51:10.862Z - silly: Popularity document saved code_product: 92, popularity = 2.5
+2016-01-29T07:51:10.863Z - silly: Popularity document saved code_product: 193, popularity = 2.5
+2016-01-29T07:51:10.863Z - silly: Popularity document saved code_product: 120, popularity = 2.5
+2016-01-29T07:51:10.863Z - silly: Popularity document saved code_product: 278, popularity = 2.25
+2016-01-29T07:51:10.863Z - silly: Popularity document saved code_product: 276, popularity = 2
+2016-01-29T07:51:10.863Z - silly: Popularity document saved code_product: 311, popularity = 1.75
+2016-01-29T07:51:10.863Z - silly: Popularity document saved code_product: 50, popularity = 1.5
+2016-01-29T07:51:10.863Z - silly: Popularity document saved code_product: 185, popularity = 1.5
+2016-01-29T07:51:10.863Z - silly: Popularity document saved code_product: 131, popularity = 1
+2016-01-29T07:51:10.863Z - silly: Popularity document saved code_product: 274, popularity = 1
+2016-01-29T07:51:10.864Z - silly: Popularity document saved code_product: 253, popularity = 0.75
+2016-01-29T07:51:10.864Z - silly: Popularity document saved code_product: 275, popularity = 0.75
+2016-01-29T07:51:10.864Z - silly: Popularity document saved code_product: 33, popularity = 0.75
+2016-01-29T07:51:10.864Z - silly: Popularity document saved code_product: 6, popularity = 0.75
+2016-01-29T07:51:10.864Z - silly: Popularity document saved code_product: 47, popularity = 0.75
+2016-01-29T07:51:10.864Z - silly: Popularity document saved code_product: 135, popularity = 0.5
+2016-01-29T07:51:10.865Z - silly: Popularity document saved code_product: 260, popularity = 0.25
+2016-01-29T07:51:10.865Z - silly: Popularity document saved code_product: 87, popularity = 0.25
+2016-01-29T07:51:10.865Z - silly: Popularity document saved code_product: 151, popularity = 0.25
+2016-01-29T07:51:10.865Z - silly: Popularity document saved code_product: 257, popularity = 5
+2016-01-29T07:51:10.865Z - silly: Popularity document saved code_product: 289, popularity = 5
+2016-01-29T07:51:10.866Z - silly: Popularity document saved code_product: 81, popularity = 5
+2016-01-29T07:51:10.866Z - silly: Popularity document saved code_product: 25, popularity = 5
+2016-01-29T07:51:10.866Z - silly: Popularity document saved code_product: 8, popularity = 5
+2016-01-29T07:51:10.866Z - silly: Popularity document saved code_product: 287, popularity = 5
+2016-01-29T07:51:10.866Z - silly: Popularity document saved code_product: 16, popularity = 4.5
+2016-01-29T07:51:10.866Z - silly: Popularity document saved code_product: 23, popularity = 4.25
+2016-01-29T07:51:10.866Z - silly: Popularity document saved code_product: 18, popularity = 4.25
+2016-01-29T07:51:10.867Z - silly: Popularity document saved code_product: 304, popularity = 3.5
+2016-01-29T07:51:10.867Z - silly: Popularity document saved code_product: 43, popularity = 3.25
+2016-01-29T07:51:10.867Z - silly: Popularity document saved code_product: 24, popularity = 2.75
+2016-01-29T07:51:10.867Z - silly: Popularity document saved code_product: 302, popularity = 2.5
+2016-01-29T07:51:10.867Z - silly: Popularity document saved code_product: 27, popularity = 2.5
+2016-01-29T07:51:10.867Z - silly: Popularity document saved code_product: 109, popularity = 2.5
+2016-01-29T07:51:10.867Z - silly: Popularity document saved code_product: 79, popularity = 2.5
+2016-01-29T07:51:10.867Z - silly: Popularity document saved code_product: 48, popularity = 2.5
+2016-01-29T07:51:10.867Z - silly: Popularity document saved code_product: 141, popularity = 2.5
+2016-01-29T07:51:10.868Z - silly: Popularity document saved code_product: 160, popularity = 2.5
+2016-01-29T07:51:10.868Z - silly: Popularity document saved code_product: 189, popularity = 2.5
+2016-01-29T07:51:10.868Z - silly: Popularity document saved code_product: 233, popularity = 2.5
+2016-01-29T07:51:10.868Z - silly: Popularity document saved code_product: 39, popularity = 2.5
+2016-01-29T07:51:10.868Z - silly: Popularity document saved code_product: 186, popularity = 2.5
+2016-01-29T07:51:10.868Z - silly: Popularity document saved code_product: 247, popularity = 2.5
+2016-01-29T07:51:10.868Z - silly: Popularity document saved code_product: 91, popularity = 2.5
+2016-01-29T07:51:10.868Z - silly: Popularity document saved code_product: 140, popularity = 2.5
+2016-01-29T07:51:10.868Z - silly: Popularity document saved code_product: 195, popularity = 2.5
+2016-01-29T07:51:10.869Z - silly: Popularity document saved code_product: 143, popularity = 2.5
+2016-01-29T07:51:10.869Z - silly: Popularity document saved code_product: 322, popularity = 2.25
+2016-01-29T07:51:10.869Z - silly: Popularity document saved code_product: 272, popularity = 2
+2016-01-29T07:51:10.869Z - silly: Popularity document saved code_product: 207, popularity = 1.75
+2016-01-29T07:51:10.869Z - silly: Popularity document saved code_product: 163, popularity = 1.5
+2016-01-29T07:51:10.869Z - silly: Popularity document saved code_product: 57, popularity = 1.25
+2016-01-29T07:51:10.869Z - silly: Popularity document saved code_product: 187, popularity = 1
+2016-01-29T07:51:10.869Z - silly: Popularity document saved code_product: 75, popularity = 0.75
+2016-01-29T07:51:10.870Z - silly: Popularity document saved code_product: 9, popularity = 0.75
+2016-01-29T07:51:10.870Z - silly: Popularity document saved code_product: 215, popularity = 0.75
+2016-01-29T07:51:10.870Z - silly: Popularity document saved code_product: 282, popularity = 0.75
+2016-01-29T07:51:10.870Z - silly: Popularity document saved code_product: 295, popularity = 0.75
+2016-01-29T07:51:10.870Z - silly: Popularity document saved code_product: 291, popularity = 0.5
+2016-01-29T07:51:10.870Z - silly: Popularity document saved code_product: 178, popularity = 0.5
+2016-01-29T07:51:10.870Z - silly: Popularity document saved code_product: 246, popularity = 0.25
+2016-01-29T07:51:10.870Z - silly: Popularity document saved code_product: 165, popularity = 0.25
+2016-01-29T07:51:10.870Z - silly: Popularity document saved code_product: 107, popularity = 0.25
+2016-01-29T07:51:10.871Z - silly: Popularity document saved code_product: 197, popularity = 5
+2016-01-29T07:51:10.871Z - silly: Popularity document saved code_product: 267, popularity = 5
+2016-01-29T07:51:10.871Z - silly: Popularity document saved code_product: 250, popularity = 5
+2016-01-29T07:51:10.871Z - silly: Popularity document saved code_product: 255, popularity = 5
+2016-01-29T07:51:10.871Z - silly: Popularity document saved code_product: 300, popularity = 5
+2016-01-29T07:51:10.871Z - silly: Popularity document saved code_product: 296, popularity = 5
+2016-01-29T07:51:10.871Z - silly: Popularity document saved code_product: 10, popularity = 4.5
+2016-01-29T07:51:10.872Z - silly: Popularity document saved code_product: 52, popularity = 4.25
+2016-01-29T07:51:10.872Z - silly: Popularity document saved code_product: 126, popularity = 3.75
+2016-01-29T07:51:10.872Z - silly: Popularity document saved code_product: 12, popularity = 3.5
+2016-01-29T07:51:10.872Z - silly: Popularity document saved code_product: 37, popularity = 3.25
+2016-01-29T07:51:10.872Z - silly: Popularity document saved code_product: 17, popularity = 2.75
+2016-01-29T07:51:10.872Z - silly: Popularity document saved code_product: 20, popularity = 2.5
+2016-01-29T07:51:10.872Z - silly: Popularity document saved code_product: 284, popularity = 2.5
+2016-01-29T07:51:10.872Z - silly: Popularity document saved code_product: 125, popularity = 2.5
+2016-01-29T07:51:10.873Z - silly: Popularity document saved code_product: 206, popularity = 2.5
+2016-01-29T07:51:10.873Z - silly: Popularity document saved code_product: 316, popularity = 2.5
+2016-01-29T07:51:10.873Z - silly: Popularity document saved code_product: 142, popularity = 2.5
+2016-01-29T07:51:10.873Z - silly: Popularity document saved code_product: 148, popularity = 2.5
+2016-01-29T07:51:10.873Z - silly: Popularity document saved code_product: 98, popularity = 2.5
+2016-01-29T07:51:10.873Z - silly: Popularity document saved code_product: 228, popularity = 2.5
+2016-01-29T07:51:10.873Z - silly: Popularity document saved code_product: 146, popularity = 2.5
+2016-01-29T07:51:10.873Z - silly: Popularity document saved code_product: 158, popularity = 2.5
+2016-01-29T07:51:10.873Z - silly: Popularity document saved code_product: 202, popularity = 2.5
+2016-01-29T07:51:10.874Z - silly: Popularity document saved code_product: 122, popularity = 2.5
+2016-01-29T07:51:10.874Z - silly: Popularity document saved code_product: 55, popularity = 2.5
+2016-01-29T07:51:10.874Z - silly: Popularity document saved code_product: 28, popularity = 2.5
+2016-01-29T07:51:10.874Z - silly: Popularity document saved code_product: 41, popularity = 2.5
+2016-01-29T07:51:10.874Z - silly: Popularity document saved code_product: 38, popularity = 2
+2016-01-29T07:51:10.882Z - silly: Popularity document saved code_product: 297, popularity = 2
+2016-01-29T07:51:10.882Z - silly: Popularity document saved code_product: 242, popularity = 1.75
+2016-01-29T07:51:10.882Z - silly: Popularity document saved code_product: 145, popularity = 1.5
+2016-01-29T07:51:10.882Z - silly: Popularity document saved code_product: 26, popularity = 1.25
+2016-01-29T07:51:10.883Z - silly: Popularity document saved code_product: 77, popularity = 1
+2016-01-29T07:51:10.883Z - silly: Popularity document saved code_product: 40, popularity = 0.75
+2016-01-29T07:51:10.883Z - silly: Popularity document saved code_product: 69, popularity = 0.75
+2016-01-29T07:51:10.883Z - silly: Popularity document saved code_product: 74, popularity = 0.75
+2016-01-29T07:51:10.883Z - silly: Popularity document saved code_product: 279, popularity = 0.75
+2016-01-29T07:51:10.883Z - silly: Popularity document saved code_product: 280, popularity = 0.75
+2016-01-29T07:51:10.883Z - silly: Popularity document saved code_product: 314, popularity = 0.5
+2016-01-29T07:51:10.884Z - silly: Popularity document saved code_product: 88, popularity = 0.5
+2016-01-29T07:51:10.884Z - silly: Popularity document saved code_product: 225, popularity = 0.25
+2016-01-29T07:51:10.884Z - silly: Popularity document saved code_product: 84, popularity = 0.25
+2016-01-29T07:51:10.885Z - silly: Popularity document saved code_product: 248, popularity = 0.25
+2016-01-29T07:52:10.749Z - silly: Getting available products (count): 322
+2016-01-29T07:52:10.751Z - silly: Popularity collection cleared
+2016-01-29T07:52:10.760Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2016-01-29T07:52:10.875Z - silly: Popularity document saved code_product: 29, popularity = 5
+2016-01-29T07:52:10.875Z - silly: Popularity document saved code_product: 252, popularity = 5
+2016-01-29T07:52:10.875Z - silly: Popularity document saved code_product: 259, popularity = 5
+2016-01-29T07:52:10.876Z - silly: Popularity document saved code_product: 73, popularity = 5
+2016-01-29T07:52:10.876Z - silly: Popularity document saved code_product: 30, popularity = 5
+2016-01-29T07:52:10.876Z - silly: Popularity document saved code_product: 14, popularity = 4.5
+2016-01-29T07:52:10.877Z - silly: Popularity document saved code_product: 36, popularity = 4.5
+2016-01-29T07:52:10.877Z - silly: Popularity document saved code_product: 67, popularity = 4.25
+2016-01-29T07:52:10.877Z - silly: Popularity document saved code_product: 96, popularity = 3.75
+2016-01-29T07:52:10.877Z - silly: Popularity document saved code_product: 317, popularity = 3.5
+2016-01-29T07:52:10.877Z - silly: Popularity document saved code_product: 21, popularity = 3.25
+2016-01-29T07:52:10.877Z - silly: Popularity document saved code_product: 2, popularity = 2.75
+2016-01-29T07:52:10.877Z - silly: Popularity document saved code_product: 60, popularity = 2.5
+2016-01-29T07:52:10.877Z - silly: Popularity document saved code_product: 263, popularity = 2.5
+2016-01-29T07:52:10.878Z - silly: Popularity document saved code_product: 108, popularity = 2.5
+2016-01-29T07:52:10.878Z - silly: Popularity document saved code_product: 95, popularity = 2.5
+2016-01-29T07:52:10.878Z - silly: Popularity document saved code_product: 249, popularity = 2.5
+2016-01-29T07:52:10.878Z - silly: Popularity document saved code_product: 100, popularity = 2.5
+2016-01-29T07:52:10.878Z - silly: Popularity document saved code_product: 192, popularity = 2.5
+2016-01-29T07:52:10.878Z - silly: Popularity document saved code_product: 49, popularity = 2.5
+2016-01-29T07:52:10.878Z - silly: Popularity document saved code_product: 35, popularity = 2.5
+2016-01-29T07:52:10.878Z - silly: Popularity document saved code_product: 82, popularity = 2.5
+2016-01-29T07:52:10.878Z - silly: Popularity document saved code_product: 76, popularity = 2.5
+2016-01-29T07:52:10.879Z - silly: Popularity document saved code_product: 3, popularity = 2.5
+2016-01-29T07:52:10.879Z - silly: Popularity document saved code_product: 85, popularity = 2.5
+2016-01-29T07:52:10.879Z - silly: Popularity document saved code_product: 237, popularity = 2.5
+2016-01-29T07:52:10.879Z - silly: Popularity document saved code_product: 128, popularity = 2.5
+2016-01-29T07:52:10.879Z - silly: Popularity document saved code_product: 180, popularity = 2.5
+2016-01-29T07:52:10.879Z - silly: Popularity document saved code_product: 32, popularity = 2
+2016-01-29T07:52:10.879Z - silly: Popularity document saved code_product: 44, popularity = 2
+2016-01-29T07:52:10.879Z - silly: Popularity document saved code_product: 283, popularity = 1.75
+2016-01-29T07:52:10.879Z - silly: Popularity document saved code_product: 244, popularity = 1.5
+2016-01-29T07:52:10.880Z - silly: Popularity document saved code_product: 61, popularity = 1.25
+2016-01-29T07:52:10.880Z - silly: Popularity document saved code_product: 132, popularity = 1
+2016-01-29T07:52:10.880Z - silly: Popularity document saved code_product: 288, popularity = 0.75
+2016-01-29T07:52:10.880Z - silly: Popularity document saved code_product: 130, popularity = 0.75
+2016-01-29T07:52:10.880Z - silly: Popularity document saved code_product: 7, popularity = 0.75
+2016-01-29T07:52:10.880Z - silly: Popularity document saved code_product: 162, popularity = 0.75
+2016-01-29T07:52:10.880Z - silly: Popularity document saved code_product: 307, popularity = 0.75
+2016-01-29T07:52:10.880Z - silly: Popularity document saved code_product: 136, popularity = 0.5
+2016-01-29T07:52:10.880Z - silly: Popularity document saved code_product: 157, popularity = 0.25
+2016-01-29T07:52:10.881Z - silly: Popularity document saved code_product: 204, popularity = 0.25
+2016-01-29T07:52:10.881Z - silly: Popularity document saved code_product: 239, popularity = 0.25
+2016-01-29T07:52:10.881Z - silly: Popularity document saved code_product: 210, popularity = 0.25
+2016-01-29T07:52:10.881Z - silly: Popularity document saved code_product: 78, popularity = 5
+2016-01-29T07:52:10.881Z - silly: Popularity document saved code_product: 258, popularity = 5
+2016-01-29T07:52:10.882Z - silly: Popularity document saved code_product: 243, popularity = 5
+2016-01-29T07:52:10.882Z - silly: Popularity document saved code_product: 292, popularity = 5
+2016-01-29T07:52:10.882Z - silly: Popularity document saved code_product: 310, popularity = 5
+2016-01-29T07:52:10.883Z - silly: Popularity document saved code_product: 262, popularity = 5
+2016-01-29T07:52:10.883Z - silly: Popularity document saved code_product: 42, popularity = 4.5
+2016-01-29T07:52:10.883Z - silly: Popularity document saved code_product: 19, popularity = 4.5
+2016-01-29T07:52:10.883Z - silly: Popularity document saved code_product: 299, popularity = 4.25
+2016-01-29T07:52:10.883Z - silly: Popularity document saved code_product: 137, popularity = 3.75
+2016-01-29T07:52:10.883Z - silly: Popularity document saved code_product: 264, popularity = 3.5
+2016-01-29T07:52:10.883Z - silly: Popularity document saved code_product: 4, popularity = 3.25
+2016-01-29T07:52:10.883Z - silly: Popularity document saved code_product: 13, popularity = 2.75
+2016-01-29T07:52:10.883Z - silly: Popularity document saved code_product: 121, popularity = 2.5
+2016-01-29T07:52:10.884Z - silly: Popularity document saved code_product: 86, popularity = 2.5
+2016-01-29T07:52:10.884Z - silly: Popularity document saved code_product: 273, popularity = 2.5
+2016-01-29T07:52:10.884Z - silly: Popularity document saved code_product: 191, popularity = 2.5
+2016-01-29T07:52:10.884Z - silly: Popularity document saved code_product: 301, popularity = 2.5
+2016-01-29T07:52:10.884Z - silly: Popularity document saved code_product: 129, popularity = 2.5
+2016-01-29T07:52:10.884Z - silly: Popularity document saved code_product: 209, popularity = 2.5
+2016-01-29T07:52:10.884Z - silly: Popularity document saved code_product: 118, popularity = 2.5
+2016-01-29T07:52:10.884Z - silly: Popularity document saved code_product: 149, popularity = 2.5
+2016-01-29T07:52:10.884Z - silly: Popularity document saved code_product: 99, popularity = 2.5
+2016-01-29T07:52:10.885Z - silly: Popularity document saved code_product: 93, popularity = 2.5
+2016-01-29T07:52:10.885Z - silly: Popularity document saved code_product: 305, popularity = 2.5
+2016-01-29T07:52:10.885Z - silly: Popularity document saved code_product: 309, popularity = 2.5
+2016-01-29T07:52:10.885Z - silly: Popularity document saved code_product: 315, popularity = 2.5
+2016-01-29T07:52:10.885Z - silly: Popularity document saved code_product: 201, popularity = 2.5
+2016-01-29T07:52:10.885Z - silly: Popularity document saved code_product: 234, popularity = 2.5
+2016-01-29T07:52:10.885Z - silly: Popularity document saved code_product: 277, popularity = 2
+2016-01-29T07:52:10.885Z - silly: Popularity document saved code_product: 321, popularity = 2
+2016-01-29T07:52:10.885Z - silly: Popularity document saved code_product: 103, popularity = 1.75
+2016-01-29T07:52:10.886Z - silly: Popularity document saved code_product: 266, popularity = 1.5
+2016-01-29T07:52:10.886Z - silly: Popularity document saved code_product: 285, popularity = 1
+2016-01-29T07:52:10.886Z - silly: Popularity document saved code_product: 188, popularity = 1
+2016-01-29T07:52:10.886Z - silly: Popularity document saved code_product: 290, popularity = 0.75
+2016-01-29T07:52:10.886Z - silly: Popularity document saved code_product: 216, popularity = 0.75
+2016-01-29T07:52:10.886Z - silly: Popularity document saved code_product: 70, popularity = 0.75
+2016-01-29T07:52:10.886Z - silly: Popularity document saved code_product: 46, popularity = 0.75
+2016-01-29T07:52:10.886Z - silly: Popularity document saved code_product: 251, popularity = 0.75
+2016-01-29T07:52:10.886Z - silly: Popularity document saved code_product: 254, popularity = 0.5
+2016-01-29T07:52:10.887Z - silly: Popularity document saved code_product: 111, popularity = 0.25
+2016-01-29T07:52:10.887Z - silly: Popularity document saved code_product: 1, popularity = 0.25
+2016-01-29T07:52:10.887Z - silly: Popularity document saved code_product: 181, popularity = 0.25
+2016-01-29T07:52:10.887Z - silly: Popularity document saved code_product: 175, popularity = 5
+2016-01-29T07:52:10.887Z - silly: Popularity document saved code_product: 293, popularity = 5
+2016-01-29T07:52:10.887Z - silly: Popularity document saved code_product: 245, popularity = 5
+2016-01-29T07:52:10.888Z - silly: Popularity document saved code_product: 198, popularity = 5
+2016-01-29T07:52:10.888Z - silly: Popularity document saved code_product: 166, popularity = 5
+2016-01-29T07:52:10.888Z - silly: Popularity document saved code_product: 270, popularity = 5
+2016-01-29T07:52:10.888Z - silly: Popularity document saved code_product: 5, popularity = 4.5
+2016-01-29T07:52:10.888Z - silly: Popularity document saved code_product: 65, popularity = 4.5
+2016-01-29T07:52:10.888Z - silly: Popularity document saved code_product: 31, popularity = 4.25
+2016-01-29T07:52:10.889Z - silly: Popularity document saved code_product: 303, popularity = 3.5
+2016-01-29T07:52:10.889Z - silly: Popularity document saved code_product: 22, popularity = 3.25
+2016-01-29T07:52:10.889Z - silly: Popularity document saved code_product: 34, popularity = 3
+2016-01-29T07:52:10.889Z - silly: Popularity document saved code_product: 271, popularity = 2.5
+2016-01-29T07:52:10.889Z - silly: Popularity document saved code_product: 199, popularity = 2.5
+2016-01-29T07:52:10.890Z - silly: Popularity document saved code_product: 116, popularity = 2.5
+2016-01-29T07:52:10.890Z - silly: Popularity document saved code_product: 306, popularity = 2.5
+2016-01-29T07:52:10.890Z - silly: Popularity document saved code_product: 184, popularity = 2.5
+2016-01-29T07:52:10.890Z - silly: Popularity document saved code_product: 15, popularity = 2.5
+2016-01-29T07:52:10.890Z - silly: Popularity document saved code_product: 138, popularity = 2.5
+2016-01-29T07:52:10.890Z - silly: Popularity document saved code_product: 115, popularity = 2.5
+2016-01-29T07:52:10.890Z - silly: Popularity document saved code_product: 54, popularity = 2.5
+2016-01-29T07:52:10.890Z - silly: Popularity document saved code_product: 203, popularity = 2.5
+2016-01-29T07:52:10.890Z - silly: Popularity document saved code_product: 265, popularity = 2.5
+2016-01-29T07:52:10.891Z - silly: Popularity document saved code_product: 213, popularity = 2.5
+2016-01-29T07:52:10.891Z - silly: Popularity document saved code_product: 194, popularity = 2.5
+2016-01-29T07:52:10.891Z - silly: Popularity document saved code_product: 92, popularity = 2.5
+2016-01-29T07:52:10.891Z - silly: Popularity document saved code_product: 193, popularity = 2.5
+2016-01-29T07:52:10.891Z - silly: Popularity document saved code_product: 120, popularity = 2.5
+2016-01-29T07:52:10.891Z - silly: Popularity document saved code_product: 278, popularity = 2.25
+2016-01-29T07:52:10.891Z - silly: Popularity document saved code_product: 276, popularity = 2
+2016-01-29T07:52:10.891Z - silly: Popularity document saved code_product: 311, popularity = 1.75
+2016-01-29T07:52:10.891Z - silly: Popularity document saved code_product: 50, popularity = 1.5
+2016-01-29T07:52:10.892Z - silly: Popularity document saved code_product: 185, popularity = 1.5
+2016-01-29T07:52:10.892Z - silly: Popularity document saved code_product: 131, popularity = 1
+2016-01-29T07:52:10.892Z - silly: Popularity document saved code_product: 274, popularity = 1
+2016-01-29T07:52:10.892Z - silly: Popularity document saved code_product: 253, popularity = 0.75
+2016-01-29T07:52:10.892Z - silly: Popularity document saved code_product: 275, popularity = 0.75
+2016-01-29T07:52:10.892Z - silly: Popularity document saved code_product: 33, popularity = 0.75
+2016-01-29T07:52:10.892Z - silly: Popularity document saved code_product: 6, popularity = 0.75
+2016-01-29T07:52:10.892Z - silly: Popularity document saved code_product: 47, popularity = 0.75
+2016-01-29T07:52:10.892Z - silly: Popularity document saved code_product: 135, popularity = 0.5
+2016-01-29T07:52:10.893Z - silly: Popularity document saved code_product: 260, popularity = 0.25
+2016-01-29T07:52:10.893Z - silly: Popularity document saved code_product: 87, popularity = 0.25
+2016-01-29T07:52:10.893Z - silly: Popularity document saved code_product: 151, popularity = 0.25
+2016-01-29T07:52:10.893Z - silly: Popularity document saved code_product: 257, popularity = 5
+2016-01-29T07:52:10.893Z - silly: Popularity document saved code_product: 289, popularity = 5
+2016-01-29T07:52:10.893Z - silly: Popularity document saved code_product: 81, popularity = 5
+2016-01-29T07:52:10.894Z - silly: Popularity document saved code_product: 25, popularity = 5
+2016-01-29T07:52:10.894Z - silly: Popularity document saved code_product: 8, popularity = 5
+2016-01-29T07:52:10.894Z - silly: Popularity document saved code_product: 287, popularity = 5
+2016-01-29T07:52:10.894Z - silly: Popularity document saved code_product: 16, popularity = 4.5
+2016-01-29T07:52:10.894Z - silly: Popularity document saved code_product: 23, popularity = 4.25
+2016-01-29T07:52:10.894Z - silly: Popularity document saved code_product: 18, popularity = 4.25
+2016-01-29T07:52:10.894Z - silly: Popularity document saved code_product: 304, popularity = 3.5
+2016-01-29T07:52:10.894Z - silly: Popularity document saved code_product: 43, popularity = 3.25
+2016-01-29T07:52:10.895Z - silly: Popularity document saved code_product: 24, popularity = 2.75
+2016-01-29T07:52:10.895Z - silly: Popularity document saved code_product: 302, popularity = 2.5
+2016-01-29T07:52:10.895Z - silly: Popularity document saved code_product: 27, popularity = 2.5
+2016-01-29T07:52:10.895Z - silly: Popularity document saved code_product: 109, popularity = 2.5
+2016-01-29T07:52:10.895Z - silly: Popularity document saved code_product: 79, popularity = 2.5
+2016-01-29T07:52:10.895Z - silly: Popularity document saved code_product: 48, popularity = 2.5
+2016-01-29T07:52:10.895Z - silly: Popularity document saved code_product: 141, popularity = 2.5
+2016-01-29T07:52:10.895Z - silly: Popularity document saved code_product: 160, popularity = 2.5
+2016-01-29T07:52:10.895Z - silly: Popularity document saved code_product: 189, popularity = 2.5
+2016-01-29T07:52:10.896Z - silly: Popularity document saved code_product: 233, popularity = 2.5
+2016-01-29T07:52:10.896Z - silly: Popularity document saved code_product: 39, popularity = 2.5
+2016-01-29T07:52:10.896Z - silly: Popularity document saved code_product: 186, popularity = 2.5
+2016-01-29T07:52:10.896Z - silly: Popularity document saved code_product: 247, popularity = 2.5
+2016-01-29T07:52:10.896Z - silly: Popularity document saved code_product: 91, popularity = 2.5
+2016-01-29T07:52:10.896Z - silly: Popularity document saved code_product: 140, popularity = 2.5
+2016-01-29T07:52:10.896Z - silly: Popularity document saved code_product: 195, popularity = 2.5
+2016-01-29T07:52:10.896Z - silly: Popularity document saved code_product: 143, popularity = 2.5
+2016-01-29T07:52:10.896Z - silly: Popularity document saved code_product: 322, popularity = 2.25
+2016-01-29T07:52:10.897Z - silly: Popularity document saved code_product: 272, popularity = 2
+2016-01-29T07:52:10.897Z - silly: Popularity document saved code_product: 207, popularity = 1.75
+2016-01-29T07:52:10.897Z - silly: Popularity document saved code_product: 163, popularity = 1.5
+2016-01-29T07:52:10.897Z - silly: Popularity document saved code_product: 57, popularity = 1.25
+2016-01-29T07:52:10.897Z - silly: Popularity document saved code_product: 187, popularity = 1
+2016-01-29T07:52:10.897Z - silly: Popularity document saved code_product: 75, popularity = 0.75
+2016-01-29T07:52:10.897Z - silly: Popularity document saved code_product: 9, popularity = 0.75
+2016-01-29T07:52:10.897Z - silly: Popularity document saved code_product: 215, popularity = 0.75
+2016-01-29T07:52:10.898Z - silly: Popularity document saved code_product: 282, popularity = 0.75
+2016-01-29T07:52:10.898Z - silly: Popularity document saved code_product: 295, popularity = 0.75
+2016-01-29T07:52:10.898Z - silly: Popularity document saved code_product: 291, popularity = 0.5
+2016-01-29T07:52:10.898Z - silly: Popularity document saved code_product: 178, popularity = 0.5
+2016-01-29T07:52:10.898Z - silly: Popularity document saved code_product: 246, popularity = 0.25
+2016-01-29T07:52:10.898Z - silly: Popularity document saved code_product: 165, popularity = 0.25
+2016-01-29T07:52:10.898Z - silly: Popularity document saved code_product: 107, popularity = 0.25
+2016-01-29T07:52:10.899Z - silly: Popularity document saved code_product: 197, popularity = 5
+2016-01-29T07:52:10.899Z - silly: Popularity document saved code_product: 267, popularity = 5
+2016-01-29T07:52:10.899Z - silly: Popularity document saved code_product: 250, popularity = 5
+2016-01-29T07:52:10.899Z - silly: Popularity document saved code_product: 255, popularity = 5
+2016-01-29T07:52:10.899Z - silly: Popularity document saved code_product: 300, popularity = 5
+2016-01-29T07:52:10.899Z - silly: Popularity document saved code_product: 296, popularity = 5
+2016-01-29T07:52:10.899Z - silly: Popularity document saved code_product: 10, popularity = 4.5
+2016-01-29T07:52:10.899Z - silly: Popularity document saved code_product: 52, popularity = 4.25
+2016-01-29T07:52:10.900Z - silly: Popularity document saved code_product: 126, popularity = 3.75
+2016-01-29T07:52:10.900Z - silly: Popularity document saved code_product: 12, popularity = 3.5
+2016-01-29T07:52:10.900Z - silly: Popularity document saved code_product: 37, popularity = 3.25
+2016-01-29T07:52:10.900Z - silly: Popularity document saved code_product: 17, popularity = 2.75
+2016-01-29T07:52:10.900Z - silly: Popularity document saved code_product: 20, popularity = 2.5
+2016-01-29T07:52:10.900Z - silly: Popularity document saved code_product: 284, popularity = 2.5
+2016-01-29T07:52:10.900Z - silly: Popularity document saved code_product: 125, popularity = 2.5
+2016-01-29T07:52:10.900Z - silly: Popularity document saved code_product: 206, popularity = 2.5
+2016-01-29T07:52:10.901Z - silly: Popularity document saved code_product: 316, popularity = 2.5
+2016-01-29T07:52:10.901Z - silly: Popularity document saved code_product: 142, popularity = 2.5
+2016-01-29T07:52:10.901Z - silly: Popularity document saved code_product: 148, popularity = 2.5
+2016-01-29T07:52:10.901Z - silly: Popularity document saved code_product: 98, popularity = 2.5
+2016-01-29T07:52:10.901Z - silly: Popularity document saved code_product: 228, popularity = 2.5
+2016-01-29T07:52:10.901Z - silly: Popularity document saved code_product: 146, popularity = 2.5
+2016-01-29T07:52:10.901Z - silly: Popularity document saved code_product: 158, popularity = 2.5
+2016-01-29T07:52:10.901Z - silly: Popularity document saved code_product: 202, popularity = 2.5
+2016-01-29T07:52:10.901Z - silly: Popularity document saved code_product: 122, popularity = 2.5
+2016-01-29T07:52:10.902Z - silly: Popularity document saved code_product: 55, popularity = 2.5
+2016-01-29T07:52:10.902Z - silly: Popularity document saved code_product: 28, popularity = 2.5
+2016-01-29T07:52:10.903Z - silly: Popularity document saved code_product: 41, popularity = 2.5
+2016-01-29T07:52:10.903Z - silly: Popularity document saved code_product: 38, popularity = 2
+2016-01-29T07:52:10.903Z - silly: Popularity document saved code_product: 297, popularity = 2
+2016-01-29T07:52:10.903Z - silly: Popularity document saved code_product: 242, popularity = 1.75
+2016-01-29T07:52:10.903Z - silly: Popularity document saved code_product: 145, popularity = 1.5
+2016-01-29T07:52:10.903Z - silly: Popularity document saved code_product: 26, popularity = 1.25
+2016-01-29T07:52:10.903Z - silly: Popularity document saved code_product: 77, popularity = 1
+2016-01-29T07:52:10.903Z - silly: Popularity document saved code_product: 40, popularity = 0.75
+2016-01-29T07:52:10.903Z - silly: Popularity document saved code_product: 69, popularity = 0.75
+2016-01-29T07:52:10.904Z - silly: Popularity document saved code_product: 74, popularity = 0.75
+2016-01-29T07:52:10.904Z - silly: Popularity document saved code_product: 279, popularity = 0.75
+2016-01-29T07:52:10.904Z - silly: Popularity document saved code_product: 280, popularity = 0.75
+2016-01-29T07:52:10.904Z - silly: Popularity document saved code_product: 314, popularity = 0.5
+2016-01-29T07:52:10.904Z - silly: Popularity document saved code_product: 88, popularity = 0.5
+2016-01-29T07:52:10.904Z - silly: Popularity document saved code_product: 225, popularity = 0.25
+2016-01-29T07:52:10.904Z - silly: Popularity document saved code_product: 84, popularity = 0.25
+2016-01-29T07:52:10.904Z - silly: Popularity document saved code_product: 248, popularity = 0.25
+2016-01-29T07:53:10.748Z - silly: Getting available products (count): 322
+2016-01-29T07:53:10.749Z - silly: Popularity collection cleared
+2016-01-29T07:53:10.754Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2016-01-29T07:53:10.816Z - silly: Popularity document saved code_product: 29, popularity = 5
+2016-01-29T07:53:10.816Z - silly: Popularity document saved code_product: 252, popularity = 5
+2016-01-29T07:53:10.816Z - silly: Popularity document saved code_product: 259, popularity = 5
+2016-01-29T07:53:10.817Z - silly: Popularity document saved code_product: 73, popularity = 5
+2016-01-29T07:53:10.817Z - silly: Popularity document saved code_product: 30, popularity = 5
+2016-01-29T07:53:10.817Z - silly: Popularity document saved code_product: 14, popularity = 4.5
+2016-01-29T07:53:10.817Z - silly: Popularity document saved code_product: 36, popularity = 4.5
+2016-01-29T07:53:10.817Z - silly: Popularity document saved code_product: 67, popularity = 4.25
+2016-01-29T07:53:10.817Z - silly: Popularity document saved code_product: 96, popularity = 3.75
+2016-01-29T07:53:10.817Z - silly: Popularity document saved code_product: 317, popularity = 3.5
+2016-01-29T07:53:10.817Z - silly: Popularity document saved code_product: 21, popularity = 3.25
+2016-01-29T07:53:10.817Z - silly: Popularity document saved code_product: 2, popularity = 2.75
+2016-01-29T07:53:10.817Z - silly: Popularity document saved code_product: 60, popularity = 2.5
+2016-01-29T07:53:10.818Z - silly: Popularity document saved code_product: 263, popularity = 2.5
+2016-01-29T07:53:10.818Z - silly: Popularity document saved code_product: 108, popularity = 2.5
+2016-01-29T07:53:10.818Z - silly: Popularity document saved code_product: 95, popularity = 2.5
+2016-01-29T07:53:10.818Z - silly: Popularity document saved code_product: 249, popularity = 2.5
+2016-01-29T07:53:10.818Z - silly: Popularity document saved code_product: 100, popularity = 2.5
+2016-01-29T07:53:10.818Z - silly: Popularity document saved code_product: 192, popularity = 2.5
+2016-01-29T07:53:10.818Z - silly: Popularity document saved code_product: 49, popularity = 2.5
+2016-01-29T07:53:10.818Z - silly: Popularity document saved code_product: 35, popularity = 2.5
+2016-01-29T07:53:10.818Z - silly: Popularity document saved code_product: 82, popularity = 2.5
+2016-01-29T07:53:10.818Z - silly: Popularity document saved code_product: 76, popularity = 2.5
+2016-01-29T07:53:10.818Z - silly: Popularity document saved code_product: 3, popularity = 2.5
+2016-01-29T07:53:10.819Z - silly: Popularity document saved code_product: 85, popularity = 2.5
+2016-01-29T07:53:10.819Z - silly: Popularity document saved code_product: 237, popularity = 2.5
+2016-01-29T07:53:10.819Z - silly: Popularity document saved code_product: 128, popularity = 2.5
+2016-01-29T07:53:10.819Z - silly: Popularity document saved code_product: 180, popularity = 2.5
+2016-01-29T07:53:10.819Z - silly: Popularity document saved code_product: 32, popularity = 2
+2016-01-29T07:53:10.819Z - silly: Popularity document saved code_product: 44, popularity = 2
+2016-01-29T07:53:10.819Z - silly: Popularity document saved code_product: 283, popularity = 1.75
+2016-01-29T07:53:10.819Z - silly: Popularity document saved code_product: 244, popularity = 1.5
+2016-01-29T07:53:10.819Z - silly: Popularity document saved code_product: 61, popularity = 1.25
+2016-01-29T07:53:10.819Z - silly: Popularity document saved code_product: 132, popularity = 1
+2016-01-29T07:53:10.819Z - silly: Popularity document saved code_product: 288, popularity = 0.75
+2016-01-29T07:53:10.820Z - silly: Popularity document saved code_product: 130, popularity = 0.75
+2016-01-29T07:53:10.820Z - silly: Popularity document saved code_product: 7, popularity = 0.75
+2016-01-29T07:53:10.820Z - silly: Popularity document saved code_product: 162, popularity = 0.75
+2016-01-29T07:53:10.820Z - silly: Popularity document saved code_product: 307, popularity = 0.75
+2016-01-29T07:53:10.820Z - silly: Popularity document saved code_product: 136, popularity = 0.5
+2016-01-29T07:53:10.820Z - silly: Popularity document saved code_product: 157, popularity = 0.25
+2016-01-29T07:53:10.820Z - silly: Popularity document saved code_product: 204, popularity = 0.25
+2016-01-29T07:53:10.820Z - silly: Popularity document saved code_product: 239, popularity = 0.25
+2016-01-29T07:53:10.820Z - silly: Popularity document saved code_product: 210, popularity = 0.25
+2016-01-29T07:53:10.821Z - silly: Popularity document saved code_product: 78, popularity = 5
+2016-01-29T07:53:10.821Z - silly: Popularity document saved code_product: 258, popularity = 5
+2016-01-29T07:53:10.821Z - silly: Popularity document saved code_product: 243, popularity = 5
+2016-01-29T07:53:10.821Z - silly: Popularity document saved code_product: 292, popularity = 5
+2016-01-29T07:53:10.821Z - silly: Popularity document saved code_product: 310, popularity = 5
+2016-01-29T07:53:10.821Z - silly: Popularity document saved code_product: 262, popularity = 5
+2016-01-29T07:53:10.821Z - silly: Popularity document saved code_product: 42, popularity = 4.5
+2016-01-29T07:53:10.821Z - silly: Popularity document saved code_product: 19, popularity = 4.5
+2016-01-29T07:53:10.822Z - silly: Popularity document saved code_product: 299, popularity = 4.25
+2016-01-29T07:53:10.822Z - silly: Popularity document saved code_product: 137, popularity = 3.75
+2016-01-29T07:53:10.822Z - silly: Popularity document saved code_product: 264, popularity = 3.5
+2016-01-29T07:53:10.822Z - silly: Popularity document saved code_product: 4, popularity = 3.25
+2016-01-29T07:53:10.823Z - silly: Popularity document saved code_product: 13, popularity = 2.75
+2016-01-29T07:53:10.823Z - silly: Popularity document saved code_product: 121, popularity = 2.5
+2016-01-29T07:53:10.823Z - silly: Popularity document saved code_product: 86, popularity = 2.5
+2016-01-29T07:53:10.823Z - silly: Popularity document saved code_product: 273, popularity = 2.5
+2016-01-29T07:53:10.823Z - silly: Popularity document saved code_product: 191, popularity = 2.5
+2016-01-29T07:53:10.823Z - silly: Popularity document saved code_product: 301, popularity = 2.5
+2016-01-29T07:53:10.823Z - silly: Popularity document saved code_product: 129, popularity = 2.5
+2016-01-29T07:53:10.823Z - silly: Popularity document saved code_product: 209, popularity = 2.5
+2016-01-29T07:53:10.823Z - silly: Popularity document saved code_product: 118, popularity = 2.5
+2016-01-29T07:53:10.824Z - silly: Popularity document saved code_product: 149, popularity = 2.5
+2016-01-29T07:53:10.824Z - silly: Popularity document saved code_product: 99, popularity = 2.5
+2016-01-29T07:53:10.824Z - silly: Popularity document saved code_product: 93, popularity = 2.5
+2016-01-29T07:53:10.824Z - silly: Popularity document saved code_product: 305, popularity = 2.5
+2016-01-29T07:53:10.824Z - silly: Popularity document saved code_product: 309, popularity = 2.5
+2016-01-29T07:53:10.824Z - silly: Popularity document saved code_product: 315, popularity = 2.5
+2016-01-29T07:53:10.824Z - silly: Popularity document saved code_product: 201, popularity = 2.5
+2016-01-29T07:53:10.824Z - silly: Popularity document saved code_product: 234, popularity = 2.5
+2016-01-29T07:53:10.824Z - silly: Popularity document saved code_product: 277, popularity = 2
+2016-01-29T07:53:10.824Z - silly: Popularity document saved code_product: 321, popularity = 2
+2016-01-29T07:53:10.824Z - silly: Popularity document saved code_product: 103, popularity = 1.75
+2016-01-29T07:53:10.824Z - silly: Popularity document saved code_product: 266, popularity = 1.5
+2016-01-29T07:53:10.825Z - silly: Popularity document saved code_product: 285, popularity = 1
+2016-01-29T07:53:10.825Z - silly: Popularity document saved code_product: 188, popularity = 1
+2016-01-29T07:53:10.825Z - silly: Popularity document saved code_product: 290, popularity = 0.75
+2016-01-29T07:53:10.825Z - silly: Popularity document saved code_product: 216, popularity = 0.75
+2016-01-29T07:53:10.825Z - silly: Popularity document saved code_product: 70, popularity = 0.75
+2016-01-29T07:53:10.825Z - silly: Popularity document saved code_product: 46, popularity = 0.75
+2016-01-29T07:53:10.825Z - silly: Popularity document saved code_product: 251, popularity = 0.75
+2016-01-29T07:53:10.825Z - silly: Popularity document saved code_product: 254, popularity = 0.5
+2016-01-29T07:53:10.825Z - silly: Popularity document saved code_product: 111, popularity = 0.25
+2016-01-29T07:53:10.826Z - silly: Popularity document saved code_product: 1, popularity = 0.25
+2016-01-29T07:53:10.826Z - silly: Popularity document saved code_product: 181, popularity = 0.25
+2016-01-29T07:53:10.826Z - silly: Popularity document saved code_product: 175, popularity = 5
+2016-01-29T07:53:10.826Z - silly: Popularity document saved code_product: 293, popularity = 5
+2016-01-29T07:53:10.826Z - silly: Popularity document saved code_product: 245, popularity = 5
+2016-01-29T07:53:10.826Z - silly: Popularity document saved code_product: 198, popularity = 5
+2016-01-29T07:53:10.826Z - silly: Popularity document saved code_product: 166, popularity = 5
+2016-01-29T07:53:10.827Z - silly: Popularity document saved code_product: 270, popularity = 5
+2016-01-29T07:53:10.827Z - silly: Popularity document saved code_product: 5, popularity = 4.5
+2016-01-29T07:53:10.827Z - silly: Popularity document saved code_product: 65, popularity = 4.5
+2016-01-29T07:53:10.827Z - silly: Popularity document saved code_product: 31, popularity = 4.25
+2016-01-29T07:53:10.827Z - silly: Popularity document saved code_product: 303, popularity = 3.5
+2016-01-29T07:53:10.827Z - silly: Popularity document saved code_product: 22, popularity = 3.25
+2016-01-29T07:53:10.827Z - silly: Popularity document saved code_product: 34, popularity = 3
+2016-01-29T07:53:10.827Z - silly: Popularity document saved code_product: 271, popularity = 2.5
+2016-01-29T07:53:10.827Z - silly: Popularity document saved code_product: 199, popularity = 2.5
+2016-01-29T07:53:10.827Z - silly: Popularity document saved code_product: 116, popularity = 2.5
+2016-01-29T07:53:10.827Z - silly: Popularity document saved code_product: 306, popularity = 2.5
+2016-01-29T07:53:10.827Z - silly: Popularity document saved code_product: 184, popularity = 2.5
+2016-01-29T07:53:10.828Z - silly: Popularity document saved code_product: 15, popularity = 2.5
+2016-01-29T07:53:10.828Z - silly: Popularity document saved code_product: 138, popularity = 2.5
+2016-01-29T07:53:10.828Z - silly: Popularity document saved code_product: 115, popularity = 2.5
+2016-01-29T07:53:10.828Z - silly: Popularity document saved code_product: 54, popularity = 2.5
+2016-01-29T07:53:10.828Z - silly: Popularity document saved code_product: 203, popularity = 2.5
+2016-01-29T07:53:10.828Z - silly: Popularity document saved code_product: 265, popularity = 2.5
+2016-01-29T07:53:10.828Z - silly: Popularity document saved code_product: 213, popularity = 2.5
+2016-01-29T07:53:10.828Z - silly: Popularity document saved code_product: 194, popularity = 2.5
+2016-01-29T07:53:10.828Z - silly: Popularity document saved code_product: 92, popularity = 2.5
+2016-01-29T07:53:10.828Z - silly: Popularity document saved code_product: 193, popularity = 2.5
+2016-01-29T07:53:10.828Z - silly: Popularity document saved code_product: 120, popularity = 2.5
+2016-01-29T07:53:10.829Z - silly: Popularity document saved code_product: 278, popularity = 2.25
+2016-01-29T07:53:10.829Z - silly: Popularity document saved code_product: 276, popularity = 2
+2016-01-29T07:53:10.829Z - silly: Popularity document saved code_product: 311, popularity = 1.75
+2016-01-29T07:53:10.829Z - silly: Popularity document saved code_product: 50, popularity = 1.5
+2016-01-29T07:53:10.829Z - silly: Popularity document saved code_product: 185, popularity = 1.5
+2016-01-29T07:53:10.829Z - silly: Popularity document saved code_product: 131, popularity = 1
+2016-01-29T07:53:10.829Z - silly: Popularity document saved code_product: 274, popularity = 1
+2016-01-29T07:53:10.829Z - silly: Popularity document saved code_product: 253, popularity = 0.75
+2016-01-29T07:53:10.829Z - silly: Popularity document saved code_product: 275, popularity = 0.75
+2016-01-29T07:53:10.829Z - silly: Popularity document saved code_product: 33, popularity = 0.75
+2016-01-29T07:53:10.829Z - silly: Popularity document saved code_product: 6, popularity = 0.75
+2016-01-29T07:53:10.830Z - silly: Popularity document saved code_product: 47, popularity = 0.75
+2016-01-29T07:53:10.830Z - silly: Popularity document saved code_product: 135, popularity = 0.5
+2016-01-29T07:53:10.830Z - silly: Popularity document saved code_product: 260, popularity = 0.25
+2016-01-29T07:53:10.830Z - silly: Popularity document saved code_product: 87, popularity = 0.25
+2016-01-29T07:53:10.830Z - silly: Popularity document saved code_product: 151, popularity = 0.25
+2016-01-29T07:53:10.830Z - silly: Popularity document saved code_product: 257, popularity = 5
+2016-01-29T07:53:10.830Z - silly: Popularity document saved code_product: 289, popularity = 5
+2016-01-29T07:53:10.830Z - silly: Popularity document saved code_product: 81, popularity = 5
+2016-01-29T07:53:10.831Z - silly: Popularity document saved code_product: 25, popularity = 5
+2016-01-29T07:53:10.831Z - silly: Popularity document saved code_product: 8, popularity = 5
+2016-01-29T07:53:10.831Z - silly: Popularity document saved code_product: 287, popularity = 5
+2016-01-29T07:53:10.831Z - silly: Popularity document saved code_product: 16, popularity = 4.5
+2016-01-29T07:53:10.831Z - silly: Popularity document saved code_product: 23, popularity = 4.25
+2016-01-29T07:53:10.831Z - silly: Popularity document saved code_product: 18, popularity = 4.25
+2016-01-29T07:53:10.831Z - silly: Popularity document saved code_product: 304, popularity = 3.5
+2016-01-29T07:53:10.831Z - silly: Popularity document saved code_product: 43, popularity = 3.25
+2016-01-29T07:53:10.831Z - silly: Popularity document saved code_product: 24, popularity = 2.75
+2016-01-29T07:53:10.831Z - silly: Popularity document saved code_product: 302, popularity = 2.5
+2016-01-29T07:53:10.831Z - silly: Popularity document saved code_product: 27, popularity = 2.5
+2016-01-29T07:53:10.832Z - silly: Popularity document saved code_product: 109, popularity = 2.5
+2016-01-29T07:53:10.832Z - silly: Popularity document saved code_product: 79, popularity = 2.5
+2016-01-29T07:53:10.832Z - silly: Popularity document saved code_product: 48, popularity = 2.5
+2016-01-29T07:53:10.833Z - silly: Popularity document saved code_product: 141, popularity = 2.5
+2016-01-29T07:53:10.833Z - silly: Popularity document saved code_product: 160, popularity = 2.5
+2016-01-29T07:53:10.833Z - silly: Popularity document saved code_product: 189, popularity = 2.5
+2016-01-29T07:53:10.833Z - silly: Popularity document saved code_product: 233, popularity = 2.5
+2016-01-29T07:53:10.833Z - silly: Popularity document saved code_product: 39, popularity = 2.5
+2016-01-29T07:53:10.833Z - silly: Popularity document saved code_product: 186, popularity = 2.5
+2016-01-29T07:53:10.833Z - silly: Popularity document saved code_product: 247, popularity = 2.5
+2016-01-29T07:53:10.833Z - silly: Popularity document saved code_product: 91, popularity = 2.5
+2016-01-29T07:53:10.833Z - silly: Popularity document saved code_product: 140, popularity = 2.5
+2016-01-29T07:53:10.833Z - silly: Popularity document saved code_product: 195, popularity = 2.5
+2016-01-29T07:53:10.833Z - silly: Popularity document saved code_product: 143, popularity = 2.5
+2016-01-29T07:53:10.834Z - silly: Popularity document saved code_product: 322, popularity = 2.25
+2016-01-29T07:53:10.834Z - silly: Popularity document saved code_product: 272, popularity = 2
+2016-01-29T07:53:10.834Z - silly: Popularity document saved code_product: 207, popularity = 1.75
+2016-01-29T07:53:10.834Z - silly: Popularity document saved code_product: 163, popularity = 1.5
+2016-01-29T07:53:10.834Z - silly: Popularity document saved code_product: 57, popularity = 1.25
+2016-01-29T07:53:10.834Z - silly: Popularity document saved code_product: 187, popularity = 1
+2016-01-29T07:53:10.834Z - silly: Popularity document saved code_product: 75, popularity = 0.75
+2016-01-29T07:53:10.834Z - silly: Popularity document saved code_product: 9, popularity = 0.75
+2016-01-29T07:53:10.835Z - silly: Popularity document saved code_product: 215, popularity = 0.75
+2016-01-29T07:53:10.835Z - silly: Popularity document saved code_product: 282, popularity = 0.75
+2016-01-29T07:53:10.835Z - silly: Popularity document saved code_product: 295, popularity = 0.75
+2016-01-29T07:53:10.835Z - silly: Popularity document saved code_product: 291, popularity = 0.5
+2016-01-29T07:53:10.835Z - silly: Popularity document saved code_product: 178, popularity = 0.5
+2016-01-29T07:53:10.835Z - silly: Popularity document saved code_product: 246, popularity = 0.25
+2016-01-29T07:53:10.835Z - silly: Popularity document saved code_product: 165, popularity = 0.25
+2016-01-29T07:53:10.835Z - silly: Popularity document saved code_product: 107, popularity = 0.25
+2016-01-29T07:53:10.835Z - silly: Popularity document saved code_product: 197, popularity = 5
+2016-01-29T07:53:10.836Z - silly: Popularity document saved code_product: 267, popularity = 5
+2016-01-29T07:53:10.836Z - silly: Popularity document saved code_product: 250, popularity = 5
+2016-01-29T07:53:10.836Z - silly: Popularity document saved code_product: 255, popularity = 5
+2016-01-29T07:53:10.836Z - silly: Popularity document saved code_product: 300, popularity = 5
+2016-01-29T07:53:10.836Z - silly: Popularity document saved code_product: 296, popularity = 5
+2016-01-29T07:53:10.836Z - silly: Popularity document saved code_product: 10, popularity = 4.5
+2016-01-29T07:53:10.836Z - silly: Popularity document saved code_product: 52, popularity = 4.25
+2016-01-29T07:53:10.836Z - silly: Popularity document saved code_product: 126, popularity = 3.75
+2016-01-29T07:53:10.836Z - silly: Popularity document saved code_product: 12, popularity = 3.5
+2016-01-29T07:53:10.836Z - silly: Popularity document saved code_product: 37, popularity = 3.25
+2016-01-29T07:53:10.836Z - silly: Popularity document saved code_product: 17, popularity = 2.75
+2016-01-29T07:53:10.837Z - silly: Popularity document saved code_product: 20, popularity = 2.5
+2016-01-29T07:53:10.837Z - silly: Popularity document saved code_product: 284, popularity = 2.5
+2016-01-29T07:53:10.837Z - silly: Popularity document saved code_product: 125, popularity = 2.5
+2016-01-29T07:53:10.837Z - silly: Popularity document saved code_product: 206, popularity = 2.5
+2016-01-29T07:53:10.837Z - silly: Popularity document saved code_product: 316, popularity = 2.5
+2016-01-29T07:53:10.837Z - silly: Popularity document saved code_product: 142, popularity = 2.5
+2016-01-29T07:53:10.837Z - silly: Popularity document saved code_product: 148, popularity = 2.5
+2016-01-29T07:53:10.837Z - silly: Popularity document saved code_product: 98, popularity = 2.5
+2016-01-29T07:53:10.837Z - silly: Popularity document saved code_product: 228, popularity = 2.5
+2016-01-29T07:53:10.837Z - silly: Popularity document saved code_product: 146, popularity = 2.5
+2016-01-29T07:53:10.837Z - silly: Popularity document saved code_product: 158, popularity = 2.5
+2016-01-29T07:53:10.837Z - silly: Popularity document saved code_product: 202, popularity = 2.5
+2016-01-29T07:53:10.838Z - silly: Popularity document saved code_product: 122, popularity = 2.5
+2016-01-29T07:53:10.838Z - silly: Popularity document saved code_product: 55, popularity = 2.5
+2016-01-29T07:53:10.838Z - silly: Popularity document saved code_product: 28, popularity = 2.5
+2016-01-29T07:53:10.838Z - silly: Popularity document saved code_product: 41, popularity = 2.5
+2016-01-29T07:53:10.838Z - silly: Popularity document saved code_product: 38, popularity = 2
+2016-01-29T07:53:10.838Z - silly: Popularity document saved code_product: 297, popularity = 2
+2016-01-29T07:53:10.838Z - silly: Popularity document saved code_product: 242, popularity = 1.75
+2016-01-29T07:53:10.838Z - silly: Popularity document saved code_product: 145, popularity = 1.5
+2016-01-29T07:53:10.838Z - silly: Popularity document saved code_product: 26, popularity = 1.25
+2016-01-29T07:53:10.838Z - silly: Popularity document saved code_product: 77, popularity = 1
+2016-01-29T07:53:10.838Z - silly: Popularity document saved code_product: 40, popularity = 0.75
+2016-01-29T07:53:10.838Z - silly: Popularity document saved code_product: 69, popularity = 0.75
+2016-01-29T07:53:10.839Z - silly: Popularity document saved code_product: 74, popularity = 0.75
+2016-01-29T07:53:10.839Z - silly: Popularity document saved code_product: 279, popularity = 0.75
+2016-01-29T07:53:10.839Z - silly: Popularity document saved code_product: 280, popularity = 0.75
+2016-01-29T07:53:10.839Z - silly: Popularity document saved code_product: 314, popularity = 0.5
+2016-01-29T07:53:10.839Z - silly: Popularity document saved code_product: 88, popularity = 0.5
+2016-01-29T07:53:10.839Z - silly: Popularity document saved code_product: 225, popularity = 0.25
+2016-01-29T07:53:10.839Z - silly: Popularity document saved code_product: 84, popularity = 0.25
+2016-01-29T07:53:10.839Z - silly: Popularity document saved code_product: 248, popularity = 0.25
+2016-01-29T07:54:10.736Z - silly: Getting available products (count): 322
+2016-01-29T07:54:10.737Z - silly: Popularity collection cleared
+2016-01-29T07:54:10.750Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2016-01-29T07:54:10.819Z - silly: Popularity document saved code_product: 29, popularity = 5
+2016-01-29T07:54:10.819Z - silly: Popularity document saved code_product: 252, popularity = 5
+2016-01-29T07:54:10.819Z - silly: Popularity document saved code_product: 259, popularity = 5
+2016-01-29T07:54:10.819Z - silly: Popularity document saved code_product: 73, popularity = 5
+2016-01-29T07:54:10.819Z - silly: Popularity document saved code_product: 30, popularity = 5
+2016-01-29T07:54:10.820Z - silly: Popularity document saved code_product: 14, popularity = 4.5
+2016-01-29T07:54:10.820Z - silly: Popularity document saved code_product: 36, popularity = 4.5
+2016-01-29T07:54:10.820Z - silly: Popularity document saved code_product: 67, popularity = 4.25
+2016-01-29T07:54:10.820Z - silly: Popularity document saved code_product: 96, popularity = 3.75
+2016-01-29T07:54:10.820Z - silly: Popularity document saved code_product: 317, popularity = 3.5
+2016-01-29T07:54:10.820Z - silly: Popularity document saved code_product: 21, popularity = 3.25
+2016-01-29T07:54:10.820Z - silly: Popularity document saved code_product: 2, popularity = 2.75
+2016-01-29T07:54:10.820Z - silly: Popularity document saved code_product: 60, popularity = 2.5
+2016-01-29T07:54:10.820Z - silly: Popularity document saved code_product: 263, popularity = 2.5
+2016-01-29T07:54:10.820Z - silly: Popularity document saved code_product: 108, popularity = 2.5
+2016-01-29T07:54:10.820Z - silly: Popularity document saved code_product: 95, popularity = 2.5
+2016-01-29T07:54:10.820Z - silly: Popularity document saved code_product: 249, popularity = 2.5
+2016-01-29T07:54:10.821Z - silly: Popularity document saved code_product: 100, popularity = 2.5
+2016-01-29T07:54:10.821Z - silly: Popularity document saved code_product: 192, popularity = 2.5
+2016-01-29T07:54:10.821Z - silly: Popularity document saved code_product: 49, popularity = 2.5
+2016-01-29T07:54:10.821Z - silly: Popularity document saved code_product: 35, popularity = 2.5
+2016-01-29T07:54:10.821Z - silly: Popularity document saved code_product: 82, popularity = 2.5
+2016-01-29T07:54:10.821Z - silly: Popularity document saved code_product: 76, popularity = 2.5
+2016-01-29T07:54:10.821Z - silly: Popularity document saved code_product: 3, popularity = 2.5
+2016-01-29T07:54:10.821Z - silly: Popularity document saved code_product: 85, popularity = 2.5
+2016-01-29T07:54:10.821Z - silly: Popularity document saved code_product: 237, popularity = 2.5
+2016-01-29T07:54:10.821Z - silly: Popularity document saved code_product: 128, popularity = 2.5
+2016-01-29T07:54:10.821Z - silly: Popularity document saved code_product: 180, popularity = 2.5
+2016-01-29T07:54:10.821Z - silly: Popularity document saved code_product: 32, popularity = 2
+2016-01-29T07:54:10.821Z - silly: Popularity document saved code_product: 44, popularity = 2
+2016-01-29T07:54:10.822Z - silly: Popularity document saved code_product: 283, popularity = 1.75
+2016-01-29T07:54:10.822Z - silly: Popularity document saved code_product: 244, popularity = 1.5
+2016-01-29T07:54:10.822Z - silly: Popularity document saved code_product: 61, popularity = 1.25
+2016-01-29T07:54:10.822Z - silly: Popularity document saved code_product: 132, popularity = 1
+2016-01-29T07:54:10.822Z - silly: Popularity document saved code_product: 288, popularity = 0.75
+2016-01-29T07:54:10.822Z - silly: Popularity document saved code_product: 130, popularity = 0.75
+2016-01-29T07:54:10.822Z - silly: Popularity document saved code_product: 7, popularity = 0.75
+2016-01-29T07:54:10.822Z - silly: Popularity document saved code_product: 162, popularity = 0.75
+2016-01-29T07:54:10.822Z - silly: Popularity document saved code_product: 307, popularity = 0.75
+2016-01-29T07:54:10.823Z - silly: Popularity document saved code_product: 136, popularity = 0.5
+2016-01-29T07:54:10.823Z - silly: Popularity document saved code_product: 157, popularity = 0.25
+2016-01-29T07:54:10.823Z - silly: Popularity document saved code_product: 204, popularity = 0.25
+2016-01-29T07:54:10.823Z - silly: Popularity document saved code_product: 239, popularity = 0.25
+2016-01-29T07:54:10.823Z - silly: Popularity document saved code_product: 210, popularity = 0.25
+2016-01-29T07:54:10.824Z - silly: Popularity document saved code_product: 78, popularity = 5
+2016-01-29T07:54:10.824Z - silly: Popularity document saved code_product: 258, popularity = 5
+2016-01-29T07:54:10.824Z - silly: Popularity document saved code_product: 243, popularity = 5
+2016-01-29T07:54:10.824Z - silly: Popularity document saved code_product: 292, popularity = 5
+2016-01-29T07:54:10.824Z - silly: Popularity document saved code_product: 310, popularity = 5
+2016-01-29T07:54:10.824Z - silly: Popularity document saved code_product: 262, popularity = 5
+2016-01-29T07:54:10.824Z - silly: Popularity document saved code_product: 42, popularity = 4.5
+2016-01-29T07:54:10.824Z - silly: Popularity document saved code_product: 19, popularity = 4.5
+2016-01-29T07:54:10.824Z - silly: Popularity document saved code_product: 299, popularity = 4.25
+2016-01-29T07:54:10.824Z - silly: Popularity document saved code_product: 137, popularity = 3.75
+2016-01-29T07:54:10.825Z - silly: Popularity document saved code_product: 264, popularity = 3.5
+2016-01-29T07:54:10.825Z - silly: Popularity document saved code_product: 4, popularity = 3.25
+2016-01-29T07:54:10.825Z - silly: Popularity document saved code_product: 13, popularity = 2.75
+2016-01-29T07:54:10.825Z - silly: Popularity document saved code_product: 121, popularity = 2.5
+2016-01-29T07:54:10.825Z - silly: Popularity document saved code_product: 86, popularity = 2.5
+2016-01-29T07:54:10.825Z - silly: Popularity document saved code_product: 273, popularity = 2.5
+2016-01-29T07:54:10.825Z - silly: Popularity document saved code_product: 191, popularity = 2.5
+2016-01-29T07:54:10.825Z - silly: Popularity document saved code_product: 301, popularity = 2.5
+2016-01-29T07:54:10.825Z - silly: Popularity document saved code_product: 129, popularity = 2.5
+2016-01-29T07:54:10.825Z - silly: Popularity document saved code_product: 209, popularity = 2.5
+2016-01-29T07:54:10.825Z - silly: Popularity document saved code_product: 118, popularity = 2.5
+2016-01-29T07:54:10.825Z - silly: Popularity document saved code_product: 149, popularity = 2.5
+2016-01-29T07:54:10.826Z - silly: Popularity document saved code_product: 99, popularity = 2.5
+2016-01-29T07:54:10.826Z - silly: Popularity document saved code_product: 93, popularity = 2.5
+2016-01-29T07:54:10.826Z - silly: Popularity document saved code_product: 305, popularity = 2.5
+2016-01-29T07:54:10.826Z - silly: Popularity document saved code_product: 309, popularity = 2.5
+2016-01-29T07:54:10.826Z - silly: Popularity document saved code_product: 315, popularity = 2.5
+2016-01-29T07:54:10.826Z - silly: Popularity document saved code_product: 201, popularity = 2.5
+2016-01-29T07:54:10.826Z - silly: Popularity document saved code_product: 234, popularity = 2.5
+2016-01-29T07:54:10.826Z - silly: Popularity document saved code_product: 277, popularity = 2
+2016-01-29T07:54:10.826Z - silly: Popularity document saved code_product: 321, popularity = 2
+2016-01-29T07:54:10.826Z - silly: Popularity document saved code_product: 103, popularity = 1.75
+2016-01-29T07:54:10.826Z - silly: Popularity document saved code_product: 266, popularity = 1.5
+2016-01-29T07:54:10.826Z - silly: Popularity document saved code_product: 285, popularity = 1
+2016-01-29T07:54:10.827Z - silly: Popularity document saved code_product: 188, popularity = 1
+2016-01-29T07:54:10.827Z - silly: Popularity document saved code_product: 290, popularity = 0.75
+2016-01-29T07:54:10.827Z - silly: Popularity document saved code_product: 216, popularity = 0.75
+2016-01-29T07:54:10.827Z - silly: Popularity document saved code_product: 70, popularity = 0.75
+2016-01-29T07:54:10.827Z - silly: Popularity document saved code_product: 46, popularity = 0.75
+2016-01-29T07:54:10.827Z - silly: Popularity document saved code_product: 251, popularity = 0.75
+2016-01-29T07:54:10.827Z - silly: Popularity document saved code_product: 254, popularity = 0.5
+2016-01-29T07:54:10.827Z - silly: Popularity document saved code_product: 111, popularity = 0.25
+2016-01-29T07:54:10.828Z - silly: Popularity document saved code_product: 1, popularity = 0.25
+2016-01-29T07:54:10.828Z - silly: Popularity document saved code_product: 181, popularity = 0.25
+2016-01-29T07:54:10.828Z - silly: Popularity document saved code_product: 175, popularity = 5
+2016-01-29T07:54:10.828Z - silly: Popularity document saved code_product: 293, popularity = 5
+2016-01-29T07:54:10.828Z - silly: Popularity document saved code_product: 245, popularity = 5
+2016-01-29T07:54:10.829Z - silly: Popularity document saved code_product: 198, popularity = 5
+2016-01-29T07:54:10.829Z - silly: Popularity document saved code_product: 166, popularity = 5
+2016-01-29T07:54:10.829Z - silly: Popularity document saved code_product: 270, popularity = 5
+2016-01-29T07:54:10.829Z - silly: Popularity document saved code_product: 5, popularity = 4.5
+2016-01-29T07:54:10.829Z - silly: Popularity document saved code_product: 65, popularity = 4.5
+2016-01-29T07:54:10.829Z - silly: Popularity document saved code_product: 31, popularity = 4.25
+2016-01-29T07:54:10.829Z - silly: Popularity document saved code_product: 303, popularity = 3.5
+2016-01-29T07:54:10.829Z - silly: Popularity document saved code_product: 22, popularity = 3.25
+2016-01-29T07:54:10.829Z - silly: Popularity document saved code_product: 34, popularity = 3
+2016-01-29T07:54:10.830Z - silly: Popularity document saved code_product: 271, popularity = 2.5
+2016-01-29T07:54:10.830Z - silly: Popularity document saved code_product: 199, popularity = 2.5
+2016-01-29T07:54:10.830Z - silly: Popularity document saved code_product: 116, popularity = 2.5
+2016-01-29T07:54:10.830Z - silly: Popularity document saved code_product: 306, popularity = 2.5
+2016-01-29T07:54:10.830Z - silly: Popularity document saved code_product: 184, popularity = 2.5
+2016-01-29T07:54:10.830Z - silly: Popularity document saved code_product: 15, popularity = 2.5
+2016-01-29T07:54:10.830Z - silly: Popularity document saved code_product: 138, popularity = 2.5
+2016-01-29T07:54:10.830Z - silly: Popularity document saved code_product: 115, popularity = 2.5
+2016-01-29T07:54:10.830Z - silly: Popularity document saved code_product: 54, popularity = 2.5
+2016-01-29T07:54:10.830Z - silly: Popularity document saved code_product: 203, popularity = 2.5
+2016-01-29T07:54:10.831Z - silly: Popularity document saved code_product: 265, popularity = 2.5
+2016-01-29T07:54:10.831Z - silly: Popularity document saved code_product: 213, popularity = 2.5
+2016-01-29T07:54:10.831Z - silly: Popularity document saved code_product: 194, popularity = 2.5
+2016-01-29T07:54:10.831Z - silly: Popularity document saved code_product: 92, popularity = 2.5
+2016-01-29T07:54:10.831Z - silly: Popularity document saved code_product: 193, popularity = 2.5
+2016-01-29T07:54:10.831Z - silly: Popularity document saved code_product: 120, popularity = 2.5
+2016-01-29T07:54:10.831Z - silly: Popularity document saved code_product: 278, popularity = 2.25
+2016-01-29T07:54:10.831Z - silly: Popularity document saved code_product: 276, popularity = 2
+2016-01-29T07:54:10.831Z - silly: Popularity document saved code_product: 311, popularity = 1.75
+2016-01-29T07:54:10.831Z - silly: Popularity document saved code_product: 50, popularity = 1.5
+2016-01-29T07:54:10.832Z - silly: Popularity document saved code_product: 185, popularity = 1.5
+2016-01-29T07:54:10.832Z - silly: Popularity document saved code_product: 131, popularity = 1
+2016-01-29T07:54:10.832Z - silly: Popularity document saved code_product: 274, popularity = 1
+2016-01-29T07:54:10.832Z - silly: Popularity document saved code_product: 253, popularity = 0.75
+2016-01-29T07:54:10.832Z - silly: Popularity document saved code_product: 275, popularity = 0.75
+2016-01-29T07:54:10.832Z - silly: Popularity document saved code_product: 33, popularity = 0.75
+2016-01-29T07:54:10.832Z - silly: Popularity document saved code_product: 6, popularity = 0.75
+2016-01-29T07:54:10.832Z - silly: Popularity document saved code_product: 47, popularity = 0.75
+2016-01-29T07:54:10.832Z - silly: Popularity document saved code_product: 135, popularity = 0.5
+2016-01-29T07:54:10.833Z - silly: Popularity document saved code_product: 260, popularity = 0.25
+2016-01-29T07:54:10.833Z - silly: Popularity document saved code_product: 87, popularity = 0.25
+2016-01-29T07:54:10.833Z - silly: Popularity document saved code_product: 151, popularity = 0.25
+2016-01-29T07:54:10.833Z - silly: Popularity document saved code_product: 257, popularity = 5
+2016-01-29T07:54:10.833Z - silly: Popularity document saved code_product: 289, popularity = 5
+2016-01-29T07:54:10.833Z - silly: Popularity document saved code_product: 81, popularity = 5
+2016-01-29T07:54:10.834Z - silly: Popularity document saved code_product: 25, popularity = 5
+2016-01-29T07:54:10.834Z - silly: Popularity document saved code_product: 8, popularity = 5
+2016-01-29T07:54:10.834Z - silly: Popularity document saved code_product: 287, popularity = 5
+2016-01-29T07:54:10.834Z - silly: Popularity document saved code_product: 16, popularity = 4.5
+2016-01-29T07:54:10.834Z - silly: Popularity document saved code_product: 23, popularity = 4.25
+2016-01-29T07:54:10.834Z - silly: Popularity document saved code_product: 18, popularity = 4.25
+2016-01-29T07:54:10.834Z - silly: Popularity document saved code_product: 304, popularity = 3.5
+2016-01-29T07:54:10.834Z - silly: Popularity document saved code_product: 43, popularity = 3.25
+2016-01-29T07:54:10.834Z - silly: Popularity document saved code_product: 24, popularity = 2.75
+2016-01-29T07:54:10.835Z - silly: Popularity document saved code_product: 302, popularity = 2.5
+2016-01-29T07:54:10.835Z - silly: Popularity document saved code_product: 27, popularity = 2.5
+2016-01-29T07:54:10.835Z - silly: Popularity document saved code_product: 109, popularity = 2.5
+2016-01-29T07:54:10.835Z - silly: Popularity document saved code_product: 79, popularity = 2.5
+2016-01-29T07:54:10.835Z - silly: Popularity document saved code_product: 48, popularity = 2.5
+2016-01-29T07:54:10.835Z - silly: Popularity document saved code_product: 141, popularity = 2.5
+2016-01-29T07:54:10.835Z - silly: Popularity document saved code_product: 160, popularity = 2.5
+2016-01-29T07:54:10.835Z - silly: Popularity document saved code_product: 189, popularity = 2.5
+2016-01-29T07:54:10.835Z - silly: Popularity document saved code_product: 233, popularity = 2.5
+2016-01-29T07:54:10.836Z - silly: Popularity document saved code_product: 39, popularity = 2.5
+2016-01-29T07:54:10.836Z - silly: Popularity document saved code_product: 186, popularity = 2.5
+2016-01-29T07:54:10.836Z - silly: Popularity document saved code_product: 247, popularity = 2.5
+2016-01-29T07:54:10.836Z - silly: Popularity document saved code_product: 91, popularity = 2.5
+2016-01-29T07:54:10.836Z - silly: Popularity document saved code_product: 140, popularity = 2.5
+2016-01-29T07:54:10.836Z - silly: Popularity document saved code_product: 195, popularity = 2.5
+2016-01-29T07:54:10.836Z - silly: Popularity document saved code_product: 143, popularity = 2.5
+2016-01-29T07:54:10.836Z - silly: Popularity document saved code_product: 322, popularity = 2.25
+2016-01-29T07:54:10.837Z - silly: Popularity document saved code_product: 272, popularity = 2
+2016-01-29T07:54:10.837Z - silly: Popularity document saved code_product: 207, popularity = 1.75
+2016-01-29T07:54:10.837Z - silly: Popularity document saved code_product: 163, popularity = 1.5
+2016-01-29T07:54:10.837Z - silly: Popularity document saved code_product: 57, popularity = 1.25
+2016-01-29T07:54:10.837Z - silly: Popularity document saved code_product: 187, popularity = 1
+2016-01-29T07:54:10.837Z - silly: Popularity document saved code_product: 75, popularity = 0.75
+2016-01-29T07:54:10.837Z - silly: Popularity document saved code_product: 9, popularity = 0.75
+2016-01-29T07:54:10.837Z - silly: Popularity document saved code_product: 215, popularity = 0.75
+2016-01-29T07:54:10.837Z - silly: Popularity document saved code_product: 282, popularity = 0.75
+2016-01-29T07:54:10.837Z - silly: Popularity document saved code_product: 295, popularity = 0.75
+2016-01-29T07:54:10.838Z - silly: Popularity document saved code_product: 291, popularity = 0.5
+2016-01-29T07:54:10.838Z - silly: Popularity document saved code_product: 178, popularity = 0.5
+2016-01-29T07:54:10.838Z - silly: Popularity document saved code_product: 246, popularity = 0.25
+2016-01-29T07:54:10.838Z - silly: Popularity document saved code_product: 165, popularity = 0.25
+2016-01-29T07:54:10.838Z - silly: Popularity document saved code_product: 107, popularity = 0.25
+2016-01-29T07:54:10.838Z - silly: Popularity document saved code_product: 197, popularity = 5
+2016-01-29T07:54:10.839Z - silly: Popularity document saved code_product: 267, popularity = 5
+2016-01-29T07:54:10.839Z - silly: Popularity document saved code_product: 250, popularity = 5
+2016-01-29T07:54:10.839Z - silly: Popularity document saved code_product: 255, popularity = 5
+2016-01-29T07:54:10.839Z - silly: Popularity document saved code_product: 300, popularity = 5
+2016-01-29T07:54:10.839Z - silly: Popularity document saved code_product: 296, popularity = 5
+2016-01-29T07:54:10.839Z - silly: Popularity document saved code_product: 10, popularity = 4.5
+2016-01-29T07:54:10.839Z - silly: Popularity document saved code_product: 52, popularity = 4.25
+2016-01-29T07:54:10.839Z - silly: Popularity document saved code_product: 126, popularity = 3.75
+2016-01-29T07:54:10.839Z - silly: Popularity document saved code_product: 12, popularity = 3.5
+2016-01-29T07:54:10.840Z - silly: Popularity document saved code_product: 37, popularity = 3.25
+2016-01-29T07:54:10.840Z - silly: Popularity document saved code_product: 17, popularity = 2.75
+2016-01-29T07:54:10.840Z - silly: Popularity document saved code_product: 20, popularity = 2.5
+2016-01-29T07:54:10.840Z - silly: Popularity document saved code_product: 284, popularity = 2.5
+2016-01-29T07:54:10.841Z - silly: Popularity document saved code_product: 125, popularity = 2.5
+2016-01-29T07:54:10.841Z - silly: Popularity document saved code_product: 206, popularity = 2.5
+2016-01-29T07:54:10.841Z - silly: Popularity document saved code_product: 316, popularity = 2.5
+2016-01-29T07:54:10.841Z - silly: Popularity document saved code_product: 142, popularity = 2.5
+2016-01-29T07:54:10.841Z - silly: Popularity document saved code_product: 148, popularity = 2.5
+2016-01-29T07:54:10.841Z - silly: Popularity document saved code_product: 98, popularity = 2.5
+2016-01-29T07:54:10.841Z - silly: Popularity document saved code_product: 228, popularity = 2.5
+2016-01-29T07:54:10.842Z - silly: Popularity document saved code_product: 146, popularity = 2.5
+2016-01-29T07:54:10.842Z - silly: Popularity document saved code_product: 158, popularity = 2.5
+2016-01-29T07:54:10.842Z - silly: Popularity document saved code_product: 202, popularity = 2.5
+2016-01-29T07:54:10.842Z - silly: Popularity document saved code_product: 122, popularity = 2.5
+2016-01-29T07:54:10.842Z - silly: Popularity document saved code_product: 55, popularity = 2.5
+2016-01-29T07:54:10.842Z - silly: Popularity document saved code_product: 28, popularity = 2.5
+2016-01-29T07:54:10.842Z - silly: Popularity document saved code_product: 41, popularity = 2.5
+2016-01-29T07:54:10.842Z - silly: Popularity document saved code_product: 38, popularity = 2
+2016-01-29T07:54:10.843Z - silly: Popularity document saved code_product: 297, popularity = 2
+2016-01-29T07:54:10.843Z - silly: Popularity document saved code_product: 242, popularity = 1.75
+2016-01-29T07:54:10.843Z - silly: Popularity document saved code_product: 145, popularity = 1.5
+2016-01-29T07:54:10.843Z - silly: Popularity document saved code_product: 26, popularity = 1.25
+2016-01-29T07:54:10.843Z - silly: Popularity document saved code_product: 77, popularity = 1
+2016-01-29T07:54:10.843Z - silly: Popularity document saved code_product: 40, popularity = 0.75
+2016-01-29T07:54:10.843Z - silly: Popularity document saved code_product: 69, popularity = 0.75
+2016-01-29T07:54:10.843Z - silly: Popularity document saved code_product: 74, popularity = 0.75
+2016-01-29T07:54:10.843Z - silly: Popularity document saved code_product: 279, popularity = 0.75
+2016-01-29T07:54:10.844Z - silly: Popularity document saved code_product: 280, popularity = 0.75
+2016-01-29T07:54:10.844Z - silly: Popularity document saved code_product: 314, popularity = 0.5
+2016-01-29T07:54:10.844Z - silly: Popularity document saved code_product: 88, popularity = 0.5
+2016-01-29T07:54:10.844Z - silly: Popularity document saved code_product: 225, popularity = 0.25
+2016-01-29T07:54:10.844Z - silly: Popularity document saved code_product: 84, popularity = 0.25
+2016-01-29T07:54:10.844Z - silly: Popularity document saved code_product: 248, popularity = 0.25
+2016-01-29T07:55:10.728Z - silly: Getting available products (count): 322
+2016-01-29T07:55:10.783Z - silly: Popularity collection cleared
+2016-01-29T07:55:11.110Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2016-01-29T07:55:11.187Z - silly: Popularity document saved code_product: 29, popularity = 5
+2016-01-29T07:55:11.187Z - silly: Popularity document saved code_product: 252, popularity = 5
+2016-01-29T07:55:11.187Z - silly: Popularity document saved code_product: 259, popularity = 5
+2016-01-29T07:55:11.187Z - silly: Popularity document saved code_product: 73, popularity = 5
+2016-01-29T07:55:11.187Z - silly: Popularity document saved code_product: 30, popularity = 5
+2016-01-29T07:55:11.187Z - silly: Popularity document saved code_product: 14, popularity = 4.5
+2016-01-29T07:55:11.188Z - silly: Popularity document saved code_product: 36, popularity = 4.5
+2016-01-29T07:55:11.188Z - silly: Popularity document saved code_product: 67, popularity = 4.25
+2016-01-29T07:55:11.188Z - silly: Popularity document saved code_product: 96, popularity = 3.75
+2016-01-29T07:55:11.188Z - silly: Popularity document saved code_product: 317, popularity = 3.5
+2016-01-29T07:55:11.188Z - silly: Popularity document saved code_product: 21, popularity = 3.25
+2016-01-29T07:55:11.188Z - silly: Popularity document saved code_product: 2, popularity = 2.75
+2016-01-29T07:55:11.188Z - silly: Popularity document saved code_product: 60, popularity = 2.5
+2016-01-29T07:55:11.189Z - silly: Popularity document saved code_product: 263, popularity = 2.5
+2016-01-29T07:55:11.189Z - silly: Popularity document saved code_product: 108, popularity = 2.5
+2016-01-29T07:55:11.189Z - silly: Popularity document saved code_product: 95, popularity = 2.5
+2016-01-29T07:55:11.189Z - silly: Popularity document saved code_product: 249, popularity = 2.5
+2016-01-29T07:55:11.189Z - silly: Popularity document saved code_product: 100, popularity = 2.5
+2016-01-29T07:55:11.189Z - silly: Popularity document saved code_product: 192, popularity = 2.5
+2016-01-29T07:55:11.189Z - silly: Popularity document saved code_product: 49, popularity = 2.5
+2016-01-29T07:55:11.190Z - silly: Popularity document saved code_product: 35, popularity = 2.5
+2016-01-29T07:55:11.190Z - silly: Popularity document saved code_product: 82, popularity = 2.5
+2016-01-29T07:55:11.190Z - silly: Popularity document saved code_product: 76, popularity = 2.5
+2016-01-29T07:55:11.190Z - silly: Popularity document saved code_product: 3, popularity = 2.5
+2016-01-29T07:55:11.190Z - silly: Popularity document saved code_product: 85, popularity = 2.5
+2016-01-29T07:55:11.190Z - silly: Popularity document saved code_product: 237, popularity = 2.5
+2016-01-29T07:55:11.190Z - silly: Popularity document saved code_product: 128, popularity = 2.5
+2016-01-29T07:55:11.190Z - silly: Popularity document saved code_product: 180, popularity = 2.5
+2016-01-29T07:55:11.190Z - silly: Popularity document saved code_product: 32, popularity = 2
+2016-01-29T07:55:11.191Z - silly: Popularity document saved code_product: 44, popularity = 2
+2016-01-29T07:55:11.191Z - silly: Popularity document saved code_product: 283, popularity = 1.75
+2016-01-29T07:55:11.191Z - silly: Popularity document saved code_product: 244, popularity = 1.5
+2016-01-29T07:55:11.191Z - silly: Popularity document saved code_product: 61, popularity = 1.25
+2016-01-29T07:55:11.191Z - silly: Popularity document saved code_product: 132, popularity = 1
+2016-01-29T07:55:11.191Z - silly: Popularity document saved code_product: 288, popularity = 0.75
+2016-01-29T07:55:11.191Z - silly: Popularity document saved code_product: 130, popularity = 0.75
+2016-01-29T07:55:11.191Z - silly: Popularity document saved code_product: 7, popularity = 0.75
+2016-01-29T07:55:11.191Z - silly: Popularity document saved code_product: 162, popularity = 0.75
+2016-01-29T07:55:11.192Z - silly: Popularity document saved code_product: 307, popularity = 0.75
+2016-01-29T07:55:11.192Z - silly: Popularity document saved code_product: 136, popularity = 0.5
+2016-01-29T07:55:11.192Z - silly: Popularity document saved code_product: 157, popularity = 0.25
+2016-01-29T07:55:11.192Z - silly: Popularity document saved code_product: 204, popularity = 0.25
+2016-01-29T07:55:11.192Z - silly: Popularity document saved code_product: 239, popularity = 0.25
+2016-01-29T07:55:11.192Z - silly: Popularity document saved code_product: 210, popularity = 0.25
+2016-01-29T07:55:11.218Z - silly: Popularity document saved code_product: 78, popularity = 5
+2016-01-29T07:55:11.218Z - silly: Popularity document saved code_product: 258, popularity = 5
+2016-01-29T07:55:11.218Z - silly: Popularity document saved code_product: 243, popularity = 5
+2016-01-29T07:55:11.218Z - silly: Popularity document saved code_product: 292, popularity = 5
+2016-01-29T07:55:11.218Z - silly: Popularity document saved code_product: 310, popularity = 5
+2016-01-29T07:55:11.218Z - silly: Popularity document saved code_product: 262, popularity = 5
+2016-01-29T07:55:11.218Z - silly: Popularity document saved code_product: 42, popularity = 4.5
+2016-01-29T07:55:11.219Z - silly: Popularity document saved code_product: 19, popularity = 4.5
+2016-01-29T07:55:11.219Z - silly: Popularity document saved code_product: 299, popularity = 4.25
+2016-01-29T07:55:11.219Z - silly: Popularity document saved code_product: 137, popularity = 3.75
+2016-01-29T07:55:11.219Z - silly: Popularity document saved code_product: 264, popularity = 3.5
+2016-01-29T07:55:11.219Z - silly: Popularity document saved code_product: 4, popularity = 3.25
+2016-01-29T07:55:11.219Z - silly: Popularity document saved code_product: 13, popularity = 2.75
+2016-01-29T07:55:11.219Z - silly: Popularity document saved code_product: 121, popularity = 2.5
+2016-01-29T07:55:11.219Z - silly: Popularity document saved code_product: 86, popularity = 2.5
+2016-01-29T07:55:11.219Z - silly: Popularity document saved code_product: 273, popularity = 2.5
+2016-01-29T07:55:11.220Z - silly: Popularity document saved code_product: 191, popularity = 2.5
+2016-01-29T07:55:11.220Z - silly: Popularity document saved code_product: 301, popularity = 2.5
+2016-01-29T07:55:11.220Z - silly: Popularity document saved code_product: 129, popularity = 2.5
+2016-01-29T07:55:11.220Z - silly: Popularity document saved code_product: 209, popularity = 2.5
+2016-01-29T07:55:11.220Z - silly: Popularity document saved code_product: 118, popularity = 2.5
+2016-01-29T07:55:11.220Z - silly: Popularity document saved code_product: 149, popularity = 2.5
+2016-01-29T07:55:11.220Z - silly: Popularity document saved code_product: 99, popularity = 2.5
+2016-01-29T07:55:11.220Z - silly: Popularity document saved code_product: 93, popularity = 2.5
+2016-01-29T07:55:11.220Z - silly: Popularity document saved code_product: 305, popularity = 2.5
+2016-01-29T07:55:11.221Z - silly: Popularity document saved code_product: 309, popularity = 2.5
+2016-01-29T07:55:11.221Z - silly: Popularity document saved code_product: 315, popularity = 2.5
+2016-01-29T07:55:11.221Z - silly: Popularity document saved code_product: 201, popularity = 2.5
+2016-01-29T07:55:11.221Z - silly: Popularity document saved code_product: 234, popularity = 2.5
+2016-01-29T07:55:11.221Z - silly: Popularity document saved code_product: 277, popularity = 2
+2016-01-29T07:55:11.221Z - silly: Popularity document saved code_product: 321, popularity = 2
+2016-01-29T07:55:11.221Z - silly: Popularity document saved code_product: 103, popularity = 1.75
+2016-01-29T07:55:11.221Z - silly: Popularity document saved code_product: 266, popularity = 1.5
+2016-01-29T07:55:11.221Z - silly: Popularity document saved code_product: 285, popularity = 1
+2016-01-29T07:55:11.222Z - silly: Popularity document saved code_product: 188, popularity = 1
+2016-01-29T07:55:11.222Z - silly: Popularity document saved code_product: 290, popularity = 0.75
+2016-01-29T07:55:11.222Z - silly: Popularity document saved code_product: 216, popularity = 0.75
+2016-01-29T07:55:11.222Z - silly: Popularity document saved code_product: 70, popularity = 0.75
+2016-01-29T07:55:11.222Z - silly: Popularity document saved code_product: 46, popularity = 0.75
+2016-01-29T07:55:11.222Z - silly: Popularity document saved code_product: 251, popularity = 0.75
+2016-01-29T07:55:11.222Z - silly: Popularity document saved code_product: 254, popularity = 0.5
+2016-01-29T07:55:11.222Z - silly: Popularity document saved code_product: 111, popularity = 0.25
+2016-01-29T07:55:11.222Z - silly: Popularity document saved code_product: 1, popularity = 0.25
+2016-01-29T07:55:11.223Z - silly: Popularity document saved code_product: 181, popularity = 0.25
+2016-01-29T07:55:11.223Z - silly: Popularity document saved code_product: 175, popularity = 5
+2016-01-29T07:55:11.224Z - silly: Popularity document saved code_product: 293, popularity = 5
+2016-01-29T07:55:11.224Z - silly: Popularity document saved code_product: 245, popularity = 5
+2016-01-29T07:55:11.224Z - silly: Popularity document saved code_product: 198, popularity = 5
+2016-01-29T07:55:11.224Z - silly: Popularity document saved code_product: 166, popularity = 5
+2016-01-29T07:55:11.224Z - silly: Popularity document saved code_product: 270, popularity = 5
+2016-01-29T07:55:11.224Z - silly: Popularity document saved code_product: 5, popularity = 4.5
+2016-01-29T07:55:11.224Z - silly: Popularity document saved code_product: 65, popularity = 4.5
+2016-01-29T07:55:11.224Z - silly: Popularity document saved code_product: 31, popularity = 4.25
+2016-01-29T07:55:11.224Z - silly: Popularity document saved code_product: 303, popularity = 3.5
+2016-01-29T07:55:11.225Z - silly: Popularity document saved code_product: 22, popularity = 3.25
+2016-01-29T07:55:11.225Z - silly: Popularity document saved code_product: 34, popularity = 3
+2016-01-29T07:55:11.225Z - silly: Popularity document saved code_product: 271, popularity = 2.5
+2016-01-29T07:55:11.225Z - silly: Popularity document saved code_product: 199, popularity = 2.5
+2016-01-29T07:55:11.225Z - silly: Popularity document saved code_product: 116, popularity = 2.5
+2016-01-29T07:55:11.225Z - silly: Popularity document saved code_product: 306, popularity = 2.5
+2016-01-29T07:55:11.225Z - silly: Popularity document saved code_product: 184, popularity = 2.5
+2016-01-29T07:55:11.225Z - silly: Popularity document saved code_product: 15, popularity = 2.5
+2016-01-29T07:55:11.226Z - silly: Popularity document saved code_product: 138, popularity = 2.5
+2016-01-29T07:55:11.226Z - silly: Popularity document saved code_product: 115, popularity = 2.5
+2016-01-29T07:55:11.226Z - silly: Popularity document saved code_product: 54, popularity = 2.5
+2016-01-29T07:55:11.226Z - silly: Popularity document saved code_product: 203, popularity = 2.5
+2016-01-29T07:55:11.226Z - silly: Popularity document saved code_product: 265, popularity = 2.5
+2016-01-29T07:55:11.226Z - silly: Popularity document saved code_product: 213, popularity = 2.5
+2016-01-29T07:55:11.226Z - silly: Popularity document saved code_product: 194, popularity = 2.5
+2016-01-29T07:55:11.226Z - silly: Popularity document saved code_product: 92, popularity = 2.5
+2016-01-29T07:55:11.227Z - silly: Popularity document saved code_product: 193, popularity = 2.5
+2016-01-29T07:55:11.227Z - silly: Popularity document saved code_product: 120, popularity = 2.5
+2016-01-29T07:55:11.227Z - silly: Popularity document saved code_product: 278, popularity = 2.25
+2016-01-29T07:55:11.227Z - silly: Popularity document saved code_product: 276, popularity = 2
+2016-01-29T07:55:11.227Z - silly: Popularity document saved code_product: 311, popularity = 1.75
+2016-01-29T07:55:11.227Z - silly: Popularity document saved code_product: 50, popularity = 1.5
+2016-01-29T07:55:11.227Z - silly: Popularity document saved code_product: 185, popularity = 1.5
+2016-01-29T07:55:11.227Z - silly: Popularity document saved code_product: 131, popularity = 1
+2016-01-29T07:55:11.227Z - silly: Popularity document saved code_product: 274, popularity = 1
+2016-01-29T07:55:11.227Z - silly: Popularity document saved code_product: 253, popularity = 0.75
+2016-01-29T07:55:11.228Z - silly: Popularity document saved code_product: 275, popularity = 0.75
+2016-01-29T07:55:11.228Z - silly: Popularity document saved code_product: 33, popularity = 0.75
+2016-01-29T07:55:11.228Z - silly: Popularity document saved code_product: 6, popularity = 0.75
+2016-01-29T07:55:11.228Z - silly: Popularity document saved code_product: 47, popularity = 0.75
+2016-01-29T07:55:11.228Z - silly: Popularity document saved code_product: 135, popularity = 0.5
+2016-01-29T07:55:11.228Z - silly: Popularity document saved code_product: 260, popularity = 0.25
+2016-01-29T07:55:11.228Z - silly: Popularity document saved code_product: 87, popularity = 0.25
+2016-01-29T07:55:11.229Z - silly: Popularity document saved code_product: 151, popularity = 0.25
+2016-01-29T07:55:11.229Z - silly: Popularity document saved code_product: 257, popularity = 5
+2016-01-29T07:55:11.229Z - silly: Popularity document saved code_product: 289, popularity = 5
+2016-01-29T07:55:11.229Z - silly: Popularity document saved code_product: 81, popularity = 5
+2016-01-29T07:55:11.229Z - silly: Popularity document saved code_product: 25, popularity = 5
+2016-01-29T07:55:11.230Z - silly: Popularity document saved code_product: 8, popularity = 5
+2016-01-29T07:55:11.230Z - silly: Popularity document saved code_product: 287, popularity = 5
+2016-01-29T07:55:11.230Z - silly: Popularity document saved code_product: 16, popularity = 4.5
+2016-01-29T07:55:11.230Z - silly: Popularity document saved code_product: 23, popularity = 4.25
+2016-01-29T07:55:11.230Z - silly: Popularity document saved code_product: 18, popularity = 4.25
+2016-01-29T07:55:11.230Z - silly: Popularity document saved code_product: 304, popularity = 3.5
+2016-01-29T07:55:11.230Z - silly: Popularity document saved code_product: 43, popularity = 3.25
+2016-01-29T07:55:11.230Z - silly: Popularity document saved code_product: 24, popularity = 2.75
+2016-01-29T07:55:11.230Z - silly: Popularity document saved code_product: 302, popularity = 2.5
+2016-01-29T07:55:11.230Z - silly: Popularity document saved code_product: 27, popularity = 2.5
+2016-01-29T07:55:11.231Z - silly: Popularity document saved code_product: 109, popularity = 2.5
+2016-01-29T07:55:11.231Z - silly: Popularity document saved code_product: 79, popularity = 2.5
+2016-01-29T07:55:11.231Z - silly: Popularity document saved code_product: 48, popularity = 2.5
+2016-01-29T07:55:11.231Z - silly: Popularity document saved code_product: 141, popularity = 2.5
+2016-01-29T07:55:11.232Z - silly: Popularity document saved code_product: 160, popularity = 2.5
+2016-01-29T07:55:11.232Z - silly: Popularity document saved code_product: 189, popularity = 2.5
+2016-01-29T07:55:11.232Z - silly: Popularity document saved code_product: 233, popularity = 2.5
+2016-01-29T07:55:11.232Z - silly: Popularity document saved code_product: 39, popularity = 2.5
+2016-01-29T07:55:11.232Z - silly: Popularity document saved code_product: 186, popularity = 2.5
+2016-01-29T07:55:11.232Z - silly: Popularity document saved code_product: 247, popularity = 2.5
+2016-01-29T07:55:11.233Z - silly: Popularity document saved code_product: 91, popularity = 2.5
+2016-01-29T07:55:11.233Z - silly: Popularity document saved code_product: 140, popularity = 2.5
+2016-01-29T07:55:11.233Z - silly: Popularity document saved code_product: 195, popularity = 2.5
+2016-01-29T07:55:11.233Z - silly: Popularity document saved code_product: 143, popularity = 2.5
+2016-01-29T07:55:11.233Z - silly: Popularity document saved code_product: 322, popularity = 2.25
+2016-01-29T07:55:11.233Z - silly: Popularity document saved code_product: 272, popularity = 2
+2016-01-29T07:55:11.233Z - silly: Popularity document saved code_product: 207, popularity = 1.75
+2016-01-29T07:55:11.233Z - silly: Popularity document saved code_product: 163, popularity = 1.5
+2016-01-29T07:55:11.233Z - silly: Popularity document saved code_product: 57, popularity = 1.25
+2016-01-29T07:55:11.234Z - silly: Popularity document saved code_product: 187, popularity = 1
+2016-01-29T07:55:11.234Z - silly: Popularity document saved code_product: 75, popularity = 0.75
+2016-01-29T07:55:11.234Z - silly: Popularity document saved code_product: 9, popularity = 0.75
+2016-01-29T07:55:11.234Z - silly: Popularity document saved code_product: 215, popularity = 0.75
+2016-01-29T07:55:11.234Z - silly: Popularity document saved code_product: 282, popularity = 0.75
+2016-01-29T07:55:11.234Z - silly: Popularity document saved code_product: 295, popularity = 0.75
+2016-01-29T07:55:11.234Z - silly: Popularity document saved code_product: 291, popularity = 0.5
+2016-01-29T07:55:11.234Z - silly: Popularity document saved code_product: 178, popularity = 0.5
+2016-01-29T07:55:11.234Z - silly: Popularity document saved code_product: 246, popularity = 0.25
+2016-01-29T07:55:11.234Z - silly: Popularity document saved code_product: 165, popularity = 0.25
+2016-01-29T07:55:11.235Z - silly: Popularity document saved code_product: 107, popularity = 0.25
+2016-01-29T07:55:11.235Z - silly: Popularity document saved code_product: 197, popularity = 5
+2016-01-29T07:55:11.235Z - silly: Popularity document saved code_product: 267, popularity = 5
+2016-01-29T07:55:11.235Z - silly: Popularity document saved code_product: 250, popularity = 5
+2016-01-29T07:55:11.236Z - silly: Popularity document saved code_product: 255, popularity = 5
+2016-01-29T07:55:11.236Z - silly: Popularity document saved code_product: 300, popularity = 5
+2016-01-29T07:55:11.236Z - silly: Popularity document saved code_product: 296, popularity = 5
+2016-01-29T07:55:11.236Z - silly: Popularity document saved code_product: 10, popularity = 4.5
+2016-01-29T07:55:11.236Z - silly: Popularity document saved code_product: 52, popularity = 4.25
+2016-01-29T07:55:11.236Z - silly: Popularity document saved code_product: 126, popularity = 3.75
+2016-01-29T07:55:11.236Z - silly: Popularity document saved code_product: 12, popularity = 3.5
+2016-01-29T07:55:11.236Z - silly: Popularity document saved code_product: 37, popularity = 3.25
+2016-01-29T07:55:11.236Z - silly: Popularity document saved code_product: 17, popularity = 2.75
+2016-01-29T07:55:11.236Z - silly: Popularity document saved code_product: 20, popularity = 2.5
+2016-01-29T07:55:11.237Z - silly: Popularity document saved code_product: 284, popularity = 2.5
+2016-01-29T07:55:11.237Z - silly: Popularity document saved code_product: 125, popularity = 2.5
+2016-01-29T07:55:11.237Z - silly: Popularity document saved code_product: 206, popularity = 2.5
+2016-01-29T07:55:11.237Z - silly: Popularity document saved code_product: 316, popularity = 2.5
+2016-01-29T07:55:11.237Z - silly: Popularity document saved code_product: 142, popularity = 2.5
+2016-01-29T07:55:11.237Z - silly: Popularity document saved code_product: 148, popularity = 2.5
+2016-01-29T07:55:11.237Z - silly: Popularity document saved code_product: 98, popularity = 2.5
+2016-01-29T07:55:11.237Z - silly: Popularity document saved code_product: 228, popularity = 2.5
+2016-01-29T07:55:11.238Z - silly: Popularity document saved code_product: 146, popularity = 2.5
+2016-01-29T07:55:11.238Z - silly: Popularity document saved code_product: 158, popularity = 2.5
+2016-01-29T07:55:11.238Z - silly: Popularity document saved code_product: 202, popularity = 2.5
+2016-01-29T07:55:11.238Z - silly: Popularity document saved code_product: 122, popularity = 2.5
+2016-01-29T07:55:11.238Z - silly: Popularity document saved code_product: 55, popularity = 2.5
+2016-01-29T07:55:11.238Z - silly: Popularity document saved code_product: 28, popularity = 2.5
+2016-01-29T07:55:11.238Z - silly: Popularity document saved code_product: 41, popularity = 2.5
+2016-01-29T07:55:11.238Z - silly: Popularity document saved code_product: 38, popularity = 2
+2016-01-29T07:55:11.239Z - silly: Popularity document saved code_product: 297, popularity = 2
+2016-01-29T07:55:11.239Z - silly: Popularity document saved code_product: 242, popularity = 1.75
+2016-01-29T07:55:11.239Z - silly: Popularity document saved code_product: 145, popularity = 1.5
+2016-01-29T07:55:11.239Z - silly: Popularity document saved code_product: 26, popularity = 1.25
+2016-01-29T07:55:11.239Z - silly: Popularity document saved code_product: 77, popularity = 1
+2016-01-29T07:55:11.239Z - silly: Popularity document saved code_product: 40, popularity = 0.75
+2016-01-29T07:55:11.239Z - silly: Popularity document saved code_product: 69, popularity = 0.75
+2016-01-29T07:55:11.239Z - silly: Popularity document saved code_product: 74, popularity = 0.75
+2016-01-29T07:55:11.239Z - silly: Popularity document saved code_product: 279, popularity = 0.75
+2016-01-29T07:55:11.240Z - silly: Popularity document saved code_product: 280, popularity = 0.75
+2016-01-29T07:55:11.240Z - silly: Popularity document saved code_product: 314, popularity = 0.5
+2016-01-29T07:55:11.240Z - silly: Popularity document saved code_product: 88, popularity = 0.5
+2016-01-29T07:55:11.240Z - silly: Popularity document saved code_product: 225, popularity = 0.25
+2016-01-29T07:55:11.240Z - silly: Popularity document saved code_product: 84, popularity = 0.25
+2016-01-29T07:55:11.240Z - silly: Popularity document saved code_product: 248, popularity = 0.25
+2016-01-29T07:56:10.717Z - silly: Getting available products (count): 322
+2016-01-29T07:56:10.719Z - silly: Popularity collection cleared
+2016-01-29T07:56:10.724Z - debug: Popularity collection. Data 2 populate: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2016-01-29T07:56:10.797Z - silly: Popularity document saved code_product: 29, popularity = 5
+2016-01-29T07:56:10.807Z - silly: Popularity document saved code_product: 252, popularity = 5
+2016-01-29T07:56:10.807Z - silly: Popularity document saved code_product: 259, popularity = 5
+2016-01-29T07:56:10.807Z - silly: Popularity document saved code_product: 73, popularity = 5
+2016-01-29T07:56:10.807Z - silly: Popularity document saved code_product: 30, popularity = 5
+2016-01-29T07:56:10.807Z - silly: Popularity document saved code_product: 14, popularity = 4.5
+2016-01-29T07:56:10.808Z - silly: Popularity document saved code_product: 36, popularity = 4.5
+2016-01-29T07:56:10.808Z - silly: Popularity document saved code_product: 67, popularity = 4.25
+2016-01-29T07:56:10.808Z - silly: Popularity document saved code_product: 96, popularity = 3.75
+2016-01-29T07:56:10.808Z - silly: Popularity document saved code_product: 317, popularity = 3.5
+2016-01-29T07:56:10.808Z - silly: Popularity document saved code_product: 21, popularity = 3.25
+2016-01-29T07:56:10.809Z - silly: Popularity document saved code_product: 2, popularity = 2.75
+2016-01-29T07:56:10.809Z - silly: Popularity document saved code_product: 60, popularity = 2.5
+2016-01-29T07:56:10.809Z - silly: Popularity document saved code_product: 263, popularity = 2.5
+2016-01-29T07:56:10.809Z - silly: Popularity document saved code_product: 108, popularity = 2.5
+2016-01-29T07:56:10.809Z - silly: Popularity document saved code_product: 95, popularity = 2.5
+2016-01-29T07:56:10.809Z - silly: Popularity document saved code_product: 249, popularity = 2.5
+2016-01-29T07:56:10.809Z - silly: Popularity document saved code_product: 100, popularity = 2.5
+2016-01-29T07:56:10.810Z - silly: Popularity document saved code_product: 192, popularity = 2.5
+2016-01-29T07:56:10.810Z - silly: Popularity document saved code_product: 49, popularity = 2.5
+2016-01-29T07:56:10.810Z - silly: Popularity document saved code_product: 35, popularity = 2.5
+2016-01-29T07:56:10.810Z - silly: Popularity document saved code_product: 82, popularity = 2.5
+2016-01-29T07:56:10.810Z - silly: Popularity document saved code_product: 76, popularity = 2.5
+2016-01-29T07:56:10.810Z - silly: Popularity document saved code_product: 3, popularity = 2.5
+2016-01-29T07:56:10.810Z - silly: Popularity document saved code_product: 85, popularity = 2.5
+2016-01-29T07:56:10.810Z - silly: Popularity document saved code_product: 237, popularity = 2.5
+2016-01-29T07:56:10.811Z - silly: Popularity document saved code_product: 128, popularity = 2.5
+2016-01-29T07:56:10.811Z - silly: Popularity document saved code_product: 180, popularity = 2.5
+2016-01-29T07:56:10.811Z - silly: Popularity document saved code_product: 32, popularity = 2
+2016-01-29T07:56:10.811Z - silly: Popularity document saved code_product: 44, popularity = 2
+2016-01-29T07:56:10.811Z - silly: Popularity document saved code_product: 283, popularity = 1.75
+2016-01-29T07:56:10.811Z - silly: Popularity document saved code_product: 244, popularity = 1.5
+2016-01-29T07:56:10.811Z - silly: Popularity document saved code_product: 61, popularity = 1.25
+2016-01-29T07:56:10.811Z - silly: Popularity document saved code_product: 132, popularity = 1
+2016-01-29T07:56:10.812Z - silly: Popularity document saved code_product: 288, popularity = 0.75
+2016-01-29T07:56:10.812Z - silly: Popularity document saved code_product: 130, popularity = 0.75
+2016-01-29T07:56:10.812Z - silly: Popularity document saved code_product: 7, popularity = 0.75
+2016-01-29T07:56:10.812Z - silly: Popularity document saved code_product: 162, popularity = 0.75
+2016-01-29T07:56:10.812Z - silly: Popularity document saved code_product: 307, popularity = 0.75
+2016-01-29T07:56:10.812Z - silly: Popularity document saved code_product: 136, popularity = 0.5
+2016-01-29T07:56:10.812Z - silly: Popularity document saved code_product: 157, popularity = 0.25
+2016-01-29T07:56:10.812Z - silly: Popularity document saved code_product: 204, popularity = 0.25
+2016-01-29T07:56:10.812Z - silly: Popularity document saved code_product: 239, popularity = 0.25
+2016-01-29T07:56:10.813Z - silly: Popularity document saved code_product: 210, popularity = 0.25
+2016-01-29T07:56:10.813Z - silly: Popularity document saved code_product: 78, popularity = 5
+2016-01-29T07:56:10.813Z - silly: Popularity document saved code_product: 258, popularity = 5
+2016-01-29T07:56:10.814Z - silly: Popularity document saved code_product: 243, popularity = 5
+2016-01-29T07:56:10.814Z - silly: Popularity document saved code_product: 292, popularity = 5
+2016-01-29T07:56:10.814Z - silly: Popularity document saved code_product: 310, popularity = 5
+2016-01-29T07:56:10.814Z - silly: Popularity document saved code_product: 262, popularity = 5
+2016-01-29T07:56:10.814Z - silly: Popularity document saved code_product: 42, popularity = 4.5
+2016-01-29T07:56:10.814Z - silly: Popularity document saved code_product: 19, popularity = 4.5
+2016-01-29T07:56:10.814Z - silly: Popularity document saved code_product: 299, popularity = 4.25
+2016-01-29T07:56:10.814Z - silly: Popularity document saved code_product: 137, popularity = 3.75
+2016-01-29T07:56:10.815Z - silly: Popularity document saved code_product: 264, popularity = 3.5
+2016-01-29T07:56:10.815Z - silly: Popularity document saved code_product: 4, popularity = 3.25
+2016-01-29T07:56:10.815Z - silly: Popularity document saved code_product: 13, popularity = 2.75
+2016-01-29T07:56:10.815Z - silly: Popularity document saved code_product: 121, popularity = 2.5
+2016-01-29T07:56:10.815Z - silly: Popularity document saved code_product: 86, popularity = 2.5
+2016-01-29T07:56:10.815Z - silly: Popularity document saved code_product: 273, popularity = 2.5
+2016-01-29T07:56:10.815Z - silly: Popularity document saved code_product: 191, popularity = 2.5
+2016-01-29T07:56:10.816Z - silly: Popularity document saved code_product: 301, popularity = 2.5
+2016-01-29T07:56:10.816Z - silly: Popularity document saved code_product: 129, popularity = 2.5
+2016-01-29T07:56:10.816Z - silly: Popularity document saved code_product: 209, popularity = 2.5
+2016-01-29T07:56:10.816Z - silly: Popularity document saved code_product: 118, popularity = 2.5
+2016-01-29T07:56:10.816Z - silly: Popularity document saved code_product: 149, popularity = 2.5
+2016-01-29T07:56:10.816Z - silly: Popularity document saved code_product: 99, popularity = 2.5
+2016-01-29T07:56:10.816Z - silly: Popularity document saved code_product: 93, popularity = 2.5
+2016-01-29T07:56:10.816Z - silly: Popularity document saved code_product: 305, popularity = 2.5
+2016-01-29T07:56:10.816Z - silly: Popularity document saved code_product: 309, popularity = 2.5
+2016-01-29T07:56:10.817Z - silly: Popularity document saved code_product: 315, popularity = 2.5
+2016-01-29T07:56:10.817Z - silly: Popularity document saved code_product: 201, popularity = 2.5
+2016-01-29T07:56:10.817Z - silly: Popularity document saved code_product: 234, popularity = 2.5
+2016-01-29T07:56:10.817Z - silly: Popularity document saved code_product: 277, popularity = 2
+2016-01-29T07:56:10.817Z - silly: Popularity document saved code_product: 321, popularity = 2
+2016-01-29T07:56:10.817Z - silly: Popularity document saved code_product: 103, popularity = 1.75
+2016-01-29T07:56:10.817Z - silly: Popularity document saved code_product: 266, popularity = 1.5
+2016-01-29T07:56:10.817Z - silly: Popularity document saved code_product: 285, popularity = 1
+2016-01-29T07:56:10.817Z - silly: Popularity document saved code_product: 188, popularity = 1
+2016-01-29T07:56:10.818Z - silly: Popularity document saved code_product: 290, popularity = 0.75
+2016-01-29T07:56:10.818Z - silly: Popularity document saved code_product: 216, popularity = 0.75
+2016-01-29T07:56:10.818Z - silly: Popularity document saved code_product: 70, popularity = 0.75
+2016-01-29T07:56:10.818Z - silly: Popularity document saved code_product: 46, popularity = 0.75
+2016-01-29T07:56:10.818Z - silly: Popularity document saved code_product: 251, popularity = 0.75
+2016-01-29T07:56:10.818Z - silly: Popularity document saved code_product: 254, popularity = 0.5
+2016-01-29T07:56:10.818Z - silly: Popularity document saved code_product: 111, popularity = 0.25
+2016-01-29T07:56:10.818Z - silly: Popularity document saved code_product: 1, popularity = 0.25
+2016-01-29T07:56:10.819Z - silly: Popularity document saved code_product: 181, popularity = 0.25
+2016-01-29T07:56:10.819Z - silly: Popularity document saved code_product: 175, popularity = 5
+2016-01-29T07:56:10.819Z - silly: Popularity document saved code_product: 293, popularity = 5
+2016-01-29T07:56:10.819Z - silly: Popularity document saved code_product: 245, popularity = 5
+2016-01-29T07:56:10.819Z - silly: Popularity document saved code_product: 198, popularity = 5
+2016-01-29T07:56:10.819Z - silly: Popularity document saved code_product: 166, popularity = 5
+2016-01-29T07:56:10.820Z - silly: Popularity document saved code_product: 270, popularity = 5
+2016-01-29T07:56:10.820Z - silly: Popularity document saved code_product: 5, popularity = 4.5
+2016-01-29T07:56:10.820Z - silly: Popularity document saved code_product: 65, popularity = 4.5
+2016-01-29T07:56:10.820Z - silly: Popularity document saved code_product: 31, popularity = 4.25
+2016-01-29T07:56:10.820Z - silly: Popularity document saved code_product: 303, popularity = 3.5
+2016-01-29T07:56:10.820Z - silly: Popularity document saved code_product: 22, popularity = 3.25
+2016-01-29T07:56:10.820Z - silly: Popularity document saved code_product: 34, popularity = 3
+2016-01-29T07:56:10.820Z - silly: Popularity document saved code_product: 271, popularity = 2.5
+2016-01-29T07:56:10.821Z - silly: Popularity document saved code_product: 199, popularity = 2.5
+2016-01-29T07:56:10.821Z - silly: Popularity document saved code_product: 116, popularity = 2.5
+2016-01-29T07:56:10.821Z - silly: Popularity document saved code_product: 306, popularity = 2.5
+2016-01-29T07:56:10.821Z - silly: Popularity document saved code_product: 184, popularity = 2.5
+2016-01-29T07:56:10.821Z - silly: Popularity document saved code_product: 15, popularity = 2.5
+2016-01-29T07:56:10.821Z - silly: Popularity document saved code_product: 138, popularity = 2.5
+2016-01-29T07:56:10.821Z - silly: Popularity document saved code_product: 115, popularity = 2.5
+2016-01-29T07:56:10.821Z - silly: Popularity document saved code_product: 54, popularity = 2.5
+2016-01-29T07:56:10.821Z - silly: Popularity document saved code_product: 203, popularity = 2.5
+2016-01-29T07:56:10.822Z - silly: Popularity document saved code_product: 265, popularity = 2.5
+2016-01-29T07:56:10.822Z - silly: Popularity document saved code_product: 213, popularity = 2.5
+2016-01-29T07:56:10.822Z - silly: Popularity document saved code_product: 194, popularity = 2.5
+2016-01-29T07:56:10.822Z - silly: Popularity document saved code_product: 92, popularity = 2.5
+2016-01-29T07:56:10.822Z - silly: Popularity document saved code_product: 193, popularity = 2.5
+2016-01-29T07:56:10.822Z - silly: Popularity document saved code_product: 120, popularity = 2.5
+2016-01-29T07:56:10.822Z - silly: Popularity document saved code_product: 278, popularity = 2.25
+2016-01-29T07:56:10.822Z - silly: Popularity document saved code_product: 276, popularity = 2
+2016-01-29T07:56:10.822Z - silly: Popularity document saved code_product: 311, popularity = 1.75
+2016-01-29T07:56:10.823Z - silly: Popularity document saved code_product: 50, popularity = 1.5
+2016-01-29T07:56:10.823Z - silly: Popularity document saved code_product: 185, popularity = 1.5
+2016-01-29T07:56:10.823Z - silly: Popularity document saved code_product: 131, popularity = 1
+2016-01-29T07:56:10.823Z - silly: Popularity document saved code_product: 274, popularity = 1
+2016-01-29T07:56:10.823Z - silly: Popularity document saved code_product: 253, popularity = 0.75
+2016-01-29T07:56:10.823Z - silly: Popularity document saved code_product: 275, popularity = 0.75
+2016-01-29T07:56:10.823Z - silly: Popularity document saved code_product: 33, popularity = 0.75
+2016-01-29T07:56:10.823Z - silly: Popularity document saved code_product: 6, popularity = 0.75
+2016-01-29T07:56:10.824Z - silly: Popularity document saved code_product: 47, popularity = 0.75
+2016-01-29T07:56:10.824Z - silly: Popularity document saved code_product: 135, popularity = 0.5
+2016-01-29T07:56:10.824Z - silly: Popularity document saved code_product: 260, popularity = 0.25
+2016-01-29T07:56:10.824Z - silly: Popularity document saved code_product: 87, popularity = 0.25
+2016-01-29T07:56:10.824Z - silly: Popularity document saved code_product: 151, popularity = 0.25
+2016-01-29T07:56:10.825Z - silly: Popularity document saved code_product: 257, popularity = 5
+2016-01-29T07:56:10.825Z - silly: Popularity document saved code_product: 289, popularity = 5
+2016-01-29T07:56:10.825Z - silly: Popularity document saved code_product: 81, popularity = 5
+2016-01-29T07:56:10.825Z - silly: Popularity document saved code_product: 25, popularity = 5
+2016-01-29T07:56:10.825Z - silly: Popularity document saved code_product: 8, popularity = 5
+2016-01-29T07:56:10.826Z - silly: Popularity document saved code_product: 287, popularity = 5
+2016-01-29T07:56:10.826Z - silly: Popularity document saved code_product: 16, popularity = 4.5
+2016-01-29T07:56:10.826Z - silly: Popularity document saved code_product: 23, popularity = 4.25
+2016-01-29T07:56:10.826Z - silly: Popularity document saved code_product: 18, popularity = 4.25
+2016-01-29T07:56:10.826Z - silly: Popularity document saved code_product: 304, popularity = 3.5
+2016-01-29T07:56:10.826Z - silly: Popularity document saved code_product: 43, popularity = 3.25
+2016-01-29T07:56:10.826Z - silly: Popularity document saved code_product: 24, popularity = 2.75
+2016-01-29T07:56:10.826Z - silly: Popularity document saved code_product: 302, popularity = 2.5
+2016-01-29T07:56:10.826Z - silly: Popularity document saved code_product: 27, popularity = 2.5
+2016-01-29T07:56:10.827Z - silly: Popularity document saved code_product: 109, popularity = 2.5
+2016-01-29T07:56:10.827Z - silly: Popularity document saved code_product: 79, popularity = 2.5
+2016-01-29T07:56:10.827Z - silly: Popularity document saved code_product: 48, popularity = 2.5
+2016-01-29T07:56:10.827Z - silly: Popularity document saved code_product: 141, popularity = 2.5
+2016-01-29T07:56:10.827Z - silly: Popularity document saved code_product: 160, popularity = 2.5
+2016-01-29T07:56:10.827Z - silly: Popularity document saved code_product: 189, popularity = 2.5
+2016-01-29T07:56:10.827Z - silly: Popularity document saved code_product: 233, popularity = 2.5
+2016-01-29T07:56:10.827Z - silly: Popularity document saved code_product: 39, popularity = 2.5
+2016-01-29T07:56:10.828Z - silly: Popularity document saved code_product: 186, popularity = 2.5
+2016-01-29T07:56:10.828Z - silly: Popularity document saved code_product: 247, popularity = 2.5
+2016-01-29T07:56:10.828Z - silly: Popularity document saved code_product: 91, popularity = 2.5
+2016-01-29T07:56:10.828Z - silly: Popularity document saved code_product: 140, popularity = 2.5
+2016-01-29T07:56:10.828Z - silly: Popularity document saved code_product: 195, popularity = 2.5
+2016-01-29T07:56:10.828Z - silly: Popularity document saved code_product: 143, popularity = 2.5
+2016-01-29T07:56:10.828Z - silly: Popularity document saved code_product: 322, popularity = 2.25
+2016-01-29T07:56:10.828Z - silly: Popularity document saved code_product: 272, popularity = 2
+2016-01-29T07:56:10.828Z - silly: Popularity document saved code_product: 207, popularity = 1.75
+2016-01-29T07:56:10.829Z - silly: Popularity document saved code_product: 163, popularity = 1.5
+2016-01-29T07:56:10.829Z - silly: Popularity document saved code_product: 57, popularity = 1.25
+2016-01-29T07:56:10.829Z - silly: Popularity document saved code_product: 187, popularity = 1
+2016-01-29T07:56:10.829Z - silly: Popularity document saved code_product: 75, popularity = 0.75
+2016-01-29T07:56:10.829Z - silly: Popularity document saved code_product: 9, popularity = 0.75
+2016-01-29T07:56:10.829Z - silly: Popularity document saved code_product: 215, popularity = 0.75
+2016-01-29T07:56:10.829Z - silly: Popularity document saved code_product: 282, popularity = 0.75
+2016-01-29T07:56:10.829Z - silly: Popularity document saved code_product: 295, popularity = 0.75
+2016-01-29T07:56:10.830Z - silly: Popularity document saved code_product: 291, popularity = 0.5
+2016-01-29T07:56:10.830Z - silly: Popularity document saved code_product: 178, popularity = 0.5
+2016-01-29T07:56:10.830Z - silly: Popularity document saved code_product: 246, popularity = 0.25
+2016-01-29T07:56:10.830Z - silly: Popularity document saved code_product: 165, popularity = 0.25
+2016-01-29T07:56:10.830Z - silly: Popularity document saved code_product: 107, popularity = 0.25
+2016-01-29T07:56:10.831Z - silly: Popularity document saved code_product: 197, popularity = 5
+2016-01-29T07:56:10.831Z - silly: Popularity document saved code_product: 267, popularity = 5
+2016-01-29T07:56:10.831Z - silly: Popularity document saved code_product: 250, popularity = 5
+2016-01-29T07:56:10.831Z - silly: Popularity document saved code_product: 255, popularity = 5
+2016-01-29T07:56:10.831Z - silly: Popularity document saved code_product: 300, popularity = 5
+2016-01-29T07:56:10.831Z - silly: Popularity document saved code_product: 296, popularity = 5
+2016-01-29T07:56:10.831Z - silly: Popularity document saved code_product: 10, popularity = 4.5
+2016-01-29T07:56:10.832Z - silly: Popularity document saved code_product: 52, popularity = 4.25
+2016-01-29T07:56:10.832Z - silly: Popularity document saved code_product: 126, popularity = 3.75
+2016-01-29T07:56:10.832Z - silly: Popularity document saved code_product: 12, popularity = 3.5
+2016-01-29T07:56:10.832Z - silly: Popularity document saved code_product: 37, popularity = 3.25
+2016-01-29T07:56:10.832Z - silly: Popularity document saved code_product: 17, popularity = 2.75
+2016-01-29T07:56:10.832Z - silly: Popularity document saved code_product: 20, popularity = 2.5
+2016-01-29T07:56:10.832Z - silly: Popularity document saved code_product: 284, popularity = 2.5
+2016-01-29T07:56:10.833Z - silly: Popularity document saved code_product: 125, popularity = 2.5
+2016-01-29T07:56:10.833Z - silly: Popularity document saved code_product: 206, popularity = 2.5
+2016-01-29T07:56:10.833Z - silly: Popularity document saved code_product: 316, popularity = 2.5
+2016-01-29T07:56:10.833Z - silly: Popularity document saved code_product: 142, popularity = 2.5
+2016-01-29T07:56:10.833Z - silly: Popularity document saved code_product: 148, popularity = 2.5
+2016-01-29T07:56:10.833Z - silly: Popularity document saved code_product: 98, popularity = 2.5
+2016-01-29T07:56:10.833Z - silly: Popularity document saved code_product: 228, popularity = 2.5
+2016-01-29T07:56:10.833Z - silly: Popularity document saved code_product: 146, popularity = 2.5
+2016-01-29T07:56:10.833Z - silly: Popularity document saved code_product: 158, popularity = 2.5
+2016-01-29T07:56:10.834Z - silly: Popularity document saved code_product: 202, popularity = 2.5
+2016-01-29T07:56:10.834Z - silly: Popularity document saved code_product: 122, popularity = 2.5
+2016-01-29T07:56:10.834Z - silly: Popularity document saved code_product: 55, popularity = 2.5
+2016-01-29T07:56:10.834Z - silly: Popularity document saved code_product: 28, popularity = 2.5
+2016-01-29T07:56:10.834Z - silly: Popularity document saved code_product: 41, popularity = 2.5
+2016-01-29T07:56:10.834Z - silly: Popularity document saved code_product: 38, popularity = 2
+2016-01-29T07:56:10.834Z - silly: Popularity document saved code_product: 297, popularity = 2
+2016-01-29T07:56:10.834Z - silly: Popularity document saved code_product: 242, popularity = 1.75
+2016-01-29T07:56:10.834Z - silly: Popularity document saved code_product: 145, popularity = 1.5
+2016-01-29T07:56:10.835Z - silly: Popularity document saved code_product: 26, popularity = 1.25
+2016-01-29T07:56:10.835Z - silly: Popularity document saved code_product: 77, popularity = 1
+2016-01-29T07:56:10.835Z - silly: Popularity document saved code_product: 40, popularity = 0.75
+2016-01-29T07:56:10.835Z - silly: Popularity document saved code_product: 69, popularity = 0.75
+2016-01-29T07:56:10.835Z - silly: Popularity document saved code_product: 74, popularity = 0.75
+2016-01-29T07:56:10.835Z - silly: Popularity document saved code_product: 279, popularity = 0.75
+2016-01-29T07:56:10.835Z - silly: Popularity document saved code_product: 280, popularity = 0.75
+2016-01-29T07:56:10.835Z - silly: Popularity document saved code_product: 314, popularity = 0.5
+2016-01-29T07:56:10.835Z - silly: Popularity document saved code_product: 88, popularity = 0.5
+2016-01-29T07:56:10.836Z - silly: Popularity document saved code_product: 225, popularity = 0.25
+2016-01-29T07:56:10.836Z - silly: Popularity document saved code_product: 84, popularity = 0.25
+2016-01-29T07:56:10.836Z - silly: Popularity document saved code_product: 248, popularity = 0.25
