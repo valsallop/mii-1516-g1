@@ -11,11 +11,15 @@
 	"admin_statistics":"Stadistics",
 
 	"comments":"Comments",
+	"confirmOrder":"The order for value of ",
+	"confirmOrder2":"€ will be delivered to:",
 
 	"description":"Description",
 	"delete":"Delete",
 
+	"emptyCart":"The cart is empty",
 	"error_logIn": "Forbidden access: You must log in to access",
+	"error_logIn2": "Wrong user/password",
 
 	"home": "Home",
 	

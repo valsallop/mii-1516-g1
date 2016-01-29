@@ -11,11 +11,15 @@
 	"admin_statistics":"Estadíticas",
 
 	"comments":"Comentarios",
+	"confirmOrder":"El pedido por valor de ",
+	"confirmOrder2":"€ será enviado a:",
 
 	"description":"Descripción",
 	"delete":"Eliminar",
 
+	"emptyCart":"El carrito esta vacío",
 	"error_logIn": "Acceso prohibido: Debe iniciar sesión para acceder",
+	"error_logIn2": "Usuario/Contraseña erróneo",
 
 	"home": "Inicio",
 	

@@ -5,7 +5,7 @@ Template.login.events({
 		var password = $('[name=password]').val();
 		Meteor.loginWithPassword(email, password, function(error){
 			if(error){
-				console.log(error.reason);
+				bootbox.alert(TAPi18n.__("error_logIn2", lang_tag=null));
 			}
 		});
 	}

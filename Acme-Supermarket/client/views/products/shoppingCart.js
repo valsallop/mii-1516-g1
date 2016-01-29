@@ -32,7 +32,12 @@ Template.shoppingCart.events({
                   totalCost=totalCost+(items[i].amount*dbItem.cost);
                 }
                 totalCost=parseFloat(totalCost).toFixed(2);
-                bootbox.confirm("El pedido por valor de "+totalCost+"€ se enviará a la direccion: "+Meteor.user().address.name+","+Meteor.user().address.number, function(result) {
+                bootbox.confirm(TAPi18n.__("confirmOrder", lang_tag=null)
+                  +totalCost+TAPi18n.__("confirmOrder2", lang_tag=null)+"</br>"+
+                  Meteor.user().name+" "+Meteor.user().surname+"</br>"+
+                  Meteor.user().address.postalCode+"</br>"+
+                  Meteor.user().address.name+"  n: "+
+                  Meteor.user().address.number, function(result) {
                   console.log(result);
                   if(result){
                     Meteor.call('confirmCart');
@@ -40,7 +45,7 @@ Template.shoppingCart.events({
                 }); 
               } 
               else {
-                bootbox.alert("El carrito esta vacío");
+                bootbox.alert(TAPi18n.__("emptyCart", lang_tag=null));
               }
             }
           });
