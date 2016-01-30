@@ -35,6 +35,13 @@ Template.productsSelect.helpers({
     for (var i=0;i<len;i++){
         arr.push(arr2[i]);
     }
+    if(arr.length>0){
+        document.getElementById("charts").disabled = false;
+    }
+    if(arr.length == 1){
+        document.getElementById("report").disabled = false;
+    };
+    
     return arr.list();
   }
 });
@@ -54,7 +61,7 @@ Template.productAdmin.events({
         
         if(datestart =="" || dateend == ""){
             var t=TAPi18n.__("toastr_needDate", lang_tag=null);
-            alert(t);
+            bootbox.alert(t);
             //toastr.error(t);
         }else{
             var str = this.name;
@@ -126,7 +133,7 @@ Template.proSocialNet.events({
         var dateend = document.getElementById("end").value;
         if(datestart =="" || dateend == ""){
             var t=TAPi18n.__("toastr_needDate", lang_tag=null);
-            alert(t);
+            bootbox.alert(t);
             //toastr.error(t);
         }else{
             var dataS = [];
@@ -143,8 +150,11 @@ Template.proSocialNet.events({
         var dateend = document.getElementById("end").value;
         if(datestart =="" || dateend == ""){
             var t=TAPi18n.__("toastr_needDate", lang_tag=null);
-            alert(t);
+            bootbox.alert(t);
             //toastr.error(t);
+        }if(document.getElementById("highcharts-0") == null){
+            var t=TAPi18n.__("toastr_firstButton", lang_tag=null);
+            bootbox.alert(t);
         }else{
             var datestart = document.getElementById("start").value;
             var dateend = document.getElementById("end").value;
@@ -191,6 +201,8 @@ Template.productsSelect.events({
         if(arr.length == 0){
             document.getElementById("start").disabled = false;
             document.getElementById("end").disabled = false;
+            document.getElementById("charts").disabled = true;
+            document.getElementById("report").disabled = true;
         };
         if(arr.length == 1){
             document.getElementById("report").disabled = false;
@@ -206,7 +218,7 @@ function drawChart(array1, array2) {
     
     $('#salesChart').highcharts({
         title: {
-            text: 'Comparative',
+            text: 'Comparative Sales',
             x: -20 //center
         },
         xAxis: {
@@ -236,7 +248,7 @@ function drawChart(array1, array2) {
 
     $('#populChart').highcharts({
         title: {
-            text: 'Comparative',
+            text: 'Comparative Popularity',
             x: -20 //center
         },
         xAxis: {

@@ -3,14 +3,23 @@
 	"aboutCompanyContent":"Nuestra compañía es una compañía joven surgida en 2016 con el objetivo de rivalizar entre los mejores MarketPlace",
 	"addCart":"Añadir al carrito",
 
-	"admin_button":"Generar informe",
+	"admin_button_reports":"Generar informe de ventas",
+	"admin_button_charts":"Generar gráficas",
+	"admin_dates":"Introduce la fecha de inicio y la fecha de fin: ",
 	"admin_products":"Lista de productos",
+	"admin_products_selected":"Productos seleccionados",
 	"admin_statistics":"Estadíticas",
 
 	"comments":"Comentarios",
+	"confirmOrder":"El pedido por valor de ",
+	"confirmOrder2":"€ será enviado a:",
 
 	"description":"Descripción",
 	"delete":"Eliminar",
+
+	"emptyCart":"El carrito esta vacío",
+	"error_logIn": "Acceso prohibido: Debe iniciar sesión para acceder",
+	"error_logIn2": "Usuario/Contraseña erróneo",
 
 	"home": "Inicio",
 	
@@ -92,6 +101,7 @@
 	"toastr_addCart":"Objeto añadido al carrito",
   	"toastr_anon":"Debes registrarte para añadir el producto al carrito",
   	"toastr_needDate":"Debes elegir dos fechas",
+	"toastr_firstButton": "Pulsa el botón Generar gráficas",
 	"toastr_voted":"Votación realizada con exito",
 	"toastr_votedBan":"Ya has votado este producto",
 	"toastr_votedBuy":"Debes comprar este producto para poder votarlo",

@@ -80,7 +80,7 @@ Template.productFormDetail.events({
           
         }else{
           var t=TAPi18n.__("toastr_votedReg", lang_tag=null);
-          toastr.error("Debes registrarte para votar el objeto", "Objeto no añadido");
+          toastr.error(t);
         }
     }
   

@@ -7,7 +7,7 @@ Template.shoppingCart.helpers({
      items[i].name=dbItem.name;
      items[i].cost=dbItem.cost;
      items[i].image=dbItem.image;
-     items[i].total=parseFloat(items[i].amount*items[i].cost).toPrecision(4);
+     items[i].total=parseFloat(items[i].amount*items[i].cost).toFixed(2);;
    }
    return items;
  },
@@ -31,8 +31,13 @@ Template.shoppingCart.events({
                   var dbItem=Products.findOne({code:parseInt(items[i].productCode)});
                   totalCost=totalCost+(items[i].amount*dbItem.cost);
                 }
-                totalCost=parseFloat(totalCost).toPrecision(4);
-                bootbox.confirm("El pedido por valor de "+totalCost+"€ se enviará a la direccion: "+Meteor.user().address.name+","+Meteor.user().address.number, function(result) {
+                totalCost=parseFloat(totalCost).toFixed(2);
+                bootbox.confirm(TAPi18n.__("confirmOrder", lang_tag=null)
+                  +totalCost+TAPi18n.__("confirmOrder2", lang_tag=null)+"</br>"+
+                  Meteor.user().name+" "+Meteor.user().surname+"</br>"+
+                  Meteor.user().address.postalCode+"</br>"+
+                  Meteor.user().address.name+"  n: "+
+                  Meteor.user().address.number, function(result) {
                   console.log(result);
                   if(result){
                     Meteor.call('confirmCart');
@@ -40,7 +45,7 @@ Template.shoppingCart.events({
                 }); 
               } 
               else {
-                bootbox.alert("El carrito esta vacío");
+                bootbox.alert(TAPi18n.__("emptyCart", lang_tag=null));
               }
             }
           });

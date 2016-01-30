@@ -3,14 +3,23 @@
 	"aboutCompanyContent":"Our company is a young company emerged in 2016 with the aim to compete among the best MarketPlace",
 	"addCart":"Add cart",
 
-	"admin_button":"Create report",
+	"admin_button_reports":"Create sales report",
+	"admin_button_charts":"Create charts",
+	"admin_dates":"Enter the starting date and ending date: ",
 	"admin_products":"Product List",
+	"admin_products_selected":"Products selected",
 	"admin_statistics":"Stadistics",
 
 	"comments":"Comments",
+	"confirmOrder":"The order for value of ",
+	"confirmOrder2":"€ will be delivered to:",
 
 	"description":"Description",
 	"delete":"Delete",
+
+	"emptyCart":"The cart is empty",
+	"error_logIn": "Forbidden access: You must log in to access",
+	"error_logIn2": "Wrong user/password",
 
 	"home": "Home",
 	
@@ -96,6 +105,7 @@
 	"toastr_addCart":"Item add cart",
 	"toastr_anon":"You must register to add the item to cart",
 	"toastr_needDate":"You must choose two dates",
+	"toastr_firstButton": "Click the button Create charts",
 	"toastr_voted":"Voting held successfully",
 	"toastr_votedBan":"You have already rated this item",
 	"toastr_votedBuy":"You must buy this product to rate",

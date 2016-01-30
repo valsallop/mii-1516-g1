@@ -25,25 +25,7 @@ Meteor.methods({
       }   
     });
   },
-  checkCreditCard: function(creditCard){
-      if(creditCard.number!=null && creditCard.CVV>100 && creditCard.CVV<=999
-          && ((creditCard.expYear==new Date().getFullYear() && creditCard.expMonth>=(new Date().getMonth()+1))
-            ||(creditCard.expYear>=new Date().getFullYear() && creditCard.expMonth>=0))){
-        return true;
-      }else{
-        return false;
-      }
-  },
   checkUser: function (userId) {
-    console.log(Meteor.userId()==userId);
-    console.log(Meteor.user());
-    console.log(Meteor.user().address.name);
-    console.log(Meteor.user().address.name!=null);
-    console.log(Meteor.user().address.postalCode!=null);
-    console.log(Meteor.user().creditCard.number!=null);
-    console.log(Meteor.user().creditCard.CVV!=null);
-    console.log(Meteor.user().creditCard.expYear>new Date().getFullYear());
-    console.log(Meteor.user().creditCard.expMonth>(new Date().getMonth()+1));
     if(Meteor.userId()==userId && Meteor.user().address.name!=null
       && Meteor.user().address.postalCode!=null){
       console.log(Meteor.user().creditCard.number!=null);
@@ -64,6 +46,7 @@ Meteor.methods({
     }
   },
   addToCart: function (code) {
+    console.log(Meteor.userId());
     var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
     for (var i = 0; i < cart.items.length; i++) {
       var exist=false;

@@ -51,3 +51,6 @@ xcv58:collection-api
 mizzao:bootboxjs
 chipcastledotcom:meteor-jspdf
 superlumen:canvg
+
+velocity:html-reporter
+sanjo:jasmine
