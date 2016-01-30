@@ -1,6 +1,6 @@
 module.exports = {
 	"db": {
-		//"mongodb": "mongodb://testUser:testpassword@ds045077.mongolab.com:45077/shopwithmetest"
+		//"mongodb": "mongodb://testUser:testpassword@data.mongolab.com:45077/tests"
 		// Localhost
 		"mongodb": "mongodb://localhost/analytic"
 	},
@@ -13,5 +13,15 @@ module.exports = {
 	},
 	"scheduleProcessPopularity": {
 		"cronExp": "10 */1 * * * *"
+	},
+	"scheduleSyncProducts": {
+		"cronExp": "10 */1 * * * *"
+	},
+	"scheduleProcessCollect":{
+		"cronTwe": "10 */30 * * * *"
+	},
+	"webApp": {
+		"address": "http://localhost:3000",
+		"collectionApi": "/collectionapi"
 	}
 };

@@ -1,6 +1,9 @@
-mongoimport -c products --type csv --file products-v6.csv -d analytic --headerline -h localhost:27017
+mongoimport -c products --type csv --file popular-productos.csv -d analytic --headerline -h localhost:27017
+
+mongoimport -c tweets --type json --file popular-tweet.json -d analytic -h localhost:27017
+
+
+// Insertar Rating de productos aleatorio
 db.products.find({rating: {$eq : "null" }}).forEach(function(product) {
   db.products.update({_id: product._id}, {$set: {rating: Math.random()*5}})
 })
-
-mongoimport -c tweets --type json --file popular-tweet.json -d analytic -h localhost:27017

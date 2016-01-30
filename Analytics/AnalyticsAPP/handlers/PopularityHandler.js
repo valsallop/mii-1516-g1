@@ -4,14 +4,13 @@ var utils = require('../etc/utils');
 var TweetModel = require('../models/tweets');
 var PopularityModel = require('../models/popularity');
 
+// It manages trends and popularity of Products
 var PopularityHandler = function() {
-	//this.getProductPopularity = handleGetProductPopularity;
-	//this.getProductRecommendationList = handleGetProductRecommendationList;
     this.getProductTwitterTrend = handleGetProductTwitterTrend;
     this.getRecommendationByPopularity = handleGetRecommendationByPopularity;
 };
 
-
+//  Process Product's mentions in Twitter to get the trending and serves it
 function handleGetProductTwitterTrend (req, res){
   logger.log('debug', "handleGetOneProduct code_product: " + req.body.code);
   return TweetModel.aggregate([
@@ -49,6 +48,7 @@ function handleGetProductTwitterTrend (req, res){
   
 };
 
+//  Serves Products recommendation list
 function handleGetRecommendationByPopularity (req, res){
     logger.log('debug', "handleGetRecommendationByPopularity");
     

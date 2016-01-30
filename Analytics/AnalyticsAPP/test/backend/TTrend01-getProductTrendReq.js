@@ -2,11 +2,8 @@ var request = require('supertest');
 var should = require('should');
 var assert = require('assert');
 
-var PROD_CODE = 1;
-
-describe('Get all products from DB.', function () {
-	it('should get a JSON containing all of products', function (){
-		// Insert a contact
+describe('Get trending af a given product.', function () {
+	it('should get trending serie of a given product between dates', function () {
 		request('http://localhost:4242/analytics')
 		.post('/trending')
 		.send( {
@@ -18,6 +15,7 @@ describe('Get all products from DB.', function () {
 			res.status.should.be.equal(200);
 			res.body.should.have.property('code');
 			res.body.should.have.property('trending');
+			assert(res.body.trending.length > 0);
 			for (var i = 0; i < res.body.trending.length; i++) {
 				res.body.trending[i].should.have.property('ts');
 				res.body.trending[i].should.have.property('mentions');

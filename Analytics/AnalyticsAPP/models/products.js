@@ -1,4 +1,4 @@
-
+var logger = require('winston');
 var mongoose = require('mongoose');
 
 var Schema = mongoose.Schema;  
@@ -34,7 +34,8 @@ var productSchema = new Schema({
   rating: {
     type: Number,
     label: "rating",
-    decimal: true
+    decimal: true,
+    default: 0
   },
   availability: {
   	type: Boolean,
@@ -47,10 +48,14 @@ var productSchema = new Schema({
 });
 
 productSchema.path('name').validate(function (v) {
-    console.log("validate name");
-    console.log(v);
     return v.length > 0;
-}, 'Product name attribute is should be more than 0 characters');
+}, 'Product name attribute should be more than 0 characters');
+productSchema.path('cost').validate(function (v) {
+    return v > 0;
+}, 'Product cost attribute should be great than 0');
+productSchema.path('rating').validate(function (v) {
+    return v >= 0;
+}, 'Product rating attribute should be great or equal than 0');
 
 
 var ProductModel = mongoose.model('products', productSchema);

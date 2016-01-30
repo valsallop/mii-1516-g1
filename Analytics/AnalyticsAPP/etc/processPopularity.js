@@ -6,20 +6,13 @@ var PopularityModel = require('../models/popularity');
 
 var ProcessPopularity = function processPopularity() {
 // Calculate popularity & insert into collection
-    PopularityModel.remove({}, function (err, data) {
-        if (!err) {
-            logger.log('silly', "Popularity collection cleared");
-        } else {
-            logger.log('warn', err);
-        }
-    });
-
+    
     var limitDate = new Date();
     limitDate.setMonth(limitDate.getMonth() - 3);
 
     ProductModel.find({},{code: 1}, function (err, data) {
         if (!err) {
-            logger.log('silly', "Getting available products (count): " + data.length);
+            logger.log('debug', "Getting available products (count): " + data.length);
             var availableCodeProducts = data.map(function(doc) { return doc.code; });
             // Get tweets of available products
             TweetModel.aggregate(
@@ -47,6 +40,13 @@ var ProcessPopularity = function processPopularity() {
                     }
                 }], function (err, data) {
                     if (!err) {
+                        PopularityModel.remove({}, function (err, data) {
+                            if (!err) {
+                                logger.log('silly', "Popularity collection cleaned");
+                            } else {
+                                logger.log('warn', err);
+                            }
+                        });
                         var maxMentions = 0;
                         logger.log('debug', "Popularity collection. Data 2 populate: " + data);
                         if(data.length > 0){
@@ -65,7 +65,7 @@ var ProcessPopularity = function processPopularity() {
                                         }
                                     });
                                 } else {
-                                    logger.log('silly', "Popularity document not saved: " + row._id.code + ", mentions = " + row.mentions + ", maxMentions: " + maxMentions);
+                                    logger.log('debug', "Popularity document not saved: " + row._id.code + ", mentions = " + row.mentions + ", maxMentions: " + maxMentions);
                                 }
                             });
                     }} else {
