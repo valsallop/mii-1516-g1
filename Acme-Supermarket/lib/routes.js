@@ -87,8 +87,17 @@ Router.route('/shoppingCart', {
       		Router.go('home');
     	}
     	else{
-			BlazeLayout.render('shoppingCart');
-		}	
+    		Meteor.call('checkEmptyCart', Meteor.userId(), function(error, response) {
+            if(response){
+            	BlazeLayout.render('shoppingCart');
+            }
+            else{
+            	bootbox.alert(TAPi18n.__("emptyCart", lang_tag=null));
+      			Router.go('home');
+            }
+			
+			});	
+		}
 	}
 });
 

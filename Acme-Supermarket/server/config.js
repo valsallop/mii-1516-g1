@@ -1,5 +1,8 @@
 Meteor.startup(function () {
- process.env.MAIL_URL = 'smtp://meteor@sandboxd8c0ad0d7ac14d22a31dcfdb187acaf9.mailgun.org:meteor@smtp.mailgun.org:587';});
+ process.env.MAIL_URL = 'smtp://meteor@sandboxd8c0ad0d7ac14d22a31dcfdb187acaf9.mailgun.org:meteor@smtp.mailgun.org:587',
+ process.env.CLUSTER_WORKERS_COUNT='auto',
+ process.env.CLUSTER_SERVICE='web',
+process.env.CLUSTER_ENDPOINT_URL='http://localhost:3000'});
 
 Meteor.methods({
   sendEmail: function (to, from, subject, text) {
@@ -28,17 +31,24 @@ Meteor.methods({
   checkUser: function (userId) {
     if(Meteor.userId()==userId && Meteor.user().address.name!=null
       && Meteor.user().address.postalCode!=null){
-      console.log(Meteor.user().creditCard.number!=null);
-      console.log(Meteor.user().creditCard.CVV>100);
-      console.log(Meteor.user().creditCard.CVV<=999);
-      console.log((Meteor.user().creditCard.expYear==new Date().getFullYear() && Meteor.user().creditCard.expMonth>=(new Date().getMonth()+1)));
-      console.log((Meteor.user().creditCard.expYear>=new Date().getFullYear() && Meteor.user().creditCard.expMonth>=0));
-      console.log(((Meteor.user().creditCard.expYear==new Date().getFullYear() && Meteor.user().creditCard.expMonth>=(new Date().getMonth()+1))
-          ||(Meteor.user().creditCard.expYear>=new Date().getFullYear() && Meteor.user().creditCard.expMonth>=0)));
       if(Meteor.user().creditCard.number!=null && Meteor.user().creditCard.CVV>100 && Meteor.user().creditCard.CVV<=999
         && ((Meteor.user().creditCard.expYear==new Date().getFullYear() && Meteor.user().creditCard.expMonth>=(new Date().getMonth()+1))
           ||(Meteor.user().creditCard.expYear>=new Date().getFullYear() && Meteor.user().creditCard.expMonth>=0))){
         return true;
+      }
+    }
+    else{
+      return false;
+    }
+  },
+  checkEmptyCart: function (userId) {
+    if(Meteor.userId()==userId){
+      var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
+      if(cart.items.length>0){
+        return true;
+      }
+      else{
+        return false;
       }
     }
     else{
