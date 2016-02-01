@@ -101,11 +101,66 @@ Router.route('/shoppingCart', {
 	}
 });
 
-Houston.menu({
-    'type': 'template',
-    'use': 'proSocialNet',
-    'title': 'Analytics'
-  });
+
+Router.route('/analytics/statistics', {
+  path: AdminDashboard.path('/analytics/statistics'),
+  controller: 'AdminController',
+  onAfterAction: function () {
+    Session.set('admin_title', 'Analytics');
+  }
+});
+
+AdminDashboard.addSidebarItem('Analytics', {
+  icon: 'line-chart',
+  urls: [
+    { title: 'Statistics', url: AdminDashboard.path('/analytics/statistics') }
+  ]
+});
+AdminConfig = {
+  name: 'Acme-Supermarket',
+  adminEmails: ['daltonic65@gmail.com'],
+  collections: {
+    Products: {
+    	icon: 'gift',
+	  omitFields: ['updatedAt'],
+	  tableColumns: [
+	   { label: 'Code', name: 'code'},
+	   { label: 'Name', name: 'name' },
+	   { label: 'Cost', name: 'cost'}
+	  ],
+	  showEditColumn: true, // Set to false to hide the edit button. True by default.
+	  showDelColumn: true, // Set to false to hide the edit button. True by default.
+	  showWidget: false,
+	  color: 'red'
+    },
+    ShoppingCarts:{
+        icon: 'shopping-cart',
+      tableColumns: [
+       { label: 'User ID', name: 'userId'},
+       { label: 'State', name: 'active' },
+       { label: 'Payment Date', name: 'paymentDate' },
+       { label: 'Delivery Date', name: 'deliveryDate'}
+      ],
+      showEditColumn: true, // Set to false to hide the edit button. True by default.
+      showDelColumn: true, // Set to false to hide the edit button. True by default.
+      showWidget: false,
+      color: 'yellow'
+    },
+    Comments: {
+	  icon: 'comment',
+	  omitFields: ['updatedAt'],
+	  tableColumns: [
+	   { label: 'Title', name: 'title' },
+	   { label: 'Created', name: 'createdAt'},
+	   { label: 'User', name: 'userEmail'}
+	  ],
+	  showEditColumn: true, // Set to false to hide the edit button. True by default.
+	  showDelColumn: true, // Set to false to hide the edit button. True by default.
+	  showWidget: false,
+	  color: 'green'
+	}
+  }
+};
 // Router.route('/shoppingCart',{
 // 	name: 'shoppingCart',
 // 	action(){

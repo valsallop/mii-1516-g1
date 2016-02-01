@@ -1,6 +1,6 @@
 <template name="shoppingCartItem">
-  <tbody>
-    <td>
+  <div class = "row">
+    <div class="col-lg-2 col-md-2 col-sm-2">
       <a href="/product/{{productCode}}">
         <picture>
           <!--Imagen de la base de datos-->
@@ -13,31 +13,31 @@
           alt="image not found">
         </picture>
       </a>
-    </td>
-    <td>
-      <tr>
-        <td class="col-lg-3 col-md-3 col-sm-3">{{_ "name"}}:</td>
-        <td class="col-lg-9 col-md-9 col-sm-9">{{name}}</td>
-      </tr>
-      <tr>
-        <td class="col-lg-3 col-md-3 col-sm-3">{{_ "price"}}:</td>
-        <td class="col-lg-9 col-md-9 col-sm-9">{{cost}}</td>
-      </tr>
-    </td>
-    <td>
-      <td class="col-lg-3 col-md-3 col-sm-3"><button type="button" class="btn btn-default minusAmount">
-        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
-      </button></td>
-      <td class="col-lg-2 col-md-2 col-sm-2">{{amount}}</td>
-      <td class="col-lg-3 col-md-3 col-sm-3"><button type="button" class="btn btn-default addAmount">
-        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-      </button></td>
-      <td class="col-lg-3 col-md-3 col-sm-3">{{total}}</td>
-    </td>
-    <td>
-    <td class="col-lg-12 col-md-12 col-sm-12">
-      <button type="button" class="btn btn-danger idDeleteItem btn-md">{{_ "delete"}}</button>
-    </td>
-    </td>
-  </tbody>
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-5">
+        <div class="col-lg-3 col-md-3 col-sm-3">{{_ "name"}}:</div>
+        <div class="col-lg-9 col-md-9 col-sm-9">{{name}}</div>
+        <div class="col-lg-3 col-md-3 col-sm-3">{{_ "price"}}:</div>
+        <div class="col-lg-9 col-md-9 col-sm-9">{{cost}}</div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <div class="col-lg-3 col-md-3 col-sm-3">
+        <button type="button" class="btn btn-default minusAmount">
+          <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2"><b>{{amount}}</b></div>
+      <div class="col-lg-3 col-md-3 col-sm-3">
+        <button type="button" class="btn btn-default addAmount">
+          <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4"><big>{{total}}</big></div>
+    </div>
+    <div class="col-lg-1 col-md-1 col-sm-1">
+      <button type="button" class="btn btn-danger idDeleteItem btn-md">
+        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
 </template>

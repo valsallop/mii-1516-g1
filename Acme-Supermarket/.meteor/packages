@@ -41,7 +41,6 @@ gwendall:autoform-i18n
 monbro:mongodb-mapreduce-aggregation
 ongoworks:security
 email
-houston:admin
 iron:router
 aldeed:schema-index
 manuel:reactivearray
@@ -54,3 +53,7 @@ superlumen:canvg
 
 velocity:html-reporter
 sanjo:jasmine
+dburles:collection-helpers
+accounts-base
+fortawesome:fontawesome
+yogiben:admin

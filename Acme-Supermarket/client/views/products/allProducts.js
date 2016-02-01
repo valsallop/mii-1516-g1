@@ -1,15 +1,5 @@
-Template.allProducts.helpers({
-  allProducts: function() {
-    return Products.find();
-  }
-});
-
 ProductsPages = new Meteor.Pagination(Products, {
-    itemTemplate: "allProductsDetails",
+    itemTemplate: "product",
     templateName: "allProducts",
-    perPage: 5
+    perPage: 12
 });
-
-Template.allProductsDetails.rendered = function () {
-  this.$('.rateit').rateit();
-}

@@ -1,6 +1,6 @@
 <template name="productFormDetail">
-  <tbody class = "container">
-    <td class="col-lg-2 col-md-2 col-sm-2">
+  <div class = "container">
+    <div class="col-lg-2 col-md-2 col-sm-2">
       <a href="/product/{{code}}">
         <picture>
           <!--Imagen de la base de datos-->
@@ -13,27 +13,16 @@
             alt="image not found">
         </picture>
       </a>
-    </td>
-    <td class="col-lg-8 col-md-8 col-sm-8">
-      <tr>
-        <td><h2>{{_ "name"}}:&nbsp;&nbsp;</h2></td>
-        <td><h3 id="name">{{name}}</h3></td>
-      </tr>
-      <tr>
-        <td><h2>{{_ "price"}}:&nbsp;&nbsp;</h2></td>
-        <td><h3 id="cost">{{cost}}</h3></td>
-      </tr>
-      <tr>
-        <td><h2>{{_ "description"}}:&nbsp;&nbsp;</h2></td>
-        <td><h3 id="description">{{description}}</h3></td>
-      </tr>
-    </td>
-    <td class="col-lg-2col-md-2 col-sm-2">
-      <div >
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8">
+        <h3 id="name">{{name}}</h3> <HR width="100%" align="center" size="20" style="color: #6E6E6E;" >
+        <h4>{{_ "price"}}: EUR  <big id="cost">{{cost}}</big></h4>
+        <h4 id="description">{{description}}</h4>
+    </div>
+    <div class="col-lg-2col-md-2 col-sm-2 margin-top">
         <div class="rateit idRatingProduct" data-rateit-value="{{value}}" id="inputRating"></div>
        
         <button type="button" class="btn btn-success idAddCart btn-lg" style="margin-top:32px">{{_ "addCart"}}</button>
-      </div>
-    </td>
-  </tbody>
+    </div>
+  </div>
 </template>
