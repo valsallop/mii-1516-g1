@@ -53,6 +53,9 @@ superlumen:canvg
 
 velocity:html-reporter
 sanjo:jasmine
+kadira:debug
+meteorhacks:kadira
+
 dburles:collection-helpers
 accounts-base
 fortawesome:fontawesome

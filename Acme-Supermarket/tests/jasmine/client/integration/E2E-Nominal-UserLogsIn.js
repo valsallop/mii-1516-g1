@@ -1,5 +1,5 @@
 describe("E2E - Nominal - User logs in", function() {
-    it("should setup MongoDB for testing", function () {
+    it("setup MongoDB for testing", function () {
         Meteor.call('clearDB', function(){
             Meteor.call('loadFixtures');
         });

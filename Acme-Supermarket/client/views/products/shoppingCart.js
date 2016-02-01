@@ -48,6 +48,13 @@ Template.shoppingCart.events({
                 bootbox.alert(TAPi18n.__("emptyCart", lang_tag=null));
               }
             }
+            else{
+              bootbox.alert(TAPi18n.__("error_profileDate", lang_tag=null), function() {
+                Router.go('/updateProfile');
+                $('.modal-backdrop').remove();
+              });
+            }
+            
           });
         }else{
           var t=TAPi18n.__("toastr_anon", lang_tag=null);

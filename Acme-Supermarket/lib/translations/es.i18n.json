@@ -20,6 +20,7 @@
 	"emptyCart":"El carrito esta vacío",
 	"error_logIn": "Acceso prohibido: Debe iniciar sesión para acceder",
 	"error_logIn2": "Usuario/Contraseña erróneo",
+	"error_profileDate":"Datos de usuario incompletos o incorrectos",
 
 	"home": "Inicio",
 	
@@ -27,6 +28,7 @@
 	"listProduct":"Lista de productos",
 	"login": "Iniciar sesión",
 	"logout": "Cerrar sesión",
+	"logout2": "Sesión cerrada",
 
 	"login_button":"Iniciar sesión",
 	"login_email":"Email",

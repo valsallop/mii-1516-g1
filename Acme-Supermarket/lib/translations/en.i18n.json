@@ -20,14 +20,17 @@
 	"emptyCart":"The cart is empty",
 	"error_logIn": "Forbidden access: You must log in to access",
 	"error_logIn2": "Wrong user/password",
+	"error_profileDate": "Wrong or incomplete user data",
 
 	"home": "Home",
 	
 	"languages": "Languages",
+
 	
 	"listProduct":"List products",
 	"login":"Login",
 	"logout": "Logout",
+	"logout2": "Logged out",
 
 	"login_button":"Sing in",
 	"login_email":"Email",

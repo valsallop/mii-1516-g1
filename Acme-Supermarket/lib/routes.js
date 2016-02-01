@@ -4,7 +4,7 @@ if(Meteor.isClient){
 	});
 
 	Accounts.onLogout(function(){
-		Router.go('home');
+		
 	});
 	Meteor.subscribe('products');
 	Meteor.subscribe('comments');
