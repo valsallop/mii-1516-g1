@@ -4,19 +4,19 @@
 AdminProductsPages = new Meteor.Pagination(Products, {
     itemTemplate: "productAdmin",
     templateName: "productsAnalitycs",
-    perPage: 10
+    perPage: 12
 });
 
 SalesProductsPages = new Meteor.Pagination(Products, {
     itemTemplate: "salesProducts",
     templateName: "salesPro",
-    perPage: 10
+    perPage: 12
 });
 
 Pages = new Meteor.Pagination(Products, {
     itemTemplate: "product",
     templateName: "products",
-    perPage: 5,
+    perPage: 4,
     filters : {availability: {$eq: 1}}
 });
 
@@ -24,17 +24,19 @@ Pages = new Meteor.Pagination(Products, {
 this.RecommendationPages = new Meteor.Pagination(Products, {
     itemTemplate: "product",
     templateName: "recommendations",
-    perPage: 5,
+    perPage: 4,
+    filters : {availability: {$eq: 1}},
     sort:{
     	rating: -1
     }
 
 });
 
-ProductsPages = new Meteor.Pagination(Products, {
-    itemTemplate: "allProductsDetails",
+this.ProductsPages = new Meteor.Pagination(Products, {
+    itemTemplate: "product",
     templateName: "allProducts",
-    perPage: 5,
+    perPage: 12,
     filters : {availability: {$eq: 1}}
 });
+
 

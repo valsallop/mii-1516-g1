@@ -48,8 +48,8 @@ Template.productsSelect.helpers({
 
 AdminProductsPages = new Meteor.Pagination(Products, {
     itemTemplate: "productAdmin",
-    templateName: "proSocialNet",
-    perPage: 10
+    templateName: "analyticsStatistics",
+    perPage: 12
 });
 
 Template.productAdmin.events({
@@ -127,7 +127,7 @@ Template.productAdmin.events({
 
 });
 
-Template.proSocialNet.events({
+Template.analyticsStatistics.events({
     'click .showPopu': function(){
         var datestart = document.getElementById("start").value;
         var dateend = document.getElementById("end").value;
@@ -279,11 +279,11 @@ function drawChart(array1, array2) {
     
 }
 
-Template.proSocialNet.rendered = function(){
+Template.analyticsStatistics.rendered = function(){
  Deps.autorun(function () { drawChart(); canvas();});
 }
 
-Template.proSocialNet.rendered = function() {
+Template.analyticsStatistics.rendered = function() {
     $('#datetimepickerStart').datetimepicker();
     $('#datetimepickerEnd').datetimepicker({
             useCurrent: false //Important! See issue #1075

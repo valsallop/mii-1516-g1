@@ -1,4 +1,4 @@
-<template name="proSocialNet">
+<template name="analyticsStatistics">
 	<head>
 		<script src="http://code.highcharts.com/highcharts.js"></script>
 	</head>
@@ -43,8 +43,8 @@
 			{{> pagesNav}}
 
 			{{>productsSelect}}
-			<button id = "charts" class="btn showPopu btn-sm" style="background-color:#149c82; margin-top:10px" disabled>{{_ "admin_button_charts"}}</button>
-			<button id = "report" class="btn btn-sm downloadPDF" style="background-color:#149c82; margin-top:10px" disabled>{{_ "admin_button_reports"}}</button>
+			<button id = "charts" class="btn showPopu btn-sm btn-primary" disabled>{{_ "admin_button_charts"}}</button>
+			<button id = "report" class="btn btn-sm downloadPDF btn-primary" disabled>{{_ "admin_button_reports"}}</button>
 		</div>
 		<div class="col-lg-6 col-md-6 col-sm-6">
 			<h2>{{_ "admin_statistics"}}</h2>
@@ -59,7 +59,7 @@
 </template>
 
 <template name="productAdmin">
-  	<div class="showProduct col-lg-12 col-md-12 col-sm-12">{{name}}</div> 
+  	<div class="showProduct col-lg-12 col-md-12 col-sm-12"><h4 style="color:darkblue">{{name}}</h4></div> 
 </template>
 
 <template name="productsSelect">

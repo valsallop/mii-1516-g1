@@ -1,32 +1,25 @@
 <template name="product">
-  <tbody>
-    <td>
-      <a href="/product/{{code}}">
-        <picture>
-          <!--Imagen de la base de datos-->
-          <source
-            media="(min-width: 150px)"
-            srcset={{image}}>
-            <!--Imagen por defecto-->
-          <img
-            src="images/no-img.png"
-            alt="image not found">
-        </picture>
-      </a>
-    </td>
-    <td>
-      <tr>
-        <td class="col-lg-3 col-md-3 col-sm-3">{{_ "name"}}:</td>
-        <td class="col-lg-9 col-md-9 col-sm-9 name">{{name}}</td>
-      </tr>
-      <tr>
-        <td class="col-lg-3 col-md-3 col-sm-3">{{_ "price"}}:</td>
-        <td class="col-lg-9 col-md-9 col-sm-9 cost">{{cost}}</td>
-      </tr>
-      <tr>
-        <td class="col-lg-3 col-md-3 col-sm-3">{{_ "description"}}:</td>
-        <td class="col-lg-9 col-md-9 col-sm-9 description">{{description}}</td>
-      </tr>
-    </td>
-  </tbody>
+  <div class="col-lg-3 col-md-4 col-xs-6 grill thumb hero-feature">
+    <div class="thumbnail">
+        <a href="/product/{{code}}">
+          <picture>
+            <source
+              media="(min-width: 150px)"
+              srcset={{image}}>
+            <img
+              src="images/no-img.png"
+              alt="image not found">
+          </picture>
+        </a>
+        <div class="caption">
+            <h3>{{name}}</h3>
+            <div class="rateit" data-rateit-value="{{rating}}" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+            <p>{{_ "price"}}: EUR <big id="cost">{{cost}}</big></p>
+            <p>
+                <button type="button" class="btn btn-success idAddCart"> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>  {{_ "addCart"}}</button> <a href="/product/{{code}}" class="btn btn-default">Info</a>
+            </p>
+        </div>
+    </div>
+  </div>
 </template>
+
