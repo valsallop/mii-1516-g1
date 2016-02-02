@@ -27,14 +27,31 @@ Meteor.methods({
         creditCard:{number:doc.creditCard.number,CVV:doc.creditCard.CVV,expMonth:doc.creditCard.expMonth,expYear:doc.creditCard.expYear}
       }   
     });
+    console.log("---------");
+    console.log(doc);
+    console.log("---------");
   },
   checkUser: function (userId) {
+    console.log("Checking");
+    console.log("--------------");
+    console.log("UserId: "+Meteor.userId()==userId);
+    console.log("Address name:"+Meteor.user().address.name!=null); 
+    console.log("Postal code: "+Meteor.user().address.postalCode!=null);
+    console.log("CC number: "+Meteor.user().creditCard.number!=null);
+    console.log("CVV: "+Meteor.user().creditCard.CVV>100+" "+Meteor.user().creditCard.CVV<=999);
+    console.log("CC dates:");
+    console.log(((Meteor.user().creditCard.expYear==new Date().getFullYear() && Meteor.user().creditCard.expMonth>=(new Date().getMonth()+1))
+          ||(Meteor.user().creditCard.expYear>=new Date().getFullYear() && Meteor.user().creditCard.expMonth>=0)));
+    console.log("--------------");
     if(Meteor.userId()==userId && Meteor.user().address.name!=null
       && Meteor.user().address.postalCode!=null){
       if(Meteor.user().creditCard.number!=null && Meteor.user().creditCard.CVV>100 && Meteor.user().creditCard.CVV<=999
         && ((Meteor.user().creditCard.expYear==new Date().getFullYear() && Meteor.user().creditCard.expMonth>=(new Date().getMonth()+1))
           ||(Meteor.user().creditCard.expYear>=new Date().getFullYear() && Meteor.user().creditCard.expMonth>=0))){
         return true;
+      }
+      else{
+        return false;
       }
     }
     else{
@@ -62,12 +79,11 @@ Meteor.methods({
       var exist=false;
       if(cart.items[i].productCode==code){
         exist=true;
-        console.log("si");
         cart.items[i].amount=cart.items[i].amount+1;
-        console.log(cart.items[i]);
-        console.log("----------------------");
+        break;
       }
     }
+    console.log("exist:"+exist);
     if(!exist){
       var item={
          "productCode" : code,
