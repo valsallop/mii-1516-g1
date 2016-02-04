@@ -10,6 +10,9 @@
 				<a href="/products">{{_ "products"}}</a>
 				<a href="/shoppingCart"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> {{_ "shoppingCart"}}</a>
 			</nav>
+			<ul class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown">{{> i18n_dropdown}}</a>
+			</ul>
 			{{#unless currentUser}}
 				<ul class="dropdown"> <a href="/register">{{_ "register"}}</a></ul>
 				<ul class="dropdown"> <a href="/login" class="login">{{_ "login"}}</a></ul>
@@ -19,9 +22,6 @@
 				<ul class="dropdown"> <a href="#" class="logout">{{_ "logout"}}</a></ul>
 			{{/if}}
 			
-			<ul class="dropdown">
-				<a class="dropdown-toggle fNiv" data-toggle="dropdown"> {{> i18n_dropdown}}</a>
-			</ul>
 			
 
 		</div>

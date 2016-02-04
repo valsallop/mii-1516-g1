@@ -1,7 +1,7 @@
 <template name="product">
   <div class="col-lg-3 col-md-4 col-xs-6 grill thumb hero-feature">
     <div class="thumbnail">
-        <a href="/product/{{code}}">
+        <a href="/product/{{code}}" style="height: 133px;">
           <picture>
             <source
               media="(min-width: 150px)"
@@ -12,7 +12,7 @@
           </picture>
         </a>
         <div class="caption">
-            <h3>{{name}}</h3>
+            <h3 style="height: 190px;">{{name}}</h3>
             <div class="rateit" data-rateit-value="{{rating}}" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
             <p>{{_ "price"}}: EUR <big id="cost">{{cost}}</big></p>
             <p>

@@ -1,4 +1,4 @@
-describe("E2E - Nominal - Update profile", function() {
+/*describe("E2E - Nominal - Update profile", function() {
     it("setup test case", function () {
         Meteor.call('clearDB', function(){
             Meteor.call('loadFixtures');
@@ -67,4 +67,4 @@ describe("E2E - Nominal - Update profile", function() {
     //         }
     //     });
     // });
-});
+});*/

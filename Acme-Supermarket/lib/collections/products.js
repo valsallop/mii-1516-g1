@@ -39,3 +39,21 @@ productSchema=new SimpleSchema({
   }
 });
 Products.attachSchema(productSchema);
+Products.prototype = {
+  save: function() {
+      // remember the context since in callback it is changed
+      var that = this;
+      var doc = {code: this.code,name: this.name,cost: this.cost,description: this.description,image: this.image,rating: this.rating, availability: this.availability};
+
+      Products.insert(doc, function(error, result) {
+          that._id = result;
+      });
+  }
+};
+
+Products.allow({
+  insert: function (userId, doc) {
+    // the user must be logged in, and the document must be owned by the user
+    return (userId && doc.owner === Meteor.userId() && Roles.userIsInRole(userId, "admin"));
+  }
+});

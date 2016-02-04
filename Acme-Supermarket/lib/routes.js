@@ -4,7 +4,7 @@ if(Meteor.isClient){
 	});
 
 	Accounts.onLogout(function(){
-		
+		Router.go('home');
 	});
 	Meteor.subscribe('products');
 	Meteor.subscribe('comments');
@@ -130,7 +130,7 @@ AdminConfig = {
 	  ],
 	  showEditColumn: true, // Set to false to hide the edit button. True by default.
 	  showDelColumn: true, // Set to false to hide the edit button. True by default.
-	  showWidget: false,
+	  showWidget: true,
 	  color: 'red'
     },
     ShoppingCarts:{
@@ -143,7 +143,7 @@ AdminConfig = {
       ],
       showEditColumn: true, // Set to false to hide the edit button. True by default.
       showDelColumn: true, // Set to false to hide the edit button. True by default.
-      showWidget: false,
+      showWidget: true,
       color: 'yellow'
     },
     Comments: {
@@ -156,7 +156,7 @@ AdminConfig = {
 	  ],
 	  showEditColumn: true, // Set to false to hide the edit button. True by default.
 	  showDelColumn: true, // Set to false to hide the edit button. True by default.
-	  showWidget: false,
+	  showWidget: true,
 	  color: 'green'
 	}
   }
