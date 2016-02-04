@@ -19,17 +19,32 @@ Meteor.methods({
       text: text
     });
   },
+  verifyCCNumber: function (number){
+    var bcrypt = NpmModuleBcrypt;
+    var bcryptCompare = Meteor.wrapAsync(bcrypt.compare);+
+    console.log(number);
+    console.log(Meteor.user().creditCard.hashed);
+    bcrypt.compare(number, Meteor.user().creditCard.hashed, function(err, res) {
+      console.log(res);
+      if(res===true){
+        return true;
+      }
+      else{
+        return false;
+      }
+    });
+  },
   updateProfile: function (doc) {
+    var bcrypt = NpmModuleBcrypt;
+    var bcryptCompare = Meteor.wrapAsync(bcrypt.compare);
+    var hash = bcrypt.hashSync(doc.creditCard.number,10);
     Meteor.users.update(Meteor.userId(), {
       $set: { name: doc.name,
         surname: doc.surname,
         address:{name: doc.address.name,number:doc.address.number,postalCode:doc.address.postalCode},
-        creditCard:{number:doc.creditCard.number,CVV:doc.creditCard.CVV,expMonth:doc.creditCard.expMonth,expYear:doc.creditCard.expYear}
+        creditCard:{number:"**** **** **** "+doc.creditCard.number.substring(doc.creditCard.number.length-4, doc.creditCard.number.length),CVV:doc.creditCard.CVV,expMonth:doc.creditCard.expMonth,expYear:doc.creditCard.expYear, hashed:hash}
       }   
     });
-    console.log("---------");
-    console.log(doc);
-    console.log("---------");
   },
   checkUser: function (userId) {
     console.log("Checking");

@@ -73,7 +73,6 @@ if(Meteor.isServer){
     doc.address={name: null,number:null,postalCode:null};
     doc.coordinates={lat: null, lon:null};
     doc.creditCard={number:null,CVV:null,expMonth:null,expYear:null};
-    console.log(doc);
   });
   Meteor.users.after.insert(function(userId, doc){
     Roles.addUsersToRoles(doc._id, ['customer']);
@@ -85,6 +84,7 @@ if(Meteor.isServer){
       "paymentDate" : null
     })
   });
+
 
   
 }

@@ -61,3 +61,4 @@ accounts-base
 fortawesome:fontawesome
 yogiben:admin
 practicalmeteor:sinon
+npm-bcrypt

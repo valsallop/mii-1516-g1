@@ -18,6 +18,7 @@
 	"delete":"Eliminar",
 
 	"emptyCart":"El carrito esta vacío",
+	"error_CCverification":"La verificación del número de la tarjeta de crédito ha fallado",
 	"error_logIn": "Acceso prohibido: Debe iniciar sesión para acceder",
 	"error_logIn2": "Usuario/Contraseña erróneo",
 	"error_profileDate":"Datos de usuario incompletos o incorrectos",

@@ -38,9 +38,26 @@ Template.shoppingCart.events({
                   Meteor.user().address.postalCode+"</br>"+
                   Meteor.user().address.name+"  n: "+
                   Meteor.user().address.number, function(result) {
-                  console.log(result);
                   if(result){
-                    Meteor.call('confirmCart');
+                    bootbox.prompt({
+                      title: "Confirm credit card number",
+                      value: Meteor.user().creditCard.number,
+                      callback: function(result) {
+                        if (result === null) {
+                        } else {
+                          Meteor.call('verifyCCNumber', result, function(error, res) {
+                            console.log("error: "+error)
+                            console.log("verify: "+res);
+                            if(response){
+                              Meteor.call('confirmCart');
+                            }
+                            else{
+                              bootbox.alert(TAPi18n.__("error_CCverification", lang_tag=null));
+                            }
+                          });
+                        }
+                      }
+                    });
                   }
                 }); 
               } 

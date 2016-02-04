@@ -1,4 +1,4 @@
-/*describe("E2E - Nominal - Update profile", function() {
+describe("E2E - Nominal - Update profile", function() {
     it("setup test case", function () {
         Meteor.call('clearDB', function(){
             Meteor.call('loadFixtures');
@@ -43,28 +43,4 @@
 			}, 3000);
 		}, 3000);		
     });
-
-    // it("check loggedUser", function (done) {
-    //     var id= Meteor.userId();
-    //     if(id!=null){
-    //         if(Meteor.user().emails[0].address=='test@test.com'){
-    //             done();
-    //         }
-    //         else{
-    //             throw new Error('Another user is logged in');
-    //         }
-    //     }
-    //     throw new Error('No user logged in');
-    // });
-
-    // it("tear down", function (done) {
-    //     Meteor.logout(function (err) {
-    //         expect(err).toBeUndefined();
-    //         if(Meteor.userId()==null){
-    //             done();
-    //         }else{
-    //             throw new Error('User keeps logged in');
-    //         }
-    //     });
-    // });
-});*/
+});
