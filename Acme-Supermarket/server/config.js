@@ -5,27 +5,45 @@ Meteor.startup(function () {
 process.env.CLUSTER_ENDPOINT_URL='http://localhost:3000'});
 
 Meteor.methods({
-  sendEmail: function (to, from, subject, text) {
+  sendEmail: function (to, from, subject, text, html) {
     check([to, from, subject, text], [String]);
-
-    // Let other method calls from the same client start running,
-    // without waiting for the email sending to complete.
+    console.log("----------");
+    console.log(to);
+    console.log("----------");
+    console.log(from);
+    console.log("----------");
+    console.log(subject);
+    console.log("----------");
+    console.log(text);
+    console.log("----------");
+    console.log(html);
+    console.log("----------");
+    // // Let other method calls from the same client start running,
+    // // without waiting for the email sending to complete.
     this.unblock();
-
-    Email.send({
-      to: to,
-      from: from,
-      subject: subject,
-      text: text
+    var options = {
+      apiKey: 'key-a0c3771b726e77f92a25b60f0d2c68e8',
+      domain: 'sandboxd8c0ad0d7ac14d22a31dcfdb187acaf9.mailgun.org'
+    }
+    var NigerianPrinceGun = new Mailgun(options);
+    NigerianPrinceGun.send({
+     'to': to,
+     'from': from,
+     'html': html,
+     'text': text,
+     'subject': subject,
+     'tags': [
+     'AcmeSuperMarket',
+     'test',
+     'tags'
+     ]
     });
+
   },
   verifyCCNumber: function (number){
     var bcrypt = NpmModuleBcrypt;
-    var bcryptCompare = Meteor.wrapAsync(bcrypt.compare);+
-    console.log(number);
-    console.log(Meteor.user().creditCard.hashed);
+    var bcryptCompare = Meteor.wrapAsync(bcrypt.compare);
     bcrypt.compare(number, Meteor.user().creditCard.hashed, function(err, res) {
-      console.log(res);
       if(res===true){
         return true;
       }
@@ -38,26 +56,48 @@ Meteor.methods({
     var bcrypt = NpmModuleBcrypt;
     var bcryptCompare = Meteor.wrapAsync(bcrypt.compare);
     var hash = bcrypt.hashSync(doc.creditCard.number,10);
-    Meteor.users.update(Meteor.userId(), {
-      $set: { name: doc.name,
-        surname: doc.surname,
-        address:{name: doc.address.name,number:doc.address.number,postalCode:doc.address.postalCode},
-        creditCard:{number:"**** **** **** "+doc.creditCard.number.substring(doc.creditCard.number.length-4, doc.creditCard.number.length),CVV:doc.creditCard.CVV,expMonth:doc.creditCard.expMonth,expYear:doc.creditCard.expYear, hashed:hash}
-      }   
-    });
+    
+    var result = HTTP.call('GET', 'http://maps.google.com/maps/api/geocode/json?address='
+      +doc.address.name+',+Spain,+'+
+      doc.address.postalCode+'+&sensor=false');
+    
+    var content=EJSON.parse(result.content);
+    
+    for (var i = 0; i < content.results.length; i++) {
+      var checkAddress=false;
+      var checkPostalCode=false;
+      
+      for(var j=0; j<content.results[i].address_components.length;j++){
+        if(content.results[i].address_components[j].types.indexOf('route')!=-1){
+          checkAddress=true;
+        }
+        if(content.results[i].address_components[j].types.indexOf('postal_code')!=-1){
+          if(content.results[i].address_components[j].long_name===doc.address.postalCode){
+            checkPostalCode=true;
+          }
+        }
+      }
+      if(checkAddress&&checkPostalCode){
+        var location=content.results[i].geometry.location;
+        Meteor.users.update(Meteor.userId(), {
+          $set: { name: doc.name,
+            surname: doc.surname,
+            address:{name: doc.address.name,number:doc.address.number,postalCode:doc.address.postalCode},
+            creditCard:{number:"**** **** **** "+doc.creditCard.number.substring(doc.creditCard.number.length-4, doc.creditCard.number.length),CVV:doc.creditCard.CVV,expMonth:doc.creditCard.expMonth,expYear:doc.creditCard.expYear, hashed:hash},
+            coordinates:{lat:location.lat,lon:location.lng}
+          }   
+        });
+        break;
+      }
+    }
+    if(!checkAddress){
+      throw new Meteor.Error('NoAddressFound');
+    }
+    if(!checkPostalCode){
+      throw new Meteor.Error('InvalidPostalCode');
+    }
   },
   checkUser: function (userId) {
-    console.log("Checking");
-    console.log("--------------");
-    console.log("UserId: "+Meteor.userId()==userId);
-    console.log("Address name:"+Meteor.user().address.name!=null); 
-    console.log("Postal code: "+Meteor.user().address.postalCode!=null);
-    console.log("CC number: "+Meteor.user().creditCard.number!=null);
-    console.log("CVV: "+Meteor.user().creditCard.CVV>100+" "+Meteor.user().creditCard.CVV<=999);
-    console.log("CC dates:");
-    console.log(((Meteor.user().creditCard.expYear==new Date().getFullYear() && Meteor.user().creditCard.expMonth>=(new Date().getMonth()+1))
-          ||(Meteor.user().creditCard.expYear>=new Date().getFullYear() && Meteor.user().creditCard.expMonth>=0)));
-    console.log("--------------");
     if(Meteor.userId()==userId && Meteor.user().address.name!=null
       && Meteor.user().address.postalCode!=null){
       if(Meteor.user().creditCard.number!=null && Meteor.user().creditCard.CVV>100 && Meteor.user().creditCard.CVV<=999
@@ -152,6 +192,28 @@ Meteor.methods({
   confirmCart: function () {
     var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
     if(cart.items.length>0){
+      var html = Assets.getText('headerTemplate.html');
+      SSR.compileTemplate('emailText', Assets.getText('test.html'));
+      html=html+"Acaba de realizar un pedido con los siguientes productos:<br><hr>";
+      var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
+      var items= cart.items;
+      for (i = 0; i < items.length; i++) {
+        var dbItem=Products.findOne({code:parseInt(items[i].productCode)});
+        html=html+SSR.render("emailText",{name: dbItem.name,cost:dbItem.cost,
+                                          image:dbItem.image,
+                                          total:parseFloat(items[i].amount*dbItem.cost).toFixed(2),
+                                          amount:items[i].amount})
+      }
+      html=html+"<hr><br>Gracias por confiar en Acme-supermarket</body></html>"
+      console.log(html);
+
+      Meteor.call('sendEmail',
+                    Meteor.user().emails[0].address,
+                    "confirmOrder@AcmeSuperMarket.com",
+                    'New order',
+                    '',
+                    html);
+
       ShoppingCarts.update(cart._id, {
         $set: { active:false, deliveryDate: new Date(), paymentDate: new Date() }   
       });
@@ -161,11 +223,7 @@ Meteor.methods({
         "active" : true,
         "deliveryDate" : null,
         "paymentDate" : null
-      })
-      Router.go('home');
-    }
-    else{
-      Router.go('home');
+      });
     }
   }
 });

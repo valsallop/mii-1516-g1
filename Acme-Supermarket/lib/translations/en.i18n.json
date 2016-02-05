@@ -24,6 +24,8 @@
 	"error_profileDate": "Wrong or incomplete user data",
 
 	"home": "Home",
+
+	"[InvalidPostalCode]":"Postal code not valid for that address",
 	
 	"languages": "Languages",
 
@@ -39,12 +41,14 @@
 	"login_password":"Password",
 
 	"name": "Name",
+	"[NoAddressFound]": "Address not found",
 
 	"price": "Price",
 
 	"profile_name":"User profile",
 
 	"profile_update":"Edit",
+	"profile_updated": "Profile data successfully updated",
 
 	"products": "Products",
 	"purchase": "Purchase",

@@ -66,6 +66,7 @@ Products.permit(['insert','update']).ifHasRole('admin').apply();
 ShoppingCarts.permit(['insert','update']).apply();
 
 if(Meteor.isServer){
+
 	Meteor.users.before.insert(function(userId, doc){
     doc.lastLogin=new Date();
     doc.name=null;

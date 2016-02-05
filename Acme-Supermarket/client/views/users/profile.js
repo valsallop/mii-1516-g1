@@ -1,7 +1,8 @@
-Template.updateProfile.events({
-	'submit form': function(event){
-		 var title=TAPi18n.__("toast_UpdateProfile", lang_tag=null);
-    	var message=TAPi18n.__("toast_UpdatedProfile", lang_tag=null);
-    	toastr.success(message,title);
-	}
+AutoForm.addHooks(['updateProfileData'], {
+    onSuccess: function(formType, result) {
+    	bootbox.alert(TAPi18n.__("profile_updated", lang_tag=null));
+    },
+   	onError: function(formType, error) {
+     	bootbox.alert(TAPi18n.__(error.message, lang_tag=null));
+    }
 });

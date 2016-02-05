@@ -62,3 +62,10 @@ fortawesome:fontawesome
 yogiben:admin
 practicalmeteor:sinon
 npm-bcrypt
+meteorhacks:npm
+
+
+npm-container
+ejson
+meteorhacks:ssr
+gfk:mailgun-api

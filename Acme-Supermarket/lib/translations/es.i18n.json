@@ -24,6 +24,8 @@
 	"error_profileDate":"Datos de usuario incompletos o incorrectos",
 
 	"home": "Inicio",
+
+	"[InvalidPostalCode]":"Código postal no válido para la dirección aportada",
 	
 	"languages": "Idiomas",
 	"listProduct":"Lista de productos",
@@ -37,12 +39,14 @@
 	"login_password":"Contraseña",
 
 	"name":"Nombre",
+	"[NoAddressFound]": "Dirección no encontrada",
 
 	"price":"Precio",
 
 	"profile_name":"Perfil de usuario",
 
 	"profile_update":"Editar",
+	"profile_updated": "Información del perfil correctamente actualizada",
 
 	"products": "Productos",
 	"purchase": "Finalizar compra",
