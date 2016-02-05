@@ -1,4 +1,4 @@
-describe("E2E - Nominal - User logs in", function() {
+/*describe("E2E - Nominal - User logs in", function() {
     it("setup test case", function () {
         Meteor.call('clearDB', function(){
             Meteor.call('loadFixtures');
@@ -39,4 +39,4 @@ describe("E2E - Nominal - User logs in", function() {
         });
         
     });
-});
+});*/

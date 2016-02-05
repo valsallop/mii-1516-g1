@@ -78,23 +78,43 @@ if (process.env.IS_MIRROR) {
         });
       }
     },
-    createProduct: function(code,name,cost,description,image,rating, availability) {
-        if (!Meteor.user() || !Roles.userIsInRole(Meteor.user(), "admin")) {
-          throw new Meteor.Error(403, "Access Denied");
+    'createProduct': function () {
+      if (!Meteor.user() || !Roles.userIsInRole(Meteor.user(), "admin")) {
+            throw new Meteor.Error(403, "Access Denied");
         }
-        Products.insert({code: code,name: name,cost: cost,description: description,image: image,rating: rating, availability: availability});
+      Products.insert(
+        {
+          "name" : "Nl",
+          "cost" : 3.35,
+          "description" : "",
+          "image" : "http://res.cloudinary.com/dc8yintyr/image/upload/bWFzdGVyfHJvb3R8NjIzMHxpbWFnZS9wbmd8aDEzL2g1OC84ODMzNjM0MDA5MTE4LnBuZ3xkYzI5N2YyZDg0ZmU5OWNkMWI3OTU1ZTUwNzdiOGY2ZDRjNmQ4MjY1OThkMTE2ODRiZTM4MTE3MjA4ZTY3ODE0.png",
+          "code" : 25,
+          "rating" : 4,
+          "availability" : 1
+        }
+      );
     },
-    updateProduct: function(id, name, cost) {
+    updateProduct: function() {
+      if (!Meteor.user() || !Roles.userIsInRole(Meteor.user(), "admin")) {
+            throw new Meteor.Error(403, "Access Denied");
+        }
+        Products.update({"code":25},{$set:
+        {
+          "name" : "Test update",
+          "cost" : 5,
+          "description" : "",
+          "image" : "http://res.cloudinary.com/dc8yintyr/image/upload/bWFzdGVyfHJvb3R8NjIzMHxpbWFnZS9wbmd8aDEzL2g1OC84ODMzNjM0MDA5MTE4LnBuZ3xkYzI5N2YyZDg0ZmU5OWNkMWI3OTU1ZTUwNzdiOGY2ZDRjNmQ4MjY1OThkMTE2ODRiZTM4MTE3MjA4ZTY3ODE0.png",
+          "code" : 25,
+          "rating" : 4,
+          "availability" : 1
+        }}
+      );
+    },
+    removeProduct: function() {
         if (!Meteor.user() || !Roles.userIsInRole(Meteor.user(), "admin")) {
             throw new Meteor.Error(403, "Access Denied");
         }
-        Products.update(id, {$set: {name: name, cost: cost}});
-    },
-    removeProduct: function(id) {
-        if (!Meteor.user() || !Roles.userIsInRole(Meteor.user(), "admin")) {
-            throw new Meteor.Error(403, "Access Denied");
-        }
-        Products.remove(id);
+        Products.remove({"code":25});
     }
 });
 }
