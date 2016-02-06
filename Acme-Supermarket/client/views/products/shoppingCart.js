@@ -13,8 +13,10 @@ Template.shoppingCart.helpers({
  },
  shoppingCart: function() {
   return ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
-}
+},
+
 });
+
 Template.shoppingCart.events({
   'click .idConfirmCart': function(){
     if(Meteor.userId()){
@@ -50,6 +52,7 @@ Template.shoppingCart.events({
                             console.log("verify: "+res);
                             if(response){
                               Meteor.call('confirmCart');
+                              Router.go('home');
                             }
                             else{
                               bootbox.alert(TAPi18n.__("error_CCverification", lang_tag=null));

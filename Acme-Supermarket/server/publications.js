@@ -10,7 +10,6 @@ Meteor.publish('ratings', function() {
   return Ratings.find();
 });
 
-
 // Only publish data for the matches we care about. Be careful not to over-publish
 Meteor.publish('AvgRatings', function(proId, proObj) {
   
@@ -85,8 +84,6 @@ if(Meteor.isServer){
       "paymentDate" : null
     })
   });
-
-
   
 }
 AdminConfig = {
