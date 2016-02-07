@@ -4,15 +4,15 @@ var ProductModel = require('../models/products');
 var TweetModel = require('../models/tweets');
 var PopularityModel = require('../models/popularity');
 
-var ProcessPopularity = function processPopularity() {
 // Calculate popularity & insert into collection
-    
+var ProcessPopularity = function processPopularity() {
+
     var limitDate = new Date();
     limitDate.setMonth(limitDate.getMonth() - 3);
 
     ProductModel.find({},{code: 1}, function (err, data) {
         if (!err) {
-            logger.log('debug', "Getting available products (count): " + data.length);
+            logger.log('info', "Process Popularity of available products (count): " + data.length);
             var availableCodeProducts = data.map(function(doc) { return doc.code; });
             // Get tweets of available products
             TweetModel.aggregate(
@@ -48,7 +48,7 @@ var ProcessPopularity = function processPopularity() {
                             }
                         });
                         var maxMentions = 0;
-                        logger.log('debug', "Popularity collection. Data 2 populate: " + data);
+                        logger.log('debug', "Popularity collection. Data 2 populate.");
                         if(data.length > 0){
                             data.forEach( function(row) {
                                 if(maxMentions < row.mentions)    maxMentions=row.mentions;
@@ -65,7 +65,7 @@ var ProcessPopularity = function processPopularity() {
                                         }
                                     });
                                 } else {
-                                    logger.log('debug', "Popularity document not saved: " + row._id.code + ", mentions = " + row.mentions + ", maxMentions: " + maxMentions);
+                                    logger.log('warn', "Popularity document not saved: " + row._id.code + ", mentions = " + row.mentions + ", maxMentions: " + maxMentions);
                                 }
                             });
                     }} else {

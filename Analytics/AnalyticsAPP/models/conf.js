@@ -7,7 +7,8 @@ var confSchema = new Schema({
   key_setting: {
     type: String,
     label: "key_setting",
-    max: 1000
+    max: 1000,
+    unique: true
   },
   value: {
     type: String,

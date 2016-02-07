@@ -17,18 +17,18 @@ var SyncProducts = function syncProducts() {
             logger.log('warn', "SyncProducts request status: " + response.statusCode + "\terror: " + response);
             return err;
         } else {
-            logger.log('silly', "SyncProducts request success: " + response.statusCode + "\tproducts received: " + body.length);
             var products = JSON.parse(body);
+            logger.log('info', "SyncProducts request success: " + response.statusCode + "\tproducts received: " + products.length);
             if(products.length > 0){
                 ProductModel.remove({}, function (err, data) {
                     if (!err) {
-                        logger.log('debug', "SyncProducts Product collection cleaned");
+                        logger.log('silly', "SyncProducts Product collection cleaned");
                         products.forEach( function(product) {
                             delete product._id;
                             var popProduct = new ProductModel(product);
                             popProduct.save(function (err) {
                                 if (err) {
-                                    logger.log('info', "SyncProducts Product NOT saved code: " + product.code + ",\tname = " + product.name+ ",\terr = " + err);
+                                    logger.log('warn', "SyncProducts Product NOT saved code: " + product.code + ",\tname = " + product.name+ ",\terr = " + err);
                                     return err;
                                 }
                             });

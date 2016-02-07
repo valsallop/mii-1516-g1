@@ -6,8 +6,7 @@ var Schema = mongoose.Schema;
 var tweetSchema = new Schema({
   code_product: {
     type: Number,
-    label: "code_product",
-    unique: true
+    label: "code_product"
   },
   tweet: {
     type: String,
