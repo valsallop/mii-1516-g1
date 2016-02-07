@@ -1,3 +1,18 @@
-<br>{{name}}
-<br><img src="{{image}}" height="42" width="42">
-<br>{{amount}}*{{cost}}={{total}}
+<div class = "row">
+    <div class="col-lg-5 col-md-5 col-sm-5">
+        <picture>
+          <!--Imagen de la base de datos-->
+          <source
+          media="(min-width: 150px)"
+          srcset={{image}}>
+          <!--Imagen por defecto-->
+          <img
+          src="{{image}}"
+          alt="image not found">
+    	</picture>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="col-lg-10 col-md-10 col-sm-10">{{name}}</div>
+        <div class="col-lg-10 col-md-10 col-sm-10"><p>EUR {{cost}} * <b>{{amount}}</b> =</p><big>{{total}}</big></div>
+    </div>
+</div>

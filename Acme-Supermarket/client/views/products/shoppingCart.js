@@ -48,9 +48,7 @@ Template.shoppingCart.events({
                         if (result === null) {
                         } else {
                           Meteor.call('verifyCCNumber', result, function(error, res) {
-                            console.log("error: "+error)
-                            console.log("verify: "+res);
-                            if(response){
+                            if(!error){
                               Meteor.call('confirmCart');
                               Router.go('home');
                             }

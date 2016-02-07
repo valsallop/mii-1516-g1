@@ -92,6 +92,19 @@ Router.route('/shoppingCart', {
 	}
 });
 
+Router.route('/orders', {
+	name: 'orderHistory',
+	action(){
+		if (!Meteor.user()) {
+      		bootbox.alert(TAPi18n.__("error_logIn", lang_tag=null));
+      		Router.go('home');
+    	}
+    	else{
+            BlazeLayout.render('orderHistory');
+		}
+	}
+});
+
 
 Router.route('/analytics/statistics', {
   path: AdminDashboard.path('/analytics/statistics'),

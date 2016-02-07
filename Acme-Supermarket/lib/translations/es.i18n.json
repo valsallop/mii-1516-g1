@@ -16,12 +16,15 @@
 
 	"description":"Descripción",
 	"delete":"Eliminar",
+	"deliveredOn":"Enviado con fecha:",
 
 	"emptyCart":"El carrito esta vacío",
 	"error_CCverification":"La verificación del número de la tarjeta de crédito ha fallado",
 	"error_logIn": "Acceso prohibido: Debe iniciar sesión para acceder",
 	"error_logIn2": "Usuario/Contraseña erróneo",
 	"error_profileDate":"Datos de usuario incompletos o incorrectos",
+
+	"forValueOf":"por un valor de:",
 
 	"home": "Inicio",
 
@@ -40,6 +43,8 @@
 
 	"name":"Nombre",
 	"[NoAddressFound]": "Dirección no encontrada",
+
+	"orderHistory":"Historial de pedidos",
 
 	"price":"Precio",
 
@@ -104,6 +109,8 @@
 	},
 	"send":"Enviar",
 	"shoppingCart": "Cesta de la compra",
+
+	"to":"a nombre de:",
 	
 	"toastr_addCart":"Objeto añadido al carrito",
   	"toastr_anon":"Debes registrarte para añadir el producto al carrito",
@@ -112,5 +119,7 @@
 	"toastr_voted":"Votación realizada con exito",
 	"toastr_votedBan":"Ya has votado este producto",
 	"toastr_votedBuy":"Debes comprar este producto para poder votarlo",
-	"toastr_votedReg":"Debes registrarte para votar un producto"
+	"toastr_votedReg":"Debes registrarte para votar un producto",
+
+	"withAddress":"con dirección:"
 }

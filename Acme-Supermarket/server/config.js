@@ -43,14 +43,13 @@ Meteor.methods({
   verifyCCNumber: function (number){
     var bcrypt = NpmModuleBcrypt;
     var bcryptCompare = Meteor.wrapAsync(bcrypt.compare);
-    bcrypt.compare(number, Meteor.user().creditCard.hashed, function(err, res) {
-      if(res===true){
-        return true;
-      }
-      else{
-        return false;
-      }
-    });
+    console.log(number);
+    console.log(Meteor.user().creditCard.hashed);
+
+    console.log(bcrypt.compareSync(number, Meteor.user().creditCard.hashed));
+    if(!bcrypt.compareSync(number, Meteor.user().creditCard.hashed)){
+      throw new Meteor.Error('VerificationFailed');
+    }
   },
   updateProfile: function (doc) {
     var bcrypt = NpmModuleBcrypt;
@@ -193,17 +192,23 @@ Meteor.methods({
     var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
     if(cart.items.length>0){
       var html = Assets.getText('headerTemplate.html');
+      var itemsHTML="";
       SSR.compileTemplate('emailText', Assets.getText('test.html'));
-      html=html+"Acaba de realizar un pedido con los siguientes productos:<br><hr>";
+      
       var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
       var items= cart.items;
+      totalCost=0.0;
       for (i = 0; i < items.length; i++) {
         var dbItem=Products.findOne({code:parseInt(items[i].productCode)});
-        html=html+SSR.render("emailText",{name: dbItem.name,cost:dbItem.cost,
+        totalCost=totalCost+(items[i].amount*dbItem.cost);
+        itemsHTML=itemsHTML+SSR.render("emailText",{name: dbItem.name,cost:dbItem.cost,
                                           image:dbItem.image,
                                           total:parseFloat(items[i].amount*dbItem.cost).toFixed(2),
                                           amount:items[i].amount})
       }
+      totalCost=parseFloat(totalCost).toFixed(2);
+      html=html+"Acaba de realizar un pedido por valor de "+totalCost +"€ con los siguientes productos:<br><hr>";
+      html=html+itemsHTML;
       html=html+"<hr><br>Gracias por confiar en Acme-supermarket</body></html>"
       console.log(html);
 
@@ -215,14 +220,18 @@ Meteor.methods({
                     html);
 
       ShoppingCarts.update(cart._id, {
-        $set: { active:false, deliveryDate: new Date(), paymentDate: new Date() }   
+        $set: { active:false, deliveryDate: new Date(), paymentDate: new Date(), 
+        userName: Meteor.user().name+" "+Meteor.user().surname,
+        deliveryAddress: Meteor.user().address.name+", "+Meteor.user().address.number+", "+Meteor.user().address.postalCode }   
       });
       ShoppingCarts.insert({
         "userId" : Meteor.userId(),
         "items" : [],
         "active" : true,
         "deliveryDate" : null,
-        "paymentDate" : null
+        "paymentDate" : null,
+        "userName":null,
+        "deliveryAddress":null
       });
     }
   }

@@ -16,12 +16,15 @@
 
 	"description":"Description",
 	"delete":"Delete",
+	"deliveredOn":"Delivered on:",
 
 	"emptyCart":"The cart is empty",
 	"error_CCverification":"Credit card number verification failed",
 	"error_logIn": "Forbidden access: You must log in to access",
 	"error_logIn2": "Wrong user/password",
 	"error_profileDate": "Wrong or incomplete user data",
+
+	"forValueOf":"for a value of:",
 
 	"home": "Home",
 
@@ -42,6 +45,8 @@
 
 	"name": "Name",
 	"[NoAddressFound]": "Address not found",
+
+	"orderHistory":"Order history",
 
 	"price": "Price",
 
@@ -108,6 +113,7 @@
 	      }
 	    }
 	},
+	"to":"to:",
 	"send":"Send",
 
 	"shoppingCart": "Shopping Cart",
@@ -119,5 +125,7 @@
 	"toastr_voted":"Voting held successfully",
 	"toastr_votedBan":"You have already rated this item",
 	"toastr_votedBuy":"You must buy this product to rate",
-	"toastr_votedReg":"You must register to vote a item"	
+	"toastr_votedReg":"You must register to vote a item",
+
+	"withAddress":"with address:"	
 }
