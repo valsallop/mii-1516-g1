@@ -10,6 +10,7 @@ Meteor.publish('ratings', function() {
   return Ratings.find();
 });
 
+
 // Only publish data for the matches we care about. Be careful not to over-publish
 Meteor.publish('AvgRatings', function(proId, proObj) {
   
@@ -52,20 +53,15 @@ Ratings.allow({
   }
 });
 
-Comments.allow({
-  insert: function(userId, doc) {
-    return doc && doc.userId === userId;
-  }
-});
-
 Meteor.users.permit('update').ifHasRole('admin').exceptProps(['roles', 'services']).apply();
 Meteor.users.permit('update').ifHasUserId(this.userId).exceptProps(['roles', 'services']).apply();
 Meteor.users.permit(['insert']).apply();
-Products.permit(['insert','update']).ifHasRole('admin').apply();
+Products.permit(['insert','update','remove']).ifHasRole('admin').apply();
+Comments.permit(['insert','update','remove']).ifHasRole('admin').apply();
+ShoppingCarts.permit(['insert','update','remove']).ifHasRole('admin').apply();
 ShoppingCarts.permit(['insert','update']).apply();
 
 if(Meteor.isServer){
-
 	Meteor.users.before.insert(function(userId, doc){
     doc.lastLogin=new Date();
     doc.name=null;
@@ -84,6 +80,8 @@ if(Meteor.isServer){
       "paymentDate" : null
     })
   });
+
+
   
 }
 AdminConfig = {

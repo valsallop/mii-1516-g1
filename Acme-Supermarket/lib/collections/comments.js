@@ -43,6 +43,23 @@ SchemaComments = new SimpleSchema({
     }
   }
 });
+CommentsServices = {
+  getComment: function (code) {
+    return Comments.findOne(code);
+  },
+  setComment: function (code){
+    Comments.update({codePro:code},{$set:
+      {
+        userEmail: 'admin@admin.com',
+        title: "Test update comment",
+        description:"Update comment"
+      }}
+      );
+  },
+  commentsExist: function (code) {
+    return Comments.find({codePro:code}).count() != 0;
+  }
+};
 
 Meteor.startup(function() {
   SchemaComments.i18n("schemas.comments");

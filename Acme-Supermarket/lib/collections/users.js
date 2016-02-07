@@ -59,6 +59,23 @@ Schema.profileData = new SimpleSchema({
     }
 });
 
+UsersServices = {
+  getUser: function (uId) {
+    return Meteor.users.findOne(uId);
+  },
+  setUser: function (uId){
+    Meteor.users.update({_id:uId},{$set:
+      {
+        name: 'Sergio',
+        surname: 'Trigos',
+        address: { name: 'Reina Mercedes', number: '45', postalCode: '41012'}
+    }});
+  },
+  usersExist: function (uId) {
+    return Meteor.users.find({_id:uId}).count() != 0;
+  }
+};
+
 
 if(Meteor.isClient){
     Template.register.events({

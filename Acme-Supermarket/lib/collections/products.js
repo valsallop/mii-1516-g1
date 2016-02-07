@@ -39,3 +39,25 @@ productSchema=new SimpleSchema({
   }
 });
 Products.attachSchema(productSchema);
+
+ProductsServices = {
+  getProduct: function (code) {
+    return Products.findOne(code);
+  },
+  setProduct: function (code){
+    Products.update({code:code},{$set:
+      {
+        name : "Test update",
+        cost : 5,
+        description : "Test update",
+        image : "",
+        code : 25,
+        rating : 2.5,
+        availability : 1
+      }}
+    );
+  },
+  productsExist: function (code) {
+    return Products.find({code:code}).count() != 0;
+  }
+};

@@ -75,46 +75,109 @@ if (process.env.IS_MIRROR) {
         });
         Meteor.users.after.insert(function(userId, doc){
           Roles.addUsersToRoles(doc._id, ['admin']);
+          return doc._id;
         });
       }
     },
-    'createProduct': function () {
-      if (!Meteor.user() || !Roles.userIsInRole(Meteor.user(), "admin")) {
-            throw new Meteor.Error(403, "Access Denied");
-        }
-      Products.insert(
-        {
-          "name" : "Nl",
-          "cost" : 3.35,
-          "description" : "",
-          "image" : "http://res.cloudinary.com/dc8yintyr/image/upload/bWFzdGVyfHJvb3R8NjIzMHxpbWFnZS9wbmd8aDEzL2g1OC84ODMzNjM0MDA5MTE4LnBuZ3xkYzI5N2YyZDg0ZmU5OWNkMWI3OTU1ZTUwNzdiOGY2ZDRjNmQ4MjY1OThkMTE2ODRiZTM4MTE3MjA4ZTY3ODE0.png",
-          "code" : 25,
-          "rating" : 4,
-          "availability" : 1
-        }
-      );
+    createObj: function (uId) {
+      if(Meteor.isServer){
+        Products.insert({
+          name : "Test create",
+          cost : 3.35,
+          description : "Test create",
+          image : "",
+          code : 25,
+          rating : 4,
+          availability : 1
+        });
+        Comments.insert({
+          codePro:25,
+          userId: uId,
+          userEmail:"customer@customer.com",
+          title: "Test comment",
+          description:"Create comment"
+        });
+          console.log('---------Create Logs-----------');
+          console.log(Products.find({code:25}).fetch());
+          console.log(Comments.find({codePro:25}).fetch());
+          console.log(ShoppingCarts.find({userId:uId}).fetch());
+      }
+      
     },
-    updateProduct: function() {
-      if (!Meteor.user() || !Roles.userIsInRole(Meteor.user(), "admin")) {
-            throw new Meteor.Error(403, "Access Denied");
-        }
-        Products.update({"code":25},{$set:
+    updateObj: function(uId) {
+      if(Meteor.isServer){
+
+        //Update product
+        Products.update({code:25},{$set:
         {
-          "name" : "Test update",
-          "cost" : 5,
-          "description" : "",
-          "image" : "http://res.cloudinary.com/dc8yintyr/image/upload/bWFzdGVyfHJvb3R8NjIzMHxpbWFnZS9wbmd8aDEzL2g1OC84ODMzNjM0MDA5MTE4LnBuZ3xkYzI5N2YyZDg0ZmU5OWNkMWI3OTU1ZTUwNzdiOGY2ZDRjNmQ4MjY1OThkMTE2ODRiZTM4MTE3MjA4ZTY3ODE0.png",
-          "code" : 25,
-          "rating" : 4,
-          "availability" : 1
-        }}
-      );
+          name : "Test update",
+          cost : 5,
+          description : "Test update",
+          image : "",
+          code : 25,
+          rating : 2.5,
+          availability : 1
+        }});
+      
+        //Update Comment
+        Comments.update({codePro:25},{$set:
+        {
+          userEmail: 'admin@admin.com',
+          title: 'Test update comment',
+          description: 'Update comment'
+        }});
+        
+
+        //Update ShoppingCart añade un producto al carrito y lo confirma
+        var cart=ShoppingCarts.findOne({ active:true , userId:uId});
+        var item={
+           "productCode" : 25,
+           "amount" : 1
+        };
+        cart.items.push(item);
+        ShoppingCarts.update(cart._id, {
+            $set: { items: cart.items, active:false, deliveryDate: new Date(), paymentDate: new Date()}   
+        });
+        ShoppingCarts.insert({userId : uId,items : [],active : true,deliveryDate : null,paymentDate : null});
+
+        Meteor.users.update(uId,{$set:{name: 'Sergio',surname: 'Trigos',address: { name: 'Reina Mercedes', number: '45', postalCode: '41012' }}});
+
+        console.log('---------Update Logs-----------');
+        console.log(Products.find({code:25}).fetch());
+        console.log(Comments.find({codePro:25}).fetch());
+        console.log(ShoppingCarts.find({userId:uId}).fetch());
+        console.log(Meteor.users.find({_id:uId}).fetch());
+      }
     },
-    removeProduct: function() {
-        if (!Meteor.user() || !Roles.userIsInRole(Meteor.user(), "admin")) {
-            throw new Meteor.Error(403, "Access Denied");
+    removeObj: function(uId) {
+      if(Meteor.isServer){
+        //Remove product
+        Products.remove({code:25});
+      
+        //Remove Comment
+        Comments.remove({codePro:25});
+
+        //Remove ShoppingCart
+        ShoppingCarts.remove({active:false , userId:uId});
+
+        //Remove User
+        Meteor.users.remove({_id:uId});
+
+        console.log('---------Remove Logs-----------');
+        if(Products.find().count() == 0){
+          console.log('Remove product');
         }
-        Products.remove({"code":25});
+        if(Comments.find().count() == 0){
+          console.log('Remove comment');
+        }
+        if(ShoppingCarts.find().count() == 1){
+          console.log('Remove shopping cart');
+        }
+        if(Meteor.users.find().count() == 0){
+          console.log('Remove user');
+        }
+      }
+        
     }
 });
 }
