@@ -32,6 +32,14 @@ Schema.shoppingCart = new SimpleSchema({
     paymentDate:{
     	type:Date,
     	optional:true
+    },
+    userName:{
+        type: String,
+        optional: true
+    },
+    deliveryAddress:{
+        type:String,
+        optional:true
     }
 });
 ShoppingCarts.attachSchema(Schema.shoppingCart);

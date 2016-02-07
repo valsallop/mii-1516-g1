@@ -1,6 +1,6 @@
 Template.orderHistory.helpers({
   order: function() {
-  	var orders=ShoppingCarts.find({ active:false , userId:Meteor.userId()}).fetch();
+  	var orders=ShoppingCarts.find({ active:false , userId:Meteor.userId()},{sort: {paymentDate: -1}}).fetch();
     return orders;
   }
 });
