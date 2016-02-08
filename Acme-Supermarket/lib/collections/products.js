@@ -4,7 +4,10 @@ productSchema=new SimpleSchema({
     type: Number,
     label: "code",
     index: true,
-    unique: true
+    unique: true,
+    autoValue: function() {
+      return Products.find().count()+1;
+    }
   },
   name: {
     type: String,
@@ -31,11 +34,26 @@ productSchema=new SimpleSchema({
   rating: {
     type: Number,
     label: "rating",
-    decimal: true
+    decimal: true,
+    autoValue: function() {
+      return 0;
+    }
   },
   availability: {
     type: Number,
-    label: "availability"
+    label: "availability",
+    autoValue: function() {
+      return 1;
+    }
+  },
+  supplierId: {
+    type: String,
+    autoValue: function() {
+      return Meteor.userId();
+    }
+  },
+  tags:{
+    type:[String]
   }
 });
 Products.attachSchema(productSchema);

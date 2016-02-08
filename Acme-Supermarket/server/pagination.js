@@ -4,7 +4,10 @@
 AdminProductsPages = new Meteor.Pagination(Products, {
     itemTemplate: "productAdmin",
     templateName: "productsAnalitycs",
-    perPage: 12
+    perPage: 12,
+    sort:{
+        name: 1
+    }
 });
 
 SalesProductsPages = new Meteor.Pagination(Products, {

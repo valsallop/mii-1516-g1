@@ -1,14 +1,26 @@
 <template name="navBar">
 	<!--  Navigation Bar -->
 	<header class="header-login-signup">
-
 		<div class="header-limiter">
 			<h1><a href="/">Acme<span>SuperMarket</span></a></h1>
 			<nav>
 				<a href="/">{{_ "home"}}</a>
 				<a href="/products">{{_ "products"}}</a>
-				<a href="/shoppingCart"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> {{_ "shoppingCart"}}</a>
-				<a href="/orders">{{_ "orderHistory"}}</a>
+				{{#if isInRole 'supplier'}}
+					<a href="/insert"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> {{_ "newProduct"}}</a>
+				{{/if}}
+				{{#if isInRole 'admin,customer'}}
+					<a href="/shoppingCart"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> {{_ "shoppingCart"}}</a>
+					<a href="/orders">{{_ "orderHistory"}}</a>
+				{{/if}}
+				{{#if isInRole 'admin'}}
+					<script>
+						function loadDashboard() {
+    						window.location = "http://localhost:3000/admin";
+						}
+					</script>
+    				<a href="#" onclick="loadDashboard()">{{_ "dashboard"}}</a>  
+  				{{/if}}
 			</nav>
 			<ul class="dropdown">
 				<a class="dropdown-toggle" data-toggle="dropdown">{{> i18n_dropdown}}</a>

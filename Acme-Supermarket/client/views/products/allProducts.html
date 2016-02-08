@@ -6,6 +6,19 @@
 	
   <div class ="container">
     <h1>{{_ "listProduct"}}</h1>
+    <nav class="navbar navbar-default">
+      <div class="col-md-4 col-sm-4 hero-feature">
+        Price: <a href="/"><span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></a>
+      <a href="/"><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></a>
+      </div>
+      <div class="col-md-4 col-sm-4 hero-feature">
+        Rating: <a href="/"><span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></a>
+        <a href="/"><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></a>
+      </div>
+      <div class="col-md-4 col-sm-4 hero-feature">
+        Tags: {{tags}}
+      </div>
+    </nav>
     {{> pages}}
     {{> pagesNav}}
   </div>

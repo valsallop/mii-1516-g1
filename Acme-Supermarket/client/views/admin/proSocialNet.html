@@ -70,3 +70,25 @@
     </li>
     {{/each}}
 </template>
+
+<template name="createSupplier">
+	<div class="container">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				{{#autoForm schema="Schema.supplier" id="createSupplier" type="method" meteormethod="createSupplier"}}
+					<fieldset>
+						<legend>{{_ "profile_name"}}</legend>
+						{{> afQuickField name='email'}}
+						{{> afQuickField name='password'}}
+						{{> afQuickField name='name'}}
+						{{> afQuickField name='surname'}}
+						<div class="row container" style="padding-left: 0px;">
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								{{> afQuickField name='address'}}
+							</div>
+						</div>
+					</fieldset>
+					<button type="submit" class="btn btn-primary btn-lg glyphicon glyphicon-edit">  {{_ "save"}}</button>
+				{{/autoForm}}
+			</div>
+		</div>
+</template>

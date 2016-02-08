@@ -2,7 +2,7 @@
 	{{> header}}
 	<body>
 		{{> navBar}}
-		{{> quickForm collection="Products" id="insertProductForm" type="insert"}}
+		{{> quickForm collection="Products" id="insertProductForm" type="insert" omitFields="supplierId,code,availability,rating"}}
 		{{> footer}}
 	</body>
 </template>

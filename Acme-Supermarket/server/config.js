@@ -25,8 +25,8 @@ Meteor.methods({
       apiKey: 'key-a0c3771b726e77f92a25b60f0d2c68e8',
       domain: 'sandboxd8c0ad0d7ac14d22a31dcfdb187acaf9.mailgun.org'
     }
-    var NigerianPrinceGun = new Mailgun(options);
-    NigerianPrinceGun.send({
+    var email = new Mailgun(options);
+    email.send({
      'to': to,
      'from': from,
      'html': html,
@@ -39,6 +39,56 @@ Meteor.methods({
      ]
     });
 
+  },
+  createSupplier: function(doc){
+    console.log(doc);
+    var bcrypt = NpmModuleBcrypt;
+    var hash = bcrypt.hashSync(doc.password,10);
+    
+    var result = HTTP.call('GET', 'http://maps.google.com/maps/api/geocode/json?address='
+      +doc.address.name+',+Spain,+'+
+      doc.address.postalCode+'+&sensor=false');
+    
+    var content=EJSON.parse(result.content);
+    
+    for (var i = 0; i < content.results.length; i++) {
+      var checkAddress=false;
+      var checkPostalCode=false;
+      
+      for(var j=0; j<content.results[i].address_components.length;j++){
+        if(content.results[i].address_components[j].types.indexOf('route')!=-1){
+          checkAddress=true;
+        }
+        if(content.results[i].address_components[j].types.indexOf('postal_code')!=-1){
+          if(content.results[i].address_components[j].long_name===doc.address.postalCode){
+            checkPostalCode=true;
+          }
+        }
+      }
+      if(checkAddress&&checkPostalCode){
+        var location=content.results[i].geometry.location;
+        Accounts.createUser({
+            email: doc.email,
+            password: doc.password });
+        var user= Meteor.users.findOne({"emails.address":doc.email});
+        console.log(user);
+        Meteor.users.update(user._id, {
+          $set: { name: doc.name,
+            surname: doc.surname,
+            address:{name: doc.address.name,number:doc.address.number,postalCode:doc.address.postalCode},
+            coordinates:{lat:location.lat,lon:location.lng},
+            roles:["supplier"]
+          },$unset: { creditCard: 1 }   
+        });
+        break;
+      }
+    }
+    if(!checkAddress){
+      throw new Meteor.Error('NoAddressFound');
+    }
+    if(!checkPostalCode){
+      throw new Meteor.Error('InvalidPostalCode');
+    }
   },
   verifyCCNumber: function (number){
     var bcrypt = NpmModuleBcrypt;

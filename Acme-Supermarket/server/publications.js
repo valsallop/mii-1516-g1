@@ -57,6 +57,7 @@ Meteor.users.permit('update').ifHasRole('admin').exceptProps(['roles', 'services
 Meteor.users.permit('update').ifHasUserId(this.userId).exceptProps(['roles', 'services']).apply();
 Meteor.users.permit(['insert']).apply();
 Products.permit(['insert','update','remove']).ifHasRole('admin').apply();
+Products.permit(['insert']).ifHasRole('supplier').apply();
 Comments.permit(['insert','update','remove']).ifHasRole('admin').apply();
 ShoppingCarts.permit(['insert','update','remove']).ifHasRole('admin').apply();
 ShoppingCarts.permit(['insert','update']).apply();
@@ -80,9 +81,6 @@ if(Meteor.isServer){
       "paymentDate" : null
     })
   });
-
-
-  
 }
 AdminConfig = {
   name: 'Acme-Supermarket',

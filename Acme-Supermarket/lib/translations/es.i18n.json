@@ -18,6 +18,7 @@
 	"delete":"Eliminar",
 	"deliveredOn":"Enviado con fecha:",
 
+	"dashboard":"Panel de administración",
 	"emptyCart":"El carrito esta vacío",
 	"error_CCverification":"La verificación del número de la tarjeta de crédito ha fallado",
 	"error_logIn": "Acceso prohibido: Debe iniciar sesión para acceder",
@@ -62,6 +63,7 @@
 	"register_password":"Contraseña",
 	"register_button":"Crear cuenta",
 	
+	"save":"Guardar",
 	"schemas": {
 	    "comments": {
 	      "title": {

@@ -295,3 +295,12 @@ Template.analyticsStatistics.rendered = function() {
         $('#datetimepickerStart').data("DateTimePicker").maxDate(e.date);
     });
 }
+
+AutoForm.addHooks(['createSupplier'], {
+    onSuccess: function(formType, result) {
+        bootbox.alert(TAPi18n.__("supplierCreated", lang_tag=null));
+    },
+    onError: function(formType, error) {
+        bootbox.alert(TAPi18n.__(error.message, lang_tag=null));
+    }
+});

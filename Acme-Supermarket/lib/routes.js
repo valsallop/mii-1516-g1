@@ -105,6 +105,13 @@ Router.route('/orders', {
 	}
 });
 
+Router.route('/createSupplier', {
+  path: AdminDashboard.path('/createSupplier'),
+  controller: 'AdminController',
+  onAfterAction: function () {
+    Session.set('admin_title', 'Create supplier');
+  }
+});
 
 Router.route('/analytics/statistics', {
   path: AdminDashboard.path('/analytics/statistics'),
@@ -118,6 +125,12 @@ AdminDashboard.addSidebarItem('Analytics', {
   icon: 'line-chart',
   urls: [
     { title: 'Statistics', url: AdminDashboard.path('/analytics/statistics') }
+  ]
+});
+AdminDashboard.addSidebarItem('Create supplier', {
+  icon: 'user',
+  urls: [
+    { title: 'Statistics', url: AdminDashboard.path('/createSupplier') }
   ]
 });
 AdminConfig = {

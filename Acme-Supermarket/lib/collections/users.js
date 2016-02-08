@@ -42,6 +42,25 @@ Schema.creditCard = new SimpleSchema({
     }
 });
 
+Schema.supplier = new SimpleSchema({
+    email:{
+        type:String
+    },
+    password:{
+        type:String
+    },
+    name: {
+        type: String
+    },
+    surname: {
+        type: String
+    },
+    address: {
+        type: Schema.address,
+        optional:true 
+    },
+});
+
 Schema.profileData = new SimpleSchema({
     name: {
         type: String
