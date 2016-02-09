@@ -1,3 +1,4 @@
+var config = require('../../config-dev');
 var request = require('supertest');
 var should = require('should');
 var assert = require('assert');
@@ -5,10 +6,11 @@ var fs = require("fs");
 
 describe('Get all products from WebApp REST API.', function () {
 	it('should get a JSON containing all of products', function (){
-		request('http://localhost:3000/collectionapi')
+		request(config.webApp.address + config.webApp.collectionApi)
 		.get('/products')
 		.send()
 		.end(function(err,res){
+			assert(res != null, "json-server must be serving products: http://localhost:3000/collectionapi/products ")
 			res.status.should.be.equal(200); 
 			for (var i = 0; i < res.body.length; i++) {
 				res.body[i].should.have.property('_id');

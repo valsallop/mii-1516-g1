@@ -50,7 +50,7 @@ describe('Get all products from WebApp REST API & update local db with them.', f
 			], function (err) {
 	    	//console.log("Verify products match in both locations");
 	    	//console.log("Errors: " + err);
-	    	assert(!err);
+	    	assert(!err, err);
 	    	products.should.have.property('dbProducts');
 	    	products.should.have.property('webAppProducts');
 	    	products.dbProducts.should.have.lengthOf(322, "Must be 322  products in DB");
