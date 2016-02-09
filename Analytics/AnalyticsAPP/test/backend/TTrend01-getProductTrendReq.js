@@ -7,9 +7,9 @@ describe('Get trending af a given product.', function () {
 		request('http://localhost:4242/analytics')
 		.post('/trending')
 		.send( {
-			code:"0",
+			code:"37",
 			ts_init: "2016-01-01T00:00:00.000Z",
-			ts_end: "2016-01-30T00:00:00.000Z"
+			ts_end: "2016-02-30T00:00:00.000Z"
 		} ).end(function(err,res){
 			assert(res != null);
 			res.status.should.be.equal(200);

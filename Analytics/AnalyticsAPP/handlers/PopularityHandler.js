@@ -16,10 +16,11 @@ function handleGetProductTwitterTrend (req, res){
   return TweetModel.aggregate([
     {
             $match: {
+                code_product: parseInt(req.body.code),
                 ts_value: {
                     $gte: utils.parseISODate(req.body.ts_init),
                     $lt: utils.parseISODate(req.body.ts_end)
-                }
+                  }
             }
     },{
         $group : {
