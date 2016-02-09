@@ -1,4 +1,5 @@
 Products = new Meteor.Collection('products');
+
 productSchema=new SimpleSchema({
   code: {
     type: Number,
@@ -47,10 +48,7 @@ productSchema=new SimpleSchema({
     }
   },
   supplierId: {
-    type: String,
-    autoValue: function() {
-      return Meteor.userId();
-    }
+    type: String
   },
   tags:{
     type:[String]
@@ -72,8 +70,8 @@ ProductsServices = {
         code : 25,
         rating : 2.5,
         availability : 1
-      }}
-    );
+      }
+    });
   },
   productsExist: function (code) {
     return Products.find({code:code}).count() != 0;

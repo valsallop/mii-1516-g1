@@ -1,21 +1,42 @@
-ProductsPages = new Meteor.Pagination(Products, {
-    itemTemplate: "product",
-    templateName: "allProducts",
-    perPage: 12
-});
+// ProductsPages = new Meteor.Pagination(Products, {
+// 	availableSettings: {
+//         settings: true,
+//         sort: true,
+//         perPage:true
+//     },
+//     filters : {availability: {$eq: 1}},
+//     itemTemplate: "product",
+//     templateName: "allProducts",
+//     perPage: 12
+// });
+
+// ProductsPages.set({
+//   		"sort": {
+//     		name: -1
+//   		}
+// });
 
 Template.allProducts.helpers({
-  	tags: function() {
-	  	var tags={};
-	  	var products=Products.find().fetch();
-	  	for (i = 0; i < products.length; i++) {
-	  		for(j=0;j<products[i].tags;j++){
-	  			console.log("tag:"+products[i].tags[j]);
-	  			if(tags.indexOf(products[i].tags[j]==-1)){
-	  				tags.push(products[i].tags[j]);
-	  			}
-	  		}
-	   	}
-	   	return tags;
-	}, 
+	settings : function() {
+      return {
+        //isOpen : true
+      };
+    },
+    options: function () {
+      var tags = Tags.find().fetch();
+      console.log(tags);
+      return _.map(tags, function(tag){
+      	console.log("map "+tag);
+        return {label : tag.tag , value : tag.tag};
+      });
+    }
 });
+
+// Template.allProducts.events({
+//   'click .search': function(){
+//     console.log("click");
+//     var sortPrice = document.getElementsByTagName("sortPrice");
+//     console.log("sortPrice:"+$('input[name="sortPrice"]:checked').val());
+//     return Pages.set("perPage", 3);
+//   }
+// });

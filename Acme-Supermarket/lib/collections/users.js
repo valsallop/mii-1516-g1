@@ -20,6 +20,8 @@ Schema.address = new SimpleSchema({
 Schema.creditCard = new SimpleSchema({
     number: {
         type: String,
+        max:16,
+        min:16,
         optional:true 
     },
     CVV: {

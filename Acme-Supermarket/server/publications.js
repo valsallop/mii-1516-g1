@@ -2,6 +2,10 @@ Meteor.publish('products', function() {
   return Products.find();
 });
 
+Meteor.publish('tags', function() {
+  return Tags.find();
+});
+
 Meteor.publish('comments', function() {
   return Comments.find();
 });
@@ -80,6 +84,19 @@ if(Meteor.isServer){
       "orderDate" : null,
       "paymentDate" : null
     })
+  });
+  Products.before.insert(function(userId,doc){
+    console.log(doc);
+    if(doc.name.indexOf("NIVEA")>-1){
+      doc.tags.push("Higiene");
+    }
+  });
+  Products.after.insert(function(userId,doc){
+    console.log(doc);
+    for(var i=0;i<doc.tags.length;i++){
+      console.log(doc.tags[i]);
+      Tags.insert({tag:doc.tags[i]},{continueOnError: true});
+    }
   });
 }
 AdminConfig = {

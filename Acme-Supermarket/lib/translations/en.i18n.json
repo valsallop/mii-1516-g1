@@ -9,6 +9,7 @@
 	"admin_products":"Product List",
 	"admin_products_selected":"Products selected",
 	"admin_statistics":"Stadistics",
+	"ascending":"Ascending",
 
 	"comments":"Comments",
 	"confirmOrder":"The order for value of ",
@@ -18,6 +19,7 @@
 	"description":"Description",
 	"delete":"Delete",
 	"deliveredOn":"Delivered on:",
+	"descending":"Descending",
 
 	"emptyCart":"The cart is empty",
 	"error_CCverification":"Credit card number verification failed",
@@ -59,6 +61,7 @@
 	"products": "Products",
 	"purchase": "Purchase",
 
+	"rating":"Rating",
 	"recomendations":"Recomendations",
 
 	"register": "Register",

@@ -36,6 +36,12 @@ this.RecommendationPages = new Meteor.Pagination(Products, {
 });
 
 this.ProductsPages = new Meteor.Pagination(Products, {
+    availableSettings: {
+        filters: true,
+        settings: true,
+        sort:true,
+        perPage:true
+    },
     itemTemplate: "product",
     templateName: "allProducts",
     perPage: 12,

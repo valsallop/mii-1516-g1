@@ -11,6 +11,7 @@ if(Meteor.isClient){
 	Meteor.subscribe('ratings');
 	Meteor.subscribe('userData');
 	Meteor.subscribe('shoppingCarts');
+	Meteor.subscribe('tags');
 
 }
 
@@ -28,6 +29,7 @@ Router.route('/register',{
 		BlazeLayout.render('register');
 	}
 });
+
 
 Router.route('/login',{
 	name: 'login',

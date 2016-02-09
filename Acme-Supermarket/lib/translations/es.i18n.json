@@ -9,6 +9,7 @@
 	"admin_products":"Lista de productos",
 	"admin_products_selected":"Productos seleccionados",
 	"admin_statistics":"Estadíticas",
+	"ascending":"Ascendiente",
 
 	"comments":"Comentarios",
 	"confirmOrder":"El pedido por valor de ",
@@ -17,8 +18,9 @@
 	"description":"Descripción",
 	"delete":"Eliminar",
 	"deliveredOn":"Enviado con fecha:",
-
 	"dashboard":"Panel de administración",
+	"descending":"Descendiente",
+
 	"emptyCart":"El carrito esta vacío",
 	"error_CCverification":"La verificación del número de la tarjeta de crédito ha fallado",
 	"error_logIn": "Acceso prohibido: Debe iniciar sesión para acceder",
@@ -56,6 +58,8 @@
 
 	"products": "Productos",
 	"purchase": "Finalizar compra",
+
+	"rating":"Valoración",
 	"recomendations":"Recomendaciones",
 	"register": "Registrar",
 	"register_name":"Crear cuenta",
