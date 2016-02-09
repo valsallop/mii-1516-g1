@@ -1,4 +1,4 @@
-var config = require('../config-dev');
+var config = require('../config');
 var logger = require('winston');
 var request = require('request');
 var ProductModel = require('../models/products');
@@ -25,6 +25,7 @@ var SyncProducts = function syncProducts() {
                         logger.log('silly', "SyncProducts Product collection cleaned");
                         products.forEach( function(product) {
                             delete product._id;
+                            delete product.rating
                             var popProduct = new ProductModel(product);
                             popProduct.save(function (err) {
                                 if (err) {
