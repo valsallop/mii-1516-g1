@@ -7,7 +7,9 @@ productSchema=new SimpleSchema({
     index: true,
     unique: true,
     autoValue: function() {
-      return Products.find().count()+1;
+      if (this.isInsert) {
+        return Products.find().count()+1;
+      }
     }
   },
   name: {
@@ -37,14 +39,18 @@ productSchema=new SimpleSchema({
     label: "rating",
     decimal: true,
     autoValue: function() {
-      return 0;
+      if (this.isInsert) {
+        return 0;
+      }
     }
   },
   availability: {
     type: Number,
     label: "availability",
     autoValue: function() {
-      return 1;
+      if (this.isInsert) {
+        return 1;
+      }
     }
   },
   supplierId: {

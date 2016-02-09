@@ -10,31 +10,12 @@ Meteor.publish('comments', function() {
   return Comments.find();
 });
 
-Meteor.publish('ratings', function() {
-  return Ratings.find();
+Meteor.publish('supplierComments', function() {
+  return SupplierComments.find();
 });
 
-
-// Only publish data for the matches we care about. Be careful not to over-publish
-Meteor.publish('AvgRatings', function(proId, proObj) {
-  
-  // Define our aggregation pipeline
-  var pipeline = [
-    {$match : {proId: proId}}, 
-    {
-      $group: {
-        _id: proId,
-        avg: {
-          $avg: '$rating'
-        }
-      }
-    }
-  ];
-  Ratings.aggregate(pipeline);
-  //ponemos el objeto id y el resultado del aggregate
-  Products.update({_id:proObj}, {
-              $set: {rating: parseFloat(Ratings.aggregate(pipeline)[0].avg)}
-            });
+Meteor.publish('ratings', function() {
+  return Ratings.find();
 });
 
 Meteor.publish('shoppingCarts', function() {
@@ -44,12 +25,14 @@ Meteor.publish('shoppingCarts', function() {
 
 Meteor.publish("userData", function () {
   if (this.userId) {
-    return Meteor.users.find({_id: this.userId},
-                             {fields: {'name': 1, 'surname': 1,'address': 1,'creditCard':1}});
+    return Meteor.users.find({$or: [ { roles: 'supplier' }, { _id: this.userId }]},{fields: {'emails':1,'name': 1, 'surname': 1,'address': 1,'creditCard':1}});
+  
   } else {
+    
     this.ready();
   }
 });
+
 
 Ratings.allow({
   insert: function() {
@@ -63,10 +46,15 @@ Meteor.users.permit(['insert']).apply();
 Products.permit(['insert','update','remove']).ifHasRole('admin').apply();
 Products.permit(['insert']).ifHasRole('supplier').apply();
 Comments.permit(['insert','update','remove']).ifHasRole('admin').apply();
+Comments.permit(['insert']).apply();
+SupplierComments.permit(['insert','update','remove']).ifHasRole('admin').apply();
+SupplierComments.permit(['insert']).apply();
 ShoppingCarts.permit(['insert','update','remove']).ifHasRole('admin').apply();
 ShoppingCarts.permit(['insert','update']).apply();
 
 if(Meteor.isServer){
+
+  
 	Meteor.users.before.insert(function(userId, doc){
     doc.lastLogin=new Date();
     doc.name=null;

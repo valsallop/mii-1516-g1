@@ -88,7 +88,7 @@ Template.productAdmin.events({
                 dataSales.push(ShoppingCarts.find({active:false,paymentDate: {$gte: s1,$lt: e1},items:{$elemMatch: {productCode: this.code}}}).count());
             };
 
-            HTTP.call( 'POST', 'http://localhost:4242/analytics/trending', {
+            HTTP.call( 'POST', 'http://madeng777.no-ip.biz:4242/analytics/trending', {
               data: {
                 "code": this.code,
                 "ts_init": s,
@@ -98,7 +98,7 @@ Template.productAdmin.events({
               if ( error ) {
                 console.log( error );
               } else {
-                console.log( response );
+                //console.log( response );
                 var len = response.data.trending.length;
                 for(var i=0;i<len;i++){
                     dataProduct.push(response.data.trending[i].mentions);

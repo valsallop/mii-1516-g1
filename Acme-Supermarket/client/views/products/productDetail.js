@@ -66,6 +66,7 @@ Template.productFormDetail.events({
             if(obj.length > 0){
               var rating = template.$('#inputRating').rateit('value');
               Ratings.insert({userId:Meteor.userId(),proId:this._id._str,rating:parseFloat(rating)});
+              Meteor.call('avgRating',this._id);
 
               var t=TAPi18n.__("toastr_voted", lang_tag=null);
               toastr.success(t);
@@ -77,6 +78,8 @@ Template.productFormDetail.events({
             var t=TAPi18n.__("toastr_votedBan", lang_tag=null);
             toastr.error(t);
           }
+          
+          
           
         }else{
           var t=TAPi18n.__("toastr_votedReg", lang_tag=null);

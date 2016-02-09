@@ -5,6 +5,25 @@ Meteor.startup(function () {
 process.env.CLUSTER_ENDPOINT_URL='http://localhost:3000'});
 
 Meteor.methods({
+  avgRating: function(proid){
+    if(Meteor.isServer){
+      var idstr = proid._str;
+      var pipeline = [
+        {$match : {proId: idstr}},
+        {$group: {_id: "$proId", avg: {$avg: "$rating"}}}
+      ];
+      Ratings.aggregate(pipeline);
+      Products.update({_id:proid}, {$set: {rating: parseFloat(result[0].avg)}});
+    }
+  },
+  avgSupplier: function(idSup){
+    var pipeline = [
+      {$match : {supplierId: idSup}},
+      {$group: {_id: "$supplierId", avg: {$avg: "$rating"}}}
+    ];
+    var result = Products.aggregate(pipeline);
+    return parseFloat(result[0].avg);
+  },
   sendEmail: function (to, from, subject, text, html) {
     check([to, from, subject, text], [String]);
     console.log("----------");
