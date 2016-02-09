@@ -45,6 +45,8 @@
         $('input[name=image]').val('http://res.cloudinary.com/dc8yintyr/image/upload/bWFzdGVyfHJvb3R8NjIzMHxpbWFnZS9wbmd8aDEzL2g1OC84ODMzNjM0MDA5MTE4LnBuZ3xkYzI5N2YyZDg0ZmU5OWNkMWI3OTU1ZTUwNzdiOGY2ZDRjNmQ4MjY1OThkMTE2ODRiZTM4MTE3MjA4ZTY3ODE0.png');
         $('input[name=rating]').val(1.5);
         $('input[name=availability]').val(1);
+        $('input[name=supplierId]').val('w4QCby6QvKQuhFRTG');
+        $('input[name="tags.0"]').val('Prueba');
         setTimeout(function(){
           $("button.btn-primary").click();
           setTimeout(function(){

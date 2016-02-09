@@ -71,6 +71,5 @@
                 throw new Error('User keeps logged in');
             }
         });
-        
     });
 });*/

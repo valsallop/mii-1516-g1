@@ -10,15 +10,17 @@
 	"admin_products_selected":"Productos seleccionados",
 	"admin_statistics":"Estadíticas",
 
+	"address":"Dirección",
+
 	"comments":"Comentarios",
 	"confirmOrder":"El pedido por valor de ",
 	"confirmOrder2":"€ será enviado a:",
-
+	"dataUser": "Información personal",
 	"description":"Descripción",
 	"delete":"Eliminar",
 	"deliveredOn":"Enviado con fecha:",
 
-	"dashboard":"Panel de administración",
+	"dashboard":"Panel de control",
 	"emptyCart":"El carrito esta vacío",
 	"error_CCverification":"La verificación del número de la tarjeta de crédito ha fallado",
 	"error_logIn": "Acceso prohibido: Debe iniciar sesión para acceder",
@@ -33,6 +35,7 @@
 	
 	"languages": "Idiomas",
 	"listProduct":"Lista de productos",
+	"level_quality":"Nivel de calidad",
 	"login": "Iniciar sesión",
 	"logout": "Cerrar sesión",
 	"logout2": "Sesión cerrada",
@@ -43,9 +46,11 @@
 	"login_password":"Contraseña",
 
 	"name":"Nombre",
+	"number":"Número",
 	"[NoAddressFound]": "Dirección no encontrada",
 
 	"orderHistory":"Historial de pedidos",
+	"postalCode":"Código postal",
 
 	"price":"Precio",
 
@@ -107,10 +112,19 @@
 		        "label": "Año de expiración"
 		    }
 	      }
+	    },
+	    "suppliercomments": {
+	      "title": {
+	        "label": "Title"
+	      },
+	      "description": {
+	        "label": "Description"
+	      }
 	    }
 	},
 	"send":"Enviar",
 	"shoppingCart": "Cesta de la compra",
+	"surname": "Apellido",
 
 	"to":"a nombre de:",
 	

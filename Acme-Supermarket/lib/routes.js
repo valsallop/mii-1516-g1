@@ -8,10 +8,11 @@ if(Meteor.isClient){
 	});
 	Meteor.subscribe('products');
 	Meteor.subscribe('comments');
+	Meteor.subscribe('supplierComments');
 	Meteor.subscribe('ratings');
 	Meteor.subscribe('userData');
 	Meteor.subscribe('shoppingCarts');
-
+	
 }
 
 if(Meteor.isServer){
@@ -59,6 +60,19 @@ Router.route('/updateProfile',{
     	}
     	else{
     		BlazeLayout.render('updateProfile');
+    	}
+		
+	}
+});
+Router.route('/getProfile/:id',{
+	name: 'profileDetails',
+	action(){
+		if (!Meteor.user()) {
+      		bootbox.alert(TAPi18n.__("error_logIn", lang_tag=null));
+      		Router.go('home');
+    	}
+    	else{
+    		BlazeLayout.render('getProfile');
     	}
 		
 	}

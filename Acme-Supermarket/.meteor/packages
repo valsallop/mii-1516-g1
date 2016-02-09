@@ -69,3 +69,4 @@ npm-container
 ejson
 meteorhacks:ssr
 gfk:mailgun-api
+meteorhacks:aggregate

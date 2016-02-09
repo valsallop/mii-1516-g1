@@ -3,6 +3,9 @@
 	"aboutCompanyContent":"Our company is a young company emerged in 2016 with the aim to compete among the best MarketPlace",
 	"addCart":"Add cart",
 
+	"address":"Address",
+	"dataUser": "Personal information",
+
 	"admin_button_reports":"Create sales report",
 	"admin_button_charts":"Create charts",
 	"admin_dates":"Enter the starting date and ending date: ",
@@ -35,6 +38,7 @@
 
 	
 	"listProduct":"List products",
+	"level_quality":"Quality level",
 	"login":"Login",
 	"logout": "Logout",
 	"logout2": "Logged out",
@@ -45,9 +49,11 @@
 	"login_password":"Password",
 
 	"name": "Name",
+	"number":"Number",
 	"[NoAddressFound]": "Address not found",
 
 	"orderHistory":"Order history",
+	"postalCode":"Postal Code",
 
 	"price": "Price",
 
@@ -113,12 +119,21 @@
 		        "label": "Expiration year"
 		    }
 	      }
+	    },
+	    "supplierComments": {
+	      "title": {
+	        "label": "Title"
+	      },
+	      "description": {
+	        "label": "Description"
+	      }
 	    }
 	},
 	"to":"to:",
 	"send":"Send",
 
 	"shoppingCart": "Shopping Cart",
+	"surname": "Surname",
 
 	"toastr_addCart":"Item add cart",
 	"toastr_anon":"You must register to add the item to cart",
