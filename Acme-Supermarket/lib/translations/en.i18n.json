@@ -35,6 +35,7 @@
 	"emailConfirmOrder4":"New order",
 
 	"faq":"FAQ",
+	"frecAskQuest":"Frequently asked questions:",
 	"forValueOf":"for a value of:",
 
 	"home": "Home",
@@ -60,9 +61,18 @@
 	"[NoAddressFound]": "Address not found",
 
 	"orderHistory":"Order history",
+	"paymentNReturns":"Payments and returns",
+	"paymentNReturnsComments":"We proceed to the payment of the purchase in the process of finalizing the purchase. The transfer will be through the credit card provided. It has 14 days to return the hard goods and equal to that of reception conditions. To do this you must inform us of their wish to return an e-mail indicating the details of your purchase.",
 	"postalCode":"Postal Code",
 
 	"price": "Price",
+
+	"purchasingProcess":"Purchasing process",
+	"purchasingProcessComments1":"Log in or if you have not already done so, perform the registration process by clicking on 'Register' at the top right of the web.",
+	"purchasingProcessComments2":"Add products to cart by clicking the button 'Add to cart' of the desired product.",
+	"purchasingProcessComments3":" To view products purchased must go to 'Shopping Cart'. There you can change the number of products and display the total amount.",
+	"purchasingProcessComments4":"The completion of the purchase is made by clicking on the 'Complete purchase' at the bottom of the page 'Shopping Cart' button. Continue the process with the instructions tell you.",
+	"purchasingProcessComments5":"completed, you will receive an email with the products purchased, confirming the purchase",
 
 	"profile_name":"User profile",
 
@@ -156,8 +166,11 @@
 	"shoppingCart": "Shopping Cart",
 	"supplier": "Supplier",
 	"surname": "Surname",
+	"shippingNDelivery":"Shipping and delivery",
+	"shippingNDeliveryComments":"Delivery will be made as soon as possible according to the availability of the items of the purchase is made. Delivery will be at the address during checkout, being conducted by a logistics company.",
 	
-
+	"termsNConditions":"Terms and conditions",
+	"termsNConditionsComments":"ACME SuperMarket is an online shop for academic purposes. Authors and other figures involved in the project disclaim any liability which may be derived from using this application. Users are free to use the shop, while being aware of the nature of it. The mere use of the application, says his, waive accountability of any kind. The information provided by users, is explicitly requested by the application, to the exclusion of any information storage which the user has not explicitly admitted, eg. 'Cookies'.",
 	"toastr_addCart":"Item add cart",
 	"toastr_anon":"You must register to add the item to cart",
 	"toastr_needDate":"You must choose two dates",

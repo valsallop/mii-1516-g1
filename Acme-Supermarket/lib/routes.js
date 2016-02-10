@@ -52,6 +52,12 @@ Router.route('/',{
 	}
 });
 
+Router.route('/faq',{
+	name: 'faq',
+	action(){
+		BlazeLayout.render('faq');
+	}
+});
 Router.route('/updateProfile',{
 	name: 'profile',
 	action(){

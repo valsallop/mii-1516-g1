@@ -34,6 +34,7 @@
 	"emailConfirmOrder4":"Nuevo pedido",
 
 	"faq":"PF",
+	"frecAskQuest":"Preguntas frecuentes:",
 	"forValueOf":"por un valor de:",
 
 	"home": "Inicio",
@@ -57,9 +58,18 @@
 	"[NoAddressFound]": "Dirección no encontrada",
 
 	"orderHistory":"Historial de pedidos",
+	"paymentNReturns":"Pago y devoluciones",
+	"paymentNReturnsComments":"Se procede al abono de la compra en el proceso de finalización de la compra. La transferencia será a través de la tarjeta de crédito facilitada. Dispone de 14 días para la devolución de los productos no perecederos y en condiciones iguales a la de su recepción. Para ello deberá informarnos de su deseo de devolución indicando en un correo electróico los datos de su compra.",
 	"postalCode":"Código postal",
 
 	"price":"Precio",
+
+	"purchasingProcess":"Proceso de compra",
+	"purchasingProcessComments1":"Identificarse o si no lo ha hecho antes, realizar el proceso de registro pulsando sobre 'Registrar' en la parte superior derecha de la web.",
+	"purchasingProcessComments2":"Añadir productos al carrito pulsando sobre el botón 'Añadir al carrito' del producto deseado.",
+	"purchasingProcessComments3":"Para visualizar los productos a comprar hay que dirigirse a 'Cesta de la compra'. Ahí puede modificar la cantidad de productos y visualizar el montante total.",
+	"purchasingProcessComments4":"La finalización de la compra se realiza pulsando sobre el botón 'Finalizar compra' al final de la página 'Cesta de la compra'. Continúe el proceso con las instrucciones que se le indican.",
+	"purchasingProcessComments5":"Concluido el proceso, recibirá un correo electrónico con los productos adquiridos, confirmandole la compra.",
 
 	"profile_name":"Perfil de usuario",
 
@@ -149,9 +159,13 @@
 	"shoppingCart": "Cesta de la compra",
 	"supplier": "Proveedor",
 	"surname": "Apellido",
+	"shippingNDelivery":"Envío y entrega",
+	"shippingNDeliveryComments":"El envío se realizará lo antes posible según la disponibilidad de los artículos de los que se compone la compra.La entrega será en la dirección indicada durante el proceso de finalización de la compra, siendo realizado por una empresa de logística.",
 
 	"to":"a nombre de:",
 	
+	"termsNConditions":"Términos y condiciones",
+	"termsNConditionsComments":"ACME SuperMarket es un a tienda en línea de propósito académico. Los autores y demás figuras involucradas en el proyecto rechazan cualquier responsabilidad que pueda deducirse del úso de esta aplicación. Los usuarios son libres de utilizar la tienda, siendo conocedores de la naturaleza de la misma. El mero uso de la aplicación, afirma sus, renuncias a exigir responsabilidades de cualquier tipo. La información proporcionada por los usuarios, es explicitamente solicitada por la aplicación, quedando excluida de almacenamiento toda información la cual el usuario no la haya ingresado explicitamente, ej. 'cookies'.",
 	"toastr_addCart":"Objeto añadido al carrito",
   	"toastr_anon":"Debes registrarte para añadir el producto al carrito",
   	"toastr_needDate":"Debes elegir dos fechas",
