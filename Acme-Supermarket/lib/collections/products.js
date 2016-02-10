@@ -60,7 +60,10 @@ productSchema=new SimpleSchema({
     type:[String]
   }
 });
-Products.attachSchema(productSchema);
+Meteor.startup(function() {
+  productSchema.i18n("schemas.products");
+  Products.attachSchema(productSchema);
+});
 
 ProductsServices = {
   getProduct: function (code) {

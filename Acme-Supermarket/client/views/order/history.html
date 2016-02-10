@@ -1,10 +1,14 @@
 <template name="orderHistory">
 	{{> navBar}}
-	<hr class="style-four">
-	<div style="height: 600px; overflow-y: scroll;overflow-x: hidden">
-	{{#each order}}
-			{{> orderHistoryItem id=this._id deliveryDate=this.deliveryDate userName=this.userName deliveryAddress=this.deliveryAddress}}
-	{{/each}}
+	
+	<div class="container">
+		<hr class="style-four" style="width: 1125px;">
+		<div style="height: 600px; overflow-y: scroll;overflow-x: hidden">
+		{{#each order}}
+				{{> orderHistoryItem id=this._id deliveryDate=this.deliveryDate userName=this.userName deliveryAddress=this.deliveryAddress}}
+		{{/each}}
+		</div>
 	</div>
+	
 	{{> footer}}
 </template>

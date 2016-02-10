@@ -35,7 +35,7 @@ this.RecommendationPages = new Meteor.Pagination(Products, {
 
 });
 
-this.ProductsPages = new Meteor.Pagination(Products, {
+/*this.ProductsPages = new Meteor.Pagination(Products, {
     availableSettings: {
         filters: true,
         settings: true,
@@ -46,6 +46,6 @@ this.ProductsPages = new Meteor.Pagination(Products, {
     templateName: "allProducts",
     perPage: 12,
     filters : {availability: {$eq: 1}}
-});
+});*/
 
 

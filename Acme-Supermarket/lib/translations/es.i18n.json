@@ -124,6 +124,20 @@
 	      "description": {
 	        "label": "Description"
 	      }
+	    },
+	    "products": {
+	      "name": {
+	        "label": "Nombre"
+	      },
+	      "cost": {
+	        "label": "Precio"
+	      },
+	      "description": {
+	        "label": "Descripcion"
+	      },
+	      "image": {
+	        "label": "Imagen URL"
+	      }
 	    }
 	},
 	"send":"Enviar",

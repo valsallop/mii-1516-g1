@@ -89,7 +89,7 @@ if(Meteor.isServer){
 }
 AdminConfig = {
   name: 'Acme-Supermarket',
-  adminEmails: ['daltonic65@gmail.com'],
+  adminEmails: ['acmesupermarket@gmail.com'],
   collections: {
     Products: {
         icon: 'gift',
@@ -132,10 +132,4 @@ AdminConfig = {
     }
   }
 };
-AdminDashboard.addSidebarItem('Analytics', {
-  icon: 'line-chart',
-  urls: [
-    { title: 'Statistics', url: AdminDashboard.path('/analytics/statistics') }
-  ]
-});
 

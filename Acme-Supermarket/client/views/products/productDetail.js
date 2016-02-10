@@ -1,6 +1,7 @@
 Template.productDetail.helpers({
   productDetail: function() {
   	var code = Router.current().params.code;
+
     return Products.find({code:parseInt(code)});
   },
   comments: function() {
@@ -9,12 +10,16 @@ Template.productDetail.helpers({
   }
 });
 
-Template.productFormDetail.onRendered(function(){
-  this.subscribe('AvgRatings', this.data._id._str,this.data._id);
-});
-
 Template.productFormDetail.helpers({
   value:function() {
+    Meteor.call('avgSupplier',this.supplierId, function(error, result){
+      if(error){
+        console.log(error.reason);
+      }else{
+        Session.set('ratSupp', result);
+        return result;
+      }
+    });
     if (this.rating == null) {
       return 0;
     }else{

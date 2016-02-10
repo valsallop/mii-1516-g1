@@ -2,7 +2,10 @@
 	{{> header}}
 	<body>
 		{{> navBar}}
-		{{> quickForm collection="Products" id="insertProductForm" type="insert" omitFields="supplierId,code,availability,rating"}}
+		<div class = "container" style="margin-top: 50px">
+			{{> quickForm collection="Products" id="insertProductForm" type="insert" omitFields="supplierId,code,availability,rating"}}
+		</div>
+		
 		{{> footer}}
 	</body>
 </template>

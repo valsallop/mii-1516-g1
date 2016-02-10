@@ -33,15 +33,7 @@ Template.getProfile.helpers({
 
 Template.userDetail.helpers({
   rating:function(){
-    Meteor.call('avgSupplier',Router.current().params.id, function(error, result){
-      if(error){
-        console.log(error.reason);
-      }else{
-        Session.set('result', result);
-        return result;
-      }
-    });
-    return Session.get('result');
+    return Session.get('ratSupp');
   }
 });
 

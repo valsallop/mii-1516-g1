@@ -130,6 +130,20 @@
 	      "description": {
 	        "label": "Description"
 	      }
+	    },
+	    "products": {
+	      "name": {
+	        "label": "Name"
+	      },
+	      "cost": {
+	        "label": "Cost"
+	      },
+	      "description": {
+	        "label": "Description"
+	      },
+	      "image": {
+	        "label": "Image URL"
+	      }
 	    }
 	},
 	"to":"to:",

@@ -136,16 +136,17 @@ Router.route('/analytics/statistics', {
   }
 });
 
+AdminDashboard.addSidebarItem('Create supplier', {
+  icon: 'user',
+  urls: [
+    { title: 'Create', url: AdminDashboard.path('/createSupplier') }
+  ]
+});
+
 AdminDashboard.addSidebarItem('Analytics', {
   icon: 'line-chart',
   urls: [
     { title: 'Statistics', url: AdminDashboard.path('/analytics/statistics') }
-  ]
-});
-AdminDashboard.addSidebarItem('Create supplier', {
-  icon: 'user',
-  urls: [
-    { title: 'Statistics', url: AdminDashboard.path('/createSupplier') }
   ]
 });
 AdminConfig = {
