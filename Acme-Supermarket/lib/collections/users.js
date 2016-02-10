@@ -62,6 +62,18 @@ Schema.supplier = new SimpleSchema({
         optional:true 
     },
 });
+Schema.supplierProfileData = new SimpleSchema({
+    name: {
+        type: String
+    },
+    surname: {
+        type: String
+    },
+    address: {
+        type: Schema.address,
+        optional:true 
+    },
+});
 
 Schema.profileData = new SimpleSchema({
     name: {

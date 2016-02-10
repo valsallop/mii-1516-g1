@@ -29,6 +29,11 @@
 	"error_logIn": "Forbidden access: You must log in to access",
 	"error_logIn2": "Wrong user/password",
 	"error_profileDate": "Wrong or incomplete user data",
+	"emailConfirmOrder1":"Confirmed order for value of",
+	"emailConfirmOrder2":"€ with the following products:",
+	"emailConfirmOrder3":"Thanks for your patronage",
+	"emailConfirmOrder4":"New order",
+
 
 	"forValueOf":"for a value of:",
 

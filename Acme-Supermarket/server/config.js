@@ -121,9 +121,6 @@ Meteor.methods({
     }
   },
   updateProfile: function (doc) {
-    var bcrypt = NpmModuleBcrypt;
-    var bcryptCompare = Meteor.wrapAsync(bcrypt.compare);
-    var hash = bcrypt.hashSync(doc.creditCard.number,10);
     
     var result = HTTP.call('GET', 'http://maps.google.com/maps/api/geocode/json?address='
       +doc.address.name+',+Spain,+'+
@@ -147,14 +144,28 @@ Meteor.methods({
       }
       if(checkAddress&&checkPostalCode){
         var location=content.results[i].geometry.location;
-        Meteor.users.update(Meteor.userId(), {
-          $set: { name: doc.name,
-            surname: doc.surname,
-            address:{name: doc.address.name,number:doc.address.number,postalCode:doc.address.postalCode},
-            creditCard:{number:"**** **** **** "+doc.creditCard.number.substring(doc.creditCard.number.length-4, doc.creditCard.number.length),CVV:doc.creditCard.CVV,expMonth:doc.creditCard.expMonth,expYear:doc.creditCard.expYear, hashed:hash},
-            coordinates:{lat:location.lat,lon:location.lng}
-          }   
-        });
+        if(Roles.userIsInRole(Meteor.userId(), ['customer', 'admin'])){
+          var bcrypt = NpmModuleBcrypt;
+          var bcryptCompare = Meteor.wrapAsync(bcrypt.compare);
+          var hash = bcrypt.hashSync(doc.creditCard.number,10);
+          Meteor.users.update(Meteor.userId(), {
+            $set: { name: doc.name,
+              surname: doc.surname,
+              address:{name: doc.address.name,number:doc.address.number,postalCode:doc.address.postalCode},
+              creditCard:{number:"**** **** **** "+doc.creditCard.number.substring(doc.creditCard.number.length-4, doc.creditCard.number.length),CVV:doc.creditCard.CVV,expMonth:doc.creditCard.expMonth,expYear:doc.creditCard.expYear, hashed:hash},
+              coordinates:{lat:location.lat,lon:location.lng}
+            }   
+          });
+        }
+        if(Roles.userIsInRole(Meteor.userId(), ['supplier'])){
+          Meteor.users.update(Meteor.userId(), {
+            $set: { name: doc.name,
+              surname: doc.surname,
+              address:{name: doc.address.name,number:doc.address.number,postalCode:doc.address.postalCode},
+              coordinates:{lat:location.lat,lon:location.lng}
+            }   
+          });
+        }
         break;
       }
     }
@@ -276,15 +287,16 @@ Meteor.methods({
                                           amount:items[i].amount})
       }
       totalCost=parseFloat(totalCost).toFixed(2);
-      html=html+"Acaba de realizar un pedido por valor de "+totalCost +"€ con los siguientes productos:<br><hr>";
+      html=html+TAPi18n.__("emailConfirmOrder1", lang_tag=null)+" "+totalCost +"€ ";
+      html=html+TAPi18n.__("emailConfirmOrder2", lang_tag=null)+"<br><hr>";
       html=html+itemsHTML;
-      html=html+"<hr><br>Gracias por confiar en Acme-supermarket</body></html>"
+      html=html+"<hr><br>"+TAPi18n.__("emailConfirmOrder3", lang_tag=null)+"</body></html>"
       console.log(html);
 
       Meteor.call('sendEmail',
                     Meteor.user().emails[0].address,
                     "confirmOrder@AcmeSuperMarket.com",
-                    'New order',
+                    TAPi18n.__("emailConfirmOrder4", lang_tag=null),
                     '',
                     html);
 

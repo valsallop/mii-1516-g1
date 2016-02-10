@@ -28,6 +28,10 @@
 	"error_logIn": "Acceso prohibido: Debe iniciar sesión para acceder",
 	"error_logIn2": "Usuario/Contraseña erróneo",
 	"error_profileDate":"Datos de usuario incompletos o incorrectos",
+	"emailConfirmOrder1":"Pedido confirmado por valor de ",
+	"emailConfirmOrder2":"€ con los siguientes productos:",
+	"emailConfirmOrder3":"Gracias por confiar en Acme-supermarket",
+	"emailConfirmOrder4":"Nuevo pedido",
 
 	"forValueOf":"por un valor de:",
 
