@@ -1,4 +1,4 @@
-/*describe("E2E - Nominal - Customer - Comment - Rate", function() {
+describe("E2E - Nominal - Customer - Comment - Rate", function() {
     it("setup test case", function () {
         Meteor.call('clearDB', function(){
             Meteor.call('loadFixtures');
@@ -51,4 +51,4 @@
             }
         });
     });
-});*/
+});

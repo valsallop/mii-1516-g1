@@ -1,4 +1,4 @@
-/*describe("E2E - Nominal - View product", function() {
+describe("E2E - Nominal - View product", function() {
     it("setup MongoDB for testing", function () {
         Meteor.call('clearDB', function(){
             Meteor.call('loadFixtures');
@@ -19,4 +19,4 @@
          done();
      });
 
-});*/
+});

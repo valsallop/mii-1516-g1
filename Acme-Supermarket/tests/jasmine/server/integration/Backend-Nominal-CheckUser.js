@@ -1,4 +1,4 @@
-/*describe("Backend - Nominal - check user", function() {
+describe("Backend - Nominal - check user", function() {
     it("call check user and return true", function () {
         var user={
         _id : "YJsAJX5FvfwaBEQip",
@@ -37,4 +37,4 @@
             }
         });
     });
-});*/
+});

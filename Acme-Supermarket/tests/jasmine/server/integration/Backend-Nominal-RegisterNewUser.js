@@ -1,4 +1,4 @@
-/*"use strict";
+"use strict";
 describe("Backend - Nominal - Register new user", function() {
     it("setup MongoDB for testing", function () {
         Meteor.call('clearDB', function(){
@@ -11,4 +11,4 @@ describe("Backend - Nominal - Register new user", function() {
         Accounts.createUser({email: 'test@test.com',password: '123456'});
         expect(Meteor.users.insert).toHaveBeenCalled();
     });
-});*/
+});

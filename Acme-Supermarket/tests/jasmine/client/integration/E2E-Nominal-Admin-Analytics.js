@@ -1,4 +1,4 @@
-/*describe("E2E - Nominal - admin - Analytics", function() {
+describe("E2E - Nominal - admin - Analytics", function() {
     it("should setup MongoDB for testing", function () {
         Meteor.call('clearDB', function(){
             Meteor.call('loadFixtures');
@@ -56,4 +56,4 @@
         
     });
   
-});*/
+});

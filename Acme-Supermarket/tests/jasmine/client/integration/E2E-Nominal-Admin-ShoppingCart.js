@@ -1,4 +1,4 @@
-/*describe("E2E - Nominal - admin - Shopping Cart", function() {
+describe("E2E - Nominal - admin - Shopping Cart", function() {
     it("should setup MongoDB for testing", function () {
         Meteor.call('clearDB', function(){
             Meteor.call('loadFixtures');
@@ -97,4 +97,4 @@
         });
         
     });
-});*/
+});

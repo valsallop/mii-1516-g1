@@ -1,4 +1,4 @@
-/*"use strict";
+"use strict";
 describe("Backend - Nominal - CRUD", function () {
   var uId = "";
   it("Create product, comment and admin",function(){
@@ -113,4 +113,4 @@ describe("Backend - Nominal - CRUD", function () {
       spyOn(Meteor.users, 'find').and.returnValue(cursor);
       expect(UsersServices.usersExist(uId)).toBe(false);
   });
-});*/
+});

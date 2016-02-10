@@ -1,4 +1,4 @@
-/*describe("E2E - Nominal - Customer - User - Cart", function() {
+describe("E2E - Nominal - Customer - User - Cart", function() {
     it("setup test case", function () {
         Meteor.call('clearDB', function(){
             Meteor.call('loadFixtures');
@@ -104,4 +104,4 @@
         });
         
     });
-});*/
+});
