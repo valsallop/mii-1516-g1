@@ -34,7 +34,7 @@
 	"emailConfirmOrder3":"Thanks for your patronage",
 	"emailConfirmOrder4":"New order",
 
-
+	"faq":"FAQ",
 	"forValueOf":"for a value of:",
 
 	"home": "Home",
@@ -153,9 +153,10 @@
 	},
 	"to":"to:",
 	"send":"Send",
-
 	"shoppingCart": "Shopping Cart",
+	"supplier": "Supplier",
 	"surname": "Surname",
+	
 
 	"toastr_addCart":"Item add cart",
 	"toastr_anon":"You must register to add the item to cart",
@@ -165,6 +166,8 @@
 	"toastr_votedBan":"You have already rated this item",
 	"toastr_votedBuy":"You must buy this product to rate",
 	"toastr_votedReg":"You must register to vote a item",
+
+	"uploadPImg":"Upload image",
 
 	"withAddress":"with address:"	
 }

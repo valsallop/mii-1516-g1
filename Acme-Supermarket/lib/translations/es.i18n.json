@@ -33,6 +33,7 @@
 	"emailConfirmOrder3":"Gracias por confiar en Acme-supermarket",
 	"emailConfirmOrder4":"Nuevo pedido",
 
+	"faq":"PF",
 	"forValueOf":"por un valor de:",
 
 	"home": "Inicio",
@@ -146,6 +147,7 @@
 	},
 	"send":"Enviar",
 	"shoppingCart": "Cesta de la compra",
+	"supplier": "Proveedor",
 	"surname": "Apellido",
 
 	"to":"a nombre de:",
@@ -158,6 +160,8 @@
 	"toastr_votedBan":"Ya has votado este producto",
 	"toastr_votedBuy":"Debes comprar este producto para poder votarlo",
 	"toastr_votedReg":"Debes registrarte para votar un producto",
+
+	"uploadPImg":"Subir imagen",
 
 	"withAddress":"con dirección:"
 }
