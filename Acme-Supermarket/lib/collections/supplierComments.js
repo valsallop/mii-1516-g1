@@ -1,6 +1,6 @@
 var SchemaSupplierComments;
 
-this.SupplierComments = new Meteor.Collection('supplierComments');
+this.SupplierComments = new Meteor.Collection('suppliercomments');
 
 SchemaSupplierComments = new SimpleSchema({
   supplierId: {
@@ -48,4 +48,5 @@ SchemaSupplierComments = new SimpleSchema({
 Meteor.startup(function() {
   SchemaSupplierComments.i18n("schemas.suppliercomments");
   SupplierComments.attachSchema(SchemaSupplierComments);
+  
 });

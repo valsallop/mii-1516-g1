@@ -191,6 +191,19 @@ AdminConfig = {
 	  showDelColumn: true, // Set to false to hide the edit button. True by default.
 	  showWidget: true,
 	  color: 'green'
+	},
+	SupplierComments: {
+	  icon: 'comment',
+	  omitFields: ['updatedAt'],
+	  tableColumns: [
+	   { label: 'Title', name: 'title' },
+	   { label: 'Created', name: 'createdAt'},
+	   { label: 'User', name: 'userEmail'}
+	  ],
+	  showEditColumn: true, // Set to false to hide the edit button. True by default.
+	  showDelColumn: true, // Set to false to hide the edit button. True by default.
+	  showWidget: true,
+	  color: 'orange'
 	}
   }
 };

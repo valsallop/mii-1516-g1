@@ -25,3 +25,30 @@
     </div>
 </template>
 
+<template name="supplierComment">
+      
+    <div style="margin-top:20px">
+        <div class="row container">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <picture>
+                <!--Imagen de la base de datos-->
+                <source
+                  media="(min-width: 75px)"
+                  srcset="../images/user-image.png">
+                  <!--Imagen por defecto-->
+                <img
+                  src="../images/no-img.png"
+                  alt="image not found">
+              </picture>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 bubble-comment">
+              <span class="email-comment">{{userEmail}}&nbsp;&nbsp;</span><span class="date-comment">{{createdAtFormatted }}</span>
+              <h3 class="bubble-title">{{title}}</h3>
+              <p class="bubble-descript">{{description}}</p> 
+
+            </div>
+            
+        </div>
+    </div>
+</template>
+

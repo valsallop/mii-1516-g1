@@ -26,7 +26,7 @@ Template.getProfile.helpers({
   userDetails: function() {
     return Meteor.users.find({_id:Router.current().params.id}).fetch();
   },
-  comments: function() {
+  commentsSupplier: function() {
     return SupplierComments.find({supplierId:Router.current().params.id});
   }
 });
