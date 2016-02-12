@@ -1,6 +1,0 @@
-Feature: Check user
-
-  @watch
-  Scenario: Check user
-    Given set session to user with email "test@test.com" and password "123456"
-    Then user with id "YJsAJX5FvfwaBEQip" is loggedId

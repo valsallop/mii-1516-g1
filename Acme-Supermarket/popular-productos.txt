@@ -1,5 +1,0 @@
-mongoimport -c products --type csv --file products-v6.csv -d meteor --headerline -h localhost:3001
-
-db.products.find({rating: {$eq : "null" }}).forEach(function(product) {
-  db.products.update({_id: product._id}, {$set: {rating: Math.random()*5}})
-})
