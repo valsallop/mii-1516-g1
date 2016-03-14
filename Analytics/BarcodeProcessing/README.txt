@@ -6,7 +6,7 @@ v_env_d3\Scripts\activate
 3º	Instalar dependencias
 pip install -r requirements.txt
 4º	Ejecutar normalmente
-python ImgProcessing.py
+python main.py
 
 Para ejecutar tests
 1º	Activar entorno virtual

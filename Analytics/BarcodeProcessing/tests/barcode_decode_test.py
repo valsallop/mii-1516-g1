@@ -8,7 +8,7 @@ base_dir = os.path.dirname(__file__) or '.'
 package_lib = os.path.join(base_dir, 'lib')
 sys.path.insert(0, package_lib)
 
-import barcode_processing
+import barcode_decode
 
 DEF_IMG_DIR = './resources'
 
@@ -21,10 +21,10 @@ class BarcodeDecodeTests(unittest.TestCase):
         #img = cv2.imread(DEF_IMG_DIR + '/' + "codeBar2.jpg")
         #img = cv2.imread(DEF_IMG_DIR + '/' + "codeBar3.jpg")
         #img = cv2.imread(DEF_IMG_DIR + '/' + "codeBar4.jpg")
-        img = cv2.imread(DEF_IMG_DIR + '/' + "codeBar6.jpg")
-        #img = cv2.imread(DEF_IMG_DIR + '/' + "codeBar4INVERTED.jpg")
+        img = cv2.imread(DEF_IMG_DIR + '/' + "codeBar4INVERTED.jpg",0)
+        #img = cv2.imread(DEF_IMG_DIR + '/' + "codeBar6.jpg",0)
         expected_result = 0
         
-        result = barcode_processing.barcodeDecode(img)
+        result = barcode_decode.barcodeDecode(img)
         self.assertTrue(len(result)>0)
         print result

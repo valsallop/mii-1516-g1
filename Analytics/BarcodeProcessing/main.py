@@ -17,7 +17,7 @@ package_lib = os.path.join(base_dir, 'lib')
 sys.path.insert(0, package_lib)
 import barcode_preprocessing as preprocessing
 import barcode_decode as processing
-
+import image_cloud_mng
 
 
 def getBarcodeData(img):
@@ -36,7 +36,14 @@ def getBarcodeData(img):
         Body
             JSON (application/json)
         Body -> Raw
-            {"method": "barcode","params": {"imgUrl": "http://www.dia.es/medias/?context=bWFzdGVyfHJvb3R8MTAxMDh8aW1hZ2UvcG5nfGhiNS9oZGEvODgxODI3MzQ4NDgzMC5wbmd8Yjc2NWVjY2MxNmM4MTkzYjkyMjM0MDE1ZWU2MjQ3OTdkNmY0ZDcxYWQ0MTc5NTk4NDE2MzJkZDZhMTc0NzQ5Yw"},"jsonrpc": "2.0","id": "1988"}
+            {"method": "barcode",
+            "params": {
+                "imgUrl": "http://www.dia.es/medias/?context=bWFzdGVyfHJvb3R8MTAxMDh8aW1hZ2UvcG5nfGhiNS9oZGEvODgxODI3MzQ4NDgzMC5wbmd8Yjc2NWVjY2MxNmM4MTkzYjkyMjM0MDE1ZWU2MjQ3OTdkNmY0ZDcxYWQ0MTc5NTk4NDE2MzJkZDZhMTc0NzQ5Yw",
+                "deleteAfterProc": "1"
+                },
+                "jsonrpc": "2.0",
+                "id": "1988"
+            }
 '''
 def processBarcodeImg(**kwargs):
     if "echo" in kwargs.keys():
@@ -50,16 +57,15 @@ def processBarcodeImg(**kwargs):
             img_array = np.asarray(bytearray(request.read()), dtype=np.uint8)
             img = cv2.imdecode(img_array, 0)
             res = getBarcodeData(img)
-            if "deleteAfterProc" in kwargs.keys():
-                # Eliminar de Cloudinary
-                pass
-
+            if res and len(res) == 13 and "deleteAfterProc" in kwargs.keys():
+                image_cloud_mng.deleteFromCloudinary(kwargs["imgUrl"])
             return res
         except ValueError, e:
             tb = traceback.format_exc()
             return str(e)
         except Exception, e:
             tb = traceback.format_exc()
+            print tb
             return "Uncaught server error:\t" + str(tb)
     else:
         raise ValueError("Invalid params")

@@ -99,7 +99,7 @@ class ImgProcessingTestsServerImgPreprocessing(unittest.TestCase):
         self.assertEqual("2.0", response["jsonrpc"])
         self.assertEqual(0, response["id"])
 
-    def test_server_basics_get_img_2(self):
+    def test_server_decode(self):
         imgUrl = "http://cache3.asset-cache.net/gc/141864529-unit-price-label-or-barcode-on-milk-carton-gettyimages.jpg?v=1&c=IWSAsset&k=2&d=XOPGg300Ji9DpiYW4aefJZnhcYcmrPa9XkiFvamwJzLPEWd38TkeX3v6MEH4EkqG"
         payload = {
             "method": "barcode",
@@ -113,6 +113,35 @@ class ImgProcessingTestsServerImgPreprocessing(unittest.TestCase):
         self.assertEqual(result_expected, response["result"])
         self.assertEqual("2.0", response["jsonrpc"])
         self.assertEqual(0, response["id"])
+
+    def test_server_decode_2(self):
+        imgUrl = "http://res.cloudinary.com/dc8yintyr/image/upload/v1457954857/barcodes/codeBar4INVERTED.jpg.jpg"
+        payload = {
+            "method": "barcode",
+            "params": {"imgUrl": imgUrl} ,
+            "jsonrpc": "2.0",
+            "id": 0,
+        }
+        result_expected = u"2000354891802"
+        response = requests.post(
+            self.url, data=json.dumps(payload), headers=self.headers).json()
+        self.assertEqual(result_expected, response["result"])
+        self.assertEqual(0, response["id"])
+
+    def test_server_decode_n_remove(self):
+        imgUrl = "http://res.cloudinary.com/dc8yintyr/image/upload/v1457954857/barcodes/codeBar4INVERTED.jpg.jpg"
+        payload = {
+            "method": "barcode",
+            "params": {"imgUrl": imgUrl, "deleteAfterProc": 1} ,
+            "jsonrpc": "2.0",
+            "id": 22,
+        }
+        result_expected = u"2000354891802"
+        response = requests.post(
+            self.url, data=json.dumps(payload), headers=self.headers).json()
+        self.assertEqual(result_expected, response["result"])
+        self.assertEqual(22, response["id"])
+
 
 
 if __name__ == '__main__':
