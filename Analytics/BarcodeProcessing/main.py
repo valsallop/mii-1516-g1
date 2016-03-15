@@ -5,7 +5,7 @@ import math, random
 import numpy as np
 import traceback
 
-from urllib2 import urlopen
+from urllib2 import urlopen, URLError
 from werkzeug.wrappers import Request, Response
 from werkzeug.serving import run_simple
 from jsonrpc import JSONRPCResponseManager, dispatcher
@@ -57,12 +57,17 @@ def processBarcodeImg(**kwargs):
             img_array = np.asarray(bytearray(request.read()), dtype=np.uint8)
             img = cv2.imdecode(img_array, 0)
             res = getBarcodeData(img)
-            if res and len(res) == 13 and "deleteAfterProc" in kwargs.keys():
+            if "deleteAfterProc" in kwargs.keys():
                 image_cloud_mng.deleteFromCloudinary(kwargs["imgUrl"])
             return res
         except ValueError, e:
             tb = traceback.format_exc()
             return str(e)
+        except URLError as e:
+            if e.reason[:13] == "[Errno 11004]" or e.reason[:13] =="[Errno 10060]":
+                print "[Errno 11004] getaddrinfo failed"
+                sys.exit(-1)
+            return str(e.reason)
         except Exception, e:
             tb = traceback.format_exc()
             print tb

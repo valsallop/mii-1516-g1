@@ -12,8 +12,6 @@ DEF_IMG_DIR = r'./resources'
 
 cloudinary.config(cloud_name = 'dc8yintyr', api_key = '886621214683373', api_secret = '36UlUsNU01d7v-7-BH4k2b-6hn8')
 
-cloudinary.uploader.upload(DEF_IMG_DIR + '/' + "codeBar4INVERTED.jpg", public_id = 'barcodes/codeBar4INVERTED.jpg')
-
 def deleteFromCloudinary(img_url):
     res = dict()
     if re.match(r'http://res.cloudinary.com/\w+/', img_url):
