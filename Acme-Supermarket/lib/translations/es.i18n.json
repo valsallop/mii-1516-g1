@@ -176,6 +176,8 @@
 	"toastr_votedReg":"Debes registrarte para votar un producto",
 
 	"uploadPImg":"Subir imagen",
+	"uploadPImgNoProduct":"No existe ningún producto con ese codigo de barras en nuestra base de datos",
+	"uploadPImgBarcodeError":"Hay un error en su codigo de barras. Por favor introduzca una nueva imagen ",
 
 	"withAddress":"con dirección:"
 }
