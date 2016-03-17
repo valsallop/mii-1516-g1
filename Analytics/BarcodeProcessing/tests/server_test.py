@@ -13,7 +13,7 @@ DEF_IMG_DIR = r'./resources'
 
 class ImgProcessingTestsServerBasics(unittest.TestCase):
     def setUp(self):
-        self.url = "http://localhost:4000/jsonrpc"
+        self.url = "http://localhost:4342/jsonrpc"
         self.headers = {'content-type': 'application/json'}
 
     def tearDown(self):
@@ -83,7 +83,7 @@ class ImgProcessingTestsServerBasics(unittest.TestCase):
 
 class ImgProcessingTestsServerImgPreprocessing(unittest.TestCase):
     def setUp(self):
-        self.url = "http://localhost:4000/jsonrpc"
+        self.url = "http://localhost:4342/jsonrpc"
         self.headers = {'content-type': 'application/json'}
         self.img_file_2_upload = "codeBar4INVERTED.jpg"
         self.path_cloud_2_upload = "barcodes/"
@@ -98,35 +98,35 @@ class ImgProcessingTestsServerImgPreprocessing(unittest.TestCase):
     #     sleep(5)
     #     self.assertEqual(self.path_cloud_2_upload+self.img_file_2_upload,response_cloudinary.get('public_id', 'fail'))
 
-    # def test_server_basics_get_img(self):
-    #     imgUrl = "http://farm4.static.flickr.com/3279/2923038275_ae205c7e31.jpg"
-    #     payload = {
-    #         "method": "barcode",
-    #         "params": {"imgUrl": imgUrl} ,
-    #         "jsonrpc": "2.0",
-    #         "id": 0,
-    #     }
-    #     result_expected = u"8888425350403"
-    #     response = requests.post(
-    #         self.url, data=json.dumps(payload), headers=self.headers).json()
-    #     self.assertEqual(result_expected, response["result"])
-    #     self.assertEqual("2.0", response["jsonrpc"])
-    #     self.assertEqual(0, response["id"])
+    def test_server_basics_get_img(self):
+        imgUrl = "http://farm4.static.flickr.com/3279/2923038275_ae205c7e31.jpg"
+        payload = {
+            "method": "barcode",
+            "params": {"imgUrl": imgUrl} ,
+            "jsonrpc": "2.0",
+            "id": 0,
+        }
+        result_expected = u"8888425350403"
+        response = requests.post(
+            self.url, data=json.dumps(payload), headers=self.headers).json()
+        self.assertEqual(result_expected, response["result"])
+        self.assertEqual("2.0", response["jsonrpc"])
+        self.assertEqual(0, response["id"])
 
-    # def test_server_decode(self):
-    #     imgUrl = "http://cache3.asset-cache.net/gc/141864529-unit-price-label-or-barcode-on-milk-carton-gettyimages.jpg?v=1&c=IWSAsset&k=2&d=XOPGg300Ji9DpiYW4aefJZnhcYcmrPa9XkiFvamwJzLPEWd38TkeX3v6MEH4EkqG"
-    #     payload = {
-    #         "method": "barcode",
-    #         "params": {"imgUrl": imgUrl} ,
-    #         "jsonrpc": "2.0",
-    #         "id": 0,
-    #     }
-    #     result_expected = u"0026400293309"
-    #     response = requests.post(
-    #         self.url, data=json.dumps(payload), headers=self.headers).json()
-    #     self.assertEqual(result_expected, response["result"])
-    #     self.assertEqual("2.0", response["jsonrpc"])
-    #     self.assertEqual(0, response["id"])
+    def test_server_decode(self):
+        imgUrl = "http://cache3.asset-cache.net/gc/141864529-unit-price-label-or-barcode-on-milk-carton-gettyimages.jpg?v=1&c=IWSAsset&k=2&d=XOPGg300Ji9DpiYW4aefJZnhcYcmrPa9XkiFvamwJzLPEWd38TkeX3v6MEH4EkqG"
+        payload = {
+            "method": "barcode",
+            "params": {"imgUrl": imgUrl} ,
+            "jsonrpc": "2.0",
+            "id": 0,
+        }
+        result_expected = u"0026400293309"
+        response = requests.post(
+            self.url, data=json.dumps(payload), headers=self.headers).json()
+        self.assertEqual(result_expected, response["result"])
+        self.assertEqual("2.0", response["jsonrpc"])
+        self.assertEqual(0, response["id"])
 
     def test_server_decode_2(self):
         imgUrl = "http://res.cloudinary.com/dc8yintyr/image/upload/v1457954857/" + self.path_cloud_2_upload + self.img_file_2_upload + ".jpg"
