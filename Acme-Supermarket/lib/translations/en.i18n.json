@@ -181,6 +181,8 @@
 	"toastr_votedReg":"You must register to vote a item",
 
 	"uploadPImg":"Upload image",
+	"uploadPImgNoProduct":"There is no product with the barcode in our database",
+	"uploadPImgBarcodeError":"There is a error in your barcode. Please enter a new image ",
 
 	"withAddress":"with address:"	
 }

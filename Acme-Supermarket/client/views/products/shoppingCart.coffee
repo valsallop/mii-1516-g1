@@ -14,4 +14,29 @@ Template.shoppingCart.events
 				console.log err
 				console.log "Upload Result:"
 				console.log res
-				bootbox.alert res.secure_url  if Meteor.user()
+				#bootbox.alert res.secure_url  if Meteor.user()
+
+				HTTP.call 'POST', 'http://madeng777.no-ip.biz:4342/jsonrpc', {
+					data: {
+						"method": "barcode",
+						"params": {
+							"imgUrl": res.secure_url,
+							"deleteAfterProc": "1"
+						},
+						"jsonrpc": "2.0",
+						"id": "1988"
+					}
+					}, (error, response) ->
+				  	if error
+				    	console.log error
+				  	else
+				    	responseJson = JSON.parse(response.content)
+				    	if responseJson.result.length == 13
+				    		dbItem = Products.findOne(code: parseInt(responseJson.result))
+				    		if dbItem == undefined
+				    			bootbox.alert TAPi18n.__('uploadPImgNoProduct', lang_tag = null) if Meteor.user()
+				    		else
+				    			Meteor.call 'addToCart', responseJson.result
+				    	else
+				    		bootbox.alert TAPi18n.__('uploadPImgBarcodeError', lang_tag = null)  if Meteor.user()
+				  	return
