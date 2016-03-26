@@ -22,6 +22,10 @@ Meteor.publish('shoppingCarts', function() {
   return ShoppingCarts.find();
 });
 
+Meteor.publish('shoppingCartsRules', function() {
+  return ShoppingCartsRules.find();
+});
+
 
 Meteor.publish("userData", function () {
   if (this.userId) {

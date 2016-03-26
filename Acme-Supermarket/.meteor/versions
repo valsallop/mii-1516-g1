@@ -126,6 +126,7 @@ observe-sequence@1.0.7
 ongoworks:security@1.3.0
 ordered-dict@1.0.4
 package-version-parser@3.0.4
+percolate:synced-cron@1.3.0
 practicalmeteor:chai@2.1.0_1
 practicalmeteor:loglevel@1.2.0_2
 practicalmeteor:sinon@1.14.1_2
