@@ -14,6 +14,13 @@
         <hr>
         </div>
 
+        {{#if currentUser}}
+            {{recommendationItems}}
+            
+            {{> recommenderItems}}
+            
+        {{/if}}
+
         <div class="container">
             <div class="col-lg-12">
                 <h3>{{_ "recomendations"}}</h3>
@@ -27,4 +34,66 @@
 		
 	{{> footer}}
 	</body>
+</template>
+
+<template name="recommenderItems">
+    <div class="container">
+        <h3>{{_ "recomendations"}}</h3>
+        <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+
+          {{#if isItem1}}<li data-target="#myCarousel" data-slide-to="0" class="active"></li>{{/if}}
+          {{#if isItem2}}<li data-target="#myCarousel" data-slide-to="1"></li>{{/if}}
+          {{#if isItem3}}<li data-target="#myCarousel" data-slide-to="2"></li>{{/if}}
+          {{#if isItem4}}<li data-target="#myCarousel" data-slide-to="3"></li>{{/if}}
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            {{#if isItem1}}
+            <div class="item active">
+                {{#each recomendations1}}
+                    {{> recommenderProduct}}
+                {{/each}}
+            </div>
+            {{/if}}
+
+            {{#if isItem2}}
+            <div class="item">
+                {{#each recomendations2}}
+                    {{> recommenderProduct}}
+                {{/each}}
+            </div>
+            {{/if}}
+            
+            {{#if isItem3}}
+            <div class="item">
+                {{#each recomendations3}}
+                    {{> recommenderProduct}}
+                {{/each}}
+            </div>
+            {{/if}}
+
+            {{#if isItem4}}
+            <div class="item">
+                {{#each recomendations4}}
+                    {{> recommenderProduct}}
+                {{/each}}
+            </div>
+            {{/if}}
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style = "width: 75px;">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style = "width: 75px;">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
 </template>

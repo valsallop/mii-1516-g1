@@ -13,7 +13,7 @@ Schema.shoppingCartRulesSchema = new SimpleSchema({
         decimal: true
     },
     ts_process: {
-        type : String,
+        type : Date,
         optional: true
   }
 });

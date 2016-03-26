@@ -315,6 +315,55 @@ Meteor.methods({
         "deliveryAddress":null
       });
     }
+  },
+
+
+  shoppingRecommender: function(){
+    var productRecommended = [];
+    var rules = ShoppingCartsRules.find({}, {sort: {ts_process: -1}});
+    var firstRule=ShoppingCartsRules.findOne({}, {sort: {ts_process: -1}});
+    var cart=ShoppingCarts.findOne({ active:true , userId:Meteor.userId()});
+
+    var codesCart=[];
+    for (var i =0;i<cart.items.length;i++){
+      codesCart.push(cart.items[i].productCode);
+    }
+
+
+    var date = firstRule.ts_process;
+    rules.forEach(function (rule) {
+      if(rule.ts_process.toString() == date.toString()){
+        for(var x = 0; x<codesCart.length; x++){
+          var purchased = rule.purchasedProduct;
+          for(var y = 0; y<purchased.length; y++){
+            if(codesCart[x] == purchased[y]){
+              productRecommended.push(rule.recommendedProduct);
+            }
+          }
+        }
+      }
+    });
+
+    var productRecommended2 = [];
+    for (var j=0; j<productRecommended.length; j++){
+      for(var k=0; k<productRecommended[j].length; k++){
+        productRecommended2.push(productRecommended[j][k]);
+      }  
+    }
+
+    var productRecommended3 = [];
+    var productRecommended3 = productRecommended2.filter(function(elem, pos) {
+       return productRecommended2.indexOf(elem) == pos;
+    });
+    var productRecommended4 = [];
+    if(productRecommended3.length>15){
+      for(var l=0;l<16;l++){
+        productRecommended4[l] = productRecommended3[l];
+      }
+    }else{
+      productRecommended4 = productRecommended3;
+    }
+    return productRecommended4;
   }
 });
 

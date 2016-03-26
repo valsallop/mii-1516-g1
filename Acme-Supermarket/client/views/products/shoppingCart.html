@@ -4,7 +4,7 @@
 	<!-- Begin page content -->
 	{{> navBar}}
 	<div class="container" style = "margin-top: 65px;">
-		<div class="fileinputs">
+		<div class="fileinputs" style="margin-bottom: 30px;">
 			<input type="file" class="file_bag" />
 			<div class="fakefile">
 			<button type="button" class="btn btn-info">
@@ -17,7 +17,15 @@
 			{{> shoppingCartItem}}
 			{{/each}}
 		</div>
+
+		{{sessionfalse}}
+
+		{{#with userPressedSig}}
+			<h1>{{_ "recomendations"}}</h1>
+			{{> recommenderCarousel}}
+    	{{/with}}
 		<div class = "row" style="margin-top:32px"><button type="button" class="btn btn-success idConfirmCart btn-lg pull-right" >{{_ "purchase"}}</button>
+		<button type="button" class="btn btn-primary recommender btn-lg pull-right" >{{_ "recomendations"}}</button>
 		</div>
 	</div>
 	<div class="footer">
@@ -38,4 +46,91 @@
 	</div>
 
 	<div class="footer">{{>footer}}</div>-->
+</template>
+
+<template name="recommenderCarousel">
+	<div class="container">
+			  <br>
+			  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+			    <!-- Indicators -->
+			    <ol class="carousel-indicators">
+
+			      {{#if isItem1}}<li data-target="#myCarousel" data-slide-to="0" class="active"></li>{{/if}}
+			      {{#if isItem2}}<li data-target="#myCarousel" data-slide-to="1"></li>{{/if}}
+			      {{#if isItem3}}<li data-target="#myCarousel" data-slide-to="2"></li>{{/if}}
+			      {{#if isItem4}}<li data-target="#myCarousel" data-slide-to="3"></li>{{/if}}
+			    </ol>
+
+			    <!-- Wrapper for slides -->
+			    <div class="carousel-inner" role="listbox">
+			    	{{#if isItem1}}
+				    <div class="item active">
+						{{#each recomendations1}}
+							{{> recommenderProduct}}
+						{{/each}}
+				    </div>
+				    {{/if}}
+
+				    {{#if isItem2}}
+				    <div class="item">
+				        {{#each recomendations2}}
+							{{> recommenderProduct}}
+						{{/each}}
+				    </div>
+				    {{/if}}
+				    
+				    {{#if isItem3}}
+				    <div class="item">
+				        {{#each recomendations3}}
+							{{> recommenderProduct}}
+						{{/each}}
+				    </div>
+				    {{/if}}
+
+				    {{#if isItem4}}
+				    <div class="item">
+				        {{#each recomendations4}}
+							{{> recommenderProduct}}
+						{{/each}}
+				    </div>
+				    {{/if}}
+			    </div>
+
+			    <!-- Left and right controls -->
+			    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style = "width: 75px;">
+			      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			      <span class="sr-only">Previous</span>
+			    </a>
+			    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style = "width: 75px;">
+			      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			      <span class="sr-only">Next</span>
+			    </a>
+			  </div>
+			</div>
+</template>
+
+
+<template name="recommenderProduct">
+  <div class="col-lg-3 col-md-4 col-xs-6 thumb hero-feature">
+    <div class="thumbnail">
+        <a href="/product/{{code}}" style="height: 133px;">
+          <picture>
+            <source
+              media="(min-width: 150px)"
+              srcset={{image}}>
+            <img
+              src="images/no-img.png"
+              alt="image not found">
+          </picture>
+        </a>
+        <div class="caption">
+            <h4 style="height: 100px; text-align: left;">{{name}}</h4>
+            <div class="rateit" data-rateit-value="{{rating}}" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+            <p>{{_ "price"}}: EUR <big id="cost">{{cost}}</big></p>
+            <p>
+                <button type="button" class="btn btn-success idAddCart"> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>  {{_ "addCart"}}</button> <a href="/product/{{code}}" class="btn btn-default">Info</a>
+            </p>
+        </div>
+    </div>
+  </div>
 </template>
