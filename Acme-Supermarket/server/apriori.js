@@ -411,7 +411,7 @@ Meteor.methods({
 	mainApriori: function(){
 		console.log("Apriori started")
 		var D = Meteor.call('CollectionToDic');
-		var D = {"i1":[1,3,4],"i2":[2,3,5],"i3":[1,2,3,5],"i4":[2,5]};//prueba con ejemplo pequeño
+		//var D = {"i1":[1,3,4],"i2":[2,3,5],"i3":[1,2,3,5],"i4":[2,5]};//prueba con ejemplo pequeño
 		//console.log("resultado ",Apriori(D,2));
 		var apriori = Meteor.call('Apriori',D,2);//crea las Ls
 		var reglas = Meteor.call('Reglas',apriori,D);//Crea las reglas

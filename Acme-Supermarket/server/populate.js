@@ -4,7 +4,7 @@ function createUsers(){
 	for (var i = 0; i<10;i++){
 		var email = "customer"+i+"@customer"+i+".com";
 		var pass = "customer"+i;
-		Accounts.createUser({email: email,password: pass});
+		//Accounts.createUser({email: email,password: pass});
 		var user= Meteor.users.findOne({"emails.address":email});
 		idUsers.push(user._id);
 	}

@@ -71,3 +71,4 @@ meteorhacks:ssr
 gfk:mailgun-api
 meteorhacks:aggregate
 percolate:synced-cron
+ecwyne:mathjs

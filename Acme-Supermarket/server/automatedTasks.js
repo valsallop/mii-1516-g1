@@ -1,8 +1,8 @@
 SyncedCron.add({
-    name: 'Crunch some important numbers for the marketing department',
+    name: 'Automatic APriori rules ',
     schedule: function(parser) {
       // parser is a later.parse object
-      return parser.text('every 2 minutes');
+      return parser.text('every 2 hours');
     },
     job: function() {
       console.log("Test");
