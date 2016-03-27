@@ -41,18 +41,19 @@ Meteor.methods({
 	},
 	userSimilarity: function(){
 		console.log("userSimilarity started")
+		var userid=Meteor.userId();
 		var mostSimilarUser;
 		var highestSimilarity=-2
 		var users=Meteor.users.find().fetch();
-		var loggedUserRatings = Ratings.find({"userId":'QjitXMCkhFuidcHrC'}).fetch();
+		var loggedUserRatings = Ratings.find({"userId":userid}).fetch();
 		var loggedUserAverageRating=0.0;
 		for(var i = 0; i<loggedUserRatings.length;i++){
 			loggedUserAverageRating+=loggedUserRatings[i]['rating']
 		}
 		loggedUserAverageRating=loggedUserAverageRating/i;
-		console.log(loggedUserAverageRating);
+		//console.log(loggedUserAverageRating);
 		for(var i = 0; i<users.length;i++){
-			if(users[i]['_id']!='QjitXMCkhFuidcHrC'){
+			if(users[i]['_id']!=userid){
 				var otherRatings = Ratings.find({"userId": users[i]['_id']}).fetch();
 				var userAverageRating=0.0;
 				var count=0;
@@ -87,12 +88,12 @@ Meteor.methods({
 		        	);
 					var similarity=Meteor.call('pearsonCorrelation',data,0,1);
 				}
-				console.log("--------------------")
+				//console.log("--------------------")
 				if(similarity>highestSimilarity){
 					highestSimilarity=similarity;
 					mostSimilarUser=users[i];
 				}
-		        console.log("similarity: "+similarity);
+		        //console.log("similarity: "+similarity);
 			}
 		}
 		
@@ -105,18 +106,18 @@ Meteor.methods({
 	},
 	highestRatedProductByUser:function(){
 		var user=Meteor.call('userSimilarity')
-		console.log("user",user)
+		//console.log("user",user)
 		var ratings= Ratings.find({"userId": user['_id'],"rating":{ $gt: 3 }}, {sort: {rating: -1}}).fetch();
-		console.log(ratings)
+		//console.log(ratings)
 		var items=[];
 		for(var j = 0; j<ratings.length;j++){
-			console.log("proid"+ratings[j]['proId'])
+			//console.log("proid"+ratings[j]['proId'])
 			var oid = new Meteor.Collection.ObjectID(ratings[j]['proId']);
-			items.push(Products.findOne({"_id":oid}))
+			items.push(Products.findOne({"_id":oid})['code'])
 		}
 		return items;
 	}
 });
 
 //console.log(Meteor.call('userSimilarity'))
-console.log("items",Meteor.call('highestRatedProductByUser'))
+//console.log("items",Meteor.call('highestRatedProductByUser'))

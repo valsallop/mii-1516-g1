@@ -1,8 +1,15 @@
 Template.home.helpers({
 	recommendationItems: function(){
-		var itemsRrecommended = [2,3,4,5,6,7,8,9,10,11,12];//conjunto de muestra cambiar por el resultado de la funcion de similitud entre items
-    	return Session.set('recommendationsItems',itemsRrecommended);
-  	}
+    Meteor.call("highestRatedProductByUser", function(error, result){
+      if(error){
+        console.log(error.reason);
+        return;
+      }
+      console.log(result);
+      return Session.set('recommendationsItems',result);
+    });
+    	
+  }
 });
 
 Template.recommenderItems.helpers({
