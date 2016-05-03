@@ -105,10 +105,10 @@ Meteor.methods({
 		return mostSimilarUser
 	},
 	highestRatedProductByUser:function(){
-		var user=Meteor.call('userSimilarity')
-		//console.log("user",user)
+		var user=Meteor.call('userSimilarity');
+
 		var ratings= Ratings.find({"userId": user['_id'],"rating":{ $gt: 3 }}, {sort: {rating: -1}}).fetch();
-		//console.log(ratings)
+		
 		var items=[];
 		for(var j = 0; j<ratings.length;j++){
 			//console.log("proid"+ratings[j]['proId'])

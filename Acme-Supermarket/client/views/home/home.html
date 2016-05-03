@@ -21,6 +21,7 @@
             
         {{/if}}
 
+        {{#unless currentUser}}
         <div class="container">
             <div class="col-lg-12">
                 <h3>{{_ "recomendations"}}</h3>
@@ -30,6 +31,8 @@
         	{{> recommendations}}
         <hr>
         </div>
+        {{/unless}}
+
 
 		
 	{{> footer}}

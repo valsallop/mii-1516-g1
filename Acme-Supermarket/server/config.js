@@ -328,8 +328,7 @@ Meteor.methods({
     for (var i =0;i<cart.items.length;i++){
       codesCart.push(cart.items[i].productCode);
     }
-
-
+    
     var date = firstRule.ts_process;
     rules.forEach(function (rule) {
       if(rule.ts_process.toString() == date.toString()){
@@ -343,7 +342,8 @@ Meteor.methods({
         }
       }
     });
-
+    
+    //lo convertimos en una misma lista
     var productRecommended2 = [];
     for (var j=0; j<productRecommended.length; j++){
       for(var k=0; k<productRecommended[j].length; k++){
@@ -355,6 +355,16 @@ Meteor.methods({
     var productRecommended3 = productRecommended2.filter(function(elem, pos) {
        return productRecommended2.indexOf(elem) == pos;
     });
+    
+    //eliminamos los objetos que tenemos en el carrito
+    /*
+    var auxRecommended = [];
+    for (var a = 0; productRecommended3.length; a++){
+      if (codesCart.indexOf(productRecommended3[a]) == -1){
+        auxRecommended.push(productRecommended3[a]);
+      }
+    }*/
+
     var productRecommended4 = [];
     if(productRecommended3.length>15){
       for(var l=0;l<16;l++){
@@ -363,6 +373,7 @@ Meteor.methods({
     }else{
       productRecommended4 = productRecommended3;
     }
+    console.log(productRecommended4);
     return productRecommended4;
   }
 });
