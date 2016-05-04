@@ -150,6 +150,14 @@ Router.route('/sentiments/tweets', {
   }
 });
 
+Router.route('/map/routes', {
+  path: AdminDashboard.path('/map/routes'),
+  controller: 'AdminController',
+  onAfterAction: function () {
+    Session.set('admin_title', 'Routes');
+  }
+});
+
 AdminDashboard.addSidebarItem('Create supplier', {
   icon: 'user',
   urls: [
@@ -170,6 +178,14 @@ AdminDashboard.addSidebarItem('Sentiments', {
     { title: 'Sentiments', url: AdminDashboard.path('/sentiments/tweets') }
   ]
 });
+
+AdminDashboard.addSidebarItem('Routes', {
+  icon: 'line-chart',
+  urls: [
+    { title: 'Routes', url: AdminDashboard.path('/map/routes') }
+  ]
+});
+
 AdminConfig = {
   name: 'Acme-Supermarket',
   adminEmails: ['acmesupermarket@gmail.com'],

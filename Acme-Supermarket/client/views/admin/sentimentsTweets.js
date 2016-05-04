@@ -1,32 +1,31 @@
 Template.sentimentsTweets.events({
 
     'click .classTweets': function(event, template){
-    	console.log('pulsas');
-        HTTP.call( 'GET', 'http://localhost:31338/store.json', {}, 
+      HTTP.call( 'GET', 'http://localhost:31338/store.json', {}, 
 
-        	function( error, response ) {
-            if ( error ) {
-              console.log( error );
-            } else {
-              console.log( response.content );
-              var dictionary = JSON.parse(response.content);
+      	function( error, response ) {
+          if ( error ) {
+            console.log( error );
+          } else {
+            console.log( response.content );
+            var dictionary = JSON.parse(response.content);
 
-              var data = dictionary.data;
+            var data = dictionary.data;
 
-              var arrName = []
-              var arrPos = []
-              var arrNeg = []
+            var arrName = []
+            var arrPos = []
+            var arrNeg = []
 
-              for(var i in data){
-                var dbItem = Products.findOne({code:parseInt(data[i].id)});
-                arrName.push(dbItem.name);
-                arrPos.push(data[i].pos);
-                arrNeg.push(data[i].neg);
-              }
-
-              generateTable(arrName,arrPos,arrNeg)
+            for(var i in data){
+              var dbItem = Products.findOne({code:parseInt(data[i].id)});
+              arrName.push(dbItem.name);
+              arrPos.push(data[i].pos);
+              arrNeg.push(data[i].neg);
             }
-          });
+
+            generateTable(arrName,arrPos,arrNeg)
+          }
+        });
     },
 
 });
@@ -44,7 +43,7 @@ function generateTable(arrName,arrPos,arrNeg) {
     // Crea las hileras de la tabla
     var hilera = document.createElement("tr");
  
-    for (var j = 0; j < 3; j++) {
+    for (var j = 0; j < 4; j++) {
       // Crea un elemento <td> y un nodo de texto, haz que el nodo de
       // texto sea el contenido de <td>, ubica el elemento <td> al final
       // de la hilera de la tabla
@@ -58,6 +57,9 @@ function generateTable(arrName,arrPos,arrNeg) {
       if (i==0 & j == 2){
         var textoCelda = document.createTextNode("Numero de tweets negativos");
       }
+      if (i==0 & j == 3){
+        var textoCelda = document.createTextNode("Diferencia");
+      }
       if(i>0 & j == 0){
         var textoCelda = document.createTextNode(arrName[i-1]);
       }
@@ -66,6 +68,16 @@ function generateTable(arrName,arrPos,arrNeg) {
       }
       if(i>0 & j == 2){
         var textoCelda = document.createTextNode(arrNeg[i-1]);
+      }
+      if (i>0 & j == 3){
+        if ((arrPos[i-1]-arrNeg[i-1])>=0){
+          var textoCelda = document.createTextNode("+");
+          celda.style.backgroundColor="#27e300";
+        }else{
+          var textoCelda = document.createTextNode("-");
+          celda.style.backgroundColor="#ff3628";
+        }
+        
       }
       
       celda.appendChild(textoCelda);
@@ -81,5 +93,6 @@ function generateTable(arrName,arrPos,arrNeg) {
   // appends <table> into <body>
   body.appendChild(tabla);
   // modifica el atributo "border" de la tabla y lo fija a "2";
-  tabla.setAttribute("border", "2");
+  tabla.className = "table table-striped"
+  //tabla.setAttribute("border", "2");
 }
