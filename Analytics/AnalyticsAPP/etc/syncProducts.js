@@ -1,4 +1,4 @@
-var config = require('../config');
+var config = require('../config-dev');
 var logger = require('winston');
 var request = require('request');
 var ProductModel = require('../models/products');

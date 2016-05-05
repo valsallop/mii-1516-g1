@@ -64,12 +64,13 @@ function recollectTweets (productsName, productCode) {
     var today = yyyy+'-'+mm+'/'+dd;
   client.get('search/tweets', { q: productsName, count: config.collectTweets.tweetsPerRequest}, function(err, data) {
     if (!err) {
+		logger.log('silly',data)
       logger.log('silly',  "Collect tweets, product: " + productCode + "\tcount: " + data.statuses.length);
       data.statuses.forEach(function(tweet) {
         logger.log('silly',  "Collect tweets save:  " + tweet);
         TweetModel.findOne({tweet:tweet.id_str, code_product:productCode}, function(err, tweetmod) {
             if(tweetmod == null){//no repite tweets
-              var productTweet = {code_product: productCode, tweet:tweet.id_str, ts_value:tweet.created_at};
+              var productTweet = {code_product: productCode, tweet:tweet.id_str, ts_value:tweet.created_at,lang:tweet.lang,message:tweet.text};
               //saved tweets in model
               var ts = new TweetModel(productTweet);
               ts.save(function (err) {

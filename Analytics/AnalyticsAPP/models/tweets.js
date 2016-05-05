@@ -16,6 +16,13 @@ var tweetSchema = new Schema({
   ts_value: {
    type: Date,
    default: Date.now
+  },
+  lang:{
+	  type: String,
+	  default: "EN"
+  },
+  message:{
+	  type:String
   }
 });
 
