@@ -375,13 +375,148 @@ Meteor.methods({
     }
     console.log(productRecommended4);
     return productRecommended4;
+  },
+//BUSQUEDA DE BARCODE Y STRING
+
+  addStickToCart: function (user,code) {
+    var cart=ShoppingCarts.findOne({ active:true , userId:user});
+    for (var i = 0; i < cart.items.length; i++) {
+      var exist=false;
+      if(cart.items[i].productCode==code){
+        exist=true;
+        cart.items[i].amount=cart.items[i].amount+1;
+        break;
+      }
+    }
+    console.log("exist:"+exist);
+    if(!exist){
+      var item={
+         "productCode" : code,
+         "amount" : 1
+      }
+      cart.items.push(item);
+    }
+    ShoppingCarts.update(cart._id, {
+        $set: { items: cart.items }   
+    });
+  },
+
+  searchString: function (cadena) {
+    if (cadena.indexOf("%20") > -1){
+      var cadaux = cadena.split("%20");
+    }else{
+      var cadaux = cadena.split(" ");
+    }
+    
+    if (cadaux.length > 3){
+      var cad = cadaux.slice(0, 3);
+    }else{
+      var cad = cadaux.slice(0);
+    }
+    var items = [];
+    var itemsCode = [];
+    var itemFilter = [];
+    for (var l=0;l<cad.length;l++){
+      var itemsAux = Products.find({"name" : {$regex : ".*"+cad[l]+".*",$options:"i"}}).fetch();
+      for (var i = 0; i<itemsAux.length;i++){
+        if (itemsCode.indexOf(itemsAux[i].code) < 0){
+          itemsCode.push(itemsAux[i].code)
+          items.push(itemsAux[i])
+        }
+      }
+    }
+    for (var j=0;j<items.length;j++){
+      var cont = 0;
+      var nameLower = items[j].name.toLowerCase().split(" ");
+
+      for (var k=0;k<nameLower.length;k++){
+        for (var n=0;n<cad.length;n++){
+          if (nameLower[k] == cad[n]){
+            cont++;
+          }
+        }
+      }
+      if (cont == cad.length){
+        //Meteor.call('addToCart',items[j].code)
+        itemFilter.push(items[j]); 
+      }
+    }
+    if (itemFilter.length == 0) {
+      console.log('No se han encontrado coincidencias');
+    } else {
+      return itemFilter;
+    }
   }
 });
+
+
 
 //Configuracion de la api
 
 if (Meteor.isServer) {
   Meteor.startup(function () {
+
+    //Metodo Get para traer todos los producto con una cadena
+
+    //localhost:3000/stick/nivea%20crema
+    
+    Picker.route('/stick/:_id', function(params, req, res, next) {
+      var items = Meteor.call('searchString',params._id);
+      res.end(JSON.stringify(items));
+    });
+
+    //Metodo Post para introducir productos en coleccion shoppingCarts
+    /*
+    {
+      useremail: sertrimur@gmail.com
+      stickcode:[1,3,2]
+      amountcode: [1,2,3]
+    }
+
+    */
+    Picker.route('/sendstick', function(params, req, res, next) {
+      //console.log(req);
+      console.log(req.headers.useremail);
+      console.log(req.headers.stickcode);
+      console.log(req.headers.amountcode);
+      var user = Meteor.users.find({emails:[{address:req.headers.useremail,verified:false}]}).fetch();
+
+      var arrayCode = req.headers.stickcode.slice(1,req.headers.stickcode.length-1).split(",");
+      var arrayAmountCode = req.headers.amountcode.slice(1,req.headers.amountcode.length-1).split(",");
+      for (var i = 0; i<arrayCode.length;i++){
+        console.log(parseInt(arrayCode[i]));
+        for(var j = 0;j<arrayAmountCode[i];j++){
+          Meteor.call('addStickToCart',user[0]._id,parseInt(arrayCode[i]));
+        }
+      }
+    });
+
+    /*
+    {
+      useremail:sertrimur@gmail.com
+      stickcode:2
+      amountcode:3
+    }
+
+    */
+
+    Picker.route('/sendproduct', function(params, req, res, next) {
+      //console.log(req);
+      console.log(req.headers.useremail);
+      console.log(req.headers.stickcode);
+      console.log(req.headers.amountcode);
+
+      var email = req.headers.useremail.toString();
+
+      var user = Meteor.users.find({emails:[{address:email,verified:false}]}).fetch();
+
+      var amount = parseInt(req.headers.amountcode);
+      var code = parseInt(req.headers.stickcode);
+
+      for(var j = 0;j<amount;j++){
+          Meteor.call('addStickToCart',user[0]._id,code);
+        }
+    });
 
     // All values listed below are default
     collectionApi = new CollectionAPI({

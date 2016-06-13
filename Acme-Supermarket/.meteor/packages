@@ -72,3 +72,4 @@ gfk:mailgun-api
 meteorhacks:aggregate
 percolate:synced-cron
 ecwyne:mathjs
+meteorhacks:picker
