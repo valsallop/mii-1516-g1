@@ -434,7 +434,7 @@ Meteor.methods({
 
         for (var k=0;k<nameLower.length;k++){
           for (var n=0;n<cad.length;n++){
-            if (nameLower[k] == cad[n]){
+            if (nameLower[k] == cad[n].toLowerCase()){
               cont++;
             }
           }
@@ -580,6 +580,23 @@ if (Meteor.isServer) {
           res.end('the passwords no match!');
       }
     });
+
+    /*
+    {
+      useremail:sertrimur@gmail.com
+      password:admin
+    }
+
+    */
+
+    Picker.route('/stickShoppingCarts', function(params, req, res, next) {
+      
+      var user = Meteor.users.find({emails:[{address:req.headers.useremail.toString(),verified:false}]}).fetch();
+      var shoppingCarts = ShoppingCarts.find({userId:user[0]._id,active:true}).fetch();
+      res.end(JSON.stringify(shoppingCarts[0]));
+    });
+
+    
 
     //Metodo Post para introducir varios productos en coleccion shoppingCarts
     /*
