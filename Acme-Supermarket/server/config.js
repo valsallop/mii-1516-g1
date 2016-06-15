@@ -418,34 +418,49 @@ Meteor.methods({
     var itemFilter = [];
     for (var l=0;l<cad.length;l++){
       var itemsAux = Products.find({"name" : {$regex : ".*"+cad[l]+".*",$options:"i"}}).fetch();
-      for (var i = 0; i<itemsAux.length;i++){
-        if (itemsCode.indexOf(itemsAux[i].code) < 0){
-          itemsCode.push(itemsAux[i].code)
-          items.push(itemsAux[i])
-        }
-      }
-    }
-    for (var j=0;j<items.length;j++){
-      var cont = 0;
-      var nameLower = items[j].name.toLowerCase().split(" ");
-
-      for (var k=0;k<nameLower.length;k++){
-        for (var n=0;n<cad.length;n++){
-          if (nameLower[k] == cad[n]){
-            cont++;
+      if (itemsAux.length>0){
+        for (var i = 0; i<itemsAux.length;i++){
+          if (itemsCode.indexOf(itemsAux[i].code) < 0){
+            itemsCode.push(itemsAux[i].code)
+            items.push(itemsAux[i])
           }
         }
       }
-      if (cont == cad.length){
-        //Meteor.call('addToCart',items[j].code)
-        itemFilter.push(items[j]); 
+    }
+    if (items.length>0){
+      for (var j=0;j<items.length;j++){
+        var cont = 0;
+        var nameLower = items[j].name.toLowerCase().split(" ");
+
+        for (var k=0;k<nameLower.length;k++){
+          for (var n=0;n<cad.length;n++){
+            if (nameLower[k] == cad[n]){
+              cont++;
+            }
+          }
+        }
+        if (cont == cad.length){
+          //Meteor.call('addToCart',items[j].code)
+          itemFilter.push(items[j]); 
+        }
       }
     }
+    
     if (itemFilter.length == 0) {
       console.log('No se han encontrado coincidencias');
     } else {
-      return itemFilter;
+      console.log('Enviado');
     }
+    return itemFilter;
+  },
+
+  //check password
+  checkPassword: function(digest,user) {
+    check(digest, String);
+    var password = {digest: digest, algorithm: 'sha-256'};
+    var result = Accounts._checkPassword(user, password);
+    console.log(result.error)
+    return result.error == null;
   }
 });
 
@@ -459,36 +474,20 @@ if (Meteor.isServer) {
     //Metodo Get para traer todos los producto con una cadena
 
     //localhost:3000/stick/nivea%20crema
-    
+
     Picker.route('/stick/:_id', function(params, req, res, next) {
       var items = Meteor.call('searchString',params._id);
       res.end(JSON.stringify(items));
     });
 
-    //Metodo Post para introducir productos en coleccion shoppingCarts
-    /*
-    {
-      useremail: sertrimur@gmail.com
-      stickcode:[1,3,2]
-      amountcode: [1,2,3]
-    }
-
-    */
-    Picker.route('/sendstick', function(params, req, res, next) {
-      //console.log(req);
-      console.log(req.headers.useremail);
-      console.log(req.headers.stickcode);
-      console.log(req.headers.amountcode);
-      var user = Meteor.users.find({emails:[{address:req.headers.useremail,verified:false}]}).fetch();
-
-      var arrayCode = req.headers.stickcode.slice(1,req.headers.stickcode.length-1).split(",");
-      var arrayAmountCode = req.headers.amountcode.slice(1,req.headers.amountcode.length-1).split(",");
-      for (var i = 0; i<arrayCode.length;i++){
-        console.log(parseInt(arrayCode[i]));
-        for(var j = 0;j<arrayAmountCode[i];j++){
-          Meteor.call('addStickToCart',user[0]._id,parseInt(arrayCode[i]));
-        }
+    //localhost:3000/stickCode/640522710515
+    Picker.route('/stickCode/:_id', function(params, req, res, next) {
+      var item = Products.findOne({code:parseInt(params._id)});
+      if (item == null){
+        console.log('Objeto no encontrado');
+        item = [];
       }
+      res.end(JSON.stringify(item));
     });
 
     /*
@@ -517,6 +516,97 @@ if (Meteor.isServer) {
           Meteor.call('addStickToCart',user[0]._id,code);
         }
     });
+
+    /*
+    {
+      useremail:sertrimur@gmail.com
+      password:admin
+    }
+
+    */
+
+    //Post comprobacion de usuario
+    Picker.route('/autenticateuser', function(params, req, res, next) {
+      //console.log(req);
+      console.log(req.headers.useremail);
+      console.log(req.headers.password);
+
+      var bcrypt = NpmModuleBcrypt;
+      var bcryptHash = Meteor.wrapAsync(bcrypt.hash);
+      var bcryptCompare = Meteor.wrapAsync(bcrypt.compare);
+      Accounts._bcryptRounds = 10;
+
+      var user = Meteor.users.find({emails:[{address:req.headers.useremail.toString(),verified:false}]}).fetch();
+
+      var getPasswordString = function (password) {
+        if (typeof password === "string") {
+          password = Package.sha.SHA256(password);;
+        } else { // 'password' is an object
+          if (password.algorithm !== "sha-256") {
+            throw new Error("Invalid password hash algorithm. " +
+                            "Only 'sha-256' is allowed.");
+          }
+          password = password.digest;
+        }
+        return password;
+      };
+
+      var hashPassword = function (password) {
+        password = getPasswordString(password);
+        return bcryptHash(password, Accounts._bcryptRounds);
+      };
+
+      Accounts._checkPassword = function (user, password) {
+        var result = {
+          userId: user._id
+        };
+
+        password = getPasswordString(password);
+
+        if (! bcryptCompare(password, user.services.password.bcrypt)) {
+          result.error = new Meteor.Error(403, "Incorrect password");
+        }
+
+        return result;
+      };
+      var checkPassword = Accounts._checkPassword(user[0],req.headers.password.toString());
+      console.log(checkPassword.error == null);
+
+      if (checkPassword.error == null) {
+          console.log('the passwords match!');
+          res.end('the passwords match!');
+      }else{
+          console.log('the passwords no match!');
+          res.end('the passwords no match!');
+      }
+    });
+
+    //Metodo Post para introducir varios productos en coleccion shoppingCarts
+    /*
+    {
+      useremail: sertrimur@gmail.com
+      stickcode:[1,3,2]
+      amountcode: [1,2,3]
+    }
+
+    */
+    Picker.route('/sendstick', function(params, req, res, next) {
+      //console.log(req);
+      console.log(req.headers.useremail);
+      console.log(req.headers.stickcode);
+      console.log(req.headers.amountcode);
+      var user = Meteor.users.find({emails:[{address:req.headers.useremail.toString(),verified:false}]}).fetch();
+
+      var arrayCode = req.headers.stickcode.slice(1,req.headers.stickcode.length-1).split(",");
+      var arrayAmountCode = req.headers.amountcode.slice(1,req.headers.amountcode.length-1).split(",");
+      for (var i = 0; i<arrayCode.length;i++){
+        console.log(parseInt(arrayCode[i]));
+        for(var j = 0;j<arrayAmountCode[i];j++){
+          Meteor.call('addStickToCart',user[0]._id,parseInt(arrayCode[i]));
+        }
+      }
+    });
+    
 
     // All values listed below are default
     collectionApi = new CollectionAPI({
